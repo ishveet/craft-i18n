@@ -1833,7 +1833,7 @@
 	Meter Input(s) Only	ਕੇਵਲ ਇਨਪੁੱਟ ਮਾਪੋ
 	Method	ਢੰਗ
 	Method:	ਢੰਗ:
-	Metrics Kerning	ਮੈਟ੍ਰਿਕਸ ਕਰਨਿੰਗ
+	Metrics Kerning	ਮੈਟ੍ਰਿਕ ਕਰਨਿੰਗ
 	Mid	ਮੱਧ
 	Mid Point	ਵਿਚਕਾਰਲਾ ਬਿੰਦੂ
 	Midtone Blue Balance	ਵਿਚਕਾਰਲੇ ਟੋਨਾਂ ਦਾ ਨੀਲਾ ਸੰਤੁਲਨ
@@ -3492,3 +3492,5 @@
 	✔ same file	✔ ਉਹੀ ਫ਼ਾਈਲ
 	✖ different file	✖ ਵੱਖਰੀ ਫ਼ਾਈਲ
 @id	file.close	ਬੰਦ ਕਰੋ
+# Source delta: 4d571c2a666cace681209a1f617f68cd9cefefed; verified lookup additions, AI-assisted; native review pending.
+	Caption Track	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ

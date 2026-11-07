@@ -4208,3 +4208,55 @@ layers	Fill	ਭਰਾਈ
 layers	Fill:	ਭਰਾਈ:
 navigator	Zoom	ਜ਼ੂਮ
 shape	Appearance	ਦਿੱਖ
+# Source delta: 8b1e614e7b257ea8dc34c90a128ab68d93a13e55; verified lookup additions, AI-assisted; native review pending.
+	Align bottom edges	ਹੇਠਲੇ ਕਿਨਾਰੇ ਇਕਸਾਰ ਕਰੋ
+	Align top edges	ਉੱਪਰਲੇ ਕਿਨਾਰੇ ਇਕਸਾਰ ਕਰੋ
+	Align vertical centers	ਖੜ੍ਹਵੇਂ ਕੇਂਦਰ ਇਕਸਾਰ ਕਰੋ
+	Always use Pressure for Opacity. When off, Brush Preset controls pressure	ਅਪਾਰਦਰਸ਼ਤਾ ਲਈ ਹਮੇਸ਼ਾ ਦਬਾਅ ਵਰਤੋ। ਬੰਦ ਹੋਣ ਉੱਤੇ ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਦਬਾਅ ਕੰਟਰੋਲ ਕਰਦਾ ਹੈ
+	Always use Pressure for Size. When off, Brush Preset controls pressure	ਆਕਾਰ ਲਈ ਹਮੇਸ਼ਾ ਦਬਾਅ ਵਰਤੋ। ਬੰਦ ਹੋਣ ਉੱਤੇ ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਦਬਾਅ ਕੰਟਰੋਲ ਕਰਦਾ ਹੈ
+	Auto-nest Layers	ਪਰਤਾਂ ਆਪਣੇ ਆਪ ਅੰਦਰ ਨੇਸਟ ਕਰੋ
+	Auto-size Canvas	ਕੈਨਵਸ ਦਾ ਆਕਾਰ ਆਪਣੇ ਆਪ ਬਦਲੋ
+	Canceled opening {name}	{name} ਨੂੰ ਖੋਲ੍ਹਣਾ ਰੱਦ ਕੀਤਾ
+	Canceled {label}	{label} ਰੱਦ ਕੀਤਾ
+	Center the gradient (offset 0, 0)	ਗ੍ਰੇਡੀਐਂਟ ਕੇਂਦਰ ਵਿੱਚ ਕਰੋ (ਆਫਸੈੱਟ 0, 0)
+	Click to open the Brush Preset picker	ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਚੋਣਕਾਰ ਖੋਲ੍ਹਣ ਲਈ ਕਲਿੱਕ ਕਰੋ
+	Click to restore the current color	ਮੌਜੂਦਾ ਰੰਗ ਮੁੜ ਲਿਆਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ
+	Click to sample the foreground color  ·  {key}-click for background	ਮੂਹਰਲੇ ਰੰਗ ਦਾ ਨਮੂਨਾ ਲੈਣ ਲਈ ਕਲਿੱਕ ਕਰੋ  ·  ਪਿੱਛੋਕੜ ਲਈ {key}-ਕਲਿੱਕ ਕਰੋ
+	Color Blindness - Deuteranopia-type	ਰੰਗ ਅੰਧਤਾ - ਡਿਊਟਰੈਨੋਪੀਆ ਕਿਸਮ
+	Color Blindness - Protanopia-type	ਰੰਗ ਅੰਧਤਾ - ਪ੍ਰੋਟੈਨੋਪੀਆ ਕਿਸਮ
+	Copy Layer Mask	ਪਰਤ ਮਾਸਕ ਕਾਪੀ ਕਰੋ
+	Default Foreground and Background Colors (D)	ਮੂਹਰਲੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਮੂਲ ਰੰਗ (D)
+	Distribute Heights	ਉਚਾਈਆਂ ਵੰਡੋ
+	Distribute Widths	ਚੌੜਾਈਆਂ ਵੰਡੋ
+	Distribute horizontally	ਲੇਟਵੇਂ ਵੰਡੋ
+	Distribute vertically	ਖੜ੍ਹਵੇਂ ਵੰਡੋ
+	Drag around the center to rotate the view  ·  Shift constrains to 15°	ਦ੍ਰਿਸ਼ ਘੁਮਾਉਣ ਲਈ ਕੇਂਦਰ ਦੁਆਲੇ ਖਿੱਚੋ  ·  Shift ਨਾਲ 15° ਦੇ ਅੰਤਰਾਲਾਂ ਵਿੱਚ ਘੁਮਾਓ
+	Edit Artboards	ਆਰਟਬੋਰਡ ਸੋਧੋ
+	Equalize Entire Image Based On Selected Area	ਚੁਣੇ ਖੇਤਰ ਦੇ ਆਧਾਰ ਉੱਤੇ ਪੂਰਾ ਚਿੱਤਰ ਸਮਾਨ ਕਰੋ
+	Equalize Selected Area Only	ਕੇਵਲ ਚੁਣਿਆ ਖੇਤਰ ਸਮਾਨ ਕਰੋ
+	Expand layer group on click	ਕਲਿੱਕ ਕਰਨ ਉੱਤੇ ਪਰਤ ਸਮੂਹ ਫੈਲਾਓ
+	Gradient-corrected interpolation: sharp and fast, with some color fringing on fine detail.	ਗ੍ਰੇਡੀਐਂਟ-ਸੁਧਾਰੀ ਇੰਟਰਪੋਲੇਸ਼ਨ: ਤਿੱਖੀ ਅਤੇ ਤੇਜ਼, ਬਾਰੀਕ ਵੇਰਵਿਆਂ ਉੱਤੇ ਕੁਝ ਰੰਗੀਨ ਝਾਲਰ ਨਾਲ।
+	Hirakawa–Parks: the cleanest edges and the least color fringing, the slowest.	Hirakawa–Parks: ਸਭ ਤੋਂ ਸੁਚੱਜੇ ਕਿਨਾਰੇ ਅਤੇ ਸਭ ਤੋਂ ਘੱਟ ਰੰਗੀਨ ਝਾਲਰ, ਸਭ ਤੋਂ ਹੌਲੀ।
+	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	ਕੈਮਰੇ ਦੇ ਰੰਗ ਫਿਲਟਰ ਦਾ ਮੋਜ਼ੇਕ ਕਿਵੇਂ ਭਰਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਫ਼ਾਈਲ ਖੁੱਲ੍ਹਣ ਵੇਲੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ; ਝਲਕ ਉਹ ਢੰਗ ਦਿਖਾਉਂਦੀ ਹੈ ਜਿਸ ਨਾਲ ਫ਼ਾਈਲ ਖੋਲ੍ਹੀ ਗਈ ਸੀ।
+	Intersect Path with Selection	ਪਾਥ ਅਤੇ ਚੋਣ ਦਾ ਸਾਂਝਾ ਹਿੱਸਾ ਲਵੋ
+	Keep Relative Position During Layer Reordering	ਪਰਤਾਂ ਦਾ ਕ੍ਰਮ ਬਦਲਦੇ ਸਮੇਂ ਸਾਪੇਖ ਸਥਿਤੀ ਰੱਖੋ
+	Move Layer Mask	ਪਰਤ ਮਾਸਕ ਹਿਲਾਓ
+	No slices are selected. Click a slice in the preview to select it.	ਕੋਈ ਸਲਾਈਸ ਨਹੀਂ ਚੁਣਿਆ। ਚੁਣਨ ਲਈ ਝਲਕ ਵਿੱਚ ਸਲਾਈਸ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।
+	Not a web color: click for the nearest web color	ਵੈੱਬ ਰੰਗ ਨਹੀਂ: ਸਭ ਤੋਂ ਨੇੜਲੇ ਵੈੱਬ ਰੰਗ ਲਈ ਕਲਿੱਕ ਕਰੋ
+	Open a document to select a color range.	ਰੰਗ ਦੀ ਰੇਂਜ ਚੁਣਨ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
+	Out of gamut for printing: click for the nearest printable color	ਛਪਾਈ ਦੀ ਰੰਗ ਸੀਮਾ ਤੋਂ ਬਾਹਰ: ਸਭ ਤੋਂ ਨੇੜਲੇ ਛਪਣਯੋਗ ਰੰਗ ਲਈ ਕਲਿੱਕ ਕਰੋ
+	Painting Mode	ਪੇਂਟਿੰਗ ਮੋਡ
+	Remember to turn off the printer's own color management in Print Settings…	ਪ੍ਰਿੰਟਰ ਦਾ ਆਪਣਾ ਰੰਗ ਪ੍ਰਬੰਧਨ ਬੰਦ ਕਰਨਾ ਯਾਦ ਰੱਖੋ, ਛਪਾਈ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ…
+	Sample: foreground color	ਨਮੂਨਾ: ਮੂਹਰਲਾ ਰੰਗ
+	Save canceled	ਸੰਭਾਲਣਾ ਰੱਦ ਕੀਤਾ
+	Selected Slices	ਚੁਣੇ ਸਲਾਈਸ
+	Set flow rate for stroke	ਸਟ੍ਰੋਕ ਲਈ ਵਹਾਅ ਦਰ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set opacity for stroke	ਸਟ੍ਰੋਕ ਲਈ ਅਪਾਰਦਰਸ਼ਤਾ ਨਿਰਧਾਰਤ ਕਰੋ
+	Set smoothing for stroke\nUse higher values to reduce the shakiness of brush strokes	ਸਟ੍ਰੋਕ ਲਈ ਨਰਮਾਈ ਨਿਰਧਾਰਤ ਕਰੋ\nਬਰਸ਼ ਸਟ੍ਰੋਕਾਂ ਦਾ ਕੰਬਣ ਘਟਾਉਣ ਲਈ ਵੱਧ ਮੁੱਲ ਵਰਤੋ
+	Set symmetry options for Painting	ਪੇਂਟਿੰਗ ਲਈ ਸਮਮਿਤੀ ਚੋਣਾਂ ਨਿਰਧਾਰਤ ਕਰੋ
+	Show hover bounds from Layers	ਪਰਤਾਂ ਪੈਨਲ ਤੋਂ ਮਾਊਸ ਫੇਰਨ ਸਮੇਂ ਹੱਦਾਂ ਦਿਖਾਓ
+	Show layer bounds on hover	ਮਾਊਸ ਫੇਰਨ ਸਮੇਂ ਪਰਤ ਦੀਆਂ ਹੱਦਾਂ ਦਿਖਾਓ
+	Shrinkwrap Canvas on Save	ਸੰਭਾਲਣ ਵੇਲੇ ਕੈਨਵਸ ਨੂੰ ਸਮੱਗਰੀ ਦੀਆਂ ਹੱਦਾਂ ਤੱਕ ਸਮੇਟੋ
+	Smoothing Options	ਨਰਮਾਈ ਦੀਆਂ ਚੋਣਾਂ
+	Switch Foreground and Background Colors (X)	ਮੂਹਰਲੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਰੰਗ ਬਦਲੋ (X)
+	The fastest and the softest, with color fringing on fine detail.	ਸਭ ਤੋਂ ਤੇਜ਼ ਅਤੇ ਸਭ ਤੋਂ ਨਰਮ, ਬਾਰੀਕ ਵੇਰਵਿਆਂ ਉੱਤੇ ਰੰਗੀਨ ਝਾਲਰ ਨਾਲ।
