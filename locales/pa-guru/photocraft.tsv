@@ -1,0 +1,299 @@
+# ਪੰਜਾਬੀ (pa-guru) interface catalog for PhotoCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Review: INCOMPLETE AI-assisted draft by @ishveet with OpenAI Codex.
+# No native-speaker review recorded; previous PdfCraft approvals do not extend.
+# Source: storytold/photocraft f68e227026701cf24e0e182530694240e2d3cfe4.
+# Checkpoint: saved inventory indices 0-299 processed; resume at 300.
+# Unprocessed and unresolved keys fall back to English. No completeness claim.
+
+	(No neutral color exists for {mode} mode.)	({mode} ਮੋਡ ਲਈ ਕੋਈ ਨਿਰਪੱਖ ਰੰਗ ਨਹੀਂ ਹੈ.)
+	(coming soon)	(ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ)
+	(print to the printer)	(ਪ੍ਰਿੰਟਰ ਉੱਤੇ ਛਾਪੋ)
+	+ Add variable	+ ਵੇਰੀਏਬਲ ਜੋੜੋ
+	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 ਇਹ ਹੱਦ ਬੰਦ ਕਰਦਾ ਹੈ; 100 ਪੱਧਰਾਂ ਤੋਂ ਡੂੰਘੇ ਅੰਦਰਲੇ SVG ਸਮੂਹ ਹਮੇਸ਼ਾ ਰੈਸਟਰ ਚਿੱਤਰ ਬਣਾਏ ਜਾਂਦੇ ਹਨ.
+	10 fps	10 fps
+	100%	100%
+	101 by 101 Average	101 ਗੁਣਾ 101 ਦੀ ਔਸਤ
+	11 by 11 Average	11 ਗੁਣਾ 11 ਦੀ ਔਸਤ
+	12 Columns	12 ਕਾਲਮ
+	125%	125%
+	15 fps	15 fps
+	150%	150%
+	16 Bits/Channel	16 ਬਿਟ/ਚੈਨਲ
+	16 bit	16 ਬਿਟ
+	175%	175%
+	180°	180°
+	2-up Horizontal	2 ਚਿੱਤਰ ਨਾਲੋ-ਨਾਲ
+	2-up Vertical	2 ਚਿੱਤਰ ਉੱਪਰ-ਹੇਠਾਂ
+	200%	200%
+	24 bits/pixel	24 ਬਿਟ/ਪਿਕਸਲ
+	24 fps	24 fps
+	25 fps	25 fps
+	250%	250%
+	3 by 3 Average	3 ਗੁਣਾ 3 ਦੀ ਔਸਤ
+	3 x 3	3 x 3
+	3-up Horizontal	3 ਚਿੱਤਰ ਨਾਲੋ-ਨਾਲ
+	3-up Stacked	3 ਚਿੱਤਰ ਉੱਪਰ-ਹੇਠਾਂ
+	3-up Vertical	3 ਚਿੱਤਰ ਖੜ੍ਹਵੇਂ
+	30 fps	30 fps
+	30 frames @ 30 fps	30 ਫਰੇਮ @ 30 fps
+	300%	300%
+	31 by 31 Average	31 ਗੁਣਾ 31 ਦੀ ਔਸਤ
+	32 Bits/Channel	32 ਬਿਟ/ਚੈਨਲ
+	32 bit (float)	32 ਬਿਟ (ਫਲੋਟ)
+	32 bits/pixel	32 ਬਿਟ/ਪਿਕਸਲ
+	32-bit Preview Options	32-ਬਿਟ ਝਲਕ ਚੋਣਾਂ
+	32-bit Preview Options…	32-ਬਿਟ ਝਲਕ ਚੋਣਾਂ…
+	3D	3D
+	3D LUT File	3D LUT ਫ਼ਾਈਲ
+	3D…	3D…
+	4 x 4	4 x 4
+	4-up	ਇੱਕਠੇ 4 ਚਿੱਤਰ
+	5 Columns, 3 Rows	5 ਕਾਲਮ, 3 ਕਤਾਰਾਂ
+	5 by 5 Average	5 ਗੁਣਾ 5 ਦੀ ਔਸਤ
+	5 x 5	5 x 5
+	50% Gray	50% ਸਲੇਟੀ
+	51 by 51 Average	51 ਗੁਣਾ 51 ਦੀ ਔਸਤ
+	6-up	ਇੱਕਠੇ 6 ਚਿੱਤਰ
+	75%	75%
+	8 Bits/Channel	8 ਬਿਟ/ਚੈਨਲ
+	8 Columns	8 ਕਾਲਮ
+	8 bit	8 ਬਿਟ
+	80%	80%
+	85%	85%
+	90%	90%
+	90° Clockwise	ਘੜੀ ਦੀ ਦਿਸ਼ਾ ਵਿੱਚ 90°
+	90° Counter Clockwise	ਘੜੀ ਦੀ ਉਲਟੀ ਦਿਸ਼ਾ ਵਿੱਚ 90°
+	95%	95%
+	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: {prs} PRs, {commits} ਕਮਿਟ, +{added} / −{deleted} ਲਾਈਨਾਂ (Δ {delta}), +{binAdded} / −{binDeleted} ਬਾਈਨਰੀ ਸੰਪਤੀਆਂ, {first} – {last}
+	A brush preset with this name already exists	ਇਸ ਨਾਮ ਵਾਲਾ ਬੁਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ
+	A file is still being placed; try again when it has finished.	ਫ਼ਾਈਲ ਹਾਲੇ ਰੱਖੀ ਜਾ ਰਹੀ ਹੈ; ਮੁਕੰਮਲ ਹੋਣ ਤੋਂ ਬਾਅਦ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ.
+	A save to {name} is still running; try again when it finishes	{name} ਵਿੱਚ ਸੰਭਾਲਣਾ ਹਾਲੇ ਚੱਲ ਰਿਹਾ ਹੈ; ਮੁਕੰਮਲ ਹੋਣ ਉੱਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+	A:	A:
+	ACES	ACES
+	AI Integrations	AI ਏਕੀਕਰਨ
+	AI Integrations…	AI ਏਕੀਕਰਨ…
+	About PhotoCraft	PhotoCraft ਬਾਰੇ
+	About {app}	{app} ਬਾਰੇ
+	Absolute	ਨਿਰਪੇਖ
+	Absolute Colorimetric	ਨਿਰਪੇਖ ਰੰਗਮਾਪੀ
+	Accelerated	ਤੇਜ਼ ਕੀਤਾ
+	Accented Edges	ਉਭਾਰੇ ਕਿਨਾਰੇ
+	Accept and Go to Conflict	ਸਵੀਕਾਰ ਕਰੋ ਅਤੇ ਟਕਰਾਅ ਉੱਤੇ ਜਾਓ
+	Accurate	ਸਟੀਕ
+	Action	ਕਾਰਵਾਈ
+	Action playback failed: {error}	ਕਾਰਵਾਈ ਚਲਾਉਣਾ ਅਸਫਲ ਹੋਇਆ: {error}
+	Action playback stopped	ਕਾਰਵਾਈ ਚਲਾਉਣਾ ਰੁਕ ਗਿਆ
+	Activate Panel	ਪੈਨਲ ਸਰਗਰਮ ਕਰੋ
+	Actual Color	ਅਸਲੀ ਰੰਗ
+	Actual Pixels	ਅਸਲੀ ਪਿਕਸਲ
+	Adaptive	ਅਨੁਕੂਲੀ
+	Adaptive Wide Angle	ਅਨੁਕੂਲੀ ਵਾਇਡ ਐਂਗਲ
+	Adaptive Wide Angle isn't open	ਅਨੁਕੂਲੀ ਵਾਇਡ ਐਂਗਲ ਖੁੱਲ੍ਹਾ ਨਹੀਂ ਹੈ
+	Adaptive Wide Angle…	ਅਨੁਕੂਲੀ ਵਾਇਡ ਐਂਗਲ…
+	Add Anchor Point Tool	ਐਂਕਰ ਬਿੰਦੂ ਜੋੜਨ ਦਾ ਟੂਲ
+	Add Layer Above to Selection	ਉੱਪਰਲੀ ਪਰਤ ਚੋਣ ਵਿੱਚ ਜੋੜੋ
+	Add Layer Below to Selection	ਹੇਠਲੀ ਪਰਤ ਚੋਣ ਵਿੱਚ ਜੋੜੋ
+	Add Layer Mask	ਪਰਤ ਮਾਸਕ ਜੋੜੋ
+	Add Mask	ਮਾਸਕ ਜੋੜੋ
+	Add Mask to Selection	ਮਾਸਕ ਨੂੰ ਚੋਣ ਵਿੱਚ ਜੋੜੋ
+	Add New Artboard	ਨਵਾਂ ਆਰਟਬੋਰਡ ਜੋੜੋ
+	Add Noise	ਨੌਇਜ਼ ਜੋੜੋ
+	Add Noise…	ਨੌਇਜ਼ ਜੋੜੋ…
+	Add Open Files	ਖੁੱਲ੍ਹੀਆਂ ਫ਼ਾਈਲਾਂ ਜੋੜੋ
+	Add Pins	ਪਿੰਨ ਜੋੜੋ
+	Add Shortcut	ਸ਼ਾਰਟਕੱਟ ਜੋੜੋ
+	Add Stop	ਰੁਕਣ ਦਾ ਬਿੰਦੂ ਜੋੜੋ
+	Add Vector Mask	ਵੈਕਟਰ ਮਾਸਕ ਜੋੜੋ
+	Add a layer style	ਪਰਤ ਸ਼ੈਲੀ ਜੋੜੋ
+	Add a mask  (from the selection; {key} inverts)	ਮਾਸਕ ਜੋੜੋ  (ਚੋਣ ਤੋਂ; {key} ਉਲਟਾਉਂਦਾ ਹੈ)
+	Add a mask  (from the selection; ⌥ inverts)	ਮਾਸਕ ਜੋੜੋ  (ਚੋਣ ਤੋਂ; ⌥ ਉਲਟਾਉਂਦਾ ਹੈ)
+	Add an adjustment	ਐਡਜਸਟਮੈਂਟ ਜੋੜੋ
+	Add beauty precomp from the AOVs	AOVs ਤੋਂ beauty ਪ੍ਰੀਕੰਪ ਜੋੜੋ
+	Add disk	ਡਿਸਕ ਜੋੜੋ
+	Add pair	ਜੋੜਾ ਜੋੜੋ
+	Add space after paragraph	ਪੈਰੇ ਤੋਂ ਬਾਅਦ ਫ਼ਾਸਲਾ ਜੋੜੋ
+	Add space before paragraph	ਪੈਰੇ ਤੋਂ ਪਹਿਲਾਂ ਫ਼ਾਸਲਾ ਜੋੜੋ
+	Add to	ਇਸ ਵਿੱਚ ਜੋੜੋ
+	Add to Dictionary	ਸ਼ਬਦਕੋਸ਼ ਵਿੱਚ ਜੋੜੋ
+	Add to Sample	ਨਮੂਨੇ ਵਿੱਚ ਜੋੜੋ
+	Add to Swatches	ਰੰਗ ਨਮੂਨਿਆਂ ਵਿੱਚ ਜੋੜੋ
+	Add to favorites	ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜੋ
+	Add to selection  ({key})	ਚੋਣ ਵਿੱਚ ਜੋੜੋ  ({key})
+	Add to selection  (⇧)	ਚੋਣ ਵਿੱਚ ਜੋੜੋ  (⇧)
+	Add vector mask	ਵੈਕਟਰ ਮਾਸਕ ਜੋੜੋ
+	Add “copy” to Copied Layers and Groups	ਕਾਪੀ ਕੀਤੀਆਂ ਪਰਤਾਂ ਅਤੇ ਸਮੂਹਾਂ ਵਿੱਚ “copy” ਜੋੜੋ
+	Added swatch {name}	{name} ਰੰਗ ਨਮੂਨਾ ਜੋੜਿਆ ਗਿਆ
+	Additional plugins folder	ਵਾਧੂ ਪਲੱਗਇਨ ਫੋਲਡਰ
+	Adds grain to the soft edges of the brush tip.	ਬੁਰਸ਼ ਦੀ ਨੋਕ ਦੇ ਨਰਮ ਕਿਨਾਰਿਆਂ ਵਿੱਚ ਦਾਣੇਦਾਰਪਣ ਜੋੜਦਾ ਹੈ.
+	Adds the current gradient to the Gradients panel	ਮੌਜੂਦਾ ਗ੍ਰੇਡੀਐਂਟ ਨੂੰ ਗ੍ਰੇਡੀਐਂਟ ਪੈਨਲ ਵਿੱਚ ਜੋੜਦਾ ਹੈ
+	Adjust Interval For Loops	ਲੂਪਾਂ ਲਈ ਅੰਤਰਾਲ ਬਦਲੋ
+	Adjust for Zoom	ਜ਼ੂਮ ਅਨੁਸਾਰ ਸਮਾਯੋਜਿਤ ਕਰੋ
+	Adjustment	ਐਡਜਸਟਮੈਂਟ
+	Adjustment Layer	ਐਡਜਸਟਮੈਂਟ ਪਰਤ
+	Adjustment Layers	ਐਡਜਸਟਮੈਂਟ ਪਰਤਾਂ
+	Adjustment Preview	ਐਡਜਸਟਮੈਂਟ ਝਲਕ
+	Adjustment Properties	ਐਡਜਸਟਮੈਂਟ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+	Adjustment layers have nothing to transform	ਐਡਜਸਟਮੈਂਟ ਪਰਤਾਂ ਵਿੱਚ ਰੂਪ ਬਦਲਣ ਲਈ ਕੁਝ ਨਹੀਂ ਹੁੰਦਾ
+	Adjustment visible	ਐਡਜਸਟਮੈਂਟ ਦਿਖਦੀ ਹੈ
+	Adjustments	ਐਡਜਸਟਮੈਂਟਾਂ
+	Adobe	Adobe
+	Adobe Every-line Composer	Adobe ਹਰ-ਲਾਈਨ ਕੰਪੋਜ਼ਰ
+	Adobe PDF Presets…	Adobe PDF ਪ੍ਰੀਸੈੱਟ…
+	Adobe RGB (1998)	Adobe RGB (1998)
+	Adobe RGB (1998) compatible	Adobe RGB (1998) ਅਨੁਕੂਲ
+	Adobe Single-line Composer	Adobe ਇੱਕਹਿਰੀ-ਲਾਈਨ ਕੰਪੋਜ਼ਰ
+	Adobe rgb	Adobe rgb
+	Adobe-rgb-compat	Adobe-rgb-compat
+	Advanced Blending	ਉੱਨਤ ਮਿਲਾਵਟ
+	Advanced Controls	ਉੱਨਤ ਕੰਟਰੋਲ
+	Adwaita	Adwaita
+	Adwaita (Dark)	Adwaita (ਗੂੜ੍ਹਾ)
+	Adwaita (Light)	Adwaita (ਹਲਕਾ)
+	Adwaita Dark Theme	Adwaita ਗੂੜ੍ਹੀ ਥੀਮ
+	Adwaita Light Theme	Adwaita ਹਲਕੀ ਥੀਮ
+	Adwaita dark	Adwaita ਗੂੜ੍ਹਾ
+	After	ਬਾਅਦ
+	After (X)	ਬਾਅਦ (X)
+	Again	ਮੁੜ
+	Airbrush: keeps depositing paint while the pointer rests.	ਏਅਰਬੁਰਸ਼: ਪੁਆਇੰਟਰ ਰੁਕਣ ਵੇਲੇ ਵੀ ਰੰਗ ਪਾਉਂਦਾ ਰਹਿੰਦਾ ਹੈ.
+	Airbrush: keeps painting while the pointer rests.	ਏਅਰਬੁਰਸ਼: ਪੁਆਇੰਟਰ ਰੁਕਣ ਵੇਲੇ ਵੀ ਰੰਗਦਾ ਰਹਿੰਦਾ ਹੈ.
+	Align and Distribute	ਇਕਸਾਰ ਕਰੋ ਅਤੇ ਵੰਡੋ
+	Align and distribute	ਇਕਸਾਰ ਕਰੋ ਅਤੇ ਵੰਡੋ
+	Align horizontal centers	ਲੇਟਵੇਂ ਕੇਂਦਰ ਇਕਸਾਰ ਕਰੋ
+	Align left edges	ਖੱਬੇ ਕਿਨਾਰੇ ਇਕਸਾਰ ਕਰੋ
+	Align right edges	ਸੱਜੇ ਕਿਨਾਰੇ ਇਕਸਾਰ ਕਰੋ
+	Align with layer	ਪਰਤ ਨਾਲ ਇਕਸਾਰ ਕਰੋ
+	Align {what}	{what} ਇਕਸਾਰ ਕਰੋ
+	Aligned	ਇਕਸਾਰ
+	All Caps	ਸਾਰੇ ਵੱਡੇ ਅੱਖਰ
+	All Classes	ਸਾਰੀਆਂ ਕਲਾਸਾਂ
+	All Layers	ਸਾਰੀਆਂ ਪਰਤਾਂ
+	All Layers No Adjustments	ਸਾਰੀਆਂ ਪਰਤਾਂ, ਐਡਜਸਟਮੈਂਟਾਂ ਤੋਂ ਬਿਨਾਂ
+	All Slices	ਸਾਰੇ ਸਲਾਈਸ
+	All User Slices	ਵਰਤੋਂਕਾਰ ਦੇ ਸਾਰੇ ਸਲਾਈਸ
+	All shortcuts reset to PhotoCraft defaults.	ਸਾਰੇ ਸ਼ਾਰਟਕੱਟ PhotoCraft ਦੀਆਂ ਮੂਲ ਸੈਟਿੰਗਾਂ ਮੁਤਾਬਕ ਮੁੜ ਸੈੱਟ ਕੀਤੇ ਗਏ.
+	All shortcuts reset to Photoshop defaults.	ਸਾਰੇ ਸ਼ਾਰਟਕੱਟ Photoshop ਦੀਆਂ ਮੂਲ ਸੈਟਿੰਗਾਂ ਮੁਤਾਬਕ ਮੁੜ ਸੈੱਟ ਕੀਤੇ ਗਏ.
+	Allow Continue	ਜਾਰੀ ਰੱਖਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ
+	Allow Non-Linear History	ਗੈਰ-ਲੀਨੀਅਰ ਇਤਿਹਾਸ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ
+	Allow agent control	ਏਜੰਟ ਕੰਟਰੋਲ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ
+	Allow scripts to connect	ਸਕ੍ਰਿਪਟਾਂ ਨੂੰ ਜੁੜਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ
+	Alpha	ਅਲਫ਼ਾ
+	Alt	Alt
+	Alt-click a plane to set the clone source	ਕਲੋਨ ਕਰਨ ਦਾ ਸਰੋਤ ਚੁਣਨ ਲਈ ਸਤਹ ਉੱਤੇ Alt-ਕਲਿੱਕ ਕਰੋ
+	Alt-click to define a source point to clone from	ਕਲੋਨ ਕਰਨ ਦਾ ਸਰੋਤ ਬਿੰਦੂ ਚੁਣਨ ਲਈ Alt-ਕਲਿੱਕ ਕਰੋ
+	Alt-click went to the desktop, which moves windows with Alt-drag. Set its window-move key to Super, or latch Alt in Window › Modifier Keys.	Alt-ਕਲਿੱਕ ਡੈਸਕਟਾਪ ਨੂੰ ਮਿਲਿਆ, ਜੋ Alt-drag ਨਾਲ ਵਿੰਡੋਆਂ ਲਿਜਾਉਂਦਾ ਹੈ. ਵਿੰਡੋ ਲਿਜਾਉਣ ਦੀ ਕੁੰਜੀ Super ਕਰੋ, ਜਾਂ ਵਿੰਡੋ › ਸੋਧਕ ਕੁੰਜੀਆਂ ਵਿੱਚ Alt ਲੈਚ ਕਰੋ.
+	Alternates for Current Selection	ਮੌਜੂਦਾ ਚੋਣ ਦੇ ਵਿਕਲਪੀ ਅੱਖਰ-ਰੂਪ
+	Alternative	ਵਿਕਲਪ
+	Altitude	ਉਚਾਈ ਕੋਣ
+	Always Show Overlay	ਓਵਰਲੇ ਹਮੇਸ਼ਾ ਦਿਖਾਓ
+	Always create smart objects when placing	ਚਿੱਤਰ ਰੱਖਣ ਵੇਲੇ ਹਮੇਸ਼ਾ ਸਮਾਰਟ ਆਬਜੈਕਟ ਬਣਾਓ
+	Always use pressure for opacity	ਅਪਾਰਦਰਸ਼ਤਾ ਲਈ ਹਮੇਸ਼ਾ ਦਬਾਅ ਵਰਤੋ
+	Always use pressure for size	ਆਕਾਰ ਲਈ ਹਮੇਸ਼ਾ ਦਬਾਅ ਵਰਤੋ
+	Ambience	ਮਾਹੌਲ
+	Ambient	ਆਲੇ-ਦੁਆਲੇ ਦਾ
+	Amount	ਮਾਤਰਾ
+	Amount:	ਮਾਤਰਾ:
+	Amplitude Max	ਵੱਧ ਤੋਂ ਵੱਧ ਐਂਪਲੀਟਿਊਡ
+	Amplitude Min	ਘੱਟੋ-ਘੱਟ ਐਂਪਲੀਟਿਊਡ
+	Analysis	ਵਿਸ਼ਲੇਸ਼ਣ
+	Anamorphic 2:1 (2)	ਐਨਾਮਾਰਫਿਕ 2:1 (2)
+	Anchor:	ਐਂਕਰ:
+	Android 1080p	Android 1080p
+	Angle Gradient	ਕੋਣੀ ਗ੍ਰੇਡੀਐਂਟ
+	Angle Jitter	ਕੋਣ ਵਿੱਚ ਬੇਤਰਤੀਬ ਫ਼ਰਕ
+	Angle:	ਕੋਣ:
+	Angled Strokes	ਕੋਣੀ ਸਟ੍ਰੋਕ
+	Animated zoom	ਐਨੀਮੇਟ ਕੀਤਾ ਜ਼ੂਮ
+	Animation Options	ਐਨੀਮੇਸ਼ਨ ਦੀਆਂ ਚੋਣਾਂ
+	Anisotropic	ਐਨੀਸੋਟ੍ਰਾਪਿਕ
+	Answer the open import question first, then import this file again.	ਪਹਿਲਾਂ ਖੁੱਲ੍ਹੇ ਆਯਾਤ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿਓ, ਫਿਰ ਇਹ ਫ਼ਾਈਲ ਮੁੜ ਆਯਾਤ ਕਰੋ.
+	Answer the unsaved-changes prompt first	ਪਹਿਲਾਂ ਨਾ ਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਵਾਲੇ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿਓ
+	Anti-Alias	ਐਂਟੀ-ਐਲੀਆਸ
+	Anti-alias	ਐਂਟੀ-ਐਲੀਆਸ
+	Anti-aliased	ਐਂਟੀ-ਐਲੀਆਸ ਕੀਤਾ
+	Anti-aliasing method	ਐਂਟੀ-ਐਲੀਆਸਿੰਗ ਢੰਗ
+	Aperture	ਅਪਰਚਰ
+	Appearance (Layer Style)	ਦਿੱਖ (ਪਰਤ ਸ਼ੈਲੀ)
+	Appearance Mode	ਦਿੱਖ ਮੋਡ
+	Appearance Settings…	ਦਿੱਖ ਸੈਟਿੰਗਾਂ…
+	Apple RGB	Apple RGB
+	Apple Watch 45mm	Apple Watch 45mm
+	Applies at next launch.	ਅਗਲੀ ਵਾਰ ਖੋਲ੍ਹਣ ਉੱਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ.
+	Applies immediately when saved. Memory is not reserved in advance.	ਸੰਭਾਲਣ ਵੇਲੇ ਤੁਰੰਤ ਲਾਗੂ ਹੁੰਦਾ ਹੈ. ਮੈਮਰੀ ਪਹਿਲਾਂ ਹੀ ਰਾਖਵੀਂ ਨਹੀਂ ਰੱਖੀ ਜਾਂਦੀ.
+	Apply At Canvas Bounds	ਕੈਨਵਸ ਦੀਆਂ ਹੱਦਾਂ ਉੱਤੇ ਲਾਗੂ ਕਰੋ
+	Apply Character Style	ਅੱਖਰ ਸ਼ੈਲੀ ਲਾਗੂ ਕਰੋ
+	Apply Data Set	ਡਾਟਾ ਸੈੱਟ ਲਾਗੂ ਕਰੋ
+	Apply Data Set…	ਡਾਟਾ ਸੈੱਟ ਲਾਗੂ ਕਰੋ…
+	Apply Image	ਚਿੱਤਰ ਲਾਗੂ ਕਰੋ
+	Apply Image…	ਚਿੱਤਰ ਲਾਗੂ ਕਰੋ…
+	Apply Layer Comp	ਪਰਤ ਕੰਪ ਲਾਗੂ ਕਰੋ
+	Apply Layer Mask	ਪਰਤ ਮਾਸਕ ਲਾਗੂ ਕਰੋ
+	Apply Mask	ਮਾਸਕ ਲਾਗੂ ਕਰੋ
+	Apply Per Tip	ਹਰ ਨੋਕ ਲਈ ਲਾਗੂ ਕਰੋ
+	Apply Vanishing Point ({key})	ਵੈਨਿਸ਼ਿੰਗ ਪੁਆਇੰਟ ਲਾਗੂ ਕਰੋ ({key})
+	Apply auto tone	ਆਪਣੇ ਆਪ ਟੋਨ ਲਾਗੂ ਕਰੋ
+	Apply mask to layer before removing?	ਹਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਮਾਸਕ ਪਰਤ ਉੱਤੇ ਲਾਗੂ ਕਰਨਾ ਹੈ?
+	Apply next selected layer comp	ਅਗਲਾ ਚੁਣਿਆ ਪਰਤ ਕੰਪ ਲਾਗੂ ਕਰੋ
+	Apply previous selected layer comp	ਪਿਛਲਾ ਚੁਣਿਆ ਪਰਤ ਕੰਪ ਲਾਗੂ ਕਰੋ
+	Apply the pen's tilt and rotation to the tip shape	ਨੋਕ ਦੇ ਆਕਾਰ ਉੱਤੇ ਪੈਨ ਦਾ ਝੁਕਾਅ ਅਤੇ ਘੁੰਮਾਅ ਲਾਗੂ ਕਰੋ
+	Apply the removal ({key})	ਹਟਾਉਣਾ ਲਾਗੂ ਕਰੋ ({key})
+	Apply to All	ਸਭ ਉੱਤੇ ਲਾਗੂ ਕਰੋ
+	Apply {option}: {state}	{option} ਲਾਗੂ ਕਰੋ: {state}
+	Aqua	ਪਾਣੀ ਵਰਗਾ ਨੀਲਾ
+	Arbitrary	ਆਪਣੀ ਚੋਣ ਮੁਤਾਬਕ
+	Arbitrary…	ਆਪਣੀ ਚੋਣ ਮੁਤਾਬਕ…
+	Arc	ਚਾਪ
+	Arc Lower	ਹੇਠਲਾ ਚਾਪ
+	Arc Upper	ਉੱਪਰਲਾ ਚਾਪ
+	Arch	ਮਿਹਰਾਬ
+	Are you sure you want to quit?	ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?
+	Are you sure?	ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਚਾਹੁੰਦੇ ਹੋ?
+	Around Center	ਕੇਂਦਰ ਦੁਆਲੇ
+	Arrangement	ਤਰਤੀਬ
+	Arrowhead options	ਤੀਰ ਦੇ ਸਿਰਿਆਂ ਦੀਆਂ ਚੋਣਾਂ
+	Arrowheads	ਤੀਰ ਦੇ ਸਿਰੇ
+	Arrows	ਤੀਰ
+	Art & Illustration	ਕਲਾ ਅਤੇ ਚਿੱਤਰਕਾਰੀ
+	Art History Brush	ਕਲਾ-ਇਤਿਹਾਸ ਬੁਰਸ਼
+	ArtCraft	ArtCraft
+	ArtCraft Website	ArtCraft ਵੈੱਬਸਾਈਟ
+	Artboard	ਆਰਟਬੋਰਡ
+	Artboard Background Color	ਆਰਟਬੋਰਡ ਦਾ ਪਿੱਛੋਕੜ ਰੰਗ
+	Artboard Guides	ਆਰਟਬੋਰਡ ਸੇਧਾਂ
+	Artboard Tool	ਆਰਟਬੋਰਡ ਟੂਲ
+	Artboard from Group	ਸਮੂਹ ਤੋਂ ਆਰਟਬੋਰਡ
+	Artboard from Group…	ਸਮੂਹ ਤੋਂ ਆਰਟਬੋਰਡ…
+	Artboard from Layers	ਪਰਤਾਂ ਤੋਂ ਆਰਟਬੋਰਡ
+	Artboard from Layers…	ਪਰਤਾਂ ਤੋਂ ਆਰਟਬੋਰਡ…
+	Artboards	ਆਰਟਬੋਰਡ
+	Artboards to Files	ਆਰਟਬੋਰਡਾਂ ਨੂੰ ਫ਼ਾਈਲਾਂ ਵਜੋਂ
+	Artboards to Files…	ਆਰਟਬੋਰਡਾਂ ਨੂੰ ਫ਼ਾਈਲਾਂ ਵਜੋਂ…
+	Artboards to PDF	ਆਰਟਬੋਰਡਾਂ ਨੂੰ PDF ਵਜੋਂ
+	Artboards to PDF…	ਆਰਟਬੋਰਡਾਂ ਨੂੰ PDF ਵਜੋਂ…
+	Artboard…	ਆਰਟਬੋਰਡ…
+	Artist	ਕਲਾਕਾਰ
+	Artistic	ਕਲਾਤਮਕ
+	Ask	ਪੁੱਛੋ
+	Ask On Mismatch	ਮੇਲ ਨਾ ਹੋਣ ਉੱਤੇ ਪੁੱਛੋ
+	Ask On Missing	ਨਾ ਮਿਲਣ ਉੱਤੇ ਪੁੱਛੋ
+	Ask On Paste	ਚਿਪਕਾਉਣ ਵੇਲੇ ਪੁੱਛੋ
+	Ask When Pasting	ਚਿਪਕਾਉਣ ਵੇਲੇ ਪੁੱਛੋ
+	Ask before saving layered tiff	ਪਰਤਾਂ ਵਾਲੀ tiff ਸੰਭਾਲਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁੱਛੋ
+	Aspect Ratio	ਲੰਬਾਈ-ਚੌੜਾਈ ਦਾ ਅਨੁਪਾਤ
+	Assign Profile	ਪ੍ਰੋਫਾਈਲ ਨਿਰਧਾਰਤ ਕਰੋ
+	Assign Profile…	ਪ੍ਰੋਫਾਈਲ ਨਿਰਧਾਰਤ ਕਰੋ…
+	Assign working space	ਕਾਰਜਕਾਰੀ ਰੰਗ-ਖੇਤਰ ਨਿਰਧਾਰਤ ਕਰੋ
+	Attempt to Automatically Align Source Images	ਸਰੋਤ ਚਿੱਤਰ ਆਪਣੇ ਆਪ ਇਕਸਾਰ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+	Attribute	ਵਿਸ਼ੇਸ਼ਤਾ
+	Audio	ਆਡੀਓ
