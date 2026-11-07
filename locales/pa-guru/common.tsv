@@ -14,6 +14,8 @@
 # a native Punjabi speaker; their translations are unchanged from 8e93cb87.
 # The language name is retained. All expansion entries are AI-assisted clean-room drafts
 # by @ishveet with OpenAI Codex and are pending native-speaker review.
+# The contributor reviewed a sample of expanded entries, not the full expansion.
+# Subsequent AI-assisted wording corrections also remain pending native-speaker review.
 # Coverage: the known PdfCraft English lookup inventory; other apps and future strings may fall back.
 
 # Original starter entries (34 approved labels across both files; language name retained).
@@ -155,7 +157,7 @@
 	Diameter	ਵਿਆਸ
 	Diamond	ਹੀਰੇ ਦਾ ਆਕਾਰ
 	Direction:	ਦਿਸ਼ਾ:
-	Discard	ਛੱਡ ਦਿਓ
+	Discard	ਨਾ ਰੱਖੋ
 	Dismiss	ਖਾਰਜ ਕਰੋ
 	Display	ਦ੍ਰਿਸ਼
 	Display name	ਦਿਖਾਇਆ ਜਾਣ ਵਾਲਾ ਨਾਮ

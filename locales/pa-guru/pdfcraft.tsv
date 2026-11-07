@@ -14,6 +14,8 @@
 # a native Punjabi speaker; their translations are unchanged from 8e93cb87.
 # The language name is retained. All expansion entries are AI-assisted clean-room drafts
 # by @ishveet with OpenAI Codex and are pending native-speaker review.
+# The contributor reviewed a sample of expanded entries, not the full expansion.
+# Subsequent AI-assisted wording corrections also remain pending native-speaker review.
 # Coverage: the known PdfCraft English lookup inventory; other apps and future strings may fall back.
 
 # Original starter entries (34 approved labels across both files; language name retained).
@@ -1071,22 +1073,22 @@
 	Digitally sign	ਡਿਜ਼ਿਟਲ ਦਸਤਖ਼ਤ ਕਰੋ
 	Digitally signed by	ਡਿਜ਼ਿਟਲ ਦਸਤਖ਼ਤ ਕਰਨ ਵਾਲਾ
 	Disabled	ਬੰਦ
-	Discard Objects	ਆਬਜੈਕਟ ਛੱਡ ਦਿਓ
-	Discard User Data	ਵਰਤੋਂਕਾਰ ਡਾਟਾ ਛੱਡ ਦਿਓ
-	Discard all comments, forms and multimedia	ਸਾਰੀਆਂ ਟਿੱਪਣੀਆਂ, ਫ਼ਾਰਮ ਅਤੇ ਮਲਟੀਮੀਡੀਆ ਛੱਡ ਦਿਓ
-	Discard all form submission, import and reset actions	ਫ਼ਾਰਮ ਭੇਜਣ, ਆਯਾਤ ਕਰਨ ਅਤੇ ਮੁੜ ਸੈੱਟ ਕਰਨ ਦੀਆਂ ਸਾਰੀਆਂ ਕਾਰਵਾਈਆਂ ਛੱਡ ਦਿਓ
-	Discard all links, actions and JavaScript	ਸਾਰੇ ਲਿੰਕ, ਕਾਰਵਾਈਆਂ ਅਤੇ JavaScript ਛੱਡ ਦਿਓ
-	Discard all object data (file attachments)	ਸਾਰਾ ਆਬਜੈਕਟ ਡਾਟਾ (ਫ਼ਾਈਲ ਨੱਥੀਆਂ) ਛੱਡ ਦਿਓ
-	Discard alternate images	ਵਿਕਲਪੀ ਚਿੱਤਰ ਛੱਡ ਦਿਓ
-	Discard bookmarks	ਬੁੱਕਮਾਰਕ ਛੱਡ ਦਿਓ
-	Discard document information and metadata	ਦਸਤਾਵੇਜ਼ ਦੀ ਜਾਣਕਾਰੀ ਅਤੇ ਮੈਟਾਡਾਟਾ ਛੱਡ ਦਿਓ
-	Discard document tags	ਦਸਤਾਵੇਜ਼ ਟੈਗ ਛੱਡ ਦਿਓ
-	Discard embedded page thumbnails	ਏਮਬੈੱਡ ਕੀਤੀਆਂ ਸਫ਼ਾ ਝਲਕਾਂ ਛੱਡ ਦਿਓ
-	Discard embedded print settings	ਏਮਬੈੱਡ ਕੀਤੀਆਂ ਛਪਾਈ ਸੈਟਿੰਗਾਂ ਛੱਡ ਦਿਓ
-	Discard hidden layer content	ਲੁਕਵੀਂ ਪਰਤ ਦੀ ਸਮੱਗਰੀ ਛੱਡ ਦਿਓ
-	Discard hidden text	ਲੁਕਵੀਂ ਲਿਖਤ ਛੱਡ ਦਿਓ
-	Discard private data of other applications	ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦਾ ਨਿੱਜੀ ਡਾਟਾ ਛੱਡ ਦਿਓ
-	Discard this text (Esc)	ਇਹ ਲਿਖਤ ਛੱਡ ਦਿਓ (Esc)
+	Discard Objects	ਆਬਜੈਕਟ ਹਟਾਓ
+	Discard User Data	ਵਰਤੋਂਕਾਰ ਡਾਟਾ ਹਟਾਓ
+	Discard all comments, forms and multimedia	ਸਾਰੀਆਂ ਟਿੱਪਣੀਆਂ, ਫ਼ਾਰਮ ਅਤੇ ਮਲਟੀਮੀਡੀਆ ਹਟਾਓ
+	Discard all form submission, import and reset actions	ਫ਼ਾਰਮ ਭੇਜਣ, ਆਯਾਤ ਕਰਨ ਅਤੇ ਮੁੜ ਸੈੱਟ ਕਰਨ ਦੀਆਂ ਸਾਰੀਆਂ ਕਾਰਵਾਈਆਂ ਹਟਾਓ
+	Discard all links, actions and JavaScript	ਸਾਰੇ ਲਿੰਕ, ਕਾਰਵਾਈਆਂ ਅਤੇ JavaScript ਹਟਾਓ
+	Discard all object data (file attachments)	ਸਾਰਾ ਆਬਜੈਕਟ ਡਾਟਾ (ਫ਼ਾਈਲ ਨੱਥੀਆਂ) ਹਟਾਓ
+	Discard alternate images	ਵਿਕਲਪੀ ਚਿੱਤਰ ਹਟਾਓ
+	Discard bookmarks	ਬੁੱਕਮਾਰਕ ਹਟਾਓ
+	Discard document information and metadata	ਦਸਤਾਵੇਜ਼ ਦੀ ਜਾਣਕਾਰੀ ਅਤੇ ਮੈਟਾਡਾਟਾ ਹਟਾਓ
+	Discard document tags	ਦਸਤਾਵੇਜ਼ ਟੈਗ ਹਟਾਓ
+	Discard embedded page thumbnails	ਏਮਬੈੱਡ ਕੀਤੀਆਂ ਸਫ਼ਾ ਝਲਕਾਂ ਹਟਾਓ
+	Discard embedded print settings	ਏਮਬੈੱਡ ਕੀਤੀਆਂ ਛਪਾਈ ਸੈਟਿੰਗਾਂ ਹਟਾਓ
+	Discard hidden layer content	ਲੁਕਵੀਂ ਪਰਤ ਦੀ ਸਮੱਗਰੀ ਹਟਾਓ
+	Discard hidden text	ਲੁਕਵੀਂ ਲਿਖਤ ਹਟਾਓ
+	Discard private data of other applications	ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦਾ ਨਿੱਜੀ ਡਾਟਾ ਹਟਾਓ
+	Discard this text (Esc)	ਇਹ ਲਿਖਤ ਰੱਦ ਕਰੋ (Esc)
 	Disk {size}	ਡਿਸਕ {size}
 	Display theme	ਦ੍ਰਿਸ਼ ਥੀਮ
 	DisplayDocTitle isn't true: the window shows the file name	DisplayDocTitle ਸਹੀ ਨਹੀਂ ਹੈ: ਵਿੰਡੋ ਫ਼ਾਈਲ ਦਾ ਨਾਮ ਦਿਖਾਉਂਦੀ ਹੈ
@@ -1454,7 +1456,7 @@
 	Finding fields… page {d} of {t}	ਖੇਤਰ ਲੱਭੇ ਜਾ ਰਹੇ ਹਨ… ਸਫ਼ਾ {d}/{t}
 	Finish composing text before applying this action.	ਇਹ ਕਾਰਵਾਈ ਲਾਗੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਲਿਖਤ ਲਿਖਣੀ ਮੁਕੰਮਲ ਕਰੋ.
 	Finish measurement	ਮਾਪ ਮੁਕੰਮਲ ਕਰੋ
-	Finish or discard the text being edited before selecting several objects.	ਕਈ ਆਬਜੈਕਟ ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ ਸੋਧੀ ਜਾ ਰਹੀ ਲਿਖਤ ਮੁਕੰਮਲ ਕਰੋ ਜਾਂ ਛੱਡ ਦਿਓ.
+	Finish or discard the text being edited before selecting several objects.	ਕਈ ਆਬਜੈਕਟ ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ ਸੋਧੀ ਜਾ ਰਹੀ ਲਿਖਤ ਮੁਕੰਮਲ ਕਰੋ ਜਾਂ ਰੱਦ ਕਰੋ.
 	Finished measurements appear here and are saved in the PDF.	ਮੁਕੰਮਲ ਮਾਪ ਇੱਥੇ ਦਿਖਦੇ ਹਨ ਅਤੇ PDF ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ.
 	First / last page	ਪਹਿਲਾ / ਆਖ਼ਰੀ ਸਫ਼ਾ
 	First page	ਪਹਿਲਾ ਸਫ਼ਾ
@@ -4490,7 +4492,7 @@
 @plural	{n} formula reads a field the form doesn't have|{n} formulas read fields the form doesn't have	{n} ਫ਼ਾਰਮੂਲਾ ਅਜਿਹਾ ਖੇਤਰ ਪੜ੍ਹਦਾ ਹੈ ਜੋ ਫ਼ਾਰਮ ਵਿੱਚ ਨਹੀਂ ਹੈ|{n} ਫ਼ਾਰਮੂਲੇ ਅਜਿਹੇ ਖੇਤਰ ਪੜ੍ਹਦੇ ਹਨ ਜੋ ਫ਼ਾਰਮ ਵਿੱਚ ਨਹੀਂ ਹਨ
 @plural	{n} image optimized|{n} images optimized	{n} ਚਿੱਤਰ ਅਨੁਕੂਲਿਤ ਕੀਤਾ ਗਿਆ|{n} ਚਿੱਤਰ ਅਨੁਕੂਲਿਤ ਕੀਤੇ ਗਏ
 @plural	{n} image was left as it was (page {p}: {why}).|{n} images were left as they were (page {p}: {why}, …).	{n} ਚਿੱਤਰ ਜਿਵੇਂ ਦਾ ਤਿਵੇਂ ਛੱਡਿਆ ਗਿਆ (ਸਫ਼ਾ {p}: {why}).|{n} ਚਿੱਤਰ ਜਿਵੇਂ ਦੇ ਤਿਵੇਂ ਛੱਡੇ ਗਏ (ਸਫ਼ਾ {p}: {why}, …).
-@plural	{n} item discarded|{n} items discarded	{n} ਚੀਜ਼ ਛੱਡੀ ਗਈ|{n} ਚੀਜ਼ਾਂ ਛੱਡੀਆਂ ਗਈਆਂ
+@plural	{n} item discarded|{n} items discarded	{n} ਚੀਜ਼ ਹਟਾਈ ਗਈ|{n} ਚੀਜ਼ਾਂ ਹਟਾਈਆਂ ਗਈਆਂ
 @plural	{n} more field calculates too early.|{n} more fields calculate too early.	{n} ਹੋਰ ਖੇਤਰ ਦੀ ਗਣਨਾ ਬਹੁਤ ਪਹਿਲਾਂ ਹੁੰਦੀ ਹੈ.|{n} ਹੋਰ ਖੇਤਰਾਂ ਦੀ ਗਣਨਾ ਬਹੁਤ ਪਹਿਲਾਂ ਹੁੰਦੀ ਹੈ.
 @plural	{n} more formula reads a missing field.|{n} more formulas read missing fields.	{n} ਹੋਰ ਫ਼ਾਰਮੂਲਾ ਗੁੰਮ ਖੇਤਰ ਪੜ੍ਹਦਾ ਹੈ.|{n} ਹੋਰ ਫ਼ਾਰਮੂਲੇ ਗੁੰਮ ਖੇਤਰ ਪੜ੍ਹਦੇ ਹਨ.
 @plural	{n} object selected|{n} objects selected	{n} ਆਬਜੈਕਟ ਚੁਣਿਆ ਗਿਆ|{n} ਆਬਜੈਕਟ ਚੁਣੇ ਗਏ
