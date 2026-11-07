@@ -1,0 +1,45 @@
+# ਪੰਜਾਬੀ (pa-guru) interface catalog for every Crafting App.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# Draft: AI-assisted; not reviewed by a native Punjabi speaker.
+
+@id	language.name	ਪੰਜਾਬੀ
+	Cancel	ਰੱਦ ਕਰੋ
+	Close	ਬੰਦ ਕਰੋ
+	Copy	ਕਾਪੀ ਕਰੋ
+	Cut	ਕੱਟੋ
+	Delete	ਮਿਟਾਓ
+	Edit	ਸੋਧੋ
+	File	ਫ਼ਾਈਲ
+	Find	ਲੱਭੋ
+	General	ਆਮ
+	Help	ਮਦਦ
+	Language	ਭਾਸ਼ਾ
+	Next page	ਅਗਲਾ ਸਫ਼ਾ
+	No	ਨਹੀਂ
+	OK	ਠੀਕ ਹੈ
+	Open	ਖੋਲ੍ਹੋ
+	Open…	ਖੋਲ੍ਹੋ…
+	Pages	ਸਫ਼ੇ
+	Paste	ਚਿਪਕਾਓ
+	Preferences	ਤਰਜੀਹਾਂ
+	Previous page	ਪਿਛਲਾ ਸਫ਼ਾ
+	Print	ਛਾਪੋ
+	Redo	ਮੁੜ ਕਰੋ
+	Save	ਸੰਭਾਲੋ
+	Search	ਖੋਜੋ
+	Settings	ਸੈਟਿੰਗਾਂ
+	Undo	ਵਾਪਸ ਕਰੋ
+	View	ਵੇਖੋ
+	Yes	ਹਾਂ
+	Zoom in	ਵੱਡਾ ਕਰੋ
+	Zoom out	ਛੋਟਾ ਕਰੋ
