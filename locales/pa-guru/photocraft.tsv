@@ -4260,3 +4260,9 @@ shape	Appearance	ਦਿੱਖ
 	Smoothing Options	ਨਰਮਾਈ ਦੀਆਂ ਚੋਣਾਂ
 	Switch Foreground and Background Colors (X)	ਮੂਹਰਲੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਰੰਗ ਬਦਲੋ (X)
 	The fastest and the softest, with color fringing on fine detail.	ਸਭ ਤੋਂ ਤੇਜ਼ ਅਤੇ ਸਭ ਤੋਂ ਨਰਮ, ਬਾਰੀਕ ਵੇਰਵਿਆਂ ਉੱਤੇ ਰੰਗੀਨ ਝਾਲਰ ਨਾਲ।
+# Source delta: 153fcff8c365a399c271d235df282e7eacd66305; Camera Raw sidecar UI verified at e04ecbdaa339915af841c485e212ebc87b2df64a; AI-assisted; native review pending.
+	Save the settings to each raw's sidecar without opening it	ਹਰੇਕ raw ਫ਼ਾਈਲ ਨੂੰ ਖੋਲ੍ਹੇ ਬਿਨਾਂ ਉਸ ਦੀ ਸਾਈਡਕਾਰ ਫ਼ਾਈਲ ਵਿੱਚ ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੋ
+	Some settings could not be saved; the raws stay open	ਕੁਝ ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੀਆਂ ਨਹੀਂ ਜਾ ਸਕੀਆਂ; raw ਫ਼ਾਈਲਾਂ ਖੁੱਲ੍ਹੀਆਂ ਰਹਿਣਗੀਆਂ
+	Saved Camera Raw settings to {file}	{file} ਵਿੱਚ Camera Raw ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੀਆਂ
+	Nothing to save: these raws are at their default settings	ਸੰਭਾਲਣ ਲਈ ਕੁਝ ਨਹੀਂ: ਇਹ raw ਫ਼ਾਈਲਾਂ ਆਪਣੀਆਂ ਮੂਲ ਸੈਟਿੰਗਾਂ ਉੱਤੇ ਹਨ
+	No settings saved: these raws can't keep a sidecar here	ਕੋਈ ਸੈਟਿੰਗ ਸੰਭਾਲੀ ਨਹੀਂ ਗਈ: ਇਨ੍ਹਾਂ raw ਫ਼ਾਈਲਾਂ ਲਈ ਇੱਥੇ ਸਾਈਡਕਾਰ ਫ਼ਾਈਲ ਨਹੀਂ ਰੱਖੀ ਜਾ ਸਕਦੀ
