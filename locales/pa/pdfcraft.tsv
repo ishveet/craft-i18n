@@ -1,4 +1,4 @@
-# ਪੰਜਾਬੀ (pa-guru) interface catalog for PdfCraft.
+# ਪੰਜਾਬੀ (pa) interface catalog for PdfCraft.
 # Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
 #   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
 #            word is a label that tells apart two meanings of the same English.
@@ -10,21 +10,14 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
-# Review: the original 34 starter labels across these two catalogs were reviewed by @ishveet,
-# a native Punjabi speaker; their translations are unchanged from 8e93cb87.
-# The language name is retained. All expansion entries are AI-assisted clean-room drafts
-# by @ishveet with OpenAI Codex and are pending native-speaker review.
-# The contributor reviewed a sample of expanded entries, not the full expansion.
-# Subsequent AI-assisted wording corrections also remain pending native-speaker review.
-# Coverage: the known PdfCraft English lookup inventory; other apps and future strings may fall back.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: 34 original starter labels across common/PdfCraft were reviewed by @ishveet, a native speaker.
+# Expanded entries were sample-reviewed; they have not received comprehensive line-by-line native review.
 
-# Original starter entries (34 approved labels across both files; language name retained).
 	All tools	ਸਾਰੇ ਟੂਲ
 	Bookmarks	ਬੁੱਕਮਾਰਕ
 	Page thumbnails	ਸਫ਼ਿਆਂ ਦੀਆਂ ਝਲਕਾਂ
 	Select all	ਸਭ ਚੁਣੋ
-
-# Expansion draft: AI-assisted; ALL rows below are pending native-speaker review.
 	  · not fixable here	  · ਇੱਥੇ ਠੀਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ
 	 (page {p})	 (ਸਫ਼ਾ {p})
 	 (searching… {s} of {p} pages)	 (ਖੋਜ ਜਾਰੀ… {p} ਵਿੱਚੋਂ {s} ਸਫ਼ੇ)

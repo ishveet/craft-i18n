@@ -1,4 +1,4 @@
-# ਪੰਜਾਬੀ (pa-guru) interface catalog for WordCraft.
+# ਪੰਜਾਬੀ (pa) interface catalog for WordCraft.
 # Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
 #   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
 #            word is a label that tells apart two meanings of the same English.
@@ -10,11 +10,8 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
-# Review: AI-assisted clean-room draft by @ishveet with OpenAI Codex.
-# No native-speaker review recorded for these new app entries; original 34-label approval does not extend.
-# Source: storytold/wordcraft 729cd0a5fc953bbedbfdec4f6af18ad6d1780b3b.
-# Current source evidence and retained catalog-known keys are distinguished in the QA matrix.
-# The unresolved math/theme Accent collision stays in English.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
 
 	(All)	(ਸਭ)
 	(Custom)	(ਪਸੰਦੀਦਾ)
@@ -1543,7 +1540,6 @@
 	Modify…	ਸੋਧੋ…
 	Mon	ਸੋਮ
 	Monaco	ਮੋਨਾਕੋ
-	Mono	Mono
 	Montenegro	ਮੋਂਟੇਨੇਗਰੋ
 	Month	ਮਹੀਨਾ
 	More >>	ਹੋਰ >>

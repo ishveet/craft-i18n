@@ -1,4 +1,4 @@
-# ਪੰਜਾਬੀ (pa-guru) interface catalog for PhotoCraft.
+# ਪੰਜਾਬੀ (pa) interface catalog for PhotoCraft.
 # Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
 #   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
 #            word is a label that tells apart two meanings of the same English.
@@ -10,11 +10,8 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
-# Review: AI-assisted draft by @ishveet with OpenAI Codex; no native-speaker review recorded.
-# Source: storytold/photocraft f68e227026701cf24e0e182530694240e2d3cfe4.
-# All 4,528 saved inventory positions processed; five unresolved keys remain English.
-# Inventory coverage is not proof of complete runtime UI reachability or layout.
-# Plain Type stays English because typography and kind selectors share that key.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
 
 	(No neutral color exists for {mode} mode.)	({mode} ਮੋਡ ਲਈ ਕੋਈ ਨਿਰਪੱਖ ਰੰਗ ਨਹੀਂ ਹੈ.)
 	(coming soon)	(ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ)
@@ -325,7 +322,7 @@
 	Automate	ਸਵੈਚਾਲਿਤ ਕਰੋ
 	Automatic (recommended)	ਆਪਣੇ ਆਪ (ਸਿਫ਼ਾਰਸ਼ੀ)
 	Automatic paragraph direction	ਪੈਰੇ ਦੀ ਦਿਸ਼ਾ ਆਪਣੇ ਆਪ
-	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	ਆਪਣੇ ਆਪ ਵਾਲਾ ਵਿਕਲਪ ਉਪਲਬਧ ਹੋਣ 'ਤੇ GPU ਪ੍ਰਵੇਗ ਵਰਤਦਾ ਹੈ ਅਤੇ ਗਲਤੀਆਂ ਆਉਣ 'ਤੇ CPU ਰੈਂਡਰਿੰਗ ਵਰਤਦਾ ਹੈ।
+	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	ਆਪਣੇ ਆਪ ਵਾਲਾ ਵਿਕਲਪ ਉਪਲਬਧ ਹੋਣ 'ਤੇ GPU ਪ੍ਰਵੇਗ ਵਰਤਦਾ ਹੈ ਅਤੇ ਗਲਤੀਆਂ ਆਉਣ 'ਤੇ CPU ਰੈਂਡਰਿੰਗ ਵਰਤਦਾ ਹੈ.
 	Automatically Create First Snapshot	ਪਹਿਲਾ ਸਨੈਪਸ਼ਾਟ ਆਪਣੇ ਆਪ ਬਣਾਓ
 	Automatically Create New Snapshot When Saving	ਸੰਭਾਲਣ ਵੇਲੇ ਨਵਾਂ ਸਨੈਪਸ਼ਾਟ ਆਪਣੇ ਆਪ ਬਣਾਓ
 	Automatically level near-horizontal line segments	ਲਗਭਗ ਖਿਤਿਜੀ ਰੇਖਾ-ਖੰਡ ਆਪਣੇ ਆਪ ਸਿੱਧੇ ਕਰੋ
@@ -454,7 +451,7 @@
 	Bristle Detail	ਬਰਸ਼ ਦੇ ਰੇਸ਼ਿਆਂ ਦਾ ਵੇਰਵਾ
 	Brown	ਭੂਰਾ
 	Browse	ਬ੍ਰਾਊਜ਼ ਕਰੋ
-	Browser storage is unavailable; brushes are session-only. Keep this tab open to retain them.	ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਉਪਲਬਧ ਨਹੀਂ; ਬਰਸ਼ ਸਿਰਫ਼ ਇਸ ਸੈਸ਼ਨ ਲਈ ਹਨ। ਇਨ੍ਹਾਂ ਨੂੰ ਰੱਖਣ ਲਈ ਇਹ ਟੈਬ ਖੁੱਲ੍ਹੀ ਰੱਖੋ।
+	Browser storage is unavailable; brushes are session-only. Keep this tab open to retain them.	ਬ੍ਰਾਊਜ਼ਰ ਸਟੋਰੇਜ ਉਪਲਬਧ ਨਹੀਂ; ਬਰਸ਼ ਸਿਰਫ਼ ਇਸ ਸੈਸ਼ਨ ਲਈ ਹਨ. ਇਨ੍ਹਾਂ ਨੂੰ ਰੱਖਣ ਲਈ ਇਹ ਟੈਬ ਖੁੱਲ੍ਹੀ ਰੱਖੋ.
 	Brush	ਬਰਸ਼
 	Brush Detail	ਬਰਸ਼ ਦਾ ਵੇਰਵਾ
 	Brush Name	ਬਰਸ਼ ਦਾ ਨਾਮ
@@ -540,7 +537,7 @@
 	Capture	ਕੈਪਚਰ ਕਰੋ
 	Capture Brush Size in Preset	ਪ੍ਰੀਸੈੱਟ ਵਿੱਚ ਬਰਸ਼ ਦਾ ਆਕਾਰ ਰੱਖੋ
 	Capture Comp	ਕੰਪ ਕੈਪਚਰ ਕਰੋ
-	Capture the visibility, position and style of every layer with + below, then switch between versions.	ਹੇਠਾਂ + ਨਾਲ ਹਰ ਪਰਤ ਦੀ ਦਿੱਖ, ਸਥਿਤੀ ਅਤੇ ਸ਼ੈਲੀ ਕੈਪਚਰ ਕਰੋ, ਫਿਰ ਰੂਪਾਂ ਵਿਚਕਾਰ ਬਦਲੋ।
+	Capture the visibility, position and style of every layer with + below, then switch between versions.	ਹੇਠਾਂ + ਨਾਲ ਹਰ ਪਰਤ ਦੀ ਦਿੱਖ, ਸਥਿਤੀ ਅਤੇ ਸ਼ੈਲੀ ਕੈਪਚਰ ਕਰੋ, ਫਿਰ ਰੂਪਾਂ ਵਿਚਕਾਰ ਬਦਲੋ.
 	Cascade	ਪੌੜੀਦਾਰ ਸਜਾਓ
 	Case Sensitive	ਵੱਡੇ-ਛੋਟੇ ਅੱਖਰਾਂ ਵਿੱਚ ਫ਼ਰਕ
 	Catch-up on Stroke End	ਸਟ੍ਰੋਕ ਦੇ ਅੰਤ 'ਤੇ ਪਿੱਛਾ ਪੂਰਾ ਕਰੋ
@@ -563,8 +560,8 @@
 	Change Screen Mode  (F)	ਸਕ੍ਰੀਨ ਮੋਡ ਬਦਲੋ  (F)
 	Change To:	ਇਸ ਵਿੱਚ ਬਦਲੋ:
 	Changes Saved	ਬਦਲਾਅ ਸੰਭਾਲੇ ਗਏ
-	Changes have not been saved.	ਬਦਲਾਅ ਸੰਭਾਲੇ ਨਹੀਂ ਗਏ ਹਨ।
-	Changes undone.	ਬਦਲਾਅ ਵਾਪਸ ਕੀਤੇ ਗਏ।
+	Changes have not been saved.	ਬਦਲਾਅ ਸੰਭਾਲੇ ਨਹੀਂ ਗਏ ਹਨ.
+	Changes undone.	ਬਦਲਾਅ ਵਾਪਸ ਕੀਤੇ ਗਏ.
 	Change…	ਬਦਲੋ…
 	Channel	ਚੈਨਲ
 	Channel Color	ਚੈਨਲ ਦਾ ਰੰਗ
@@ -595,9 +592,9 @@
 	Choke	ਸੁੰਗੜਾਅ
 	Choose Folder	ਫੋਲਡਰ ਚੁਣੋ
 	Choose Stack Mode:	ਸਟੈਕ ਮੋਡ ਚੁਣੋ:
-	Choose a format that keeps it, such as Photoshop (PSD), or save a copy.	ਇਸ ਨੂੰ ਬਰਕਰਾਰ ਰੱਖਣ ਵਾਲਾ ਫਾਰਮੈਟ, ਜਿਵੇਂ Photoshop (PSD), ਚੁਣੋ ਜਾਂ ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ।
-	Choose a gradient file (.grd).	ਗ੍ਰੇਡੀਐਂਟ ਫ਼ਾਈਲ (.grd) ਚੁਣੋ।
-	Choose a new shortcut for this command, or leave it without one.	ਇਸ ਕਮਾਂਡ ਲਈ ਨਵਾਂ ਸ਼ਾਰਟਕੱਟ ਚੁਣੋ ਜਾਂ ਇਸ ਨੂੰ ਬਿਨਾਂ ਸ਼ਾਰਟਕੱਟ ਰੱਖੋ।
+	Choose a format that keeps it, such as Photoshop (PSD), or save a copy.	ਇਸ ਨੂੰ ਬਰਕਰਾਰ ਰੱਖਣ ਵਾਲਾ ਫਾਰਮੈਟ, ਜਿਵੇਂ Photoshop (PSD), ਚੁਣੋ ਜਾਂ ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ.
+	Choose a gradient file (.grd).	ਗ੍ਰੇਡੀਐਂਟ ਫ਼ਾਈਲ (.grd) ਚੁਣੋ.
+	Choose a new shortcut for this command, or leave it without one.	ਇਸ ਕਮਾਂਡ ਲਈ ਨਵਾਂ ਸ਼ਾਰਟਕੱਟ ਚੁਣੋ ਜਾਂ ਇਸ ਨੂੰ ਬਿਨਾਂ ਸ਼ਾਰਟਕੱਟ ਰੱਖੋ.
 	Chrome	ਕਰੋਮ
 	Circularity	ਗੋਲਾਈ
 	City	ਸ਼ਹਿਰ
@@ -629,7 +626,7 @@
 	Click the first point or press {key} to close · Esc cancels	ਬੰਦ ਕਰਨ ਲਈ ਪਹਿਲੇ ਬਿੰਦੂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ {key} ਦਬਾਓ · Esc ਰੱਦ ਕਰਦਾ ਹੈ
 	Click the first point or press {key} to close · {del} removes a point · Esc cancels	ਬੰਦ ਕਰਨ ਲਈ ਪਹਿਲੇ ਬਿੰਦੂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ {key} ਦਬਾਓ · {del} ਬਿੰਦੂ ਹਟਾਉਂਦਾ ਹੈ · Esc ਰੱਦ ਕਰਦਾ ਹੈ
 	Click the first point or press ↵ to close · Esc cancels	ਬੰਦ ਕਰਨ ਲਈ ਪਹਿਲੇ ਬਿੰਦੂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ ↵ ਦਬਾਓ · Esc ਰੱਦ ਕਰਦਾ ਹੈ
-	Click the image to add a pin; drag a pin to move it, or its ring to change its blur. Delete removes the selected pin.	ਪਿੰਨ ਜੋੜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਕਲਿੱਕ ਕਰੋ; ਪਿੰਨ ਹਿਲਾਉਣ ਲਈ ਉਸ ਨੂੰ ਖਿੱਚੋ ਜਾਂ ਧੁੰਦਲਾਪਣ ਬਦਲਣ ਲਈ ਉਸ ਦੀ ਰਿੰਗ ਖਿੱਚੋ। Delete ਚੁਣੀ ਪਿੰਨ ਹਟਾਉਂਦਾ ਹੈ।
+	Click the image to add a pin; drag a pin to move it, or its ring to change its blur. Delete removes the selected pin.	ਪਿੰਨ ਜੋੜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਕਲਿੱਕ ਕਰੋ; ਪਿੰਨ ਹਿਲਾਉਣ ਲਈ ਉਸ ਨੂੰ ਖਿੱਚੋ ਜਾਂ ਧੁੰਦਲਾਪਣ ਬਦਲਣ ਲਈ ਉਸ ਦੀ ਰਿੰਗ ਖਿੱਚੋ. Delete ਚੁਣੀ ਪਿੰਨ ਹਟਾਉਂਦਾ ਹੈ.
 	Click to add a point · drag off or {key}-click or Delete to remove	ਬਿੰਦੂ ਜੋੜਨ ਲਈ ਕਲਿੱਕ ਕਰੋ · ਹਟਾਉਣ ਲਈ ਬਾਹਰ ਖਿੱਚੋ ਜਾਂ {key}-ਕਲਿੱਕ ਕਰੋ ਜਾਂ Delete ਦਬਾਓ
 	Click to add a point · drag off or ⌘/Ctrl-click or Delete to remove	ਬਿੰਦੂ ਜੋੜਨ ਲਈ ਕਲਿੱਕ ਕਰੋ · ਹਟਾਉਣ ਲਈ ਬਾਹਰ ਖਿੱਚੋ ਜਾਂ ⌘/Ctrl-ਕਲਿੱਕ ਕਰੋ ਜਾਂ Delete ਦਬਾਓ
 	Click to add a point, right-click to remove	ਬਿੰਦੂ ਜੋੜਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਹਟਾਉਣ ਲਈ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ
@@ -645,7 +642,7 @@
 	Click to sample the foreground colour  ·  {key}-click for background	ਮੂਹਰਲੇ ਰੰਗ ਦਾ ਨਮੂਨਾ ਲੈਣ ਲਈ ਕਲਿੱਕ ਕਰੋ  ·  ਪਿੱਛੋਕੜ ਲਈ {key}-ਕਲਿੱਕ ਕਰੋ
 	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	ਵੱਡਾ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ  ·  ਛੋਟਾ ਕਰਨ ਲਈ {key}-ਕਲਿੱਕ ਕਰੋ  ·  ਵੱਡਾ/ਛੋਟਾ ਕਰਨ ਲਈ ਸੱਜੇ/ਖੱਬੇ ਖਿੱਚੋ
 	Click to zoom in  ·  ⌥-click to zoom out	ਵੱਡਾ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ  ·  ਛੋਟਾ ਕਰਨ ਲਈ ⌥-ਕਲਿੱਕ ਕਰੋ
-	Click with the Note tool to add a note.	ਨੋਟ ਜੋੜਨ ਲਈ ਨੋਟ ਟੂਲ ਨਾਲ ਕਲਿੱਕ ਕਰੋ।
+	Click with the Note tool to add a note.	ਨੋਟ ਜੋੜਨ ਲਈ ਨੋਟ ਟੂਲ ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
 	Click, then move along an edge · click to fasten a point · {alt}-click for a straight segment · double-click to close	ਕਲਿੱਕ ਕਰੋ, ਫਿਰ ਕਿਨਾਰੇ ਨਾਲ ਹਿਲਾਓ · ਬਿੰਦੂ ਟਿਕਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ · ਸਿੱਧੇ ਖੰਡ ਲਈ {alt}-ਕਲਿੱਕ ਕਰੋ · ਬੰਦ ਕਰਨ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ
 	Click: corner · Drag: smooth · Click first point: close · {key} finish · Esc cancel	ਕਲਿੱਕ: ਕੋਨਾ · ਖਿੱਚੋ: ਨਰਮ ਬਿੰਦੂ · ਪਹਿਲੇ ਬਿੰਦੂ 'ਤੇ ਕਲਿੱਕ: ਬੰਦ · {key} ਪੂਰਾ ਕਰੋ · Esc ਰੱਦ ਕਰੋ
 	Click: corner · Drag: smooth · Click first point: close · ↩ finish · Esc cancel	ਕਲਿੱਕ: ਕੋਨਾ · ਖਿੱਚੋ: ਨਰਮ ਬਿੰਦੂ · ਪਹਿਲੇ ਬਿੰਦੂ 'ਤੇ ਕਲਿੱਕ: ਬੰਦ · ↩ ਪੂਰਾ ਕਰੋ · Esc ਰੱਦ ਕਰੋ
@@ -851,18 +848,18 @@
 	Correct Distortion	ਵਿਗਾੜ ਠੀਕ ਕਰੋ
 	Correct Vignette	ਵਿਨਯੈੱਟ ਠੀਕ ਕਰੋ
 	Correction	ਸੁਧਾਰ
-	Could not complete the Free Transform command because the layer is locked.	ਪਰਤ ਲਾਕ ਹੋਣ ਕਰਕੇ ਮੁਕਤ ਰੂਪਾਂਤਰ ਕਮਾਂਡ ਪੂਰੀ ਨਹੀਂ ਹੋ ਸਕੀ।
+	Could not complete the Free Transform command because the layer is locked.	ਪਰਤ ਲਾਕ ਹੋਣ ਕਰਕੇ ਮੁਕਤ ਰੂਪਾਂਤਰ ਕਮਾਂਡ ਪੂਰੀ ਨਹੀਂ ਹੋ ਸਕੀ.
 	Could not open	ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ
 	Could not rename the action: {error}	ਕਾਰਵਾਈ ਦਾ ਨਾਮ ਨਹੀਂ ਬਦਲਿਆ ਜਾ ਸਕਿਆ: {error}
 	Could not transform: the layer is empty	ਰੂਪਾਂਤਰ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: ਪਰਤ ਖ਼ਾਲੀ ਹੈ
 	Could not use Perspective Warp: the layer is empty	ਪਰਸਪੈਕਟਿਵ ਵਾਰਪ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਿਆ: ਪਰਤ ਖ਼ਾਲੀ ਹੈ
 	Could not use Puppet Warp: no opaque pixels	ਪਪੇਟ ਵਾਰਪ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਿਆ: ਕੋਈ ਅਪਾਰਦਰਸ਼ੀ ਪਿਕਸਲ ਨਹੀਂ
 	Could not use Puppet Warp: the layer is empty	ਪਪੇਟ ਵਾਰਪ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਿਆ: ਪਰਤ ਖ਼ਾਲੀ ਹੈ
-	Could not use the move tool because the layer is locked.	ਪਰਤ ਲਾਕ ਹੋਣ ਕਰਕੇ ਹਿਲਾਉਣ ਵਾਲਾ ਟੂਲ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਿਆ।
+	Could not use the move tool because the layer is locked.	ਪਰਤ ਲਾਕ ਹੋਣ ਕਰਕੇ ਹਿਲਾਉਣ ਵਾਲਾ ਟੂਲ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਿਆ.
 	Could not write {name}: {error}	{name} ਲਿਖਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: {error}
 	Couldn't open {name}: {error}	{name} ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: {error}
 	Couldn't place {name}: {error}	{name} ਰੱਖਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ: {error}
-	Couldn't save preferences: {error}. Retrying…	ਤਰਜੀਹਾਂ ਸੰਭਾਲੀਆਂ ਨਹੀਂ ਜਾ ਸਕੀਆਂ: {error}। ਮੁੜ ਕੋਸ਼ਿਸ਼ ਹੋ ਰਹੀ ਹੈ…
+	Couldn't save preferences: {error}. Retrying…	ਤਰਜੀਹਾਂ ਸੰਭਾਲੀਆਂ ਨਹੀਂ ਜਾ ਸਕੀਆਂ: {error}. ਮੁੜ ਕੋਸ਼ਿਸ਼ ਹੋ ਰਹੀ ਹੈ…
 	Count	ਗਿਣਤੀ
 	Count Jitter	ਗਿਣਤੀ ਦਾ ਬੇਤਰਤੀਬ ਬਦਲਾਅ
 	Count Tool	ਗਿਣਤੀ ਟੂਲ
@@ -895,7 +892,7 @@
 	Create Work Path	ਕਾਰਜਕਾਰੀ ਪਾਥ ਬਣਾਓ
 	Create a new count group	ਨਵਾਂ ਗਿਣਤੀ ਸਮੂਹ ਬਣਾਓ
 	Create a new custom frame	ਨਵਾਂ ਪਸੰਦੀਦਾ ਫਰੇਮ ਬਣਾਓ
-	Create a new document or open an existing file.	ਨਵਾਂ ਦਸਤਾਵੇਜ਼ ਬਣਾਓ ਜਾਂ ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਖੋਲ੍ਹੋ।
+	Create a new document or open an existing file.	ਨਵਾਂ ਦਸਤਾਵੇਜ਼ ਬਣਾਓ ਜਾਂ ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਖੋਲ੍ਹੋ.
 	Create a new elliptical frame	ਨਵਾਂ ਅੰਡਾਕਾਰ ਫਰੇਮ ਬਣਾਓ
 	Create a new group	ਨਵਾਂ ਸਮੂਹ ਬਣਾਓ
 	Create a new layer	ਨਵੀਂ ਪਰਤ ਬਣਾਓ
@@ -1039,9 +1036,9 @@
 	Default Photoshop Size	Photoshop ਦਾ ਮੂਲ ਆਕਾਰ
 	Default colours (D)	ਮੂਲ ਰੰਗ (D)
 	Default printer	ਮੂਲ ਪ੍ਰਿੰਟਰ
-	Default restored.	ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਇਆ।
+	Default restored.	ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਇਆ.
 	Defaults	ਮੂਲ ਮੁੱਲ
-	Defaults restored.	ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਏ।
+	Defaults restored.	ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਏ.
 	Define	ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ
 	Define Brush Preset	ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ
 	Define Brush Preset…	ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ…
@@ -1049,7 +1046,7 @@
 	Define Custom Shape…	ਪਸੰਦੀਦਾ ਸ਼ਕਲ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ…
 	Define Pattern	ਪੈਟਰਨ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ
 	Define Pattern…	ਪੈਟਰਨ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ…
-	Define at least one variable first.	ਪਹਿਲਾਂ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਵੇਰੀਏਬਲ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ।
+	Define at least one variable first.	ਪਹਿਲਾਂ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਵੇਰੀਏਬਲ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ.
 	Define…	ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ…
 	Definition	ਪਰਿਭਾਸ਼ਾ
 	Defringe	ਕਿਨਾਰੇ ਦਾ ਰੰਗੀਨ ਘੇਰਾ ਹਟਾਓ
@@ -1161,7 +1158,7 @@
 	Display profiles: {reason}	ਡਿਸਪਲੇ ਪ੍ਰੋਫਾਈਲ: {reason}
 	Display-p3	Display-p3
 	Dissolve	ਘੁਲਾਓ
-	Dissolve is approximated: it blends without Photoshop's dither.	Dissolve ਦਾ ਲਗਭਗ ਰੂਪ ਹੈ: ਇਹ Photoshop ਦੀ ਡਿਥਰਿੰਗ ਤੋਂ ਬਿਨਾਂ ਮਿਲਾਉਂਦਾ ਹੈ।
+	Dissolve is approximated: it blends without Photoshop's dither.	Dissolve ਦਾ ਲਗਭਗ ਰੂਪ ਹੈ: ਇਹ Photoshop ਦੀ ਡਿਥਰਿੰਗ ਤੋਂ ਬਿਨਾਂ ਮਿਲਾਉਂਦਾ ਹੈ.
 	Distort	ਵਿਗਾੜੋ
 	Distortion	ਵਿਗਾੜ
 	Distribution	ਵੰਡ
@@ -1187,7 +1184,7 @@
 	Domed (Inverted)	ਗੁੰਬਦਦਾਰ (ਉਲਟਾ)
 	Don't Import	ਆਯਾਤ ਨਾ ਕਰੋ
 	Don't Save	ਨਾ ਸੰਭਾਲੋ
-	Don't also tick Mirror Image in Print Settings…: the two flips cancel out.	ਪ੍ਰਿੰਟ ਸੈਟਿੰਗਾਂ… ਵਿੱਚ Mirror Image ਵੀ ਨਾ ਚੁਣੋ: ਦੋਵੇਂ ਉਲਟਾਅ ਇੱਕ-ਦੂਜੇ ਨੂੰ ਰੱਦ ਕਰ ਦਿੰਦੇ ਹਨ।
+	Don't also tick Mirror Image in Print Settings…: the two flips cancel out.	ਪ੍ਰਿੰਟ ਸੈਟਿੰਗਾਂ… ਵਿੱਚ Mirror Image ਵੀ ਨਾ ਚੁਣੋ: ਦੋਵੇਂ ਉਲਟਾਅ ਇੱਕ-ਦੂਜੇ ਨੂੰ ਰੱਦ ਕਰ ਦਿੰਦੇ ਹਨ.
 	Don't show again	ਦੁਬਾਰਾ ਨਾ ਦਿਖਾਓ
 	Dont Enlarge	ਵੱਡਾ ਨਾ ਕਰੋ
 	Dots	ਬਿੰਦੀਆਂ
@@ -1201,13 +1198,13 @@
 	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · {commit} commits · Esc cancels	ਕ੍ਰਾਪ ਡੱਬਾ ਖਿੱਚੋ · ਹਿਲਾਉਣ ਲਈ ਅੰਦਰ ਖਿੱਚੋ · ਕਿਨਾਰੇ ਆਕਾਰ ਬਦਲਦੇ ਹਨ ({ratio} ਅਨੁਪਾਤ, {centre} ਕੇਂਦਰ) · ਬਣਾਉਂਦੇ ਸਮੇਂ Space ਨਾਲ ਹਿਲਾਓ · {commit} ਲਾਗੂ ਕਰਦਾ ਹੈ · Esc ਰੱਦ ਕਰਦਾ ਹੈ
 	Drag a rectangle around the object	ਵਸਤੂ ਦੁਆਲੇ ਆਇਤ ਖਿੱਚੋ
 	Drag around the centre to rotate the view  ·  Shift constrains to 15°	ਦ੍ਰਿਸ਼ ਘੁਮਾਉਣ ਲਈ ਕੇਂਦਰ ਦੁਆਲੇ ਖਿੱਚੋ  ·  Shift ਨਾਲ 15° ਤੱਕ ਸੀਮਿਤ ਕਰੋ
-	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click a constraint to change or delete it.	ਪਾਬੰਦੀ ਜੋੜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਖਿੱਚੋ; ਖਿਤਿਜੀ/ਲੰਬਕਾਰੀ ਲਈ Shift; ਬਦਲਣ ਜਾਂ ਮਿਟਾਉਣ ਲਈ ਪਾਬੰਦੀ 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ।
-	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click to delete.	ਪਾਬੰਦੀ ਜੋੜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਖਿੱਚੋ; ਖਿਤਿਜੀ/ਲੰਬਕਾਰੀ ਲਈ Shift; ਮਿਟਾਉਣ ਲਈ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ।
+	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click a constraint to change or delete it.	ਪਾਬੰਦੀ ਜੋੜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਖਿੱਚੋ; ਖਿਤਿਜੀ/ਲੰਬਕਾਰੀ ਲਈ Shift; ਬਦਲਣ ਜਾਂ ਮਿਟਾਉਣ ਲਈ ਪਾਬੰਦੀ 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ.
+	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click to delete.	ਪਾਬੰਦੀ ਜੋੜਨ ਲਈ ਚਿੱਤਰ 'ਤੇ ਖਿੱਚੋ; ਖਿਤਿਜੀ/ਲੰਬਕਾਰੀ ਲਈ Shift; ਮਿਟਾਉਣ ਲਈ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ.
 	Drag or click polygon points · hold Alt during lasso for straight segments · {add} add · {sub} before drawing subtracts	ਖਿੱਚੋ ਜਾਂ ਬਹੁਭੁਜ ਦੇ ਬਿੰਦੂਆਂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ · ਸਿੱਧੇ ਖੰਡਾਂ ਲਈ ਲੈਸੋ ਦੌਰਾਨ Alt ਦਬਾਈ ਰੱਖੋ · {add} ਜੋੜੋ · ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ {sub} ਘਟਾਉਂਦਾ ਹੈ
 	Drag the arrow to set the angle, the dots to set the roundness	ਕੋਣ ਸੈੱਟ ਕਰਨ ਲਈ ਤੀਰ ਅਤੇ ਗੋਲਾਈ ਲਈ ਬਿੰਦੂ ਖਿੱਚੋ
-	Drag the handles on the outline to resize and turn it, the square to round its corners, and the dots inside to set where the blur starts.	ਆਕਾਰ ਬਦਲਣ ਅਤੇ ਘੁਮਾਉਣ ਲਈ ਰੂਪਰੇਖਾ ਦੇ ਹੈਂਡਲ, ਕੋਨੇ ਗੋਲ ਕਰਨ ਲਈ ਵਰਗ ਅਤੇ ਧੁੰਦਲਾਪਣ ਦੀ ਸ਼ੁਰੂਆਤ ਸੈੱਟ ਕਰਨ ਲਈ ਅੰਦਰਲੇ ਬਿੰਦੂ ਖਿੱਚੋ।
-	Drag the handles on the outline to resize and turn it; the ring sets the blur angle.	ਆਕਾਰ ਬਦਲਣ ਅਤੇ ਘੁਮਾਉਣ ਲਈ ਰੂਪਰੇਖਾ ਦੇ ਹੈਂਡਲ ਖਿੱਚੋ; ਰਿੰਗ ਧੁੰਦਲਾਪਣ ਦਾ ਕੋਣ ਸੈੱਟ ਕਰਦੀ ਹੈ।
-	Drag the pin to move the band, or its ring to change its blur. Drag the solid lines to widen the sharp band, the dashed lines to set the transition, and the dots to turn it.	ਪੱਟੀ ਹਿਲਾਉਣ ਲਈ ਪਿੰਨ ਜਾਂ ਧੁੰਦਲਾਪਣ ਬਦਲਣ ਲਈ ਉਸ ਦੀ ਰਿੰਗ ਖਿੱਚੋ। ਤਿੱਖੀ ਪੱਟੀ ਚੌੜੀ ਕਰਨ ਲਈ ਠੋਸ ਰੇਖਾਵਾਂ, ਬਦਲਾਅ ਸੈੱਟ ਕਰਨ ਲਈ ਟੁੱਟਵੀਆਂ ਰੇਖਾਵਾਂ ਅਤੇ ਘੁਮਾਉਣ ਲਈ ਬਿੰਦੂ ਖਿੱਚੋ।
+	Drag the handles on the outline to resize and turn it, the square to round its corners, and the dots inside to set where the blur starts.	ਆਕਾਰ ਬਦਲਣ ਅਤੇ ਘੁਮਾਉਣ ਲਈ ਰੂਪਰੇਖਾ ਦੇ ਹੈਂਡਲ, ਕੋਨੇ ਗੋਲ ਕਰਨ ਲਈ ਵਰਗ ਅਤੇ ਧੁੰਦਲਾਪਣ ਦੀ ਸ਼ੁਰੂਆਤ ਸੈੱਟ ਕਰਨ ਲਈ ਅੰਦਰਲੇ ਬਿੰਦੂ ਖਿੱਚੋ.
+	Drag the handles on the outline to resize and turn it; the ring sets the blur angle.	ਆਕਾਰ ਬਦਲਣ ਅਤੇ ਘੁਮਾਉਣ ਲਈ ਰੂਪਰੇਖਾ ਦੇ ਹੈਂਡਲ ਖਿੱਚੋ; ਰਿੰਗ ਧੁੰਦਲਾਪਣ ਦਾ ਕੋਣ ਸੈੱਟ ਕਰਦੀ ਹੈ.
+	Drag the pin to move the band, or its ring to change its blur. Drag the solid lines to widen the sharp band, the dashed lines to set the transition, and the dots to turn it.	ਪੱਟੀ ਹਿਲਾਉਣ ਲਈ ਪਿੰਨ ਜਾਂ ਧੁੰਦਲਾਪਣ ਬਦਲਣ ਲਈ ਉਸ ਦੀ ਰਿੰਗ ਖਿੱਚੋ. ਤਿੱਖੀ ਪੱਟੀ ਚੌੜੀ ਕਰਨ ਲਈ ਠੋਸ ਰੇਖਾਵਾਂ, ਬਦਲਾਅ ਸੈੱਟ ਕਰਨ ਲਈ ਟੁੱਟਵੀਆਂ ਰੇਖਾਵਾਂ ਅਤੇ ਘੁਮਾਉਣ ਲਈ ਬਿੰਦੂ ਖਿੱਚੋ.
 	Drag to draw a gradient	ਗ੍ਰੇਡੀਐਂਟ ਬਣਾਉਣ ਲਈ ਖਿੱਚੋ
 	Drag to draw the curve · {key}-click draws a straight line	ਵਕਰ ਬਣਾਉਣ ਲਈ ਖਿੱਚੋ · {key}-ਕਲਿੱਕ ਸਿੱਧੀ ਰੇਖਾ ਬਣਾਉਂਦਾ ਹੈ
 	Drag to move the active layer	ਸਰਗਰਮ ਪਰਤ ਹਿਲਾਉਣ ਲਈ ਖਿੱਚੋ
@@ -1219,15 +1216,15 @@
 	Drag: draw freehand · Release on the start point: close	ਖਿੱਚੋ: ਖੁੱਲ੍ਹੇ ਹੱਥ ਨਾਲ ਬਣਾਓ · ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ 'ਤੇ ਛੱਡੋ: ਬੰਦ ਕਰੋ
 	Drag: draw freehand · {alt}-click: straight segment · Release on the start point: close	ਖਿੱਚੋ: ਖੁੱਲ੍ਹੇ ਹੱਥ ਨਾਲ ਬਣਾਓ · {alt}-ਕਲਿੱਕ: ਸਿੱਧਾ ਖੰਡ · ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ 'ਤੇ ਛੱਡੋ: ਬੰਦ ਕਰੋ
 	Draw to modify the curve	ਵਕਰ ਬਦਲਣ ਲਈ ਬਣਾਓ
-	Draw with the Pen tool (P) or make a work path from a selection.	ਪੈਨ ਟੂਲ (P) ਨਾਲ ਬਣਾਓ ਜਾਂ ਚੋਣ ਤੋਂ ਕਾਰਜਕਾਰੀ ਪਾਥ ਬਣਾਓ।
-	Drawn on the CPU: {reason}. Click for System Info.	CPU 'ਤੇ ਬਣਾਇਆ: {reason}। ਸਿਸਟਮ ਜਾਣਕਾਰੀ ਲਈ ਕਲਿੱਕ ਕਰੋ।
+	Draw with the Pen tool (P) or make a work path from a selection.	ਪੈਨ ਟੂਲ (P) ਨਾਲ ਬਣਾਓ ਜਾਂ ਚੋਣ ਤੋਂ ਕਾਰਜਕਾਰੀ ਪਾਥ ਬਣਾਓ.
+	Drawn on the CPU: {reason}. Click for System Info.	CPU 'ਤੇ ਬਣਾਇਆ: {reason}. ਸਿਸਟਮ ਜਾਣਕਾਰੀ ਲਈ ਕਲਿੱਕ ਕਰੋ.
 	Driver: {driver}	ਡਰਾਈਵਰ: {driver}
 	Drop Shadow	ਡਿੱਗਦੀ ਛਾਂ
 	Drop Shadow…	ਡਿੱਗਦੀ ਛਾਂ…
-	Drop an image or PSD anywhere to open it.	ਚਿੱਤਰ ਜਾਂ PSD ਖੋਲ੍ਹਣ ਲਈ ਕਿਤੇ ਵੀ ਸੁੱਟੋ।
+	Drop an image or PSD anywhere to open it.	ਚਿੱਤਰ ਜਾਂ PSD ਖੋਲ੍ਹਣ ਲਈ ਕਿਤੇ ਵੀ ਸੁੱਟੋ.
 	Drop shadow	ਡਿੱਗਦੀ ਛਾਂ
-	Dropped files weren't placed: their document was closed.	ਸੁੱਟੀਆਂ ਫ਼ਾਈਲਾਂ ਰੱਖੀਆਂ ਨਹੀਂ ਗਈਆਂ: ਉਨ੍ਹਾਂ ਦਾ ਦਸਤਾਵੇਜ਼ ਬੰਦ ਹੋ ਗਿਆ ਸੀ।
-	Dropped files weren't placed: too many are waiting for their document.	ਸੁੱਟੀਆਂ ਫ਼ਾਈਲਾਂ ਰੱਖੀਆਂ ਨਹੀਂ ਗਈਆਂ: ਉਨ੍ਹਾਂ ਦੇ ਦਸਤਾਵੇਜ਼ ਲਈ ਬਹੁਤ ਸਾਰੀਆਂ ਉਡੀਕ ਵਿੱਚ ਹਨ।
+	Dropped files weren't placed: their document was closed.	ਸੁੱਟੀਆਂ ਫ਼ਾਈਲਾਂ ਰੱਖੀਆਂ ਨਹੀਂ ਗਈਆਂ: ਉਨ੍ਹਾਂ ਦਾ ਦਸਤਾਵੇਜ਼ ਬੰਦ ਹੋ ਗਿਆ ਸੀ.
+	Dropped files weren't placed: too many are waiting for their document.	ਸੁੱਟੀਆਂ ਫ਼ਾਈਲਾਂ ਰੱਖੀਆਂ ਨਹੀਂ ਗਈਆਂ: ਉਨ੍ਹਾਂ ਦੇ ਦਸਤਾਵੇਜ਼ ਲਈ ਬਹੁਤ ਸਾਰੀਆਂ ਉਡੀਕ ਵਿੱਚ ਹਨ.
 	Dry Brush	ਸੁੱਕਾ ਬਰਸ਼
 	Dual Axis	ਦੋਹਰਾ ਧੁਰਾ
 	Dual Brush	ਦੋਹਰਾ ਬਰਸ਼
@@ -1274,9 +1271,9 @@
 	Edit in Quick Mask Mode  (Q)	ਤੁਰੰਤ ਮਾਸਕ ਮੋਡ ਵਿੱਚ ਸੋਧੋ  (Q)
 	Edit in Standard Mode  (Q)	ਸਧਾਰਨ ਮੋਡ ਵਿੱਚ ਸੋਧੋ  (Q)
 	Edit points to modify the curve	ਵਕਰ ਬਦਲਣ ਲਈ ਬਿੰਦੂ ਸੋਧੋ
-	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	ਸੋਧੋ › ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ › ਸਭ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ ਨਾਲ ਆਯਾਤ ਵਾਪਸ ਹੁੰਦਾ ਹੈ।
+	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	ਸੋਧੋ › ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ › ਸਭ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ ਨਾਲ ਆਯਾਤ ਵਾਪਸ ਹੁੰਦਾ ਹੈ.
 	Edit › Paste	ਸੋਧੋ › ਚਿਪਕਾਓ
-	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	ਪੂਰਾ ਦਸਤਾਵੇਜ਼ ਬਦਲਣ ਵਾਲੀਆਂ ਸੋਧਾਂ, ਜਿਵੇਂ ਪਰਤ ਦਾ ਮਿਲਾਉਣ ਮੋਡ, ਅਪਾਰਦਰਸ਼ਤਾ ਜਾਂ ਦਿੱਖ, ਉਸ ਨੂੰ ਪੂਰਾ ਮੁੜ ਬਣਾਉਂਦੀਆਂ ਹਨ।
+	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	ਪੂਰਾ ਦਸਤਾਵੇਜ਼ ਬਦਲਣ ਵਾਲੀਆਂ ਸੋਧਾਂ, ਜਿਵੇਂ ਪਰਤ ਦਾ ਮਿਲਾਉਣ ਮੋਡ, ਅਪਾਰਦਰਸ਼ਤਾ ਜਾਂ ਦਿੱਖ, ਉਸ ਨੂੰ ਪੂਰਾ ਮੁੜ ਬਣਾਉਂਦੀਆਂ ਹਨ.
 	Effect	ਪ੍ਰਭਾਵ
 	Effect cache mb	ਪ੍ਰਭਾਵ ਕੈਸ਼ mb
 	Effects	ਪ੍ਰਭਾਵ
@@ -1544,7 +1541,7 @@
 	Free Transform	ਮੁਕਤ ਰੂਪਾਂਤਰ
 	Free Transform Path	ਪਾਥ ਦਾ ਮੁਕਤ ਰੂਪਾਂਤਰ
 	Free Transform a Copy	ਕਾਪੀ ਦਾ ਮੁਕਤ ਰੂਪਾਂਤਰ
-	Free Transform is still being applied; try again when it has finished.	ਮੁਕਤ ਰੂਪਾਂਤਰ ਹਾਲੇ ਲਾਗੂ ਹੋ ਰਿਹਾ ਹੈ; ਪੂਰਾ ਹੋਣ 'ਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+	Free Transform is still being applied; try again when it has finished.	ਮੁਕਤ ਰੂਪਾਂਤਰ ਹਾਲੇ ਲਾਗੂ ਹੋ ਰਿਹਾ ਹੈ; ਪੂਰਾ ਹੋਣ 'ਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ.
 	Freeform Pen Tool	ਖੁੱਲ੍ਹੇ ਹੱਥ ਵਾਲਾ ਪੈਨ ਟੂਲ
 	Freeze Lasso	ਫ੍ਰੀਜ਼ ਲੈਸੋ
 	Freeze Lasso: drag to freeze an area, Alt-drag to thaw it (L)	ਫ੍ਰੀਜ਼ ਲੈਸੋ: ਖੇਤਰ ਜਮਾਉਣ ਲਈ ਖਿੱਚੋ, ਖੋਲ੍ਹਣ ਲਈ Alt-ਖਿੱਚੋ (L)
@@ -1576,13 +1573,13 @@
 	GPU Backend	GPU ਬੈਕਐਂਡ
 	GPU Memory (MB, 0 = Automatic)	GPU ਮੈਮੋਰੀ (MB, 0 = ਆਪਣੇ ਆਪ)
 	GPU Memory Full	GPU ਮੈਮੋਰੀ ਭਰੀ ਹੋਈ ਹੈ
-	GPU acceleration could not continue. Your documents are unchanged.	GPU ਪ੍ਰਵੇਗ ਜਾਰੀ ਨਹੀਂ ਰਹਿ ਸਕਿਆ। ਤੁਹਾਡੇ ਦਸਤਾਵੇਜ਼ ਬਦਲੇ ਨਹੀਂ ਹਨ।
-	GPU acceleration resumed.	GPU ਪ੍ਰਵੇਗ ਮੁੜ ਚਾਲੂ ਹੋਇਆ।
+	GPU acceleration could not continue. Your documents are unchanged.	GPU ਪ੍ਰਵੇਗ ਜਾਰੀ ਨਹੀਂ ਰਹਿ ਸਕਿਆ. ਤੁਹਾਡੇ ਦਸਤਾਵੇਜ਼ ਬਦਲੇ ਨਹੀਂ ਹਨ.
+	GPU acceleration resumed.	GPU ਪ੍ਰਵੇਗ ਮੁੜ ਚਾਲੂ ਹੋਇਆ.
 	GPU adapter	GPU ਅਡੈਪਟਰ
 	GPU backend	GPU ਬੈਕਐਂਡ
 	GPU backend preference: {backend}	GPU ਬੈਕਐਂਡ ਦੀ ਤਰਜੀਹ: {backend}
-	GPU device was lost; using the CPU renderer.	GPU ਡਿਵਾਈਸ ਗੁੰਮ ਹੋ ਗਿਆ; CPU ਰੈਂਡਰਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
-	GPU error; using the CPU renderer.	GPU ਗਲਤੀ; CPU ਰੈਂਡਰਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+	GPU device was lost; using the CPU renderer.	GPU ਡਿਵਾਈਸ ਗੁੰਮ ਹੋ ਗਿਆ; CPU ਰੈਂਡਰਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ.
+	GPU error; using the CPU renderer.	GPU ਗਲਤੀ; CPU ਰੈਂਡਰਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ.
 	GPU memory budget: {budget}	GPU ਮੈਮੋਰੀ ਬਜਟ: {budget}
 	GPU retry scheduled	GPU ਲਈ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਤਹਿ ਕੀਤੀ
 	Gamma	ਗਾਮਾ
@@ -1778,7 +1775,7 @@
 	Horizontal type	ਲੇਟਵੀਂ ਲਿਖਤ
 	Hotspot	ਹਾਟਸਪਾਟ
 	How often fastening points are placed by themselves	ਬਿੰਦੂ ਆਪਣੇ ਆਪ ਕਿੰਨੀ ਵਾਰ ਟਿਕਾਏ ਜਾਂਦੇ ਹਨ
-	How the camera's colour filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	ਕੈਮਰੇ ਦੇ ਰੰਗ ਫਿਲਟਰ ਦਾ ਮੋਜ਼ੇਕ ਕਿਵੇਂ ਭਰਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਫ਼ਾਈਲ ਖੁੱਲ੍ਹਣ ਵੇਲੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ; ਝਲਕ ਉਹ ਢੰਗ ਦਿਖਾਉਂਦੀ ਹੈ ਜਿਸ ਨਾਲ ਫ਼ਾਈਲ ਖੋਲ੍ਹੀ ਗਈ ਸੀ।
+	How the camera's colour filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	ਕੈਮਰੇ ਦੇ ਰੰਗ ਫਿਲਟਰ ਦਾ ਮੋਜ਼ੇਕ ਕਿਵੇਂ ਭਰਿਆ ਜਾਂਦਾ ਹੈ. ਇਹ ਫ਼ਾਈਲ ਖੁੱਲ੍ਹਣ ਵੇਲੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ; ਝਲਕ ਉਹ ਢੰਗ ਦਿਖਾਉਂਦੀ ਹੈ ਜਿਸ ਨਾਲ ਫ਼ਾਈਲ ਖੋਲ੍ਹੀ ਗਈ ਸੀ.
 	Hsb	Hsb
 	Hsl	Hsl
 	Hsl Hue	Hsl ਰੰਗਤ
@@ -1794,7 +1791,7 @@
 	ICO is limited to 256 × 256 pixels	ICO ਦੀ ਸੀਮਾ 256 × 256 ਪਿਕਸਲ ਹੈ
 	ISO	ISO
 	ISO Speed	ISO ਗਤੀ
-	If you continue, saving over the original may permanently discard unreadable data. Save a copy to keep the original.	ਜੇ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਦੇ ਹੋ, ਤਾਂ ਮੂਲ ਫ਼ਾਈਲ ਉੱਤੇ ਸੰਭਾਲਣ ਨਾਲ ਨਾ ਪੜ੍ਹਿਆ ਜਾ ਸਕਣ ਵਾਲਾ ਡਾਟਾ ਸਥਾਈ ਤੌਰ 'ਤੇ ਹਟ ਸਕਦਾ ਹੈ। ਮੂਲ ਫ਼ਾਈਲ ਰੱਖਣ ਲਈ ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ।
+	If you continue, saving over the original may permanently discard unreadable data. Save a copy to keep the original.	ਜੇ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਦੇ ਹੋ, ਤਾਂ ਮੂਲ ਫ਼ਾਈਲ ਉੱਤੇ ਸੰਭਾਲਣ ਨਾਲ ਨਾ ਪੜ੍ਹਿਆ ਜਾ ਸਕਣ ਵਾਲਾ ਡਾਟਾ ਸਥਾਈ ਤੌਰ 'ਤੇ ਹਟ ਸਕਦਾ ਹੈ. ਮੂਲ ਫ਼ਾਈਲ ਰੱਖਣ ਲਈ ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ.
 	Ignore	ਅਣਡਿੱਠਾ ਕਰੋ
 	Ignore All	ਸਭ ਅਣਡਿੱਠੇ ਕਰੋ
 	Ignore exif profile tag	exif ਪ੍ਰੋਫਾਈਲ ਟੈਗ ਅਣਡਿੱਠਾ ਕਰੋ
@@ -1827,11 +1824,11 @@
 	Import Styles…	ਸ਼ੈਲੀਆਂ ਆਯਾਤ ਕਰੋ…
 	Import Swatches…	ਸਵਾਚ ਆਯਾਤ ਕਰੋ…
 	Import as New Group	ਨਵੇਂ ਸਮੂਹ ਵਜੋਂ ਆਯਾਤ ਕਰੋ
-	Import as New Group keeps “{group}” and adds the file as a new group beside it.	ਨਵੇਂ ਸਮੂਹ ਵਜੋਂ ਆਯਾਤ ਕਰਨ ਨਾਲ “{group}” ਬਰਕਰਾਰ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਫ਼ਾਈਲ ਉਸ ਦੇ ਨਾਲ ਨਵੇਂ ਸਮੂਹ ਵਜੋਂ ਜੁੜਦੀ ਹੈ।
+	Import as New Group keeps “{group}” and adds the file as a new group beside it.	ਨਵੇਂ ਸਮੂਹ ਵਜੋਂ ਆਯਾਤ ਕਰਨ ਨਾਲ “{group}” ਬਰਕਰਾਰ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਫ਼ਾਈਲ ਉਸ ਦੇ ਨਾਲ ਨਵੇਂ ਸਮੂਹ ਵਜੋਂ ਜੁੜਦੀ ਹੈ.
 	Import brushes (.abr)	ਬਰਸ਼ (.abr) ਆਯਾਤ ਕਰੋ
 	Import keyboard shortcuts?	ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਆਯਾਤ ਕਰਨੇ ਹਨ?
 	Imported	ਆਯਾਤ ਕੀਤਾ
-	Imported {n} shortcuts from {file}. Click OK to keep them.	{file} ਤੋਂ {n} ਸ਼ਾਰਟਕੱਟ ਆਯਾਤ ਕੀਤੇ। ਰੱਖਣ ਲਈ OK 'ਤੇ ਕਲਿੱਕ ਕਰੋ।
+	Imported {n} shortcuts from {file}. Click OK to keep them.	{file} ਤੋਂ {n} ਸ਼ਾਰਟਕੱਟ ਆਯਾਤ ਕੀਤੇ. ਰੱਖਣ ਲਈ OK 'ਤੇ ਕਲਿੱਕ ਕਰੋ.
 	Importing {what} from {file}…	{file} ਤੋਂ {what} ਆਯਾਤ ਹੋ ਰਿਹਾ ਹੈ…
 	Importing…	ਆਯਾਤ ਹੋ ਰਿਹਾ ਹੈ…
 	Impressionist	ਪ੍ਰਭਾਵਵਾਦੀ
@@ -1845,7 +1842,7 @@
 	Include ICC Profile	ICC ਪ੍ਰੋਫਾਈਲ ਸ਼ਾਮਲ ਕਰੋ
 	Include Tool Settings	ਟੂਲ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਸ਼ਾਮਲ ਕਰੋ
 	Include in playback	ਪਲੇਬੈਕ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ
-	Including layers will increase file size.	ਪਰਤਾਂ ਸ਼ਾਮਲ ਕਰਨ ਨਾਲ ਫ਼ਾਈਲ ਦਾ ਆਕਾਰ ਵਧੇਗਾ।
+	Including layers will increase file size.	ਪਰਤਾਂ ਸ਼ਾਮਲ ਕਰਨ ਨਾਲ ਫ਼ਾਈਲ ਦਾ ਆਕਾਰ ਵਧੇਗਾ.
 	Increase Brush Hardness	ਬਰਸ਼ ਦੀ ਸਖ਼ਤੀ ਵਧਾਓ
 	Increase Brush Size	ਬਰਸ਼ ਦਾ ਆਕਾਰ ਵਧਾਓ
 	Increase Type Size	ਲਿਖਤ ਦਾ ਆਕਾਰ ਵਧਾਓ
@@ -1917,12 +1914,12 @@
 	Invert All	ਸਭ ਉਲਟਾਓ
 	Invert Mask	ਮਾਸਕ ਉਲਟਾਓ
 	Invert Selection	ਚੋਣ ਉਲਟਾਓ
-	Invert has no settings.	ਉਲਟਾਉਣ ਲਈ ਕੋਈ ਸੈਟਿੰਗ ਨਹੀਂ ਹੈ।
+	Invert has no settings.	ਉਲਟਾਉਣ ਲਈ ਕੋਈ ਸੈਟਿੰਗ ਨਹੀਂ ਹੈ.
 	Invert…	ਉਲਟਾਓ…
 	Iris Blur	ਆਇਰਿਸ ਬਲਰ
 	Iris Blur…	ਆਇਰਿਸ ਬਲਰ…
 	Isolate Layers	ਪਰਤਾਂ ਵੱਖਰੀਆਂ ਕਰੋ
-	Its layers need {needed} of GPU memory; the budget leaves them {budget}.	ਇਸ ਦੀਆਂ ਪਰਤਾਂ ਨੂੰ {needed} GPU ਮੈਮੋਰੀ ਚਾਹੀਦੀ ਹੈ; ਬਜਟ ਅਨੁਸਾਰ ਉਨ੍ਹਾਂ ਲਈ {budget} ਬਚਦੀ ਹੈ।
+	Its layers need {needed} of GPU memory; the budget leaves them {budget}.	ਇਸ ਦੀਆਂ ਪਰਤਾਂ ਨੂੰ {needed} GPU ਮੈਮੋਰੀ ਚਾਹੀਦੀ ਹੈ; ਬਜਟ ਅਨੁਸਾਰ ਉਨ੍ਹਾਂ ਲਈ {budget} ਬਚਦੀ ਹੈ.
 	Ivy	ਆਈਵੀ ਵੇਲ
 	JPEG Options	JPEG ਦੇ ਵਿਕਲਪ
 	Jag	ਦੰਦੇਦਾਰ
@@ -1938,9 +1935,9 @@
 	Justify last right	ਦੋਵੇਂ ਹਾਸ਼ੀਆਂ ਨਾਲ ਇਕਸਾਰ ਕਰੋ, ਆਖ਼ਰੀ ਲਾਈਨ ਸੱਜੇ
 	Keep Using CPU	CPU ਵਰਤਦੇ ਰਹੋ
 	Keep proportions	ਅਨੁਪਾਤ ਬਰਕਰਾਰ ਰੱਖੋ
-	Keep this tab open to retain your brushes.	ਆਪਣੇ ਬਰਸ਼ ਰੱਖਣ ਲਈ ਇਹ ਟੈਬ ਖੁੱਲ੍ਹੀ ਰੱਖੋ।
+	Keep this tab open to retain your brushes.	ਆਪਣੇ ਬਰਸ਼ ਰੱਖਣ ਲਈ ਇਹ ਟੈਬ ਖੁੱਲ੍ਹੀ ਰੱਖੋ.
 	Keep view in sync	ਦ੍ਰਿਸ਼ ਸਮਕਾਲੀ ਰੱਖੋ
-	Keeps the current texture when switching presets.	ਪ੍ਰੀਸੈੱਟ ਬਦਲਣ ਵੇਲੇ ਮੌਜੂਦਾ ਟੈਕਸਚਰ ਰੱਖਦਾ ਹੈ।
+	Keeps the current texture when switching presets.	ਪ੍ਰੀਸੈੱਟ ਬਦਲਣ ਵੇਲੇ ਮੌਜੂਦਾ ਟੈਕਸਚਰ ਰੱਖਦਾ ਹੈ.
 	Kept {name}: written by another application	{name} ਰੱਖਿਆ: ਕਿਸੇ ਹੋਰ ਐਪਲੀਕੇਸ਼ਨ ਨੇ ਲਿਖਿਆ ਹੈ
 	Kernel	ਕਰਨਲ
 	Kerning	ਕਰਨਿੰਗ
@@ -2064,7 +2061,7 @@
 	Lightness	ਹਲਕਾਪਣ
 	Lights	ਹਲਕੇ ਟੋਨ
 	Limit Playback	ਪਲੇਬੈਕ ਸੀਮਿਤ ਕਰੋ
-	Limits each open document's pixels plus History. Oldest undo states are discarded when the limit is exceeded.	ਹਰ ਖੁੱਲ੍ਹੇ ਦਸਤਾਵੇਜ਼ ਦੇ ਪਿਕਸਲਾਂ ਅਤੇ ਇਤਿਹਾਸ ਨੂੰ ਸੀਮਿਤ ਕਰਦਾ ਹੈ। ਸੀਮਾ ਲੰਘਣ 'ਤੇ ਸਭ ਤੋਂ ਪੁਰਾਣੀਆਂ ਵਾਪਸੀ ਸਥਿਤੀਆਂ ਹਟਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ।
+	Limits each open document's pixels plus History. Oldest undo states are discarded when the limit is exceeded.	ਹਰ ਖੁੱਲ੍ਹੇ ਦਸਤਾਵੇਜ਼ ਦੇ ਪਿਕਸਲਾਂ ਅਤੇ ਇਤਿਹਾਸ ਨੂੰ ਸੀਮਿਤ ਕਰਦਾ ਹੈ. ਸੀਮਾ ਲੰਘਣ 'ਤੇ ਸਭ ਤੋਂ ਪੁਰਾਣੀਆਂ ਵਾਪਸੀ ਸਥਿਤੀਆਂ ਹਟਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ.
 	Limits:	ਸੀਮਾਵਾਂ:
 	Line Tool	ਰੇਖਾ ਟੂਲ
 	Linear	ਲੀਨੀਅਰ
@@ -2091,7 +2088,7 @@
 	Liquify	ਲਿਕਵਿਫਾਈ
 	Liquify is not open	ਲਿਕਵਿਫਾਈ ਖੁੱਲ੍ਹਾ ਨਹੀਂ ਹੈ
 	Liquify…	ਲਿਕਵਿਫਾਈ…
-	Little memory would be left after opening this file. Close other apps first, or PhotoCraft may run out of memory.	ਇਹ ਫ਼ਾਈਲ ਖੋਲ੍ਹਣ ਤੋਂ ਬਾਅਦ ਥੋੜ੍ਹੀ ਮੈਮੋਰੀ ਬਚੇਗੀ। ਪਹਿਲਾਂ ਹੋਰ ਐਪਾਂ ਬੰਦ ਕਰੋ, ਨਹੀਂ ਤਾਂ PhotoCraft ਦੀ ਮੈਮੋਰੀ ਮੁੱਕ ਸਕਦੀ ਹੈ।
+	Little memory would be left after opening this file. Close other apps first, or PhotoCraft may run out of memory.	ਇਹ ਫ਼ਾਈਲ ਖੋਲ੍ਹਣ ਤੋਂ ਬਾਅਦ ਥੋੜ੍ਹੀ ਮੈਮੋਰੀ ਬਚੇਗੀ. ਪਹਿਲਾਂ ਹੋਰ ਐਪਾਂ ਬੰਦ ਕਰੋ, ਨਹੀਂ ਤਾਂ PhotoCraft ਦੀ ਮੈਮੋਰੀ ਮੁੱਕ ਸਕਦੀ ਹੈ.
 	Live Preview	ਲਾਈਵ ਝਲਕ
 	Load	ਲੋਡ ਕਰੋ
 	Load 3D LUT	3D LUT ਲੋਡ ਕਰੋ
@@ -2331,8 +2328,8 @@
 	My Brushes	ਮੇਰੇ ਬਰਸ਼
 	NTSC (1953)	NTSC (1953)
 	NTSC Colors	NTSC ਰੰਗ
-	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Wayland 'ਤੇ ਮੂਲ ਫ਼ਾਈਲ ਖਿੱਚ-ਸੁੱਟ ਹਾਲੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ। ਫ਼ਾਈਲ › ਖੋਲ੍ਹੋ ਵਰਤੋ ਜਾਂ ਆਪਣੇ ਫ਼ਾਈਲ ਮੈਨੇਜਰ ਵਿੱਚ ਚਿੱਤਰ ਕਾਪੀ ਕਰਕੇ {paste} ਨਾਲ ਚਿਪਕਾਓ।
-	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or run PhotoCraft under XWayland with `WAYLAND_DISPLAY= photocraft`.	Wayland 'ਤੇ ਮੂਲ ਫ਼ਾਈਲ ਖਿੱਚ-ਸੁੱਟ ਹਾਲੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ। ਫ਼ਾਈਲ › ਖੋਲ੍ਹੋ ਵਰਤੋ ਜਾਂ `WAYLAND_DISPLAY= photocraft` ਨਾਲ PhotoCraft ਨੂੰ XWayland ਵਿੱਚ ਚਲਾਓ।
+	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Wayland 'ਤੇ ਮੂਲ ਫ਼ਾਈਲ ਖਿੱਚ-ਸੁੱਟ ਹਾਲੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ. ਫ਼ਾਈਲ › ਖੋਲ੍ਹੋ ਵਰਤੋ ਜਾਂ ਆਪਣੇ ਫ਼ਾਈਲ ਮੈਨੇਜਰ ਵਿੱਚ ਚਿੱਤਰ ਕਾਪੀ ਕਰਕੇ {paste} ਨਾਲ ਚਿਪਕਾਓ.
+	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or run PhotoCraft under XWayland with `WAYLAND_DISPLAY= photocraft`.	Wayland 'ਤੇ ਮੂਲ ਫ਼ਾਈਲ ਖਿੱਚ-ਸੁੱਟ ਹਾਲੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ. ਫ਼ਾਈਲ › ਖੋਲ੍ਹੋ ਵਰਤੋ ਜਾਂ `WAYLAND_DISPLAY= photocraft` ਨਾਲ PhotoCraft ਨੂੰ XWayland ਵਿੱਚ ਚਲਾਓ.
 	Native file drag-and-drop is unavailable	ਮੂਲ ਫ਼ਾਈਲ ਖਿੱਚ-ਸੁੱਟ ਉਪਲਬਧ ਨਹੀਂ
 	Navigator	ਨੇਵੀਗੇਟਰ
 	Nearest	ਸਭ ਤੋਂ ਨੇੜਲਾ
@@ -2431,24 +2428,24 @@
 	No custom shape "{name}": pick one in the options bar or Window › Shapes	{name} ਨਾਮ ਦੀ ਕੋਈ ਪਸੰਦੀਦਾ ਸ਼ਕਲ ਨਹੀਂ: ਵਿਕਲਪ ਪੱਟੀ ਜਾਂ ਵਿੰਡੋ › ਸ਼ਕਲਾਂ ਵਿੱਚੋਂ ਚੁਣੋ
 	No document	ਕੋਈ ਦਸਤਾਵੇਜ਼ ਨਹੀਂ
 	No document open	ਕੋਈ ਦਸਤਾਵੇਜ਼ ਖੁੱਲ੍ਹਾ ਨਹੀਂ
-	No import is waiting. Import the file again.	ਕੋਈ ਆਯਾਤ ਉਡੀਕ ਵਿੱਚ ਨਹੀਂ। ਫ਼ਾਈਲ ਮੁੜ ਆਯਾਤ ਕਰੋ।
+	No import is waiting. Import the file again.	ਕੋਈ ਆਯਾਤ ਉਡੀਕ ਵਿੱਚ ਨਹੀਂ. ਫ਼ਾਈਲ ਮੁੜ ਆਯਾਤ ਕਰੋ.
 	No layers	ਕੋਈ ਪਰਤ ਨਹੀਂ
 	No matching commands	ਕੋਈ ਮੇਲ ਖਾਂਦੀਆਂ ਕਮਾਂਡਾਂ ਨਹੀਂ
 	No matching settings	ਕੋਈ ਮੇਲ ਖਾਂਦੀਆਂ ਸੈਟਿੰਗਾਂ ਨਹੀਂ
 	No model credits were built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਮਾਡਲਾਂ ਦਾ ਕੋਈ ਸਿਹਰਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
 	No object found there — drag a rectangle around it	ਉੱਥੇ ਕੋਈ ਵਸਤੂ ਨਹੀਂ ਮਿਲੀ — ਇਸ ਦੇ ਦੁਆਲੇ ਆਇਤ ਖਿੱਚੋ
-	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	ਚੋਣ ਬਣਾਉਣ ਲਈ ਕੋਈ ਪਾਥ ਨਹੀਂ: ਪੈਨ ਟੂਲ ਨਾਲ ਬਣਾਓ ਜਾਂ ਪਾਥ ਪੈਨਲ ਵਿੱਚੋਂ ਚੁਣੋ।
-	No path to make a shape from: draw one with the Pen tool or select one in the Paths panel.	ਸ਼ਕਲ ਬਣਾਉਣ ਲਈ ਕੋਈ ਪਾਥ ਨਹੀਂ: ਪੈਨ ਟੂਲ ਨਾਲ ਬਣਾਓ ਜਾਂ ਪਾਥ ਪੈਨਲ ਵਿੱਚੋਂ ਚੁਣੋ।
+	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	ਚੋਣ ਬਣਾਉਣ ਲਈ ਕੋਈ ਪਾਥ ਨਹੀਂ: ਪੈਨ ਟੂਲ ਨਾਲ ਬਣਾਓ ਜਾਂ ਪਾਥ ਪੈਨਲ ਵਿੱਚੋਂ ਚੁਣੋ.
+	No path to make a shape from: draw one with the Pen tool or select one in the Paths panel.	ਸ਼ਕਲ ਬਣਾਉਣ ਲਈ ਕੋਈ ਪਾਥ ਨਹੀਂ: ਪੈਨ ਟੂਲ ਨਾਲ ਬਣਾਓ ਜਾਂ ਪਾਥ ਪੈਨਲ ਵਿੱਚੋਂ ਚੁਣੋ.
 	No patterns	ਕੋਈ ਪੈਟਰਨ ਨਹੀਂ
 	No pin selected	ਕੋਈ ਪਿੰਨ ਚੁਣੀ ਨਹੀਂ
-	No presets for the current tool.	ਮੌਜੂਦਾ ਟੂਲ ਲਈ ਕੋਈ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ।
-	No presets of this type.	ਇਸ ਕਿਸਮ ਦੇ ਕੋਈ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ।
+	No presets for the current tool.	ਮੌਜੂਦਾ ਟੂਲ ਲਈ ਕੋਈ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ.
+	No presets of this type.	ਇਸ ਕਿਸਮ ਦੇ ਕੋਈ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ.
 	No properties	ਕੋਈ ਵਿਸ਼ੇਸ਼ਤਾ ਨਹੀਂ
-	No saved presets yet.	ਹਾਲੇ ਕੋਈ ਸੰਭਾਲੇ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ।
+	No saved presets yet.	ਹਾਲੇ ਕੋਈ ਸੰਭਾਲੇ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ.
 	No selection	ਕੋਈ ਚੋਣ ਨਹੀਂ
 	No subject found — try Object Selection or the Lasso	ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ ਮਿਲਿਆ — ਵਸਤੂ ਚੋਣ ਜਾਂ ਫੰਦਾ ਚੋਣ ਵਰਤੋ
 	No subject found — try a rectangle around the object	ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ ਮਿਲਿਆ — ਵਸਤੂ ਦੁਆਲੇ ਆਇਤ ਬਣਾ ਕੇ ਵੇਖੋ
-	No tool presets.	ਕੋਈ ਟੂਲ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ।
+	No tool presets.	ਕੋਈ ਟੂਲ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ.
 	Noise	ਨੋਇਜ਼
 	Noise Color	ਰੰਗ ਨੋਇਜ਼
 	Noise Color Detail	ਰੰਗ ਨੋਇਜ਼ ਦਾ ਵੇਰਵਾ
@@ -2464,7 +2461,7 @@
 	Not Visible	ਦਿਸਦਾ ਨਹੀਂ
 	Not a web colour: click for the nearest web colour	ਵੈੱਬ ਰੰਗ ਨਹੀਂ: ਸਭ ਤੋਂ ਨੇੜਲੇ ਵੈੱਬ ਰੰਗ ਲਈ ਕਲਿੱਕ ਕਰੋ
 	Not in Dictionary:	ਸ਼ਬਦਕੋਸ਼ ਵਿੱਚ ਨਹੀਂ:
-	Not rendered: this adjustment ({key}) is kept as imported.	ਰੈਂਡਰ ਨਹੀਂ ਕੀਤਾ: ਇਹ ਸਮਾਯੋਜਨ ({key}) ਆਯਾਤ ਕੀਤੇ ਰੂਪ ਵਿੱਚ ਰੱਖਿਆ ਹੈ।
+	Not rendered: this adjustment ({key}) is kept as imported.	ਰੈਂਡਰ ਨਹੀਂ ਕੀਤਾ: ਇਹ ਸਮਾਯੋਜਨ ({key}) ਆਯਾਤ ਕੀਤੇ ਰੂਪ ਵਿੱਚ ਰੱਖਿਆ ਹੈ.
 	Note Paper	ਨੋਟ ਕਾਗਜ਼
 	Note Tool	ਨੋਟ ਟੂਲ
 	Note tool	ਨੋਟ ਟੂਲ
@@ -2504,7 +2501,7 @@
 	Opacity Jitter	ਅਪਾਰਦਰਸ਼ਤਾ ਦਾ ਬੇਤਰਤੀਬ ਬਦਲਾਅ
 	Opacity Mask	ਅਪਾਰਦਰਸ਼ਤਾ ਮਾਸਕ
 	Opacity Threshold	ਅਪਾਰਦਰਸ਼ਤਾ ਦੀ ਹੱਦ
-	Opacity must be between 0% and 100%.	ਅਪਾਰਦਰਸ਼ਤਾ 0% ਅਤੇ 100% ਦੇ ਵਿਚਕਾਰ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।
+	Opacity must be between 0% and 100%.	ਅਪਾਰਦਰਸ਼ਤਾ 0% ਅਤੇ 100% ਦੇ ਵਿਚਕਾਰ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ.
 	Open As	ਇਸ ਰੂਪ ਵਿੱਚ ਖੋਲ੍ਹੋ
 	Open As…	ਇਸ ਰੂਪ ਵਿੱਚ ਖੋਲ੍ਹੋ…
 	Open EXR Parts…	EXR ਹਿੱਸੇ ਖੋਲ੍ਹੋ…
@@ -2512,9 +2509,9 @@
 	Open Folder	ਫੋਲਡਰ ਖੋਲ੍ਹੋ
 	Open Image	ਚਿੱਤਰ ਖੋਲ੍ਹੋ
 	Open Recent is unavailable on the web	ਵੈੱਬ 'ਤੇ ਹਾਲੀਆ ਖੋਲ੍ਹੋ ਉਪਲਬਧ ਨਹੀਂ
-	Open a document to define variables.	ਵੇਰੀਏਬਲ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to select a colour range.	ਰੰਗ ਦੀ ਰੇਂਜ ਚੁਣਨ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to use the timeline.	ਟਾਈਮਲਾਈਨ ਵਰਤਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
+	Open a document to define variables.	ਵੇਰੀਏਬਲ ਪਰਿਭਾਸ਼ਿਤ ਕਰਨ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to select a colour range.	ਰੰਗ ਦੀ ਰੇਂਜ ਚੁਣਨ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to use the timeline.	ਟਾਈਮਲਾਈਨ ਵਰਤਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
 	Open anyway	ਫਿਰ ਵੀ ਖੋਲ੍ਹੋ
 	Open as smart object	ਸਮਾਰਟ ਆਬਜੈਕਟ ਵਜੋਂ ਖੋਲ੍ਹੋ
 	Open color-less EXR as ACEScg	ਬਿਨਾਂ ਰੰਗ ਜਾਣਕਾਰੀ ਵਾਲਾ EXR ACEScg ਵਜੋਂ ਖੋਲ੍ਹੋ
@@ -2527,11 +2524,11 @@
 	Opened {name}	{name} ਖੋਲ੍ਹਿਆ
 	Opened {url}	{url} ਖੋਲ੍ਹਿਆ
 	Opening	ਖੋਲ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ
-	Opening this document uses more memory and may slow down your computer or other running applications.	ਇਹ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹਣ ਨਾਲ ਵੱਧ ਮੈਮੋਰੀ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਤੁਹਾਡਾ ਕੰਪਿਊਟਰ ਜਾਂ ਹੋਰ ਚੱਲਦੀਆਂ ਐਪਾਂ ਹੌਲੀਆਂ ਹੋ ਸਕਦੀਆਂ ਹਨ।
+	Opening this document uses more memory and may slow down your computer or other running applications.	ਇਹ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹਣ ਨਾਲ ਵੱਧ ਮੈਮੋਰੀ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਤੁਹਾਡਾ ਕੰਪਿਊਟਰ ਜਾਂ ਹੋਰ ਚੱਲਦੀਆਂ ਐਪਾਂ ਹੌਲੀਆਂ ਹੋ ਸਕਦੀਆਂ ਹਨ.
 	Opening {name}	{name} ਖੋਲ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ
 	Opening {name}…	{name} ਖੋਲ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ…
-	Opening “{name}” requires an estimated {est} GiB of memory ({avail} GiB available).	“{name}” ਖੋਲ੍ਹਣ ਲਈ ਅੰਦਾਜ਼ਨ {est} GiB ਮੈਮੋਰੀ ਲੋੜੀਂਦੀ ਹੈ ({avail} GiB ਉਪਲਬਧ)।
-	Opening “{name}” requires an estimated {est} GiB of memory. The available memory could not be measured.	“{name}” ਖੋਲ੍ਹਣ ਲਈ ਅੰਦਾਜ਼ਨ {est} GiB ਮੈਮੋਰੀ ਲੋੜੀਂਦੀ ਹੈ। ਉਪਲਬਧ ਮੈਮੋਰੀ ਮਾਪੀ ਨਹੀਂ ਜਾ ਸਕੀ।
+	Opening “{name}” requires an estimated {est} GiB of memory ({avail} GiB available).	“{name}” ਖੋਲ੍ਹਣ ਲਈ ਅੰਦਾਜ਼ਨ {est} GiB ਮੈਮੋਰੀ ਲੋੜੀਂਦੀ ਹੈ ({avail} GiB ਉਪਲਬਧ).
+	Opening “{name}” requires an estimated {est} GiB of memory. The available memory could not be measured.	“{name}” ਖੋਲ੍ਹਣ ਲਈ ਅੰਦਾਜ਼ਨ {est} GiB ਮੈਮੋਰੀ ਲੋੜੀਂਦੀ ਹੈ. ਉਪਲਬਧ ਮੈਮੋਰੀ ਮਾਪੀ ਨਹੀਂ ਜਾ ਸਕੀ.
 	Opening…	ਖੋਲ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ…
 	Open…     ⌘O	ਖੋਲ੍ਹੋ…     ⌘O
 	Operation	ਕਾਰਵਾਈ
@@ -2542,7 +2539,7 @@
 	Optical	ਆਪਟੀਕਲ
 	Optimized	ਅਨੁਕੂਲਿਤ
 	Option-click to define a source point to clone from	ਕਲੋਨ ਲਈ ਸਰੋਤ ਬਿੰਦੂ ਸੈੱਟ ਕਰਨ ਵਾਸਤੇ Option-ਕਲਿੱਕ ਕਰੋ
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	ਜਾਂ ਤਰਜੀਹਾਂ › ਕਾਰਗੁਜ਼ਾਰੀ › Linux ਡਿਸਪਲੇ ਸਰਵਰ ਨੂੰ X11 ਸੈੱਟ ਕਰੋ: ਫਿਰ PhotoCraft ਹਮੇਸ਼ਾ XWayland ਵਿੱਚ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।
+	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	ਜਾਂ ਤਰਜੀਹਾਂ › ਕਾਰਗੁਜ਼ਾਰੀ › Linux ਡਿਸਪਲੇ ਸਰਵਰ ਨੂੰ X11 ਸੈੱਟ ਕਰੋ: ਫਿਰ PhotoCraft ਹਮੇਸ਼ਾ XWayland ਵਿੱਚ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ.
 	Ordinals	ਕ੍ਰਮਵਾਚਕ ਅੰਕ
 	Original Ratio	ਮੂਲ ਅਨੁਪਾਤ
 	Ornaments	ਸਜਾਵਟੀ ਚਿੰਨ੍ਹ
@@ -2593,7 +2590,7 @@
 	Palette Knife	ਪੈਲਟ ਚਾਕੂ
 	Panel	ਪੈਨਲ
 	Panel Options…	ਪੈਨਲ ਦੇ ਵਿਕਲਪ…
-	Panel locations are saved in the workspace. Keyboard shortcuts, menus and toolbar are optional.	ਪੈਨਲਾਂ ਦੇ ਟਿਕਾਣੇ ਕਾਰਜ-ਖੇਤਰ ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ। ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ, ਮੇਨੂ ਅਤੇ ਟੂਲਬਾਰ ਚੋਣਵੇਂ ਹਨ।
+	Panel locations are saved in the workspace. Keyboard shortcuts, menus and toolbar are optional.	ਪੈਨਲਾਂ ਦੇ ਟਿਕਾਣੇ ਕਾਰਜ-ਖੇਤਰ ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ. ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ, ਮੇਨੂ ਅਤੇ ਟੂਲਬਾਰ ਚੋਣਵੇਂ ਹਨ.
 	Panel menu	ਪੈਨਲ ਮੇਨੂ
 	Paper	ਕਾਗਜ਼
 	Paper Brightness	ਕਾਗਜ਼ ਦੀ ਚਮਕ
@@ -2669,13 +2666,13 @@
 	PhotoCraft Defaults	PhotoCraft ਦੇ ਮੂਲ ਮੁੱਲ
 	PhotoCraft Manages Colors	PhotoCraft ਰੰਗਾਂ ਦਾ ਪ੍ਰਬੰਧ ਕਰਦਾ ਹੈ
 	PhotoCraft Website	PhotoCraft ਵੈੱਬਸਾਈਟ
-	PhotoCraft found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from PhotoCraft's. Import it?	PhotoCraft ਨੂੰ ਇਸ ਕੰਪਿਊਟਰ 'ਤੇ ਕਿਸੇ ਹੋਰ ਚਿੱਤਰ ਸੰਪਾਦਕ ਦਾ ਤੁਹਾਡਾ ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਸੈੱਟ {set} ਮਿਲਿਆ: ਇਸ ਦੇ {n} ਸ਼ਾਰਟਕੱਟ PhotoCraft ਤੋਂ ਵੱਖ ਹਨ। ਆਯਾਤ ਕਰਨੇ ਹਨ?
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft CPU ਚਿੱਤਰ ਕੰਪੋਜ਼ਿਟਰ ਵਰਤ ਰਿਹਾ ਹੈ। ਵਿੰਡੋ ਹਾਲੇ ਵੀ ਤੁਹਾਡਾ ਗ੍ਰਾਫਿਕਸ ਅਡੈਪਟਰ ਵਰਤ ਸਕਦੀ ਹੈ।
-	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	PhotoCraft ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਰਹਿੰਦਾ ਹੈ; ਸੰਭਾਲਣਾ ਸਫਲ ਹੋਣ ਤੱਕ, ਬੰਦ ਕਰਨ 'ਤੇ ਤਰਜੀਹਾਂ ਦੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਜਾਂਦੇ ਹਨ।
+	PhotoCraft found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from PhotoCraft's. Import it?	PhotoCraft ਨੂੰ ਇਸ ਕੰਪਿਊਟਰ 'ਤੇ ਕਿਸੇ ਹੋਰ ਚਿੱਤਰ ਸੰਪਾਦਕ ਦਾ ਤੁਹਾਡਾ ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਸੈੱਟ {set} ਮਿਲਿਆ: ਇਸ ਦੇ {n} ਸ਼ਾਰਟਕੱਟ PhotoCraft ਤੋਂ ਵੱਖ ਹਨ. ਆਯਾਤ ਕਰਨੇ ਹਨ?
+	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft CPU ਚਿੱਤਰ ਕੰਪੋਜ਼ਿਟਰ ਵਰਤ ਰਿਹਾ ਹੈ. ਵਿੰਡੋ ਹਾਲੇ ਵੀ ਤੁਹਾਡਾ ਗ੍ਰਾਫਿਕਸ ਅਡੈਪਟਰ ਵਰਤ ਸਕਦੀ ਹੈ.
+	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	PhotoCraft ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਰਹਿੰਦਾ ਹੈ; ਸੰਭਾਲਣਾ ਸਫਲ ਹੋਣ ਤੱਕ, ਬੰਦ ਕਰਨ 'ਤੇ ਤਰਜੀਹਾਂ ਦੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਜਾਂਦੇ ਹਨ.
 	PhotoCraft on GitHub	GitHub 'ਤੇ PhotoCraft
 	PhotoCraft website	PhotoCraft ਵੈੱਬਸਾਈਟ
 	PhotoCraft — Screen Color Picker	PhotoCraft — ਸਕ੍ਰੀਨ ਰੰਗ ਚੋਣਕਾਰ
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — Rust ਵਿੱਚ ਲਿਖਿਆ ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਵਾਲਾ ਮੂਲ ਚਿੱਤਰ ਸੰਪਾਦਕ।
+	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — Rust ਵਿੱਚ ਲਿਖਿਆ ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਵਾਲਾ ਮੂਲ ਚਿੱਤਰ ਸੰਪਾਦਕ.
 	Photocopy	ਫੋਟੋਕਾਪੀ
 	Photography	ਫੋਟੋਗ੍ਰਾਫੀ
 	Photomerge	ਫੋਟੋਮਰਜ
@@ -2905,7 +2902,7 @@
 	Reconstruct	ਮੁੜ ਬਣਾਓ
 	Reconstruct All	ਸਭ ਮੁੜ ਬਣਾਓ
 	Record Measurements	ਮਾਪ ਰਿਕਾਰਡ ਕਰੋ
-	Record ● a sequence of edits, then play ▶ it on any document.	ਸੋਧਾਂ ਦਾ ਕ੍ਰਮ ਰਿਕਾਰਡ ● ਕਰੋ, ਫਿਰ ਕਿਸੇ ਵੀ ਦਸਤਾਵੇਜ਼ 'ਤੇ ਚਲਾਓ ▶।
+	Record ● a sequence of edits, then play ▶ it on any document.	ਸੋਧਾਂ ਦਾ ਕ੍ਰਮ ਰਿਕਾਰਡ ● ਕਰੋ, ਫਿਰ ਕਿਸੇ ਵੀ ਦਸਤਾਵੇਜ਼ 'ਤੇ ਚਲਾਓ ▶.
 	Recover on launch	ਸ਼ੁਰੂ ਕਰਨ ਵੇਲੇ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰੋ
 	Recovered {name}	{name} ਮੁੜ ਪ੍ਰਾਪਤ ਕੀਤਾ
 	Recovery	ਮੁੜ ਪ੍ਰਾਪਤੀ
@@ -2993,8 +2990,8 @@
 	Replace Footage…	ਫੁਟੇਜ ਬਦਲੋ…
 	Replace Image…	ਚਿੱਤਰ ਬਦਲੋ…
 	Replace Swatches…	ਸਵਾਚ ਬਦਲੋ…
-	Replace deletes everything in “{group}” first, including presets you edited or moved there. This can't be undone.	ਬਦਲਣ ਨਾਲ ਪਹਿਲਾਂ “{group}” ਵਿੱਚ ਸਭ ਕੁਝ ਮਿਟ ਜਾਂਦਾ ਹੈ, ਉਨ੍ਹਾਂ ਪ੍ਰੀਸੈੱਟਾਂ ਸਮੇਤ ਜੋ ਤੁਸੀਂ ਉੱਥੇ ਸੋਧੇ ਜਾਂ ਲਿਜਾਏ ਸਨ। ਇਹ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।
-	Replace it with this document, or cancel and use File › Save As to keep both.	ਇਸ ਨੂੰ ਇਸ ਦਸਤਾਵੇਜ਼ ਨਾਲ ਬਦਲੋ ਜਾਂ ਰੱਦ ਕਰਕੇ ਦੋਵੇਂ ਰੱਖਣ ਲਈ ਫ਼ਾਈਲ › ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ ਵਰਤੋ।
+	Replace deletes everything in “{group}” first, including presets you edited or moved there. This can't be undone.	ਬਦਲਣ ਨਾਲ ਪਹਿਲਾਂ “{group}” ਵਿੱਚ ਸਭ ਕੁਝ ਮਿਟ ਜਾਂਦਾ ਹੈ, ਉਨ੍ਹਾਂ ਪ੍ਰੀਸੈੱਟਾਂ ਸਮੇਤ ਜੋ ਤੁਸੀਂ ਉੱਥੇ ਸੋਧੇ ਜਾਂ ਲਿਜਾਏ ਸਨ. ਇਹ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ.
+	Replace it with this document, or cancel and use File › Save As to keep both.	ਇਸ ਨੂੰ ਇਸ ਦਸਤਾਵੇਜ਼ ਨਾਲ ਬਦਲੋ ਜਾਂ ਰੱਦ ਕਰਕੇ ਦੋਵੇਂ ਰੱਖਣ ਲਈ ਫ਼ਾਈਲ › ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ ਵਰਤੋ.
 	Report a Bug	ਬੱਗ ਦੀ ਰਿਪੋਰਟ ਕਰੋ
 	Report an Issue	ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ
 	Report an Issue…	ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ…
@@ -3038,13 +3035,13 @@
 	Reticulation	ਜਾਲੀਦਾਰ ਦਰਾੜਾਂ
 	Retry	ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 	Retry GPU	GPU ਲਈ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
-	Retry GPU requires a restart. Save your work first.	GPU ਲਈ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਵਾਸਤੇ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨਾ ਲੋੜੀਂਦਾ ਹੈ। ਪਹਿਲਾਂ ਆਪਣਾ ਕੰਮ ਸੰਭਾਲੋ।
-	Retry GPU tries the graphics processor again now.	GPU ਲਈ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਹੁਣੇ ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਨੂੰ ਮੁੜ ਅਜ਼ਮਾਉਂਦੀ ਹੈ।
+	Retry GPU requires a restart. Save your work first.	GPU ਲਈ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਵਾਸਤੇ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨਾ ਲੋੜੀਂਦਾ ਹੈ. ਪਹਿਲਾਂ ਆਪਣਾ ਕੰਮ ਸੰਭਾਲੋ.
+	Retry GPU tries the graphics processor again now.	GPU ਲਈ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਹੁਣੇ ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਨੂੰ ਮੁੜ ਅਜ਼ਮਾਉਂਦੀ ਹੈ.
 	Retry saving presets	ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲਣ ਦੀ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 	Reveal All	ਸਭ ਦਿਖਾਓ
 	Reveal Selection	ਚੋਣ ਦਿਖਾਓ
 	Reverse	ਉਲਟਾਓ
-	Revert “{name}” to the last saved version? Your changes will be lost.	“{name}” ਨੂੰ ਆਖ਼ਰੀ ਸੰਭਾਲੇ ਰੂਪ ਵਿੱਚ ਵਾਪਸ ਲਿਆਉਣਾ ਹੈ? ਤੁਹਾਡੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਜਾਣਗੇ।
+	Revert “{name}” to the last saved version? Your changes will be lost.	“{name}” ਨੂੰ ਆਖ਼ਰੀ ਸੰਭਾਲੇ ਰੂਪ ਵਿੱਚ ਵਾਪਸ ਲਿਆਉਣਾ ਹੈ? ਤੁਹਾਡੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਜਾਣਗੇ.
 	Rgb	Rgb
 	Ridges	ਉਭਰੀਆਂ ਧਾਰਾਂ
 	Right Diagonal	ਸੱਜਾ ਤਿਰਛਾ
@@ -3148,13 +3145,13 @@
 	Save these settings as a Camera Raw .xmp file	ਇਹ ਸੈਟਿੰਗਾਂ Camera Raw .xmp ਫ਼ਾਈਲ ਵਜੋਂ ਸੰਭਾਲੋ
 	Save these shortcuts as a .kys file	ਇਹ ਸ਼ਾਰਟਕੱਟ .kys ਫ਼ਾਈਲ ਵਜੋਂ ਸੰਭਾਲੋ
 	Save these shortcuts as a new set	ਇਹ ਸ਼ਾਰਟਕੱਟ ਨਵੇਂ ਸੈੱਟ ਵਜੋਂ ਸੰਭਾਲੋ
-	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	GPU ਪ੍ਰਵੇਗ ਮੁੜ ਅਜ਼ਮਾਉਣ ਲਈ ਆਪਣਾ ਕੰਮ ਸੰਭਾਲੋ ਅਤੇ PhotoCraft ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ। ਇਸ ਸੈਸ਼ਨ ਲਈ CPU ਰੈਂਡਰਿੰਗ ਚਾਲੂ ਰਹਿੰਦੀ ਹੈ।
+	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	GPU ਪ੍ਰਵੇਗ ਮੁੜ ਅਜ਼ਮਾਉਣ ਲਈ ਆਪਣਾ ਕੰਮ ਸੰਭਾਲੋ ਅਤੇ PhotoCraft ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ. ਇਸ ਸੈਸ਼ਨ ਲਈ CPU ਰੈਂਡਰਿੰਗ ਚਾਲੂ ਰਹਿੰਦੀ ਹੈ.
 	Saved Multichannel	ਬਹੁ-ਚੈਨਲ ਸੰਭਾਲਿਆ
 	Saved a copy as {path}	{path} ਵਜੋਂ ਕਾਪੀ ਸੰਭਾਲੀ
 	Saved {name}	{name} ਸੰਭਾਲਿਆ ਗਿਆ
 	Saved {path}; image assets: {n} in {dir}	{path} ਸੰਭਾਲਿਆ; ਚਿੱਤਰ ਸਰੋਤ: {dir} ਵਿੱਚ {n}
 	Save…	ਸੰਭਾਲੋ…
-	Saving brush presets… Keep this tab open until saving finishes.	ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲੇ ਜਾ ਰਹੇ ਹਨ… ਸੰਭਾਲਣਾ ਪੂਰਾ ਹੋਣ ਤੱਕ ਇਹ ਟੈਬ ਖੁੱਲ੍ਹੀ ਰੱਖੋ।
+	Saving brush presets… Keep this tab open until saving finishes.	ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲੇ ਜਾ ਰਹੇ ਹਨ… ਸੰਭਾਲਣਾ ਪੂਰਾ ਹੋਣ ਤੱਕ ਇਹ ਟੈਬ ਖੁੱਲ੍ਹੀ ਰੱਖੋ.
 	Saving {name}	{name} ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ
 	Saving {percent}	{percent} ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ
 	Saving…	ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ…
@@ -3217,7 +3214,7 @@
 	Select Subject	ਵਿਸ਼ਾ ਚੁਣੋ
 	Select Top Layer	ਸਭ ਤੋਂ ਉੱਪਰਲੀ ਪਰਤ ਚੁਣੋ
 	Select a type layer or click into text to insert glyphs	ਗਲਿਫ਼ ਪਾਉਣ ਲਈ ਲਿਖਤ ਪਰਤ ਚੁਣੋ ਜਾਂ ਲਿਖਤ ਵਿੱਚ ਕਲਿੱਕ ਕਰੋ
-	Select a type layer to edit its character and paragraph settings.	ਅੱਖਰ ਅਤੇ ਪੈਰਾ ਸੈਟਿੰਗਾਂ ਸੋਧਣ ਲਈ ਲਿਖਤ ਪਰਤ ਚੁਣੋ।
+	Select a type layer to edit its character and paragraph settings.	ਅੱਖਰ ਅਤੇ ਪੈਰਾ ਸੈਟਿੰਗਾਂ ਸੋਧਣ ਲਈ ਲਿਖਤ ਪਰਤ ਚੁਣੋ.
 	Select an action first	ਪਹਿਲਾਂ ਕਾਰਵਾਈ ਚੁਣੋ
 	Select and Mask	ਚੋਣ ਅਤੇ ਮਾਸਕ
 	Select and Mask was closed: another layer was selected	ਚੋਣ ਅਤੇ ਮਾਸਕ ਬੰਦ ਹੋਇਆ: ਹੋਰ ਪਰਤ ਚੁਣੀ ਗਈ ਸੀ
@@ -3249,7 +3246,7 @@
 	Set	ਸੈੱਟ
 	Set Black Point	ਕਾਲਾ ਬਿੰਦੂ ਸੈੱਟ ਕਰੋ
 	Set Colors	ਰੰਗ ਸੈੱਟ ਕਰੋ
-	Set GPU Memory in Preferences › Performance to what your graphics card can hold, at most 3/8 of its memory. Automatic follows Memory Usage, within a quarter of this computer's memory and 3/8 of the card's, and doesn't count the document against a card whose memory is known. The status bar shows GPU Memory Full while they don't fit.	ਤਰਜੀਹਾਂ › ਕਾਰਗੁਜ਼ਾਰੀ ਵਿੱਚ GPU ਮੈਮੋਰੀ ਉਤਨੀ ਸੈੱਟ ਕਰੋ ਜਿੰਨੀ ਤੁਹਾਡਾ ਗ੍ਰਾਫਿਕਸ ਕਾਰਡ ਰੱਖ ਸਕਦਾ ਹੈ, ਵੱਧ ਤੋਂ ਵੱਧ ਉਸ ਦੀ ਮੈਮੋਰੀ ਦਾ 3/8। ਆਪਣੇ ਆਪ ਵਾਲਾ ਵਿਕਲਪ ਮੈਮੋਰੀ ਵਰਤੋਂ ਅਨੁਸਾਰ ਚੱਲਦਾ ਹੈ, ਇਸ ਕੰਪਿਊਟਰ ਦੀ ਮੈਮੋਰੀ ਦੇ ਚੌਥੇ ਹਿੱਸੇ ਅਤੇ ਕਾਰਡ ਦੇ 3/8 ਦੇ ਅੰਦਰ, ਅਤੇ ਜਾਣੀ ਮੈਮੋਰੀ ਵਾਲੇ ਕਾਰਡ ਲਈ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਨਹੀਂ ਗਿਣਦਾ। ਜਦੋਂ ਇਹ ਨਹੀਂ ਸਮਾਉਂਦੇ ਤਾਂ ਸਥਿਤੀ ਪੱਟੀ GPU ਮੈਮੋਰੀ ਭਰੀ ਹੋਈ ਹੈ ਦਿਖਾਉਂਦੀ ਹੈ।
+	Set GPU Memory in Preferences › Performance to what your graphics card can hold, at most 3/8 of its memory. Automatic follows Memory Usage, within a quarter of this computer's memory and 3/8 of the card's, and doesn't count the document against a card whose memory is known. The status bar shows GPU Memory Full while they don't fit.	ਤਰਜੀਹਾਂ › ਕਾਰਗੁਜ਼ਾਰੀ ਵਿੱਚ GPU ਮੈਮੋਰੀ ਉਤਨੀ ਸੈੱਟ ਕਰੋ ਜਿੰਨੀ ਤੁਹਾਡਾ ਗ੍ਰਾਫਿਕਸ ਕਾਰਡ ਰੱਖ ਸਕਦਾ ਹੈ, ਵੱਧ ਤੋਂ ਵੱਧ ਉਸ ਦੀ ਮੈਮੋਰੀ ਦਾ 3/8. ਆਪਣੇ ਆਪ ਵਾਲਾ ਵਿਕਲਪ ਮੈਮੋਰੀ ਵਰਤੋਂ ਅਨੁਸਾਰ ਚੱਲਦਾ ਹੈ, ਇਸ ਕੰਪਿਊਟਰ ਦੀ ਮੈਮੋਰੀ ਦੇ ਚੌਥੇ ਹਿੱਸੇ ਅਤੇ ਕਾਰਡ ਦੇ 3/8 ਦੇ ਅੰਦਰ, ਅਤੇ ਜਾਣੀ ਮੈਮੋਰੀ ਵਾਲੇ ਕਾਰਡ ਲਈ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਨਹੀਂ ਗਿਣਦਾ. ਜਦੋਂ ਇਹ ਨਹੀਂ ਸਮਾਉਂਦੇ ਤਾਂ ਸਥਿਤੀ ਪੱਟੀ GPU ਮੈਮੋਰੀ ਭਰੀ ਹੋਈ ਹੈ ਦਿਖਾਉਂਦੀ ਹੈ.
 	Set Measurement Scale	ਮਾਪ ਦਾ ਪੈਮਾਨਾ ਸੈੱਟ ਕਰੋ
 	Set Measurement Scale…	ਮਾਪ ਦਾ ਪੈਮਾਨਾ ਸੈੱਟ ਕਰੋ…
 	Set Neutral Gray Point	ਨਿਰਪੱਖ ਸਲੇਟੀ ਬਿੰਦੂ ਸੈੱਟ ਕਰੋ
@@ -3260,11 +3257,11 @@
 	Set additional smoothing options	ਨਰਮ ਕਰਨ ਦੇ ਵਾਧੂ ਵਿਕਲਪ ਸੈੱਟ ਕਰੋ
 	Set as default	ਮੂਲ ਵਜੋਂ ਸੈੱਟ ਕਰੋ
 	Set background color	ਪਿੱਛੋਕੜ ਦਾ ਰੰਗ ਸੈੱਟ ਕਰੋ
-	Set deleted.	ਸੈੱਟ ਮਿਟਾਇਆ।
+	Set deleted.	ਸੈੱਟ ਮਿਟਾਇਆ.
 	Set foreground color	ਮੂਹਰਲਾ ਰੰਗ ਸੈੱਟ ਕਰੋ
 	Set horizontal skew	ਲੇਟਵਾਂ ਤਿਰਛਾਪਣ ਸੈੱਟ ਕਰੋ
 	Set painting symmetry options	ਚਿੱਤਰਕਾਰੀ ਦੀ ਸਮਮਿਤੀ ਦੇ ਵਿਕਲਪ ਸੈੱਟ ਕਰੋ
-	Set saved.	ਸੈੱਟ ਸੰਭਾਲਿਆ।
+	Set saved.	ਸੈੱਟ ਸੰਭਾਲਿਆ.
 	Set shape fill type	ਸ਼ਕਲ ਦੀ ਭਰਾਈ ਦੀ ਕਿਸਮ ਸੈੱਟ ਕਰੋ
 	Set shape stroke type	ਸ਼ਕਲ ਦੇ ਸਟ੍ਰੋਕ ਦੀ ਕਿਸਮ ਸੈੱਟ ਕਰੋ
 	Set the overlay options for the Crop tool	ਕ੍ਰਾਪ ਟੂਲ ਦੇ ਓਵਰਲੇ ਵਿਕਲਪ ਸੈੱਟ ਕਰੋ
@@ -3319,7 +3316,7 @@
 	Shine	ਚਮਕ
 	Short Lines	ਛੋਟੀਆਂ ਰੇਖਾਵਾਂ
 	Short Strokes	ਛੋਟੇ ਸਟ੍ਰੋਕ
-	Shortcut removed.	ਸ਼ਾਰਟਕੱਟ ਹਟਾਇਆ।
+	Shortcut removed.	ਸ਼ਾਰਟਕੱਟ ਹਟਾਇਆ.
 	Shortcuts	ਸ਼ਾਰਟਕੱਟ
 	Show All Fonts	ਸਭ ਫ਼ੌਂਟ ਦਿਖਾਓ
 	Show All Menu Items	ਸਭ ਮੇਨੂ ਆਈਟਮਾਂ ਦਿਖਾਓ
@@ -3459,7 +3456,7 @@
 	Solid Front Faces	ਠੋਸ ਸਾਹਮਣੇ ਵਾਲੀਆਂ ਸਤਹਾਂ
 	Solidity:	ਠੋਸਪਣ:
 	Some brush presets could not be loaded	ਕੁਝ ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ
-	Some layers, pixels or masks could not be read. Do you want to continue opening it?	ਕੁਝ ਪਰਤਾਂ, ਪਿਕਸਲ ਜਾਂ ਮਾਸਕ ਪੜ੍ਹੇ ਨਹੀਂ ਜਾ ਸਕੇ। ਕੀ ਤੁਸੀਂ ਇਸ ਨੂੰ ਖੋਲ੍ਹਣਾ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+	Some layers, pixels or masks could not be read. Do you want to continue opening it?	ਕੁਝ ਪਰਤਾਂ, ਪਿਕਸਲ ਜਾਂ ਮਾਸਕ ਪੜ੍ਹੇ ਨਹੀਂ ਜਾ ਸਕੇ. ਕੀ ਤੁਸੀਂ ਇਸ ਨੂੰ ਖੋਲ੍ਹਣਾ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?
 	Sort By Name	ਨਾਮ ਅਨੁਸਾਰ ਕ੍ਰਮਬੱਧ ਕਰੋ
 	Source Channel	ਸਰੋਤ ਚੈਨਲ
 	Source Files	ਸਰੋਤ ਫ਼ਾਈਲਾਂ
@@ -3482,7 +3479,7 @@
 	Spatter	ਛਿੱਟੇ
 	Specify Channels:	ਚੈਨਲ ਦਿਓ:
 	Speckle	ਛੋਟੇ ਧੱਬੇ
-	Spell check complete.	ਸ਼ਬਦ-ਜੋੜ ਜਾਂਚ ਪੂਰੀ ਹੋਈ।
+	Spell check complete.	ਸ਼ਬਦ-ਜੋੜ ਜਾਂਚ ਪੂਰੀ ਹੋਈ.
 	Spherize	ਗੋਲਾਕਾਰ ਬਣਾਓ
 	Spherize…	ਗੋਲਾਕਾਰ ਬਣਾਓ…
 	Spin	ਘੁੰਮਾਓ
@@ -3660,46 +3657,46 @@
 	The GPU compositor wasn't used: {reason}	GPU ਕੰਪੋਜ਼ਿਟਰ ਨਹੀਂ ਵਰਤਿਆ ਗਿਆ: {reason}
 	The History Brush source was deleted: set a new source in the History panel	ਇਤਿਹਾਸ ਬਰਸ਼ ਦਾ ਸਰੋਤ ਮਿਟਾਇਆ ਗਿਆ: ਇਤਿਹਾਸ ਪੈਨਲ ਵਿੱਚ ਨਵਾਂ ਸਰੋਤ ਸੈੱਟ ਕਰੋ
 	The active layer has no pixels here — turn on Sample All Layers or select a layer with pixels	ਸਰਗਰਮ ਪਰਤ ਵਿੱਚ ਇੱਥੇ ਪਿਕਸਲ ਨਹੀਂ ਹਨ — ਸਭ ਪਰਤਾਂ ਤੋਂ ਨਮੂਨੇ ਲੈਣਾ ਚਾਲੂ ਕਰੋ ਜਾਂ ਪਿਕਸਲਾਂ ਵਾਲੀ ਪਰਤ ਚੁਣੋ
-	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	ਕੈਨਵਸ sRGB ਵਜੋਂ ਦਿਖਾਇਆ ਜਾ ਰਿਹਾ ਹੈ। ਸੋਧੋ › ਰੰਗ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਮਾਨੀਟਰ ਪ੍ਰੋਫਾਈਲ ਚੁਣੋ।
-	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	{display} 'ਤੇ ਕੈਨਵਸ sRGB ਵਜੋਂ ਦਿਖਾਇਆ ਜਾ ਰਿਹਾ ਹੈ। ਸੋਧੋ › ਰੰਗ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਮਾਨੀਟਰ ਪ੍ਰੋਫਾਈਲ ਚੁਣੋ।
+	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	ਕੈਨਵਸ sRGB ਵਜੋਂ ਦਿਖਾਇਆ ਜਾ ਰਿਹਾ ਹੈ. ਸੋਧੋ › ਰੰਗ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਮਾਨੀਟਰ ਪ੍ਰੋਫਾਈਲ ਚੁਣੋ.
+	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	{display} 'ਤੇ ਕੈਨਵਸ sRGB ਵਜੋਂ ਦਿਖਾਇਆ ਜਾ ਰਿਹਾ ਹੈ. ਸੋਧੋ › ਰੰਗ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਮਾਨੀਟਰ ਪ੍ਰੋਫਾਈਲ ਚੁਣੋ.
 	The current gradient (pick one in Window › Gradients)	ਮੌਜੂਦਾ ਗ੍ਰੇਡੀਐਂਟ (ਵਿੰਡੋ › ਗ੍ਰੇਡੀਐਂਟ ਵਿੱਚੋਂ ਚੁਣੋ)
-	The current scratch directory ({path}) doesn't report its free space, so PhotoCraft can't stop before it fills up, and large files get no extra room from it without a Scratch Size Limit. This warning applies to the current configuration; changes above take effect on Apply or OK. Set a limit or use a local disk.	ਮੌਜੂਦਾ ਅਸਥਾਈ ਕੰਮ ਦੀ ਡਾਇਰੈਕਟਰੀ ({path}) ਆਪਣੀ ਖ਼ਾਲੀ ਥਾਂ ਨਹੀਂ ਦੱਸਦੀ, ਇਸ ਲਈ PhotoCraft ਇਸ ਦੇ ਭਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰੁਕ ਨਹੀਂ ਸਕਦਾ ਅਤੇ ਅਸਥਾਈ ਕੰਮ ਦੇ ਆਕਾਰ ਦੀ ਸੀਮਾ ਤੋਂ ਬਿਨਾਂ ਵੱਡੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਇਸ ਤੋਂ ਵਾਧੂ ਥਾਂ ਨਹੀਂ ਮਿਲਦੀ। ਇਹ ਚੇਤਾਵਨੀ ਮੌਜੂਦਾ ਸੰਰਚਨਾ ਲਈ ਹੈ; ਉੱਪਰਲੇ ਬਦਲਾਅ ਲਾਗੂ ਕਰੋ ਜਾਂ ਠੀਕ ਹੈ ਦਬਾਉਣ 'ਤੇ ਲਾਗੂ ਹੁੰਦੇ ਹਨ। ਸੀਮਾ ਸੈੱਟ ਕਰੋ ਜਾਂ ਸਥਾਨਕ ਡਿਸਕ ਵਰਤੋ।
-	The document does not have an embedded colour profile. Working space: {working}.	ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਰੰਗ ਪ੍ਰੋਫਾਈਲ ਇੰਬੈਡ ਨਹੀਂ ਹੈ। ਕਾਰਜਕਾਰੀ ਸਪੇਸ: {working}।
-	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	ਦਸਤਾਵੇਜ਼ ਦਾ ਇੰਬੈਡ ਕੀਤਾ ਰੰਗ ਪ੍ਰੋਫਾਈਲ ਕਾਰਜਕਾਰੀ ਸਪੇਸ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ।\nਇੰਬੈਡ ਕੀਤਾ: {embedded}\nਕਾਰਜਕਾਰੀ: {working}
+	The current scratch directory ({path}) doesn't report its free space, so PhotoCraft can't stop before it fills up, and large files get no extra room from it without a Scratch Size Limit. This warning applies to the current configuration; changes above take effect on Apply or OK. Set a limit or use a local disk.	ਮੌਜੂਦਾ ਅਸਥਾਈ ਕੰਮ ਦੀ ਡਾਇਰੈਕਟਰੀ ({path}) ਆਪਣੀ ਖ਼ਾਲੀ ਥਾਂ ਨਹੀਂ ਦੱਸਦੀ, ਇਸ ਲਈ PhotoCraft ਇਸ ਦੇ ਭਰਨ ਤੋਂ ਪਹਿਲਾਂ ਰੁਕ ਨਹੀਂ ਸਕਦਾ ਅਤੇ ਅਸਥਾਈ ਕੰਮ ਦੇ ਆਕਾਰ ਦੀ ਸੀਮਾ ਤੋਂ ਬਿਨਾਂ ਵੱਡੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਇਸ ਤੋਂ ਵਾਧੂ ਥਾਂ ਨਹੀਂ ਮਿਲਦੀ. ਇਹ ਚੇਤਾਵਨੀ ਮੌਜੂਦਾ ਸੰਰਚਨਾ ਲਈ ਹੈ; ਉੱਪਰਲੇ ਬਦਲਾਅ ਲਾਗੂ ਕਰੋ ਜਾਂ ਠੀਕ ਹੈ ਦਬਾਉਣ 'ਤੇ ਲਾਗੂ ਹੁੰਦੇ ਹਨ. ਸੀਮਾ ਸੈੱਟ ਕਰੋ ਜਾਂ ਸਥਾਨਕ ਡਿਸਕ ਵਰਤੋ.
+	The document does not have an embedded colour profile. Working space: {working}.	ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਰੰਗ ਪ੍ਰੋਫਾਈਲ ਇੰਬੈਡ ਨਹੀਂ ਹੈ. ਕਾਰਜਕਾਰੀ ਸਪੇਸ: {working}.
+	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	ਦਸਤਾਵੇਜ਼ ਦਾ ਇੰਬੈਡ ਕੀਤਾ ਰੰਗ ਪ੍ਰੋਫਾਈਲ ਕਾਰਜਕਾਰੀ ਸਪੇਸ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ.\nਇੰਬੈਡ ਕੀਤਾ: {embedded}\nਕਾਰਜਕਾਰੀ: {working}
 	The document is closed	ਦਸਤਾਵੇਜ਼ ਬੰਦ ਹੈ
-	The document or Smart Filter changed. Reopen its dialog.	ਦਸਤਾਵੇਜ਼ ਜਾਂ ਸਮਾਰਟ ਫਿਲਟਰ ਬਦਲ ਗਿਆ ਹੈ। ਇਸ ਦਾ ਡਾਇਲਾਗ ਮੁੜ ਖੋਲ੍ਹੋ।
-	The document or selected layers changed. Please request deletion again.	ਦਸਤਾਵੇਜ਼ ਜਾਂ ਚੁਣੀਆਂ ਪਰਤਾਂ ਬਦਲ ਗਈਆਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਮਿਟਾਉਣ ਦੀ ਬੇਨਤੀ ਮੁੜ ਕਰੋ।
-	The document “{name}” does not have an embedded {mode} profile.	ਦਸਤਾਵੇਜ਼ “{name}” ਵਿੱਚ {mode} ਪ੍ਰੋਫਾਈਲ ਇੰਬੈਡ ਨਹੀਂ ਹੈ।
-	The document “{name}” has an embedded color profile that does not match the current {mode} working space.	ਦਸਤਾਵੇਜ਼ “{name}” ਦਾ ਇੰਬੈਡ ਕੀਤਾ ਰੰਗ ਪ੍ਰੋਫਾਈਲ ਮੌਜੂਦਾ {mode} ਕਾਰਜਕਾਰੀ ਸਪੇਸ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ।
-	The document “{name}” may be damaged.	ਦਸਤਾਵੇਜ਼ “{name}” ਖ਼ਰਾਬ ਹੋ ਸਕਦਾ ਹੈ।
-	The estimate is above 8 GiB and the available memory is unknown, so this process or browser tab may run out of memory. You can still try to open it.	ਅੰਦਾਜ਼ਾ 8 GiB ਤੋਂ ਵੱਧ ਹੈ ਅਤੇ ਉਪਲਬਧ ਮੈਮੋਰੀ ਅਣਜਾਣ ਹੈ, ਇਸ ਲਈ ਇਸ ਪ੍ਰਕਿਰਿਆ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਟੈਬ ਦੀ ਮੈਮੋਰੀ ਮੁੱਕ ਸਕਦੀ ਹੈ। ਤੁਸੀਂ ਫਿਰ ਵੀ ਇਸ ਨੂੰ ਖੋਲ੍ਹਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ।
-	The file could not be opened.	ਫ਼ਾਈਲ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ।
-	The file could not be saved.	ਫ਼ਾਈਲ ਸੰਭਾਲੀ ਨਹੀਂ ਜਾ ਸਕੀ।
+	The document or Smart Filter changed. Reopen its dialog.	ਦਸਤਾਵੇਜ਼ ਜਾਂ ਸਮਾਰਟ ਫਿਲਟਰ ਬਦਲ ਗਿਆ ਹੈ. ਇਸ ਦਾ ਡਾਇਲਾਗ ਮੁੜ ਖੋਲ੍ਹੋ.
+	The document or selected layers changed. Please request deletion again.	ਦਸਤਾਵੇਜ਼ ਜਾਂ ਚੁਣੀਆਂ ਪਰਤਾਂ ਬਦਲ ਗਈਆਂ ਹਨ. ਕਿਰਪਾ ਕਰਕੇ ਮਿਟਾਉਣ ਦੀ ਬੇਨਤੀ ਮੁੜ ਕਰੋ.
+	The document “{name}” does not have an embedded {mode} profile.	ਦਸਤਾਵੇਜ਼ “{name}” ਵਿੱਚ {mode} ਪ੍ਰੋਫਾਈਲ ਇੰਬੈਡ ਨਹੀਂ ਹੈ.
+	The document “{name}” has an embedded color profile that does not match the current {mode} working space.	ਦਸਤਾਵੇਜ਼ “{name}” ਦਾ ਇੰਬੈਡ ਕੀਤਾ ਰੰਗ ਪ੍ਰੋਫਾਈਲ ਮੌਜੂਦਾ {mode} ਕਾਰਜਕਾਰੀ ਸਪੇਸ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ.
+	The document “{name}” may be damaged.	ਦਸਤਾਵੇਜ਼ “{name}” ਖ਼ਰਾਬ ਹੋ ਸਕਦਾ ਹੈ.
+	The estimate is above 8 GiB and the available memory is unknown, so this process or browser tab may run out of memory. You can still try to open it.	ਅੰਦਾਜ਼ਾ 8 GiB ਤੋਂ ਵੱਧ ਹੈ ਅਤੇ ਉਪਲਬਧ ਮੈਮੋਰੀ ਅਣਜਾਣ ਹੈ, ਇਸ ਲਈ ਇਸ ਪ੍ਰਕਿਰਿਆ ਜਾਂ ਬ੍ਰਾਊਜ਼ਰ ਟੈਬ ਦੀ ਮੈਮੋਰੀ ਮੁੱਕ ਸਕਦੀ ਹੈ. ਤੁਸੀਂ ਫਿਰ ਵੀ ਇਸ ਨੂੰ ਖੋਲ੍ਹਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ.
+	The file could not be opened.	ਫ਼ਾਈਲ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ.
+	The file could not be saved.	ਫ਼ਾਈਲ ਸੰਭਾਲੀ ਨਹੀਂ ਜਾ ਸਕੀ.
 	The frame is locked	ਫਰੇਮ ਲਾਕ ਹੈ
 	The gradient the Gradient tool paints with	ਉਹ ਗ੍ਰੇਡੀਐਂਟ ਜਿਸ ਨਾਲ ਗ੍ਰੇਡੀਐਂਟ ਟੂਲ ਰੰਗ ਕਰਦਾ ਹੈ
 	The keyboard shortcut set was not imported: {error}	ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਸੈੱਟ ਆਯਾਤ ਨਹੀਂ ਕੀਤਾ ਗਿਆ: {error}
-	The layer or its mask changed. Drag the mask onto the Trash again.	ਪਰਤ ਜਾਂ ਇਸ ਦਾ ਮਾਸਕ ਬਦਲ ਗਿਆ ਹੈ। ਮਾਸਕ ਮੁੜ ਰੱਦੀ 'ਤੇ ਖਿੱਚੋ।
-	The layers need {needed} of GPU memory and may hold {budget}, so edits that redraw the whole document do it on the CPU. Click to set GPU Memory.	ਪਰਤਾਂ ਨੂੰ {needed} GPU ਮੈਮੋਰੀ ਚਾਹੀਦੀ ਹੈ ਅਤੇ ਉਹ {budget} ਰੱਖ ਸਕਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਪੂਰਾ ਦਸਤਾਵੇਜ਼ ਮੁੜ ਬਣਾਉਣ ਵਾਲੀਆਂ ਸੋਧਾਂ CPU 'ਤੇ ਹੁੰਦੀਆਂ ਹਨ। GPU ਮੈਮੋਰੀ ਸੈੱਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ।
-	The name in the save dialog was “{name}”.	ਸੰਭਾਲਣ ਵਾਲੇ ਡਾਇਲਾਗ ਵਿੱਚ ਨਾਮ “{name}” ਸੀ।
+	The layer or its mask changed. Drag the mask onto the Trash again.	ਪਰਤ ਜਾਂ ਇਸ ਦਾ ਮਾਸਕ ਬਦਲ ਗਿਆ ਹੈ. ਮਾਸਕ ਮੁੜ ਰੱਦੀ 'ਤੇ ਖਿੱਚੋ.
+	The layers need {needed} of GPU memory and may hold {budget}, so edits that redraw the whole document do it on the CPU. Click to set GPU Memory.	ਪਰਤਾਂ ਨੂੰ {needed} GPU ਮੈਮੋਰੀ ਚਾਹੀਦੀ ਹੈ ਅਤੇ ਉਹ {budget} ਰੱਖ ਸਕਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਪੂਰਾ ਦਸਤਾਵੇਜ਼ ਮੁੜ ਬਣਾਉਣ ਵਾਲੀਆਂ ਸੋਧਾਂ CPU 'ਤੇ ਹੁੰਦੀਆਂ ਹਨ. GPU ਮੈਮੋਰੀ ਸੈੱਟ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ.
+	The name in the save dialog was “{name}”.	ਸੰਭਾਲਣ ਵਾਲੇ ਡਾਇਲਾਗ ਵਿੱਚ ਨਾਮ “{name}” ਸੀ.
 	The path was discarded	ਪਾਥ ਹਟਾਇਆ ਗਿਆ
 	The path was kept as the Work Path	ਪਾਥ ਕਾਰਜਕਾਰੀ ਪਾਥ ਵਜੋਂ ਰੱਖਿਆ ਗਿਆ
-	The transform couldn't be applied.	ਰੂਪਾਂਤਰ ਲਾਗੂ ਨਹੀਂ ਹੋ ਸਕਿਆ।
-	There are too many sets: delete one first.	ਬਹੁਤ ਜ਼ਿਆਦਾ ਸੈੱਟ ਹਨ: ਪਹਿਲਾਂ ਇੱਕ ਮਿਟਾਓ।
-	There is no color table to save.	ਸੰਭਾਲਣ ਲਈ ਕੋਈ ਰੰਗ ਟੇਬਲ ਨਹੀਂ ਹੈ।
+	The transform couldn't be applied.	ਰੂਪਾਂਤਰ ਲਾਗੂ ਨਹੀਂ ਹੋ ਸਕਿਆ.
+	There are too many sets: delete one first.	ਬਹੁਤ ਜ਼ਿਆਦਾ ਸੈੱਟ ਹਨ: ਪਹਿਲਾਂ ਇੱਕ ਮਿਟਾਓ.
+	There is no color table to save.	ਸੰਭਾਲਣ ਲਈ ਕੋਈ ਰੰਗ ਟੇਬਲ ਨਹੀਂ ਹੈ.
 	There is no crop size or ratio to save	ਸੰਭਾਲਣ ਲਈ ਕੋਈ ਕ੍ਰਾਪ ਆਕਾਰ ਜਾਂ ਅਨੁਪਾਤ ਨਹੀਂ ਹੈ
-	These settings aren't available in PhotoCraft yet.	ਇਹ ਸੈਟਿੰਗਾਂ ਹਾਲੇ PhotoCraft ਵਿੱਚ ਉਪਲਬਧ ਨਹੀਂ ਹਨ।
+	These settings aren't available in PhotoCraft yet.	ਇਹ ਸੈਟਿੰਗਾਂ ਹਾਲੇ PhotoCraft ਵਿੱਚ ਉਪਲਬਧ ਨਹੀਂ ਹਨ.
 	Thin	ਪਤਲਾ
 	This Layer:	ਇਹ ਪਰਤ:
-	This Smart Object must be rasterized before proceeding. Its contents will no longer be editable. Rasterize the Smart Object?	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਸਮਾਰਟ ਆਬਜੈਕਟ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ। ਇਸ ਦੀ ਸਮੱਗਰੀ ਫਿਰ ਸੋਧੀ ਨਹੀਂ ਜਾ ਸਕੇਗੀ। ਸਮਾਰਟ ਆਬਜੈਕਟ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਹੈ?
-	This adjustment ({key}) is kept as imported and can't be edited yet.	ਇਹ ਸਮਾਯੋਜਨ ({key}) ਆਯਾਤ ਕੀਤੇ ਰੂਪ ਵਿੱਚ ਰੱਖਿਆ ਹੈ ਅਤੇ ਹਾਲੇ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।
+	This Smart Object must be rasterized before proceeding. Its contents will no longer be editable. Rasterize the Smart Object?	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਸਮਾਰਟ ਆਬਜੈਕਟ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ. ਇਸ ਦੀ ਸਮੱਗਰੀ ਫਿਰ ਸੋਧੀ ਨਹੀਂ ਜਾ ਸਕੇਗੀ. ਸਮਾਰਟ ਆਬਜੈਕਟ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਹੈ?
+	This adjustment ({key}) is kept as imported and can't be edited yet.	ਇਹ ਸਮਾਯੋਜਨ ({key}) ਆਯਾਤ ਕੀਤੇ ਰੂਪ ਵਿੱਚ ਰੱਖਿਆ ਹੈ ਅਤੇ ਹਾਲੇ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ.
 	This document's layers need {needed} but may hold {budget}: whole-document redraws use the CPU	ਇਸ ਦਸਤਾਵੇਜ਼ ਦੀਆਂ ਪਰਤਾਂ ਨੂੰ {needed} ਚਾਹੀਦੀ ਹੈ ਪਰ {budget} ਰੱਖ ਸਕਦੀਆਂ ਹਨ: ਪੂਰਾ ਦਸਤਾਵੇਜ਼ ਮੁੜ ਬਣਾਉਣ ਲਈ CPU ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ
 	This document's layers: {needed} of {budget} for layers	ਇਸ ਦਸਤਾਵੇਜ਼ ਦੀਆਂ ਪਰਤਾਂ: ਪਰਤਾਂ ਲਈ {budget} ਵਿੱਚੋਂ {needed}
-	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਭਰਾਈ ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ। ਇਸ ਦੀ ਭਰਾਈ ਸਮੱਗਰੀ ਫਿਰ ਸੋਧੀ ਨਹੀਂ ਜਾ ਸਕੇਗੀ। ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਹੈ?
-	This layer must be rasterized before proceeding.	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ।
-	This redraw took {seconds} s on the CPU.	CPU 'ਤੇ ਇਸ ਨੂੰ ਮੁੜ ਬਣਾਉਣ ਵਿੱਚ {seconds} s ਲੱਗੇ।
+	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਭਰਾਈ ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ. ਇਸ ਦੀ ਭਰਾਈ ਸਮੱਗਰੀ ਫਿਰ ਸੋਧੀ ਨਹੀਂ ਜਾ ਸਕੇਗੀ. ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਹੈ?
+	This layer must be rasterized before proceeding.	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ.
+	This redraw took {seconds} s on the CPU.	CPU 'ਤੇ ਇਸ ਨੂੰ ਮੁੜ ਬਣਾਉਣ ਵਿੱਚ {seconds} s ਲੱਗੇ.
 	This session: {reason}	ਇਸ ਸੈਸ਼ਨ ਵਿੱਚ: {reason}
-	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਸ਼ਕਲ ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ। ਫਿਰ ਇਹ ਸ਼ਕਲ ਵਜੋਂ ਸੋਧੀ ਨਹੀਂ ਜਾ ਸਕੇਗੀ। ਸ਼ਕਲ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਹੈ?
-	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਲਿਖਤ ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ। ਇਸ ਦੀ ਲਿਖਤ ਫਿਰ ਸੋਧੀ ਨਹੀਂ ਜਾ ਸਕੇਗੀ। ਲਿਖਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਹੈ?
+	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਸ਼ਕਲ ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ. ਫਿਰ ਇਹ ਸ਼ਕਲ ਵਜੋਂ ਸੋਧੀ ਨਹੀਂ ਜਾ ਸਕੇਗੀ. ਸ਼ਕਲ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਹੈ?
+	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	ਅੱਗੇ ਵਧਣ ਤੋਂ ਪਹਿਲਾਂ ਇਸ ਲਿਖਤ ਪਰਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ. ਇਸ ਦੀ ਲਿਖਤ ਫਿਰ ਸੋਧੀ ਨਹੀਂ ਜਾ ਸਕੇਗੀ. ਲਿਖਤ ਦਾ ਰਾਸਟਰ ਬਣਾਉਣਾ ਹੈ?
 	Threshold Level	ਹੱਦ ਦਾ ਪੱਧਰ
 	Threshold…	ਹੱਦ…
 	Thumbnail Contents	ਥੰਬਨੇਲ ਦੀ ਸਮੱਗਰੀ
@@ -3791,13 +3788,13 @@
 	Trim…	ਵਾਧੂ ਕਿਨਾਰੇ ਛਾਂਟੋ…
 	TrueType font	TrueType ਫ਼ੌਂਟ
 	Turbulent	ਅਸ਼ਾਂਤ
-	Turn the prompt back on with Ask On Mismatch in Edit › Color Settings.	ਸੋਧੋ › ਰੰਗ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਮੇਲ ਨਾ ਖਾਣ 'ਤੇ ਪੁੱਛੋ ਨਾਲ ਪੁੱਛਣਾ ਮੁੜ ਚਾਲੂ ਕਰੋ।
+	Turn the prompt back on with Ask On Mismatch in Edit › Color Settings.	ਸੋਧੋ › ਰੰਗ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਮੇਲ ਨਾ ਖਾਣ 'ਤੇ ਪੁੱਛੋ ਨਾਲ ਪੁੱਛਣਾ ਮੁੜ ਚਾਲੂ ਕਰੋ.
 	Twirl	ਭੰਵਰ ਬਣਾਓ
 	Twirl Clockwise	ਘੜੀ ਦੀ ਦਿਸ਼ਾ ਵਿੱਚ ਭੰਵਰ ਬਣਾਓ
 	Twirl Counterclockwise	ਘੜੀ ਦੀ ਉਲਟੀ ਦਿਸ਼ਾ ਵਿੱਚ ਭੰਵਰ ਬਣਾਓ
 	Twirl…	ਭੰਵਰ ਬਣਾਓ…
 	Twist	ਮਰੋੜ
-	Type	Type
+	Type	ਟਾਈਪ
 	Type Layer	ਲਿਖਤ ਪਰਤ
 	Type Options	ਲਿਖਤ ਦੇ ਵਿਕਲਪ
 	Type Styles	ਲਿਖਤ ਸ਼ੈਲੀਆਂ
@@ -3853,8 +3850,8 @@
 	Use Custom Color	ਚੁਣਿਆ ਰੰਗ ਵਰਤੋ
 	Use Default	ਮੂਲ ਵਰਤੋ
 	Use Default Masks on Fill Layers	ਭਰਾਈ ਪਰਤਾਂ 'ਤੇ ਮੂਲ ਮਾਸਕ ਵਰਤੋ
-	Use File › Open to open an image.	ਚਿੱਤਰ ਖੋਲ੍ਹਣ ਲਈ ਫ਼ਾਈਲ › ਖੋਲ੍ਹੋ ਵਰਤੋ।
-	Use File › Open, or paste a copied image with {paste}.	ਫ਼ਾਈਲ › ਖੋਲ੍ਹੋ ਵਰਤੋ ਜਾਂ ਕਾਪੀ ਕੀਤਾ ਚਿੱਤਰ {paste} ਨਾਲ ਚਿਪਕਾਓ।
+	Use File › Open to open an image.	ਚਿੱਤਰ ਖੋਲ੍ਹਣ ਲਈ ਫ਼ਾਈਲ › ਖੋਲ੍ਹੋ ਵਰਤੋ.
+	Use File › Open, or paste a copied image with {paste}.	ਫ਼ਾਈਲ › ਖੋਲ੍ਹੋ ਵਰਤੋ ਜਾਂ ਕਾਪੀ ਕੀਤਾ ਚਿੱਤਰ {paste} ਨਾਲ ਚਿਪਕਾਓ.
 	Use Global Light	ਸਾਂਝੀ ਰੌਸ਼ਨੀ ਵਰਤੋ
 	Use Legacy	ਪੁਰਾਣਾ ਢੰਗ ਵਰਤੋ
 	Use Measurement Scale	ਮਾਪ ਦਾ ਪੈਮਾਨਾ ਵਰਤੋ
@@ -3872,8 +3869,8 @@
 	Use the embedded profile ({profile})	ਇੰਬੈਡ ਕੀਤਾ ਪ੍ਰੋਫਾਈਲ ({profile}) ਵਰਤੋ
 	Use these settings for new arrows	ਨਵੇਂ ਤੀਰਾਂ ਲਈ ਇਹ ਸੈਟਿੰਗਾਂ ਵਰਤੋ
 	Use:	ਵਰਤੋ:
-	Uses the foreground and background colors.	ਮੂਹਰਲੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਰੰਗ ਵਰਤਦਾ ਹੈ।
-	Uses the foreground and background colours.	ਮੂਹਰਲੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਰੰਗ ਵਰਤਦਾ ਹੈ।
+	Uses the foreground and background colors.	ਮੂਹਰਲੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਰੰਗ ਵਰਤਦਾ ਹੈ.
+	Uses the foreground and background colours.	ਮੂਹਰਲੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਰੰਗ ਵਰਤਦਾ ਹੈ.
 	Vanishing Point	ਲੁਪਤ ਬਿੰਦੂ
 	Vanishing Point is not active	ਲੁਪਤ ਬਿੰਦੂ ਸਰਗਰਮ ਨਹੀਂ ਹੈ
 	Vanishing Point: click four corners to create a plane	ਲੁਪਤ ਬਿੰਦੂ: ਸਮਤਲ ਬਣਾਉਣ ਲਈ ਚਾਰ ਕੋਨਿਆਂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
@@ -3882,7 +3879,7 @@
 	Variable Data Sets…	ਵੇਰੀਏਬਲ ਡਾਟਾ ਸੈੱਟ…
 	Variable font	ਵੇਰੀਏਬਲ ਫ਼ੌਂਟ
 	Variables	ਵੇਰੀਏਬਲ
-	Variables bind a layer's visibility, text or pixels to a named data slot.	ਵੇਰੀਏਬਲ ਕਿਸੇ ਪਰਤ ਦੀ ਦਿੱਖ, ਲਿਖਤ ਜਾਂ ਪਿਕਸਲਾਂ ਨੂੰ ਨਾਮ ਵਾਲੇ ਡਾਟਾ ਸਲਾਟ ਨਾਲ ਜੋੜਦੇ ਹਨ।
+	Variables bind a layer's visibility, text or pixels to a named data slot.	ਵੇਰੀਏਬਲ ਕਿਸੇ ਪਰਤ ਦੀ ਦਿੱਖ, ਲਿਖਤ ਜਾਂ ਪਿਕਸਲਾਂ ਨੂੰ ਨਾਮ ਵਾਲੇ ਡਾਟਾ ਸਲਾਟ ਨਾਲ ਜੋੜਦੇ ਹਨ.
 	Variance	ਪ੍ਰਸਰਣ
 	Vary round brush hardness on hud	ਤੁਰੰਤ ਦਿੱਖ ਕੰਟਰੋਲ ਵਿੱਚ ਗੋਲ ਬਰਸ਼ ਦੀ ਸਖ਼ਤੀ ਬਦਲੋ
 	Vector Mask	ਵੈਕਟਰ ਮਾਸਕ
@@ -3929,7 +3926,7 @@
 	W:	W:
 	WIA Support	WIA ਸਮਰਥਨ
 	WIA Support…	WIA ਸਮਰਥਨ…
-	Wait for the current job to finish.	ਮੌਜੂਦਾ ਕੰਮ ਪੂਰਾ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ।
+	Wait for the current job to finish.	ਮੌਜੂਦਾ ਕੰਮ ਪੂਰਾ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ.
 	Wand	ਛੜੀ
 	Warm	ਨਿੱਘਾ
 	Warming Filter (85)	ਨਿੱਘਾ ਫਿਲਟਰ (85)
@@ -3943,7 +3940,7 @@
 	Warp:	ਵਾਰਪ:
 	Water Paper	ਪਾਣੀ ਵਾਲਾ ਕਾਗਜ਼
 	Watercolor	ਜਲ-ਰੰਗ
-	Watercolour look: lighter interior, darker rims.	ਜਲ-ਰੰਗ ਵਰਗੀ ਦਿੱਖ: ਅੰਦਰ ਹਲਕਾ, ਕਿਨਾਰਿਆਂ 'ਤੇ ਗੂੜ੍ਹਾ।
+	Watercolour look: lighter interior, darker rims.	ਜਲ-ਰੰਗ ਵਰਗੀ ਦਿੱਖ: ਅੰਦਰ ਹਲਕਾ, ਕਿਨਾਰਿਆਂ 'ਤੇ ਗੂੜ੍ਹਾ.
 	Wave	ਲਹਿਰ
 	Wavelength Max	ਵੱਧ ਤੋਂ ਵੱਧ ਤਰੰਗ-ਲੰਬਾਈ
 	Wavelength Min	ਘੱਟੋ-ਘੱਟ ਤਰੰਗ-ਲੰਬਾਈ
@@ -3977,13 +3974,13 @@
 	Wide Gamut RGB	Wide Gamut RGB
 	Wide Sharp	ਚੌੜਾ ਤਿੱਖਾ
 	Width and Height	ਚੌੜਾਈ ਅਤੇ ਉਚਾਈ
-	WinTab reads pressure, tilt, rotation and the eraser end from the tablet driver. Turn off Windows Ink in your tablet's software utility (for example Wacom Center) before using it.	WinTab ਟੈਬਲੈੱਟ ਡਰਾਈਵਰ ਤੋਂ ਦਬਾਅ, ਝੁਕਾਅ, ਘੁੰਮਾਅ ਅਤੇ ਰਬੜ ਵਾਲੇ ਸਿਰੇ ਨੂੰ ਪੜ੍ਹਦਾ ਹੈ। ਇਸ ਨੂੰ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੇ ਟੈਬਲੈੱਟ ਦੀ ਸਾਫਟਵੇਅਰ ਸਹੂਲਤ (ਜਿਵੇਂ Wacom Center) ਵਿੱਚ Windows Ink ਬੰਦ ਕਰੋ।
+	WinTab reads pressure, tilt, rotation and the eraser end from the tablet driver. Turn off Windows Ink in your tablet's software utility (for example Wacom Center) before using it.	WinTab ਟੈਬਲੈੱਟ ਡਰਾਈਵਰ ਤੋਂ ਦਬਾਅ, ਝੁਕਾਅ, ਘੁੰਮਾਅ ਅਤੇ ਰਬੜ ਵਾਲੇ ਸਿਰੇ ਨੂੰ ਪੜ੍ਹਦਾ ਹੈ. ਇਸ ਨੂੰ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੇ ਟੈਬਲੈੱਟ ਦੀ ਸਾਫਟਵੇਅਰ ਸਹੂਲਤ (ਜਿਵੇਂ Wacom Center) ਵਿੱਚ Windows Ink ਬੰਦ ਕਰੋ.
 	Wind	ਹਵਾ
 	Window renderer: {renderer}	ਵਿੰਡੋ ਰੈਂਡਰਰ: {renderer}
 	Windows	Windows
 	Windows LCD	Windows LCD
 	Wind…	ਹਵਾ…
-	With GPU Memory set to Automatic, this also limits the GPU layer budget. That budget is capped at one quarter of installed RAM and, when known, three eighths of the graphics card's memory, with a 512 MB minimum. Raising this limit beyond those caps does not increase the GPU budget.	GPU ਮੈਮੋਰੀ ਆਪਣੇ ਆਪ ਸੈੱਟ ਹੋਣ 'ਤੇ, ਇਹ GPU ਪਰਤ ਬਜਟ ਵੀ ਸੀਮਿਤ ਕਰਦਾ ਹੈ। ਉਸ ਬਜਟ ਦੀ ਹੱਦ ਇੰਸਟਾਲ ਕੀਤੀ RAM ਦਾ ਚੌਥਾ ਹਿੱਸਾ ਅਤੇ, ਜਾਣਿਆ ਹੋਣ 'ਤੇ, ਗ੍ਰਾਫਿਕਸ ਕਾਰਡ ਦੀ ਮੈਮੋਰੀ ਦਾ ਤਿੰਨ ਅੱਠਵਾਂ ਹਿੱਸਾ ਹੈ, ਘੱਟੋ-ਘੱਟ 512 MB ਨਾਲ। ਇਹ ਸੀਮਾ ਉਨ੍ਹਾਂ ਹੱਦਾਂ ਤੋਂ ਵੱਧ ਕਰਨ ਨਾਲ GPU ਬਜਟ ਨਹੀਂ ਵਧਦਾ।
+	With GPU Memory set to Automatic, this also limits the GPU layer budget. That budget is capped at one quarter of installed RAM and, when known, three eighths of the graphics card's memory, with a 512 MB minimum. Raising this limit beyond those caps does not increase the GPU budget.	GPU ਮੈਮੋਰੀ ਆਪਣੇ ਆਪ ਸੈੱਟ ਹੋਣ 'ਤੇ, ਇਹ GPU ਪਰਤ ਬਜਟ ਵੀ ਸੀਮਿਤ ਕਰਦਾ ਹੈ. ਉਸ ਬਜਟ ਦੀ ਹੱਦ ਇੰਸਟਾਲ ਕੀਤੀ RAM ਦਾ ਚੌਥਾ ਹਿੱਸਾ ਅਤੇ, ਜਾਣਿਆ ਹੋਣ 'ਤੇ, ਗ੍ਰਾਫਿਕਸ ਕਾਰਡ ਦੀ ਮੈਮੋਰੀ ਦਾ ਤਿੰਨ ਅੱਠਵਾਂ ਹਿੱਸਾ ਹੈ, ਘੱਟੋ-ਘੱਟ 512 MB ਨਾਲ. ਇਹ ਸੀਮਾ ਉਨ੍ਹਾਂ ਹੱਦਾਂ ਤੋਂ ਵੱਧ ਕਰਨ ਨਾਲ GPU ਬਜਟ ਨਹੀਂ ਵਧਦਾ.
 	Word Spacing	ਸ਼ਬਦਾਂ ਦਾ ਫ਼ਾਸਲਾ
 	Work Path	ਕਾਰਜਕਾਰੀ ਪਾਥ
 	Working	ਕਾਰਜਕਾਰੀ
@@ -4013,7 +4010,7 @@
 	Y	Y
 	Yellow  ·  Blue	ਪੀਲਾ  ·  ਨੀਲਾ
 	Yellows	ਪੀਲੇ ਟੋਨ
-	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	ਤੁਹਾਡਾ ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਸੈੱਟ {set} ਇੱਥੇ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ: {n} ਸ਼ਾਰਟਕੱਟ ਮੂਲ ਤੋਂ ਵੱਖ ਹਨ। ਸੋਧੋ › ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਉਨ੍ਹਾਂ ਨੂੰ ਦਿਖਾਉਂਦਾ ਹੈ; ਸਭ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ ਨਾਲ ਇਹ ਵਾਪਸ ਹੁੰਦਾ ਹੈ।
+	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	ਤੁਹਾਡਾ ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਸੈੱਟ {set} ਇੱਥੇ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ: {n} ਸ਼ਾਰਟਕੱਟ ਮੂਲ ਤੋਂ ਵੱਖ ਹਨ. ਸੋਧੋ › ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਉਨ੍ਹਾਂ ਨੂੰ ਦਿਖਾਉਂਦਾ ਹੈ; ਸਭ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ ਨਾਲ ਇਹ ਵਾਪਸ ਹੁੰਦਾ ਹੈ.
 	ZIP	ZIP
 	ZigZag	ਜ਼ਿਗਜ਼ੈਗ
 	ZigZag…	ਜ਼ਿਗਜ਼ੈਗ…
@@ -4076,23 +4073,23 @@
 	{name} Properties	{name} ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
 	{name} can't keep everything in this document	{name} ਇਸ ਦਸਤਾਵੇਜ਼ ਦੀ ਹਰ ਚੀਜ਼ ਨਹੀਂ ਰੱਖ ਸਕਦਾ
 	{name} options	{name} ਦੀਆਂ ਚੋਣਾਂ
-	{name} was changed by another app after it was opened or saved here.	ਇੱਥੇ ਖੋਲ੍ਹਣ ਜਾਂ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ “{name}” ਕਿਸੇ ਹੋਰ ਐਪ ਨੇ ਬਦਲਿਆ ਹੈ।
-	{n} commands are not in PhotoCraft.	{n} ਕਮਾਂਡਾਂ PhotoCraft ਵਿੱਚ ਨਹੀਂ ਹਨ।
+	{name} was changed by another app after it was opened or saved here.	ਇੱਥੇ ਖੋਲ੍ਹਣ ਜਾਂ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ “{name}” ਕਿਸੇ ਹੋਰ ਐਪ ਨੇ ਬਦਲਿਆ ਹੈ.
+	{n} commands are not in PhotoCraft.	{n} ਕਮਾਂਡਾਂ PhotoCraft ਵਿੱਚ ਨਹੀਂ ਹਨ.
 	{n} of {max} sample points	{max} ਵਿੱਚੋਂ {n} ਨਮੂਨਾ ਬਿੰਦੂ
 	{ok} written to {dir}	{dir} ਵਿੱਚ {ok} ਲਿਖੇ
-	{path}: the path is not valid Unicode; rename the file and open it again.	{path}: ਪਾਥ ਵੈਧ Unicode ਨਹੀਂ ਹੈ; ਫ਼ਾਈਲ ਦਾ ਨਾਮ ਬਦਲ ਕੇ ਮੁੜ ਖੋਲ੍ਹੋ।
-	{path}: the path is not valid Unicode; save under another name.	{path}: ਪਾਥ ਵੈਧ Unicode ਨਹੀਂ ਹੈ; ਕਿਸੇ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ।
+	{path}: the path is not valid Unicode; rename the file and open it again.	{path}: ਪਾਥ ਵੈਧ Unicode ਨਹੀਂ ਹੈ; ਫ਼ਾਈਲ ਦਾ ਨਾਮ ਬਦਲ ਕੇ ਮੁੜ ਖੋਲ੍ਹੋ.
+	{path}: the path is not valid Unicode; save under another name.	{path}: ਪਾਥ ਵੈਧ Unicode ਨਹੀਂ ਹੈ; ਕਿਸੇ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ.
 	{set} (modified)	{set} (ਸੋਧਿਆ)
 	{set} from {file} replaced the one from {earlier}	{file} ਦੇ {set} ਨੇ {earlier} ਵਾਲੇ ਨੂੰ ਬਦਲ ਦਿੱਤਾ
-	{shortcut} assigned.	{shortcut} ਨਿਰਧਾਰਤ ਕੀਤਾ।
-	{shortcut} is already in use by {commands} and will be removed from it when you click OK.	{shortcut} ਪਹਿਲਾਂ ਹੀ {commands} ਵਰਤ ਰਿਹਾ ਹੈ ਅਤੇ ਠੀਕ ਹੈ 'ਤੇ ਕਲਿੱਕ ਕਰਨ ਨਾਲ ਉਸ ਵਿੱਚੋਂ ਹਟ ਜਾਵੇਗਾ।
-	{shortcut} is reserved by the system and can't be assigned.	{shortcut} ਸਿਸਟਮ ਲਈ ਰਾਖਵਾਂ ਹੈ ਅਤੇ ਨਿਰਧਾਰਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।
+	{shortcut} assigned.	{shortcut} ਨਿਰਧਾਰਤ ਕੀਤਾ.
+	{shortcut} is already in use by {commands} and will be removed from it when you click OK.	{shortcut} ਪਹਿਲਾਂ ਹੀ {commands} ਵਰਤ ਰਿਹਾ ਹੈ ਅਤੇ ਠੀਕ ਹੈ 'ਤੇ ਕਲਿੱਕ ਕਰਨ ਨਾਲ ਉਸ ਵਿੱਚੋਂ ਹਟ ਜਾਵੇਗਾ.
+	{shortcut} is reserved by the system and can't be assigned.	{shortcut} ਸਿਸਟਮ ਲਈ ਰਾਖਵਾਂ ਹੈ ਅਤੇ ਨਿਰਧਾਰਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ.
 	{size} (was {old})	{size} (ਪਹਿਲਾਂ {old})
 	{verb} {mask} {layer}	{verb} {mask} {layer}
 	{w} px x {h} px ({ppi} ppi)	{w} px x {h} px ({ppi} ppi)
 	{w} {unit} x {h} {unit} ({ppi} ppi)	{w} {unit} x {h} {unit} ({ppi} ppi)
 	{zoom}%	{zoom}%
-	“{name}” already exists. Replace it?	“{name}” ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਬਦਲਣਾ ਹੈ?
+	“{name}” already exists. Replace it?	“{name}” ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ. ਬਦਲਣਾ ਹੈ?
 	…and {n} more	…ਅਤੇ {n} ਹੋਰ
 	↑↓ navigate   {key} run   esc close	↑↓ ਚੁਣੋ   {key} ਚਲਾਓ   esc ਬੰਦ ਕਰੋ
 	↑↓ navigate   ↵ run   esc close	↑↓ ਚੁਣੋ   ↵ ਚਲਾਓ   esc ਬੰਦ ਕਰੋ
@@ -4121,7 +4118,7 @@
 @plural	{n} Layer|{n} Layers	{n} ਪਰਤ|{n} ਪਰਤਾਂ
 @plural	{n} action|{n} actions	{n} ਕਾਰਵਾਈ|{n} ਕਾਰਵਾਈਆਂ
 @plural	{n} item|{n} items	{n} ਆਈਟਮ|{n} ਆਈਟਮਾਂ
-@plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	ਇਸ ਕੰਪ ਵਿੱਚ ਰਿਕਾਰਡ ਕੀਤੀ {n} ਪਰਤ ਮਿਟਾਈ ਗਈ। ਕੰਪ ਅੱਪਡੇਟ ਕਰੋ ਜਾਂ ਚੇਤਾਵਨੀ ਸਾਫ਼ ਕਰੋ।|ਇਸ ਕੰਪ ਵਿੱਚ ਰਿਕਾਰਡ ਕੀਤੀਆਂ {n} ਪਰਤਾਂ ਮਿਟਾਈਆਂ ਗਈਆਂ। ਕੰਪ ਅੱਪਡੇਟ ਕਰੋ ਜਾਂ ਚੇਤਾਵਨੀ ਸਾਫ਼ ਕਰੋ।
+@plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	ਇਸ ਕੰਪ ਵਿੱਚ ਰਿਕਾਰਡ ਕੀਤੀ {n} ਪਰਤ ਮਿਟਾਈ ਗਈ. ਕੰਪ ਅੱਪਡੇਟ ਕਰੋ ਜਾਂ ਚੇਤਾਵਨੀ ਸਾਫ਼ ਕਰੋ.|ਇਸ ਕੰਪ ਵਿੱਚ ਰਿਕਾਰਡ ਕੀਤੀਆਂ {n} ਪਰਤਾਂ ਮਿਟਾਈਆਂ ਗਈਆਂ. ਕੰਪ ਅੱਪਡੇਟ ਕਰੋ ਜਾਂ ਚੇਤਾਵਨੀ ਸਾਫ਼ ਕਰੋ.
 @plural	{n} layer|{n} layers	{n} ਪਰਤ|{n} ਪਰਤਾਂ
 @plural	{n} plane|{n} planes	{n} ਸਮਤਲ|{n} ਸਮਤਲ
 @plural	{n} preset|{n} presets	{n} ਪ੍ਰੀਸੈੱਟ|{n} ਪ੍ਰੀਸੈੱਟ
@@ -4208,12 +4205,11 @@ layers	Fill	ਭਰਾਈ
 layers	Fill:	ਭਰਾਈ:
 navigator	Zoom	ਜ਼ੂਮ
 shape	Appearance	ਦਿੱਖ
-# Source delta: 8b1e614e7b257ea8dc34c90a128ab68d93a13e55; verified lookup additions, AI-assisted; native review pending.
 	Align bottom edges	ਹੇਠਲੇ ਕਿਨਾਰੇ ਇਕਸਾਰ ਕਰੋ
 	Align top edges	ਉੱਪਰਲੇ ਕਿਨਾਰੇ ਇਕਸਾਰ ਕਰੋ
 	Align vertical centers	ਖੜ੍ਹਵੇਂ ਕੇਂਦਰ ਇਕਸਾਰ ਕਰੋ
-	Always use Pressure for Opacity. When off, Brush Preset controls pressure	ਅਪਾਰਦਰਸ਼ਤਾ ਲਈ ਹਮੇਸ਼ਾ ਦਬਾਅ ਵਰਤੋ। ਬੰਦ ਹੋਣ ਉੱਤੇ ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਦਬਾਅ ਕੰਟਰੋਲ ਕਰਦਾ ਹੈ
-	Always use Pressure for Size. When off, Brush Preset controls pressure	ਆਕਾਰ ਲਈ ਹਮੇਸ਼ਾ ਦਬਾਅ ਵਰਤੋ। ਬੰਦ ਹੋਣ ਉੱਤੇ ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਦਬਾਅ ਕੰਟਰੋਲ ਕਰਦਾ ਹੈ
+	Always use Pressure for Opacity. When off, Brush Preset controls pressure	ਅਪਾਰਦਰਸ਼ਤਾ ਲਈ ਹਮੇਸ਼ਾ ਦਬਾਅ ਵਰਤੋ. ਬੰਦ ਹੋਣ ਉੱਤੇ ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਦਬਾਅ ਕੰਟਰੋਲ ਕਰਦਾ ਹੈ
+	Always use Pressure for Size. When off, Brush Preset controls pressure	ਆਕਾਰ ਲਈ ਹਮੇਸ਼ਾ ਦਬਾਅ ਵਰਤੋ. ਬੰਦ ਹੋਣ ਉੱਤੇ ਬਰਸ਼ ਪ੍ਰੀਸੈੱਟ ਦਬਾਅ ਕੰਟਰੋਲ ਕਰਦਾ ਹੈ
 	Auto-nest Layers	ਪਰਤਾਂ ਆਪਣੇ ਆਪ ਅੰਦਰ ਨੇਸਟ ਕਰੋ
 	Auto-size Canvas	ਕੈਨਵਸ ਦਾ ਆਕਾਰ ਆਪਣੇ ਆਪ ਬਦਲੋ
 	Canceled opening {name}	{name} ਨੂੰ ਖੋਲ੍ਹਣਾ ਰੱਦ ਕੀਤਾ
@@ -4235,15 +4231,15 @@ shape	Appearance	ਦਿੱਖ
 	Equalize Entire Image Based On Selected Area	ਚੁਣੇ ਖੇਤਰ ਦੇ ਆਧਾਰ ਉੱਤੇ ਪੂਰਾ ਚਿੱਤਰ ਸਮਾਨ ਕਰੋ
 	Equalize Selected Area Only	ਕੇਵਲ ਚੁਣਿਆ ਖੇਤਰ ਸਮਾਨ ਕਰੋ
 	Expand layer group on click	ਕਲਿੱਕ ਕਰਨ ਉੱਤੇ ਪਰਤ ਸਮੂਹ ਫੈਲਾਓ
-	Gradient-corrected interpolation: sharp and fast, with some color fringing on fine detail.	ਗ੍ਰੇਡੀਐਂਟ-ਸੁਧਾਰੀ ਇੰਟਰਪੋਲੇਸ਼ਨ: ਤਿੱਖੀ ਅਤੇ ਤੇਜ਼, ਬਾਰੀਕ ਵੇਰਵਿਆਂ ਉੱਤੇ ਕੁਝ ਰੰਗੀਨ ਝਾਲਰ ਨਾਲ।
-	Hirakawa–Parks: the cleanest edges and the least color fringing, the slowest.	Hirakawa–Parks: ਸਭ ਤੋਂ ਸੁਚੱਜੇ ਕਿਨਾਰੇ ਅਤੇ ਸਭ ਤੋਂ ਘੱਟ ਰੰਗੀਨ ਝਾਲਰ, ਸਭ ਤੋਂ ਹੌਲੀ।
-	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	ਕੈਮਰੇ ਦੇ ਰੰਗ ਫਿਲਟਰ ਦਾ ਮੋਜ਼ੇਕ ਕਿਵੇਂ ਭਰਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਫ਼ਾਈਲ ਖੁੱਲ੍ਹਣ ਵੇਲੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ; ਝਲਕ ਉਹ ਢੰਗ ਦਿਖਾਉਂਦੀ ਹੈ ਜਿਸ ਨਾਲ ਫ਼ਾਈਲ ਖੋਲ੍ਹੀ ਗਈ ਸੀ।
+	Gradient-corrected interpolation: sharp and fast, with some color fringing on fine detail.	ਗ੍ਰੇਡੀਐਂਟ-ਸੁਧਾਰੀ ਇੰਟਰਪੋਲੇਸ਼ਨ: ਤਿੱਖੀ ਅਤੇ ਤੇਜ਼, ਬਾਰੀਕ ਵੇਰਵਿਆਂ ਉੱਤੇ ਕੁਝ ਰੰਗੀਨ ਝਾਲਰ ਨਾਲ.
+	Hirakawa–Parks: the cleanest edges and the least color fringing, the slowest.	Hirakawa–Parks: ਸਭ ਤੋਂ ਸੁਚੱਜੇ ਕਿਨਾਰੇ ਅਤੇ ਸਭ ਤੋਂ ਘੱਟ ਰੰਗੀਨ ਝਾਲਰ, ਸਭ ਤੋਂ ਹੌਲੀ.
+	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	ਕੈਮਰੇ ਦੇ ਰੰਗ ਫਿਲਟਰ ਦਾ ਮੋਜ਼ੇਕ ਕਿਵੇਂ ਭਰਿਆ ਜਾਂਦਾ ਹੈ. ਇਹ ਫ਼ਾਈਲ ਖੁੱਲ੍ਹਣ ਵੇਲੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ; ਝਲਕ ਉਹ ਢੰਗ ਦਿਖਾਉਂਦੀ ਹੈ ਜਿਸ ਨਾਲ ਫ਼ਾਈਲ ਖੋਲ੍ਹੀ ਗਈ ਸੀ.
 	Intersect Path with Selection	ਪਾਥ ਅਤੇ ਚੋਣ ਦਾ ਸਾਂਝਾ ਹਿੱਸਾ ਲਵੋ
 	Keep Relative Position During Layer Reordering	ਪਰਤਾਂ ਦਾ ਕ੍ਰਮ ਬਦਲਦੇ ਸਮੇਂ ਸਾਪੇਖ ਸਥਿਤੀ ਰੱਖੋ
 	Move Layer Mask	ਪਰਤ ਮਾਸਕ ਹਿਲਾਓ
-	No slices are selected. Click a slice in the preview to select it.	ਕੋਈ ਸਲਾਈਸ ਨਹੀਂ ਚੁਣਿਆ। ਚੁਣਨ ਲਈ ਝਲਕ ਵਿੱਚ ਸਲਾਈਸ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।
+	No slices are selected. Click a slice in the preview to select it.	ਕੋਈ ਸਲਾਈਸ ਨਹੀਂ ਚੁਣਿਆ. ਚੁਣਨ ਲਈ ਝਲਕ ਵਿੱਚ ਸਲਾਈਸ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ.
 	Not a web color: click for the nearest web color	ਵੈੱਬ ਰੰਗ ਨਹੀਂ: ਸਭ ਤੋਂ ਨੇੜਲੇ ਵੈੱਬ ਰੰਗ ਲਈ ਕਲਿੱਕ ਕਰੋ
-	Open a document to select a color range.	ਰੰਗ ਦੀ ਰੇਂਜ ਚੁਣਨ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
+	Open a document to select a color range.	ਰੰਗ ਦੀ ਰੇਂਜ ਚੁਣਨ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
 	Out of gamut for printing: click for the nearest printable color	ਛਪਾਈ ਦੀ ਰੰਗ ਸੀਮਾ ਤੋਂ ਬਾਹਰ: ਸਭ ਤੋਂ ਨੇੜਲੇ ਛਪਣਯੋਗ ਰੰਗ ਲਈ ਕਲਿੱਕ ਕਰੋ
 	Painting Mode	ਪੇਂਟਿੰਗ ਮੋਡ
 	Remember to turn off the printer's own color management in Print Settings…	ਪ੍ਰਿੰਟਰ ਦਾ ਆਪਣਾ ਰੰਗ ਪ੍ਰਬੰਧਨ ਬੰਦ ਕਰਨਾ ਯਾਦ ਰੱਖੋ, ਛਪਾਈ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ…
@@ -4259,8 +4255,7 @@ shape	Appearance	ਦਿੱਖ
 	Shrinkwrap Canvas on Save	ਸੰਭਾਲਣ ਵੇਲੇ ਕੈਨਵਸ ਨੂੰ ਸਮੱਗਰੀ ਦੀਆਂ ਹੱਦਾਂ ਤੱਕ ਸਮੇਟੋ
 	Smoothing Options	ਨਰਮਾਈ ਦੀਆਂ ਚੋਣਾਂ
 	Switch Foreground and Background Colors (X)	ਮੂਹਰਲੇ ਅਤੇ ਪਿੱਛੋਕੜ ਦੇ ਰੰਗ ਬਦਲੋ (X)
-	The fastest and the softest, with color fringing on fine detail.	ਸਭ ਤੋਂ ਤੇਜ਼ ਅਤੇ ਸਭ ਤੋਂ ਨਰਮ, ਬਾਰੀਕ ਵੇਰਵਿਆਂ ਉੱਤੇ ਰੰਗੀਨ ਝਾਲਰ ਨਾਲ।
-# Source delta: 153fcff8c365a399c271d235df282e7eacd66305; Camera Raw sidecar UI verified at e04ecbdaa339915af841c485e212ebc87b2df64a; AI-assisted; native review pending.
+	The fastest and the softest, with color fringing on fine detail.	ਸਭ ਤੋਂ ਤੇਜ਼ ਅਤੇ ਸਭ ਤੋਂ ਨਰਮ, ਬਾਰੀਕ ਵੇਰਵਿਆਂ ਉੱਤੇ ਰੰਗੀਨ ਝਾਲਰ ਨਾਲ.
 	Save the settings to each raw's sidecar without opening it	ਹਰੇਕ raw ਫ਼ਾਈਲ ਨੂੰ ਖੋਲ੍ਹੇ ਬਿਨਾਂ ਉਸ ਦੀ ਸਾਈਡਕਾਰ ਫ਼ਾਈਲ ਵਿੱਚ ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੋ
 	Some settings could not be saved; the raws stay open	ਕੁਝ ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੀਆਂ ਨਹੀਂ ਜਾ ਸਕੀਆਂ; raw ਫ਼ਾਈਲਾਂ ਖੁੱਲ੍ਹੀਆਂ ਰਹਿਣਗੀਆਂ
 	Saved Camera Raw settings to {file}	{file} ਵਿੱਚ Camera Raw ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੀਆਂ

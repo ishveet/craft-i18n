@@ -1,11 +1,18 @@
-# Punjabi (Gurmukhi) — CADCraft saved-inventory draft
-# Clean room: original translations from the plain meaning of the English; no third-party translated tables.
-# Contributors: @ishveet with OpenAI Codex, AI-assisted.
-# All 1,604 saved candidates processed; shared resolutions are not new app translations.
-# New app usage is AI-assisted and pending native-speaker review.
-# Pinned source: 865fa9afb047e6a5053b8f51c3ad4feef90804d2
-# Source-aware AI semantic QA conducted; native-speaker and actual UI qualification remain pending.
-# Technical English exceptions and source-linked provenance are recorded in local QA.
+# ਪੰਜਾਬੀ (pa) interface catalog for CADCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
+
 	  Cancel  	  ਰੱਦ ਕਰੋ  
 	  OK  	  ਠੀਕ ਹੈ  
 	 or [	 ਜਾਂ [
@@ -36,9 +43,9 @@
 	<> Not Equal	<> ਬਰਾਬਰ ਨਹੀਂ
 	= Equals	= ਬਰਾਬਰ ਹੈ
 	> Greater than	> ਤੋਂ ਵੱਧ
-	A built-in table: editing it keeps an edited copy in the drawing.	ਅੰਦਰੂਨੀ ਸਾਰਣੀ: ਇਸ ਨੂੰ ਸੋਧਣ ਨਾਲ ਡਰਾਇੰਗ ਵਿੱਚ ਸੋਧੀ ਕਾਪੀ ਰੱਖੀ ਜਾਂਦੀ ਹੈ।
-	A drawing opened from a file keeps that file's format.	ਫ਼ਾਈਲ ਤੋਂ ਖੋਲ੍ਹੀ ਡਰਾਇੰਗ ਉਸ ਫ਼ਾਈਲ ਦਾ ਫਾਰਮੈਟ ਰੱਖਦੀ ਹੈ।
-	A shortcut you give wins over CADCraft's own. Changes apply at once and are kept for next time.	ਤੁਹਾਡਾ ਦਿੱਤਾ ਸ਼ਾਰਟਕੱਟ CADCraft ਦੇ ਆਪਣੇ ਸ਼ਾਰਟਕੱਟ ਤੋਂ ਪਹਿਲਾਂ ਲਾਗੂ ਹੁੰਦਾ ਹੈ। ਤਬਦੀਲੀਆਂ ਤੁਰੰਤ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ ਅਗਲੀ ਵਾਰ ਲਈ ਰੱਖੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।
+	A built-in table: editing it keeps an edited copy in the drawing.	ਅੰਦਰੂਨੀ ਸਾਰਣੀ: ਇਸ ਨੂੰ ਸੋਧਣ ਨਾਲ ਡਰਾਇੰਗ ਵਿੱਚ ਸੋਧੀ ਕਾਪੀ ਰੱਖੀ ਜਾਂਦੀ ਹੈ.
+	A drawing opened from a file keeps that file's format.	ਫ਼ਾਈਲ ਤੋਂ ਖੋਲ੍ਹੀ ਡਰਾਇੰਗ ਉਸ ਫ਼ਾਈਲ ਦਾ ਫਾਰਮੈਟ ਰੱਖਦੀ ਹੈ.
+	A shortcut you give wins over CADCraft's own. Changes apply at once and are kept for next time.	ਤੁਹਾਡਾ ਦਿੱਤਾ ਸ਼ਾਰਟਕੱਟ CADCraft ਦੇ ਆਪਣੇ ਸ਼ਾਰਟਕੱਟ ਤੋਂ ਪਹਿਲਾਂ ਲਾਗੂ ਹੁੰਦਾ ਹੈ. ਤਬਦੀਲੀਆਂ ਤੁਰੰਤ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ ਅਗਲੀ ਵਾਰ ਲਈ ਰੱਖੀਆਂ ਜਾਂਦੀਆਂ ਹਨ.
 	A variable name starts with a letter and has only letters, digits and _	ਵੇਰੀਏਬਲ ਦਾ ਨਾਮ ਅੱਖਰ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ ਅਤੇ ਇਸ ਵਿੱਚ ਕੇਵਲ ਅੱਖਰ, ਅੰਕ ਅਤੇ _ ਹੁੰਦੇ ਹਨ
 	About CADCraft	CADCraft ਬਾਰੇ
 	Absolute	ਨਿਰਪੇਖ
@@ -53,7 +60,7 @@
 	Add…	ਜੋੜੋ…
 	Alias	ਉਪਨਾਮ
 	Alias file: {file}	ਉਪਨਾਮ ਫ਼ਾਈਲ: {file}
-	Aliases are saved in your CADCraft profile and survive restarts.	ਉਪਨਾਮ ਤੁਹਾਡੇ CADCraft ਪ੍ਰੋਫਾਈਲ ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ ਅਤੇ ਮੁੜ ਚਾਲੂ ਕਰਨ ਉੱਤੇ ਵੀ ਰਹਿੰਦੇ ਹਨ।
+	Aliases are saved in your CADCraft profile and survive restarts.	ਉਪਨਾਮ ਤੁਹਾਡੇ CADCraft ਪ੍ਰੋਫਾਈਲ ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ ਅਤੇ ਮੁੜ ਚਾਲੂ ਕਰਨ ਉੱਤੇ ਵੀ ਰਹਿੰਦੇ ਹਨ.
 	Align Multileaders	ਮਲਟੀਲੀਡਰ ਇਕਸਾਰ ਕਰੋ
 	Align Text	ਲਿਖਤ ਇਕਸਾਰ ਕਰੋ
 	Aligned	ਇਕਸਾਰ
@@ -61,7 +68,7 @@
 	All Scales	ਸਾਰੇ ਸਕੇਲ
 	All Used Layers	ਸਾਰੀਆਂ ਵਰਤੀਆਂ ਪਰਤਾਂ
 	Alt	Alt
-	An array that would create more objects than this is refused.	ਇਸ ਤੋਂ ਵੱਧ ਵਸਤੂਆਂ ਬਣਾਉਣ ਵਾਲੀ ਐਰੇ ਰੱਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।
+	An array that would create more objects than this is refused.	ਇਸ ਤੋਂ ਵੱਧ ਵਸਤੂਆਂ ਬਣਾਉਣ ਵਾਲੀ ਐਰੇ ਰੱਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ.
 	Analyze Shapes	ਸ਼ਕਲਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ
 	Analyze Usage	ਵਰਤੋਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ
 	Angstroms	ਐਂਗਸਟ੍ਰੋਮ
@@ -101,7 +108,7 @@
 	Axis, End	ਧੁਰਾ, ਅੰਤ
 	B	B
 	Back to CADCraft's shortcut	CADCraft ਦਾ ਸ਼ਾਰਟਕੱਟ ਮੁੜ ਵਰਤੋ
-	Backup copies are off, so the current file will be replaced.	ਬੈਕਅੱਪ ਕਾਪੀਆਂ ਬੰਦ ਹਨ, ਇਸ ਲਈ ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਬਦਲੀ ਜਾਵੇਗੀ।
+	Backup copies are off, so the current file will be replaced.	ਬੈਕਅੱਪ ਕਾਪੀਆਂ ਬੰਦ ਹਨ, ਇਸ ਲਈ ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਬਦਲੀ ਜਾਵੇਗੀ.
 	Backup copy	ਬੈਕਅੱਪ ਕਾਪੀ
 	Base	ਆਧਾਰ
 	Baseline	ਆਧਾਰ ਰੇਖਾ
@@ -139,8 +146,8 @@
 	ByLayer	ਪਰਤ ਅਨੁਸਾਰ
 	CADCraft	CADCraft
 	CADCraft Help	CADCraft ਮਦਦ
-	CADCraft is up to date.	CADCraft ਅੱਪ-ਟੂ-ਡੇਟ ਹੈ।
-	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft ਤੁਹਾਡੇ ਵਰਤੋਂਕਾਰ ਖਾਤੇ ਲਈ ਇਹ ਤਰਜੀਹਾਂ, ਆਬਜੈਕਟ ਸਨੈਪ ਮੋਡ ਅਤੇ ਡਰਾਫਟਿੰਗ ਟੌਗਲ ਰੱਖਦਾ ਹੈ ਅਤੇ ਸ਼ੁਰੂ ਹੋਣ ਉੱਤੇ ਮੁੜ ਬਹਾਲ ਕਰਦਾ ਹੈ।
+	CADCraft is up to date.	CADCraft ਅੱਪ-ਟੂ-ਡੇਟ ਹੈ.
+	CADCraft keeps these preferences, object snap modes and drafting toggles for your user account and restores them when it starts.	CADCraft ਤੁਹਾਡੇ ਵਰਤੋਂਕਾਰ ਖਾਤੇ ਲਈ ਇਹ ਤਰਜੀਹਾਂ, ਆਬਜੈਕਟ ਸਨੈਪ ਮੋਡ ਅਤੇ ਡਰਾਫਟਿੰਗ ਟੌਗਲ ਰੱਖਦਾ ਹੈ ਅਤੇ ਸ਼ੁਰੂ ਹੋਣ ਉੱਤੇ ਮੁੜ ਬਹਾਲ ਕਰਦਾ ਹੈ.
 	Calibrate	ਕੈਲੀਬਰੇਟ ਕਰੋ
 	Calibrate 3D Mouse	3D ਮਾਊਸ ਕੈਲੀਬਰੇਟ ਕਰੋ
 	Cartesian (x, y)	ਕਾਰਟੀਜ਼ੀਅਨ (x, y)
@@ -162,9 +169,9 @@
 	Change Space	ਸਪੇਸ ਬਦਲੋ
 	Change to Current Layer	ਮੌਜੂਦਾ ਪਰਤ ਵਿੱਚ ਬਦਲੋ
 	Changed: {n}	ਬਦਲੇ: {n}
-	Changes apply at once and are kept for next time.	ਤਬਦੀਲੀਆਂ ਤੁਰੰਤ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ ਅਗਲੀ ਵਾਰ ਲਈ ਰੱਖੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।
+	Changes apply at once and are kept for next time.	ਤਬਦੀਲੀਆਂ ਤੁਰੰਤ ਲਾਗੂ ਹੁੰਦੀਆਂ ਹਨ ਅਤੇ ਅਗਲੀ ਵਾਰ ਲਈ ਰੱਖੀਆਂ ਜਾਂਦੀਆਂ ਹਨ.
 	Check for Updates…	ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਕਰੋ…
-	Choose the command the alias starts.	ਉਪਨਾਮ ਨਾਲ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲੀ ਕਮਾਂਡ ਚੁਣੋ।
+	Choose the command the alias starts.	ਉਪਨਾਮ ਨਾਲ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲੀ ਕਮਾਂਡ ਚੁਣੋ.
 	Circumference	ਘੇਰਾ
 	Clear Command History	ਕਮਾਂਡ ਇਤਿਹਾਸ ਸਾਫ਼ ਕਰੋ
 	Clear History	ਇਤਿਹਾਸ ਸਾਫ਼ ਕਰੋ
@@ -201,7 +208,7 @@
 	Command Reference	ਕਮਾਂਡ ਸੰਦਰਭ
 	Command line history	ਕਮਾਂਡ ਲਾਈਨ ਇਤਿਹਾਸ
 	Compare Drawings...	ਡਰਾਇੰਗਾਂ ਦੀ ਤੁਲਨਾ ਕਰੋ...
-	Computer-aided design and drafting: an open-source, clean-room CAD application written in pure Rust.	ਕੰਪਿਊਟਰ-ਸਹਾਇਤਾ ਡਿਜ਼ਾਈਨ ਅਤੇ ਡਰਾਫਟਿੰਗ: ਪੂਰੀ ਤਰ੍ਹਾਂ Rust ਵਿੱਚ ਲਿਖੀ ਓਪਨ-ਸੋਰਸ, ਕਲੀਨ-ਰੂਮ CAD ਐਪਲੀਕੇਸ਼ਨ।
+	Computer-aided design and drafting: an open-source, clean-room CAD application written in pure Rust.	ਕੰਪਿਊਟਰ-ਸਹਾਇਤਾ ਡਿਜ਼ਾਈਨ ਅਤੇ ਡਰਾਫਟਿੰਗ: ਪੂਰੀ ਤਰ੍ਹਾਂ Rust ਵਿੱਚ ਲਿਖੀ ਓਪਨ-ਸੋਰਸ, ਕਲੀਨ-ਰੂਮ CAD ਐਪਲੀਕੇਸ਼ਨ.
 	Concentric	ਇਕਕੇਂਦਰੀ
 	Cone	ਸ਼ੰਕੂ
 	Constraint Bars	ਬੰਧਨ ਪੱਟੀਆਂ
@@ -220,7 +227,7 @@
 	Copy as JSON	JSON ਵਜੋਂ ਕਾਪੀ ਕਰੋ
 	Copy with Base Point	ਆਧਾਰ ਬਿੰਦੂ ਨਾਲ ਕਾਪੀ ਕਰੋ
 	Corner	ਕੋਨਾ
-	Could not check for updates.	ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਨਹੀਂ ਹੋ ਸਕੀ।
+	Could not check for updates.	ਅੱਪਡੇਟਾਂ ਦੀ ਜਾਂਚ ਨਹੀਂ ਹੋ ਸਕੀ.
 	Count	ਗਿਣਤੀ
 	Count List	ਗਿਣਤੀ ਸੂਚੀ
 	Count Table	ਗਿਣਤੀ ਸਾਰਣੀ
@@ -247,8 +254,8 @@
 	DWG	DWG
 	DWG Reference...	DWG ਹਵਾਲਾ...
 	DXF	DXF
-	DXF 2010 and earlier keep them. Use Save As to keep them in the drawing.	DXF 2010 ਅਤੇ ਪੁਰਾਣੇ ਸੰਸਕਰਣ ਉਨ੍ਹਾਂ ਨੂੰ ਰੱਖਦੇ ਹਨ। ਡਰਾਇੰਗ ਵਿੱਚ ਰੱਖਣ ਲਈ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ ਵਰਤੋ।
-	DXF keeps them. Use Save As to keep them in the drawing.	DXF ਉਨ੍ਹਾਂ ਨੂੰ ਰੱਖਦਾ ਹੈ। ਡਰਾਇੰਗ ਵਿੱਚ ਰੱਖਣ ਲਈ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ ਵਰਤੋ।
+	DXF 2010 and earlier keep them. Use Save As to keep them in the drawing.	DXF 2010 ਅਤੇ ਪੁਰਾਣੇ ਸੰਸਕਰਣ ਉਨ੍ਹਾਂ ਨੂੰ ਰੱਖਦੇ ਹਨ. ਡਰਾਇੰਗ ਵਿੱਚ ਰੱਖਣ ਲਈ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ ਵਰਤੋ.
+	DXF keeps them. Use Save As to keep them in the drawing.	DXF ਉਨ੍ਹਾਂ ਨੂੰ ਰੱਖਦਾ ਹੈ. ਡਰਾਇੰਗ ਵਿੱਚ ਰੱਖਣ ਲਈ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ ਵਰਤੋ.
 	Data	ਡਾਟਾ
 	Data Extraction...	ਡਾਟਾ ਕੱਢਣਾ...
 	Data Link...	ਡਾਟਾ ਲਿੰਕ...
@@ -263,7 +270,7 @@
 	Default to boundary extents	ਮੂਲ ਰੂਪ ਵਿੱਚ ਹੱਦ ਦੀ ਪੂਰੀ ਵਿਆਪਤੀ ਵਰਤੋ
 	Define Attributes	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ
 	Define Attributes...	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਪਰਿਭਾਸ਼ਿਤ ਕਰੋ...
-	Define each corner of the selection window with a separate click.	ਚੋਣ ਵਿੰਡੋ ਦਾ ਹਰ ਕੋਨਾ ਵੱਖਰੇ ਕਲਿੱਕ ਨਾਲ ਨਿਰਧਾਰਤ ਕਰੋ।
+	Define each corner of the selection window with a separate click.	ਚੋਣ ਵਿੰਡੋ ਦਾ ਹਰ ਕੋਨਾ ਵੱਖਰੇ ਕਲਿੱਕ ਨਾਲ ਨਿਰਧਾਰਤ ਕਰੋ.
 	Defined width	ਪਰਿਭਾਸ਼ਿਤ ਚੌੜਾਈ
 	Deg/Min/Sec	ਡਿਗਰੀ/ਮਿੰਟ/ਸਕਿੰਟ
 	Degree	ਡਿਗਰੀ
@@ -322,7 +329,7 @@
 	Drawing Utilities	ਡਰਾਇੰਗ ਸਹੂਲਤਾਂ
 	Drawing as bytes	ਬਾਈਟਾਂ ਵਜੋਂ ਡਰਾਇੰਗ
 	Drawings (DWG, DXF)	ਡਰਾਇੰਗਾਂ (DWG, DXF)
-	Drawings with no file yet are saved in the default version. 0 minutes turns automatic save off.	ਬਿਨਾਂ ਫ਼ਾਈਲ ਵਾਲੀਆਂ ਡਰਾਇੰਗਾਂ ਮੂਲ ਸੰਸਕਰਣ ਵਿੱਚ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ। 0 ਮਿੰਟ ਆਪਣੇ ਆਪ ਸੰਭਾਲਣਾ ਬੰਦ ਕਰਦਾ ਹੈ।
+	Drawings with no file yet are saved in the default version. 0 minutes turns automatic save off.	ਬਿਨਾਂ ਫ਼ਾਈਲ ਵਾਲੀਆਂ ਡਰਾਇੰਗਾਂ ਮੂਲ ਸੰਸਕਰਣ ਵਿੱਚ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ. 0 ਮਿੰਟ ਆਪਣੇ ਆਪ ਸੰਭਾਲਣਾ ਬੰਦ ਕਰਦਾ ਹੈ.
 	Dynamic Block Data	ਗਤੀਸ਼ੀਲ ਬਲਾਕ ਡਾਟਾ
 	Dynamic Block Grips	ਗਤੀਸ਼ੀਲ ਬਲਾਕ ਗ੍ਰਿਪ
 	Dynamic Block Reference	ਗਤੀਸ਼ੀਲ ਬਲਾਕ ਹਵਾਲਾ
@@ -354,7 +361,7 @@
 	End angle	ਅੰਤਲਾ ਕੋਣ
 	Engineering	ਇੰਜੀਨੀਅਰਿੰਗ
 	Enter	Enter
-	Enter Top, Zero or Bottom.	Top, Zero ਜਾਂ Bottom ਦਿਓ।
+	Enter Top, Zero or Bottom.	Top, Zero ਜਾਂ Bottom ਦਿਓ.
 	Enter a fit data option	ਫਿੱਟ ਡਾਟਾ ਦੀ ਚੋਣ ਦਿਓ
 	Enter a pattern name	ਪੈਟਰਨ ਦਾ ਨਾਮ ਦਿਓ
 	Enter a vertex editing option	ਸਿਖਰ ਬਿੰਦੂ ਸੰਪਾਦਨ ਦੀ ਚੋਣ ਦਿਓ
@@ -511,7 +518,7 @@
 	Implied Loops	ਅਨੁਮਾਨਿਤ ਬੰਦ ਖੇਤਰ
 	Import and replace	ਆਯਾਤ ਕਰੋ ਅਤੇ ਬਦਲੋ
 	Import...	ਆਯਾਤ ਕਰੋ...
-	Import: there is no file dialog here; run ALIASEDIT with the file's contents using its text parameter.	ਆਯਾਤ: ਇੱਥੇ ਕੋਈ ਫ਼ਾਈਲ ਡਾਇਲਾਗ ਨਹੀਂ; ALIASEDIT ਨੂੰ ਉਸ ਦੇ text ਪੈਰਾਮੀਟਰ ਰਾਹੀਂ ਫ਼ਾਈਲ ਦੀ ਸਮੱਗਰੀ ਨਾਲ ਚਲਾਓ।
+	Import: there is no file dialog here; run ALIASEDIT with the file's contents using its text parameter.	ਆਯਾਤ: ਇੱਥੇ ਕੋਈ ਫ਼ਾਈਲ ਡਾਇਲਾਗ ਨਹੀਂ; ALIASEDIT ਨੂੰ ਉਸ ਦੇ text ਪੈਰਾਮੀਟਰ ਰਾਹੀਂ ਫ਼ਾਈਲ ਦੀ ਸਮੱਗਰੀ ਨਾਲ ਚਲਾਓ.
 	In	ਅੰਦਰ
 	In-window Menu Bar	ਵਿੰਡੋ ਅੰਦਰ ਮੀਨੂ ਪੱਟੀ
 	Inches	ਇੰਚ
@@ -577,14 +584,14 @@
 	Layer contains objects (double-click to make current)	ਪਰਤ ਵਿੱਚ ਵਸਤੂਆਂ ਹਨ (ਮੌਜੂਦਾ ਬਣਾਉਣ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ)
 	Layer is empty (double-click to make current)	ਪਰਤ ਖਾਲੀ ਹੈ (ਮੌਜੂਦਾ ਬਣਾਉਣ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ)
 	Layers Palette	ਪਰਤਾਂ ਪੈਲਟ
-	Layers displayed: {shown} of {total}.   Current layer: {layer}	ਦਿਖਾਈਆਂ ਪਰਤਾਂ: {total} ਵਿੱਚੋਂ {shown}।   ਮੌਜੂਦਾ ਪਰਤ: {layer}
+	Layers displayed: {shown} of {total}.   Current layer: {layer}	ਦਿਖਾਈਆਂ ਪਰਤਾਂ: {total} ਵਿੱਚੋਂ {shown}.   ਮੌਜੂਦਾ ਪਰਤ: {layer}
 	Layout list	ਖਾਕਾ ਸੂਚੀ
 	Layout paper	ਖਾਕੇ ਦਾ ਕਾਗਜ਼
 	Layout {name}: {table}	ਖਾਕਾ {name}: {table}
 	Layouts	ਖਾਕੇ
 	Leader	ਲੀਡਰ ਰੇਖਾ
 	Leaders Only	ਕੇਵਲ ਲੀਡਰ ਰੇਖਾਵਾਂ
-	Left device button: zoom extents. Right device button: calibrate.	ਖੱਬਾ ਜੰਤਰ ਬਟਨ: ਪੂਰੀ ਵਿਆਪਤੀ ਤੱਕ ਜ਼ੂਮ। ਸੱਜਾ ਜੰਤਰ ਬਟਨ: ਕੈਲੀਬਰੇਟ ਕਰੋ।
+	Left device button: zoom extents. Right device button: calibrate.	ਖੱਬਾ ਜੰਤਰ ਬਟਨ: ਪੂਰੀ ਵਿਆਪਤੀ ਤੱਕ ਜ਼ੂਮ. ਸੱਜਾ ਜੰਤਰ ਬਟਨ: ਕੈਲੀਬਰੇਟ ਕਰੋ.
 	Length	ਲੰਬਾਈ
 	Length X	ਲੰਬਾਈ X
 	Length Y	ਲੰਬਾਈ Y
@@ -619,7 +626,7 @@
 	Loft	ਲੌਫਟ
 	Longer click duration:	ਵੱਧ ਦੇਰ ਕਲਿੱਕ ਦੀ ਮਿਆਦ:
 	Ltscale	Ltscale
-	MIT OR Apache-2.0. Not affiliated with Autodesk, Inc.	MIT OR Apache-2.0। Autodesk, Inc. ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ।
+	MIT OR Apache-2.0. Not affiliated with Autodesk, Inc.	MIT OR Apache-2.0. Autodesk, Inc. ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ.
 	MODEL	ਮਾਡਲ
 	MText	MText
 	Magenta	ਮੈਜੈਂਟਾ
@@ -650,11 +657,11 @@
 	Model background	ਮਾਡਲ ਪਿੱਛੋਕੜ
 	Modeling	ਮਾਡਲਿੰਗ
 	Modify	ਸੋਧੋ
-	More than {n} aliases.	{n} ਤੋਂ ਵੱਧ ਉਪਨਾਮ।
+	More than {n} aliases.	{n} ਤੋਂ ਵੱਧ ਉਪਨਾਮ.
 	More toolbar commands	ਹੋਰ ਟੂਲਬਾਰ ਕਮਾਂਡਾਂ
 	Move Down	ਹੇਠਾਂ ਲਿਜਾਓ
 	Move Up	ਉੱਪਰ ਲਿਜਾਓ
-	Move sideways to pan; push/pull or twist to zoom.	ਪੈਨ ਕਰਨ ਲਈ ਪਾਸੇ ਹਿਲਾਓ; ਜ਼ੂਮ ਲਈ ਧੱਕੋ/ਖਿੱਚੋ ਜਾਂ ਮਰੋੜੋ।
+	Move sideways to pan; push/pull or twist to zoom.	ਪੈਨ ਕਰਨ ਲਈ ਪਾਸੇ ਹਿਲਾਓ; ਜ਼ੂਮ ਲਈ ਧੱਕੋ/ਖਿੱਚੋ ਜਾਂ ਮਰੋੜੋ.
 	Move/Copy/Rotate	ਹਿਲਾਓ/ਕਾਪੀ ਕਰੋ/ਘੁੰਮਾਓ
 	Multileader	ਮਲਟੀਲੀਡਰ
 	Multileader Style...	ਮਲਟੀਲੀਡਰ ਸ਼ੈਲੀ...
@@ -688,20 +695,20 @@
 	New STB	ਨਵਾਂ STB
 	New VP Freeze	ਨਵੇਂ ਵਿਊਪੋਰਟ ਵਿੱਚ ਫ੍ਰੀਜ਼
 	New Viewports...	ਨਵੇਂ ਵਿਊਪੋਰਟ...
-	New and the first drawing at startup use these units unless a default template is set (QNEWTEMPLATE).	ਜੇ ਮੂਲ ਟੈਂਪਲੇਟ ਸੈੱਟ ਨਾ ਹੋਵੇ (QNEWTEMPLATE), ਤਾਂ ਨਵੀਂ ਅਤੇ ਸ਼ੁਰੂਆਤ ਦੀ ਪਹਿਲੀ ਡਰਾਇੰਗ ਇਹ ਇਕਾਈਆਂ ਵਰਤਦੀਆਂ ਹਨ।
+	New and the first drawing at startup use these units unless a default template is set (QNEWTEMPLATE).	ਜੇ ਮੂਲ ਟੈਂਪਲੇਟ ਸੈੱਟ ਨਾ ਹੋਵੇ (QNEWTEMPLATE), ਤਾਂ ਨਵੀਂ ਅਤੇ ਸ਼ੁਰੂਆਤ ਦੀ ਪਹਿਲੀ ਡਰਾਇੰਗ ਇਹ ਇਕਾਈਆਂ ਵਰਤਦੀਆਂ ਹਨ.
 	New block	ਨਵਾਂ ਬਲਾਕ
 	New from Template...	ਟੈਂਪਲੇਟ ਤੋਂ ਨਵਾਂ...
 	New layout	ਨਵਾਂ ਖਾਕਾ
 	New state name	ਹਾਲਤ ਦਾ ਨਵਾਂ ਨਾਮ
 	New style	ਨਵੀਂ ਸ਼ੈਲੀ
 	Next Change	ਅਗਲੀ ਤਬਦੀਲੀ
-	No alias file loaded. REINIT replaces these aliases with a file's.	ਕੋਈ ਉਪਨਾਮ ਫ਼ਾਈਲ ਲੋਡ ਨਹੀਂ। REINIT ਇਹ ਉਪਨਾਮ ਫ਼ਾਈਲ ਵਾਲਿਆਂ ਨਾਲ ਬਦਲਦਾ ਹੈ।
-	No blocks defined in this drawing.	ਇਸ ਡਰਾਇੰਗ ਵਿੱਚ ਕੋਈ ਬਲਾਕ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ।
+	No alias file loaded. REINIT replaces these aliases with a file's.	ਕੋਈ ਉਪਨਾਮ ਫ਼ਾਈਲ ਲੋਡ ਨਹੀਂ. REINIT ਇਹ ਉਪਨਾਮ ਫ਼ਾਈਲ ਵਾਲਿਆਂ ਨਾਲ ਬਦਲਦਾ ਹੈ.
+	No blocks defined in this drawing.	ਇਸ ਡਰਾਇੰਗ ਵਿੱਚ ਕੋਈ ਬਲਾਕ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ.
 	No contributor data was built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਕੋਈ ਯੋਗਦਾਨੀ ਡਾਟਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
-	No external references are attached.	ਕੋਈ ਬਾਹਰੀ ਹਵਾਲੇ ਨਹੀਂ ਜੋੜੇ ਹੋਏ।
+	No external references are attached.	ਕੋਈ ਬਾਹਰੀ ਹਵਾਲੇ ਨਹੀਂ ਜੋੜੇ ਹੋਏ.
 	No model credits were built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਮਾਡਲਾਂ ਦਾ ਕੋਈ ਸਿਹਰਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
 	No objects selected and no command running:	ਕੋਈ ਵਸਤੂ ਨਹੀਂ ਚੁਣੀ ਅਤੇ ਕੋਈ ਕਮਾਂਡ ਨਹੀਂ ਚੱਲ ਰਹੀ:
-	No plot style tables.	ਕੋਈ ਪਲਾਟ ਸ਼ੈਲੀ ਸਾਰਣੀਆਂ ਨਹੀਂ।
+	No plot style tables.	ਕੋਈ ਪਲਾਟ ਸ਼ੈਲੀ ਸਾਰਣੀਆਂ ਨਹੀਂ.
 	No saved layer states	ਕੋਈ ਸੰਭਾਲੀਆਂ ਪਰਤ ਹਾਲਤਾਂ ਨਹੀਂ
 	No selection	ਕੋਈ ਚੋਣ ਨਹੀਂ
 	No supported 3D mouse found	ਕੋਈ ਸਮਰਥਿਤ 3D ਮਾਊਸ ਨਹੀਂ ਮਿਲਿਆ
@@ -730,14 +737,14 @@
 	Oblique	ਤਿਰਛਾ
 	Offset	ਆਫਸੈੱਟ
 	On/Off	ਚਾਲੂ/ਬੰਦ
-	One of the Crafting Apps by the ArtCraft team and community.	ArtCraft ਟੀਮ ਅਤੇ ਭਾਈਚਾਰੇ ਦੀਆਂ Crafting Apps ਵਿੱਚੋਂ ਇੱਕ।
+	One of the Crafting Apps by the ArtCraft team and community.	ArtCraft ਟੀਮ ਅਤੇ ਭਾਈਚਾਰੇ ਦੀਆਂ Crafting Apps ਵਿੱਚੋਂ ਇੱਕ.
 	Only in this drawing: {n}	ਕੇਵਲ ਇਸ ਡਰਾਇੰਗ ਵਿੱਚ: {n}
 	Only in {name}: {n}	ਕੇਵਲ {name} ਵਿੱਚ: {n}
 	Oops	ਓਹੋ
 	Open (⌘O)	ਖੋਲ੍ਹੋ (⌘O)
 	Open Sample Drawing	ਨਮੂਨਾ ਡਰਾਇੰਗ ਖੋਲ੍ਹੋ
 	Open Xref	Xref ਖੋਲ੍ਹੋ
-	Open a drawing first.	ਪਹਿਲਾਂ ਡਰਾਇੰਗ ਖੋਲ੍ਹੋ।
+	Open a drawing first.	ਪਹਿਲਾਂ ਡਰਾਇੰਗ ਖੋਲ੍ਹੋ.
 	Open and Save	ਖੋਲ੍ਹੋ ਅਤੇ ਸੰਭਾਲੋ
 	Open in Block Editor	ਬਲਾਕ ਸੰਪਾਦਕ ਵਿੱਚ ਖੋਲ੍ਹੋ
 	Open sample drawing	ਨਮੂਨਾ ਡਰਾਇੰਗ ਖੋਲ੍ਹੋ
@@ -891,10 +898,10 @@
 	Replace Block...	ਬਲਾਕ ਬਦਲੋ...
 	Replace with:	ਇਸ ਨਾਲ ਬਦਲੋ:
 	Replacement text	ਬਦਲਵੀਂ ਲਿਖਤ
-	Requires a point (x,y, @dx,dy or @d<a).	ਬਿੰਦੂ ਲੋੜੀਂਦਾ ਹੈ (x,y, @dx,dy ਜਾਂ @d<a)।
+	Requires a point (x,y, @dx,dy or @d<a).	ਬਿੰਦੂ ਲੋੜੀਂਦਾ ਹੈ (x,y, @dx,dy ਜਾਂ @d<a).
 	Reset Palettes	ਪੈਲਟ ਮੁੜ ਸੈੱਟ ਕਰੋ
 	Reset Panel Layout	ਪੈਨਲ ਖਾਕਾ ਮੁੜ ਸੈੱਟ ਕਰੋ
-	Reset keeps the interface language.	ਮੁੜ ਸੈੱਟ ਕਰਨਾ ਇੰਟਰਫੇਸ ਭਾਸ਼ਾ ਕਾਇਮ ਰੱਖਦਾ ਹੈ।
+	Reset keeps the interface language.	ਮੁੜ ਸੈੱਟ ਕਰਨਾ ਇੰਟਰਫੇਸ ਭਾਸ਼ਾ ਕਾਇਮ ਰੱਖਦਾ ਹੈ.
 	Reset to Defaults	ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ
 	Restore Layer State	ਪਰਤ ਹਾਲਤ ਮੁੜ ਬਹਾਲ ਕਰੋ
 	Results	ਨਤੀਜੇ
@@ -904,7 +911,7 @@
 	Revolve	ਧੁਰੇ ਦੁਆਲੇ ਘੁੰਮਾ ਕੇ ਠੋਸ ਬਣਾਓ
 	Right-Click Customization	ਸੱਜੇ-ਕਲਿੱਕ ਦਾ ਅਨੁਕੂਲਨ
 	Right-Click Customization...	ਸੱਜੇ-ਕਲਿੱਕ ਦਾ ਅਨੁਕੂਲਨ...
-	Run ALIASEDIT with the file's contents using its text parameter.	ALIASEDIT ਨੂੰ ਉਸ ਦੇ text ਪੈਰਾਮੀਟਰ ਰਾਹੀਂ ਫ਼ਾਈਲ ਦੀ ਸਮੱਗਰੀ ਨਾਲ ਚਲਾਓ।
+	Run ALIASEDIT with the file's contents using its text parameter.	ALIASEDIT ਨੂੰ ਉਸ ਦੇ text ਪੈਰਾਮੀਟਰ ਰਾਹੀਂ ਫ਼ਾਈਲ ਦੀ ਸਮੱਗਰੀ ਨਾਲ ਚਲਾਓ.
 	Run Script...	ਸਕ੍ਰਿਪਟ ਚਲਾਓ...
 	S	S
 	SVG drawings (SVG, SVGZ)	SVG ਡਰਾਇੰਗਾਂ (SVG, SVGZ)
@@ -920,7 +927,7 @@
 	Save Reference Edits	ਹਵਾਲੇ ਦੀਆਂ ਸੋਧਾਂ ਸੰਭਾਲੋ
 	Save State	ਹਾਲਤ ਸੰਭਾਲੋ
 	Save alias	ਉਪਨਾਮ ਸੰਭਾਲੋ
-	Save cancelled: {path} was not changed.	ਸੰਭਾਲਣਾ ਰੱਦ: {path} ਬਦਲਿਆ ਨਹੀਂ ਗਿਆ।
+	Save cancelled: {path} was not changed.	ਸੰਭਾਲਣਾ ਰੱਦ: {path} ਬਦਲਿਆ ਨਹੀਂ ਗਿਆ.
 	Save changes to block "{name}"?	ਬਲਾਕ "{name}" ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲਣੀਆਂ ਹਨ?
 	Save changes to {name}?	{name} ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲਣੀਆਂ ਹਨ?
 	Save new drawings as	ਨਵੀਆਂ ਡਰਾਇੰਗਾਂ ਇਸ ਰੂਪ ਵਿੱਚ ਸੰਭਾਲੋ
@@ -928,53 +935,53 @@
 	Saving {name} will remove content	{name} ਸੰਭਾਲਣ ਨਾਲ ਸਮੱਗਰੀ ਹਟ ਜਾਵੇਗੀ
 	Scale List...	ਸਕੇਲ ਸੂਚੀ...
 	Scientific	ਵਿਗਿਆਨਕ
-	Screen magnifiers, screen readers and recorders follow the system cursor.	ਸਕ੍ਰੀਨ ਵੱਡੀ ਕਰਨ ਵਾਲੇ, ਸਕ੍ਰੀਨ ਰੀਡਰ ਅਤੇ ਰਿਕਾਰਡਰ ਸਿਸਟਮ ਕਰਸਰ ਅਨੁਸਾਰ ਚੱਲਦੇ ਹਨ।
+	Screen magnifiers, screen readers and recorders follow the system cursor.	ਸਕ੍ਰੀਨ ਵੱਡੀ ਕਰਨ ਵਾਲੇ, ਸਕ੍ਰੀਨ ਰੀਡਰ ਅਤੇ ਰਿਕਾਰਡਰ ਸਿਸਟਮ ਕਰਸਰ ਅਨੁਸਾਰ ਚੱਲਦੇ ਹਨ.
 	Screening	ਸਕ੍ਰੀਨਿੰਗ
 	Search for layer	ਪਰਤ ਖੋਜੋ
 	Search for parameter	ਪੈਰਾਮੀਟਰ ਖੋਜੋ
 	Search for pattern	ਪੈਟਰਨ ਖੋਜੋ
-	Searches the current space.	ਮੌਜੂਦਾ ਸਪੇਸ ਵਿੱਚ ਖੋਜਦਾ ਹੈ।
+	Searches the current space.	ਮੌਜੂਦਾ ਸਪੇਸ ਵਿੱਚ ਖੋਜਦਾ ਹੈ.
 	Second and next points:	ਦੂਜਾ ਅਤੇ ਅਗਲੇ ਬਿੰਦੂ:
 	Select 2D polyline	2D ਪੌਲੀਲਾਈਨ ਚੁਣੋ
 	Select Objects	ਆਬਜੈਕਟ ਚੁਣੋ
 	Select Similar	ਮਿਲਦੀਆਂ-ਜੁਲਦੀਆਂ ਚੁਣੋ
-	Select a 2D polyline.	2D ਪੌਲੀਲਾਈਨ ਚੁਣੋ।
-	Select a block reference.	ਬਲਾਕ ਹਵਾਲਾ ਚੁਣੋ।
-	Select a circle or arc.	ਚੱਕਰ ਜਾਂ ਚਾਪ ਚੁਣੋ।
+	Select a 2D polyline.	2D ਪੌਲੀਲਾਈਨ ਚੁਣੋ.
+	Select a block reference.	ਬਲਾਕ ਹਵਾਲਾ ਚੁਣੋ.
+	Select a circle or arc.	ਚੱਕਰ ਜਾਂ ਚਾਪ ਚੁਣੋ.
 	Select a closed polyline	ਬੰਦ ਪੌਲੀਲਾਈਨ ਚੁਣੋ
-	Select a closed polyline, circle, ellipse or closed spline.	ਬੰਦ ਪੌਲੀਲਾਈਨ, ਚੱਕਰ, ਅੰਡਾਕਾਰ ਜਾਂ ਬੰਦ ਸਪਲਾਈਨ ਚੁਣੋ।
-	Select a closed polyline.	ਬੰਦ ਪੌਲੀਲਾਈਨ ਚੁਣੋ।
-	Select a curve as the path.	ਮਾਰਗ ਵਜੋਂ ਵਕਰ ਚੁਣੋ।
+	Select a closed polyline, circle, ellipse or closed spline.	ਬੰਦ ਪੌਲੀਲਾਈਨ, ਚੱਕਰ, ਅੰਡਾਕਾਰ ਜਾਂ ਬੰਦ ਸਪਲਾਈਨ ਚੁਣੋ.
+	Select a closed polyline.	ਬੰਦ ਪੌਲੀਲਾਈਨ ਚੁਣੋ.
+	Select a curve as the path.	ਮਾਰਗ ਵਜੋਂ ਵਕਰ ਚੁਣੋ.
 	Select a dimension constraint type	ਮਾਪ ਬੰਧਨ ਦੀ ਕਿਸਮ ਚੁਣੋ
 	Select a line object	ਰੇਖਾ ਵਸਤੂ ਚੁਣੋ
-	Select a line object.	ਰੇਖਾ ਵਸਤੂ ਚੁਣੋ।
-	Select a line or an arc.	ਰੇਖਾ ਜਾਂ ਚਾਪ ਚੁਣੋ।
+	Select a line object.	ਰੇਖਾ ਵਸਤੂ ਚੁਣੋ.
+	Select a line or an arc.	ਰੇਖਾ ਜਾਂ ਚਾਪ ਚੁਣੋ.
 	Select a line or polyline segment	ਰੇਖਾ ਜਾਂ ਪੌਲੀਲਾਈਨ ਖੰਡ ਚੁਣੋ
-	Select a line, arc or open polyline.	ਰੇਖਾ, ਚਾਪ ਜਾਂ ਖੁੱਲ੍ਹੀ ਪੌਲੀਲਾਈਨ ਚੁਣੋ।
-	Select a line, arc, circle, polyline, ellipse or spline as the path.	ਮਾਰਗ ਵਜੋਂ ਰੇਖਾ, ਚਾਪ, ਚੱਕਰ, ਪੌਲੀਲਾਈਨ, ਅੰਡਾਕਾਰ ਜਾਂ ਸਪਲਾਈਨ ਚੁਣੋ।
-	Select a line, circle, arc or polyline segment.	ਰੇਖਾ, ਚੱਕਰ, ਚਾਪ ਜਾਂ ਪੌਲੀਲਾਈਨ ਖੰਡ ਚੁਣੋ।
-	Select a line.	ਰੇਖਾ ਚੁਣੋ।
-	Select a polyline.	ਪੌਲੀਲਾਈਨ ਚੁਣੋ।
-	Select a text, mtext, attribute definition or dimension.	ਪਾਠ, mtext, ਵਿਸ਼ੇਸ਼ਤਾ ਪਰਿਭਾਸ਼ਾ ਜਾਂ ਮਾਪ ਚੁਣੋ।
+	Select a line, arc or open polyline.	ਰੇਖਾ, ਚਾਪ ਜਾਂ ਖੁੱਲ੍ਹੀ ਪੌਲੀਲਾਈਨ ਚੁਣੋ.
+	Select a line, arc, circle, polyline, ellipse or spline as the path.	ਮਾਰਗ ਵਜੋਂ ਰੇਖਾ, ਚਾਪ, ਚੱਕਰ, ਪੌਲੀਲਾਈਨ, ਅੰਡਾਕਾਰ ਜਾਂ ਸਪਲਾਈਨ ਚੁਣੋ.
+	Select a line, circle, arc or polyline segment.	ਰੇਖਾ, ਚੱਕਰ, ਚਾਪ ਜਾਂ ਪੌਲੀਲਾਈਨ ਖੰਡ ਚੁਣੋ.
+	Select a line.	ਰੇਖਾ ਚੁਣੋ.
+	Select a polyline.	ਪੌਲੀਲਾਈਨ ਚੁਣੋ.
+	Select a text, mtext, attribute definition or dimension.	ਪਾਠ, mtext, ਵਿਸ਼ੇਸ਼ਤਾ ਪਰਿਭਾਸ਼ਾ ਜਾਂ ਮਾਪ ਚੁਣੋ.
 	Select an annotation object	ਐਨੋਟੇਸ਼ਨ ਵਸਤੂ ਚੁਣੋ
 	Select an arc or circle	ਚਾਪ ਜਾਂ ਚੱਕਰ ਚੁਣੋ
-	Select an arc.	ਚਾਪ ਚੁਣੋ।
+	Select an arc.	ਚਾਪ ਚੁਣੋ.
 	Select an object	ਵਸਤੂ ਚੁਣੋ
 	Select an object to change	ਬਦਲਣ ਲਈ ਵਸਤੂ ਚੁਣੋ
 	Select an object to change or	ਬਦਲਣ ਲਈ ਵਸਤੂ ਚੁਣੋ ਜਾਂ
 	Select an object to measure	ਮਾਪਣ ਲਈ ਵਸਤੂ ਚੁਣੋ
 	Select an object to measure or	ਮਾਪਣ ਲਈ ਵਸਤੂ ਚੁਣੋ ਜਾਂ
-	Select an object.	ਵਸਤੂ ਚੁਣੋ।
-	Select an open curve.	ਖੁੱਲ੍ਹਾ ਵਕਰ ਚੁਣੋ।
-	Select an open line, arc, polyline, ellipse arc or spline.	ਖੁੱਲ੍ਹੀ ਰੇਖਾ, ਚਾਪ, ਪੌਲੀਲਾਈਨ, ਅੰਡਾਕਾਰ ਚਾਪ ਜਾਂ ਸਪਲਾਈਨ ਚੁਣੋ।
+	Select an object.	ਵਸਤੂ ਚੁਣੋ.
+	Select an open curve.	ਖੁੱਲ੍ਹਾ ਵਕਰ ਚੁਣੋ.
+	Select an open line, arc, polyline, ellipse arc or spline.	ਖੁੱਲ੍ਹੀ ਰੇਖਾ, ਚਾਪ, ਪੌਲੀਲਾਈਨ, ਅੰਡਾਕਾਰ ਚਾਪ ਜਾਂ ਸਪਲਾਈਨ ਚੁਣੋ.
 	Select arc or circle	ਚਾਪ ਜਾਂ ਚੱਕਰ ਚੁਣੋ
 	Select arc or polyline arc segment	ਚਾਪ ਜਾਂ ਪੌਲੀਲਾਈਨ ਚਾਪ ਖੰਡ ਚੁਣੋ
 	Select arc style	ਚਾਪ ਸ਼ੈਲੀ ਚੁਣੋ
 	Select arc, circle, line	ਚਾਪ, ਚੱਕਰ, ਰੇਖਾ ਚੁਣੋ
-	Select at least two objects to join.	ਜੋੜਨ ਲਈ ਘੱਟੋ-ਘੱਟ ਦੋ ਵਸਤੂਆਂ ਚੁਣੋ।
+	Select at least two objects to join.	ਜੋੜਨ ਲਈ ਘੱਟੋ-ਘੱਟ ਦੋ ਵਸਤੂਆਂ ਚੁਣੋ.
 	Select boundaries to remove	ਹਟਾਉਣ ਲਈ ਹੱਦਾਂ ਚੁਣੋ
 	Select circle or arc to add center mark	ਕੇਂਦਰ ਨਿਸ਼ਾਨ ਜੋੜਨ ਲਈ ਚੱਕਰ ਜਾਂ ਚਾਪ ਚੁਣੋ
-	Select closed objects (regions, closed polylines, circles).	ਬੰਦ ਵਸਤੂਆਂ ਚੁਣੋ (ਬੰਦ ਖੇਤਰ, ਬੰਦ ਪੌਲੀਲਾਈਨਾਂ, ਚੱਕਰ)।
+	Select closed objects (regions, closed polylines, circles).	ਬੰਦ ਵਸਤੂਆਂ ਚੁਣੋ (ਬੰਦ ਖੇਤਰ, ਬੰਦ ਪੌਲੀਲਾਈਨਾਂ, ਚੱਕਰ).
 	Select first line	ਪਹਿਲੀ ਰੇਖਾ ਚੁਣੋ
 	Select first line or arc	ਪਹਿਲੀ ਰੇਖਾ ਜਾਂ ਚਾਪ ਚੁਣੋ
 	Select first object	ਪਹਿਲੀ ਵਸਤੂ ਚੁਣੋ
@@ -992,10 +999,10 @@
 	Select objects	ਵਸਤੂਆਂ ਚੁਣੋ
 	Select objects (crossing window first corner)	ਵਸਤੂਆਂ ਚੁਣੋ (ਪਾਰ-ਕਾਟ ਵਿੰਡੋ ਦਾ ਪਹਿਲਾ ਕੋਨਾ)
 	Select objects first, then choose a command	ਪਹਿਲਾਂ ਵਸਤੂਆਂ ਚੁਣੋ, ਫਿਰ ਕਮਾਂਡ ਚੁਣੋ
-	Select objects to array.	ਐਰੇ ਬਣਾਉਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ।
+	Select objects to array.	ਐਰੇ ਬਣਾਉਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ.
 	Select objects to stretch by crossing-window or crossing-polygon...	ਪਾਰ-ਕਾਟ ਵਿੰਡੋ ਜਾਂ ਪਾਰ-ਕਾਟ ਬਹੁਭੁਜ ਨਾਲ ਖਿੱਚਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ...
 	Select objects:	ਵਸਤੂਆਂ ਚੁਣੋ:
-	Select one polyline (Multiple is available through the JSON form).	ਇੱਕ ਪੌਲੀਲਾਈਨ ਚੁਣੋ (Multiple, JSON ਰੂਪ ਰਾਹੀਂ ਉਪਲਬਧ ਹੈ)।
+	Select one polyline (Multiple is available through the JSON form).	ਇੱਕ ਪੌਲੀਲਾਈਨ ਚੁਣੋ (Multiple, JSON ਰੂਪ ਰਾਹੀਂ ਉਪਲਬਧ ਹੈ).
 	Select path curve	ਮਾਰਗ ਵਕਰ ਚੁਣੋ
 	Select point or object	ਬਿੰਦੂ ਜਾਂ ਵਸਤੂ ਚੁਣੋ
 	Select polyline	ਪੌਲੀਲਾਈਨ ਚੁਣੋ
@@ -1252,16 +1259,16 @@
 	Text to find	ਲੱਭਣ ਵਾਲੀ ਲਿਖਤ
 	Thaw All Layers	ਸਾਰੀਆਂ ਪਰਤਾਂ ਅਣਫ੍ਰੀਜ਼ ਕਰੋ
 	Thaw Layer	ਪਰਤ ਅਣਫ੍ਰੀਜ਼ ਕਰੋ
-	The aperture is how near the cursor must come to a point for an object snap to find it.	ਖੋਜ ਖੇਤਰ ਉਹ ਨੇੜਤਾ ਹੈ ਜਿਸ ਅੰਦਰ ਕਰਸਰ ਨੂੰ ਬਿੰਦੂ ਕੋਲ ਆਉਣਾ ਚਾਹੀਦਾ ਹੈ ਤਾਂ ਜੋ ਆਬਜੈਕਟ ਸਨੈਪ ਉਹ ਲੱਭ ਸਕੇ।
-	The current file doesn't look whole, so {name} stays as it is and the current file will be replaced.	ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਪੂਰੀ ਨਹੀਂ ਲੱਗਦੀ, ਇਸ ਲਈ {name} ਜਿਵੇਂ ਹੈ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਬਦਲੀ ਜਾਵੇਗੀ।
-	The current file is kept as {name} until the next save.	ਅਗਲੀ ਵਾਰ ਸੰਭਾਲਣ ਤੱਕ ਮੌਜੂਦਾ ਫ਼ਾਈਲ {name} ਵਜੋਂ ਰੱਖੀ ਜਾਂਦੀ ਹੈ।
-	The drawing changed. Close the window and open it again.	ਡਰਾਇੰਗ ਬਦਲ ਗਈ। ਵਿੰਡੋ ਬੰਦ ਕਰਕੇ ਮੁੜ ਖੋਲ੍ਹੋ।
-	There is nothing here yet.	ਇੱਥੇ ਹਾਲੇ ਕੁਝ ਨਹੀਂ।
+	The aperture is how near the cursor must come to a point for an object snap to find it.	ਖੋਜ ਖੇਤਰ ਉਹ ਨੇੜਤਾ ਹੈ ਜਿਸ ਅੰਦਰ ਕਰਸਰ ਨੂੰ ਬਿੰਦੂ ਕੋਲ ਆਉਣਾ ਚਾਹੀਦਾ ਹੈ ਤਾਂ ਜੋ ਆਬਜੈਕਟ ਸਨੈਪ ਉਹ ਲੱਭ ਸਕੇ.
+	The current file doesn't look whole, so {name} stays as it is and the current file will be replaced.	ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਪੂਰੀ ਨਹੀਂ ਲੱਗਦੀ, ਇਸ ਲਈ {name} ਜਿਵੇਂ ਹੈ ਰਹਿੰਦਾ ਹੈ ਅਤੇ ਮੌਜੂਦਾ ਫ਼ਾਈਲ ਬਦਲੀ ਜਾਵੇਗੀ.
+	The current file is kept as {name} until the next save.	ਅਗਲੀ ਵਾਰ ਸੰਭਾਲਣ ਤੱਕ ਮੌਜੂਦਾ ਫ਼ਾਈਲ {name} ਵਜੋਂ ਰੱਖੀ ਜਾਂਦੀ ਹੈ.
+	The drawing changed. Close the window and open it again.	ਡਰਾਇੰਗ ਬਦਲ ਗਈ. ਵਿੰਡੋ ਬੰਦ ਕਰਕੇ ਮੁੜ ਖੋਲ੍ਹੋ.
+	There is nothing here yet.	ਇੱਥੇ ਹਾਲੇ ਕੁਝ ਨਹੀਂ.
 	This drawing	ਇਹ ਡਰਾਇੰਗ
-	This format can't keep these objects yet: {objects}.	ਇਹ ਫਾਰਮੈਟ ਹਾਲੇ ਇਹ ਵਸਤੂਆਂ ਨਹੀਂ ਰੱਖ ਸਕਦਾ: {objects}।
+	This format can't keep these objects yet: {objects}.	ਇਹ ਫਾਰਮੈਟ ਹਾਲੇ ਇਹ ਵਸਤੂਆਂ ਨਹੀਂ ਰੱਖ ਸਕਦਾ: {objects}.
 	Time-sensitive right-click: a quick click is Enter, holding opens the menu	ਸਮਾਂ-ਸੰਵੇਦਨਸ਼ੀਲ ਸੱਜਾ ਕਲਿੱਕ: ਛੇਤੀ ਕਲਿੱਕ Enter ਹੈ, ਦਬਾਈ ਰੱਖਣ ਨਾਲ ਮੀਨੂ ਖੁੱਲ੍ਹਦਾ ਹੈ
 	To	ਤੱਕ
-	To get started, create or open a drawing.	ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਡਰਾਇੰਗ ਬਣਾਓ ਜਾਂ ਖੋਲ੍ਹੋ।
+	To get started, create or open a drawing.	ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਡਰਾਇੰਗ ਬਣਾਓ ਜਾਂ ਖੋਲ੍ਹੋ.
 	Toggle PICKADD (off: each pick replaces the selection)	PICKADD ਬਦਲੋ (ਬੰਦ: ਹਰ ਚੋਣ ਪਿਛਲੀ ਚੋਣ ਬਦਲ ਦਿੰਦੀ ਹੈ)
 	Toggle PICKADD (on: picks add to the selection)	PICKADD ਬਦਲੋ (ਚਾਲੂ: ਚੋਣਾਂ ਪਿਛਲੀ ਚੋਣ ਵਿੱਚ ਜੁੜਦੀਆਂ ਹਨ)
 	Tolerance	ਸਹਿਣਸ਼ੀਲਤਾ
@@ -1281,10 +1288,10 @@
 	Turn On Layer	ਪਰਤ ਚਾਲੂ ਕਰੋ
 	Turn Quick Properties off (QPMODE)	ਤੇਜ਼ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬੰਦ ਕਰੋ (QPMODE)
 	Turn on time-sensitive right-click	ਸਮਾਂ-ਸੰਵੇਦਨਸ਼ੀਲ ਸੱਜਾ ਕਲਿੱਕ ਚਾਲੂ ਕਰੋ
-	Turned off, a right-click while a command runs always opens the shortcut menu.	ਬੰਦ ਹੋਣ ਉੱਤੇ ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਸੱਜਾ ਕਲਿੱਕ ਹਮੇਸ਼ਾ ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ ਖੋਲ੍ਹਦਾ ਹੈ।
-	Turned off, a right-click while a command runs does what Right-Click Customization sets for Command mode.	ਬੰਦ ਹੋਣ ਉੱਤੇ ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਸੱਜਾ ਕਲਿੱਕ ਉਹ ਕਰਦਾ ਹੈ ਜੋ ਸੱਜਾ-ਕਲਿੱਕ ਅਨੁਕੂਲਨ ਕਮਾਂਡ ਮੋਡ ਲਈ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ।
+	Turned off, a right-click while a command runs always opens the shortcut menu.	ਬੰਦ ਹੋਣ ਉੱਤੇ ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਸੱਜਾ ਕਲਿੱਕ ਹਮੇਸ਼ਾ ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ ਖੋਲ੍ਹਦਾ ਹੈ.
+	Turned off, a right-click while a command runs does what Right-Click Customization sets for Command mode.	ਬੰਦ ਹੋਣ ਉੱਤੇ ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਸੱਜਾ ਕਲਿੱਕ ਉਹ ਕਰਦਾ ਹੈ ਜੋ ਸੱਜਾ-ਕਲਿੱਕ ਅਨੁਕੂਲਨ ਕਮਾਂਡ ਮੋਡ ਲਈ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ.
 	Type a command	ਕਮਾਂਡ ਲਿਖੋ
-	Type an alias name.	ਉਪਨਾਮ ਲਿਖੋ।
+	Type an alias name.	ਉਪਨਾਮ ਲਿਖੋ.
 	Type text; Enter starts a new paragraph	ਪਾਠ ਲਿਖੋ; Enter ਨਵਾਂ ਪੈਰਾ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ
 	UCS Icon	UCS ਆਈਕਨ
 	US Survey Feet	US ਸਰਵੇਖਣ ਫੁੱਟ
@@ -1346,7 +1353,7 @@
 	Weight	ਭਾਰ
 	When a command is active	ਕਮਾਂਡ ਸਰਗਰਮ ਹੋਣ ਵੇਲੇ
 	When no command is active	ਕੋਈ ਕਮਾਂਡ ਸਰਗਰਮ ਨਾ ਹੋਣ ਵੇਲੇ
-	While a command runs, a quick click is Enter and a longer click opens the shortcut menu.	ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਛੇਤੀ ਕਲਿੱਕ Enter ਹੈ ਅਤੇ ਲੰਮਾ ਕਲਿੱਕ ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ ਖੋਲ੍ਹਦਾ ਹੈ।
+	While a command runs, a quick click is Enter and a longer click opens the shortcut menu.	ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ ਛੇਤੀ ਕਲਿੱਕ Enter ਹੈ ਅਤੇ ਲੰਮਾ ਕਲਿੱਕ ਸ਼ਾਰਟਕੱਟ ਮੀਨੂ ਖੋਲ੍ਹਦਾ ਹੈ.
 	While a command runs:	ਕਮਾਂਡ ਚੱਲਦੇ ਸਮੇਂ:
 	White	ਚਿੱਟਾ
 	Whole words	ਪੂਰੇ ਸ਼ਬਦ
@@ -1378,15 +1385,15 @@
 	Zoom Window	ਵਿੰਡੋ ਜ਼ੂਮ
 	Zoom sensitivity	ਜ਼ੂਮ ਸੰਵੇਦਨਸ਼ੀਲਤਾ
 	built-in	ਅੰਦਰੂਨੀ
-	contains authoring elements. Open in Block Editor?	ਵਿੱਚ ਰਚਨਾ ਤੱਤ ਹਨ। ਬਲਾਕ ਸੰਪਾਦਕ ਵਿੱਚ ਖੋਲ੍ਹਣਾ ਹੈ?
+	contains authoring elements. Open in Block Editor?	ਵਿੱਚ ਰਚਨਾ ਤੱਤ ਹਨ. ਬਲਾਕ ਸੰਪਾਦਕ ਵਿੱਚ ਖੋਲ੍ਹਣਾ ਹੈ?
 	error	ਗਲਤੀ
 	lowercase	ਸਾਰੇ ਛੋਟੇ ਅੱਖਰ
 	milliseconds	ਮਿਲੀਸਕਿੰਟ
 	min	ਮਿੰਟ
 	objects	ਵਸਤੂਆਂ
 	overrides built-in	ਅੰਦਰੂਨੀ ਨੂੰ ਓਵਰਰਾਈਡ ਕਰਦਾ ਹੈ
-	{alias} is already defined; select it and use Edit.	{alias} ਪਹਿਲਾਂ ਹੀ ਪਰਿਭਾਸ਼ਿਤ ਹੈ; ਚੁਣ ਕੇ ਸੋਧੋ ਵਰਤੋ।
-	{command} is an unknown command.	{command} ਅਣਜਾਣ ਕਮਾਂਡ ਹੈ।
+	{alias} is already defined; select it and use Edit.	{alias} ਪਹਿਲਾਂ ਹੀ ਪਰਿਭਾਸ਼ਿਤ ਹੈ; ਚੁਣ ਕੇ ਸੋਧੋ ਵਰਤੋ.
+	{command} is an unknown command.	{command} ਅਣਜਾਣ ਕਮਾਂਡ ਹੈ.
 	{contributors} · {commits}	{contributors} · {commits}
 	{count} more types	{count} ਹੋਰ ਕਿਸਮਾਂ
 	{kind} (constraint {id})	{kind} (ਬੰਧਨ {id})

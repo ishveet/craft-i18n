@@ -1,4 +1,4 @@
-# ਪੰਜਾਬੀ (pa-guru) interface catalog for ArtCraft Launcher.
+# ਪੰਜਾਬੀ (pa) interface catalog for ArtCraft Launcher.
 # Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
 #   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
 #            word is a label that tells apart two meanings of the same English.
@@ -10,12 +10,8 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
-# Review: AI-assisted clean-room draft by @ishveet with OpenAI Codex.
-# Not exhaustively native-speaker reviewed. Existing shared terms retain their prior status.
-# The original 34-label approval does not extend to this new app catalog.
-# Source: storytold/craft-launcher c9c3acab542f962150ffc78b2d38a59e7a342c82.
-# Current source lookups and retained catalog-known keys are distinguished in the QA matrix.
-# Unresolved historical command IDs are omitted so they fall back to English.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
 
 	A new version is available. Download it to replace this version?	ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ. ਕੀ ਇਸ ਵਰਜਨ ਦੀ ਥਾਂ ਲਾਉਣ ਲਈ ਇਸਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨਾ ਹੈ?
 	A new version is available. Would you like to relaunch with the updated version?	ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ. ਕੀ ਅੱਪਡੇਟ ਕੀਤੇ ਵਰਜਨ ਨਾਲ ਮੁੜ ਖੋਲ੍ਹਣਾ ਹੈ?
@@ -291,10 +287,6 @@
 @plural	{n} h ago|{n} h ago	{n} ਘੰਟਾ ਪਹਿਲਾਂ|{n} ਘੰਟੇ ਪਹਿਲਾਂ
 @plural	{n} min ago|{n} min ago	{n} ਮਿੰਟ ਪਹਿਲਾਂ|{n} ਮਿੰਟ ਪਹਿਲਾਂ
 artcraft	AI image and video creation	AI ਨਾਲ ਚਿੱਤਰ ਅਤੇ ਵੀਡੀਓ ਬਣਾਉਣਾ
-artcraft	ArtCraft Studio brings AI image and video generation into a desktop workspace.	ArtCraft Studio ਡੈਸਕਟਾਪ ਕਾਰਜ-ਖੇਤਰ ਵਿੱਚ AI ਨਾਲ ਚਿੱਤਰ ਅਤੇ ਵੀਡੀਓ ਬਣਾਉਣ ਦੀ ਸਹੂਲਤ ਲਿਆਉਂਦਾ ਹੈ.
-artcraft	Create images and video with AI.	AI ਨਾਲ ਚਿੱਤਰ ਅਤੇ ਵੀਡੀਓ ਬਣਾਓ.
-artcraft	Generate artwork with ArtCraft's connected AI providers.	ArtCraft ਨਾਲ ਜੁੜੇ AI ਪ੍ਰਦਾਤਿਆਂ ਰਾਹੀਂ ਕਲਾਕ੍ਰਿਤੀਆਂ ਬਣਾਓ.
-artcraft	Images and video	ਚਿੱਤਰ ਅਤੇ ਵੀਡੀਓ
 artcraft-launcher	Installs and updates the Craft App Suite	Craft App Suite ਇੰਸਟਾਲ ਅਤੇ ਅੱਪਡੇਟ ਕਰਦਾ ਹੈ
 cadcraft	A drafting app with the command line, object snaps and workflow that drafters already know. Free, with no account and no subscription. In early, fast development.	ਕਮਾਂਡ ਲਾਈਨ, ਆਬਜੈਕਟ ਸਨੈਪ ਅਤੇ ਡਰਾਫਟਰਾਂ ਦੀ ਜਾਣੀ-ਪਛਾਣੀ ਕਾਰਜ-ਵਿਧੀ ਵਾਲੀ ਡਰਾਫਟਿੰਗ ਐਪ. ਮੁਫ਼ਤ, ਬਿਨਾਂ ਖਾਤੇ ਅਤੇ ਬਿਨਾਂ ਗਾਹਕੀ ਦੇ. ਸ਼ੁਰੂਆਤੀ ਅਤੇ ਤੇਜ਼ ਵਿਕਾਸ ਦੇ ਪੜਾਅ ਵਿੱਚ.
 cadcraft	A full drafting toolset	ਡਰਾਫਟਿੰਗ ਟੂਲਾਂ ਦਾ ਪੂਰਾ ਸੈੱਟ

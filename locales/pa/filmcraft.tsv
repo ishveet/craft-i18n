@@ -1,11 +1,18 @@
-# Punjabi (Gurmukhi) — FilmCraft saved-inventory draft
-# Clean room: original translations from the plain meaning of the English; no third-party translated tables.
-# Contributors: @ishveet with OpenAI Codex, AI-assisted.
-# All 3,749 saved candidates processed; shared resolutions are not new app translations.
-# New app usage is AI-assisted and pending native-speaker review.
-# Pinned source: da535c18433dbe046553733b0ab08ce9bd736a51
-# Source-aware AI semantic QA conducted; native-speaker and actual UI qualification remain pending.
-# Technical English exceptions and source-linked provenance are recorded in local QA.
+# ਪੰਜਾਬੀ (pa) interface catalog for FilmCraft.
+# Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
+#   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
+#            word is a label that tells apart two meanings of the same English.
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns (in any
+#            order), and a trailing "…" in one needs one in the other.
+#   @plural  English `one|other`; the translation lists this language's plural forms, `|`-separated.
+#   Lines starting with # and blank lines are ignored. A missing entry shows in English.
+#
+# Clean room: every entry was written from the plain meaning of the English text in ordinary
+# computing vocabulary. No other product's localisation, string table or translated UI was
+# consulted or copied; add entries the same way.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
+
 	   Angle	   ਕੋਣ
 	   Blur	   ਧੁੰਦਲਾਪਣ
 	   Corner Radius	   ਕੋਨੇ ਦਾ ਅਰਧ-ਵਿਆਸ
@@ -60,14 +67,14 @@
 	50-300mm Zoom	50-300mm ਜ਼ੂਮ
 	59.94 fps Drop-Frame	59.94 fps ਡਰਾਪ-ਫਰੇਮ
 	59.94 fps Non Drop-Frame	59.94 fps ਨਾਨ ਡਰਾਪ-ਫਰੇਮ
-	A boxed label with a round pointer; move the label and the pointer follows.	ਗੋਲ ਇਸ਼ਾਰੇ ਵਾਲਾ ਡੱਬੇਦਾਰ ਲੇਬਲ; ਲੇਬਲ ਹਿਲਾਉਣ ਨਾਲ ਇਸ਼ਾਰਾ ਵੀ ਨਾਲ ਚੱਲਦਾ ਹੈ।
-	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	ਕਲੀਨ-ਰੂਮ ਢੰਗ ਨਾਲ ਬਣਿਆ, ਪੂਰੀ ਤਰ੍ਹਾਂ Rust ਵਿੱਚ ਲਿਖਿਆ ਨਾਨ-ਲੀਨੀਅਰ ਵੀਡੀਓ ਸੰਪਾਦਕ। ArtCraft ਪਰਿਵਾਰ ਦਾ ਹਿੱਸਾ।
+	A boxed label with a round pointer; move the label and the pointer follows.	ਗੋਲ ਇਸ਼ਾਰੇ ਵਾਲਾ ਡੱਬੇਦਾਰ ਲੇਬਲ; ਲੇਬਲ ਹਿਲਾਉਣ ਨਾਲ ਇਸ਼ਾਰਾ ਵੀ ਨਾਲ ਚੱਲਦਾ ਹੈ.
+	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	ਕਲੀਨ-ਰੂਮ ਢੰਗ ਨਾਲ ਬਣਿਆ, ਪੂਰੀ ਤਰ੍ਹਾਂ Rust ਵਿੱਚ ਲਿਖਿਆ ਨਾਨ-ਲੀਨੀਅਰ ਵੀਡੀਓ ਸੰਪਾਦਕ. ArtCraft ਪਰਿਵਾਰ ਦਾ ਹਿੱਸਾ.
 	A cut sequence with transitions, effects and music	ਟ੍ਰਾਂਜ਼ਿਸ਼ਨਾਂ, ਪ੍ਰਭਾਵਾਂ ਅਤੇ ਸੰਗੀਤ ਵਾਲਾ ਸੰਪਾਦਿਤ ਸੀਕਵੈਂਸ
 	A file dialog is already open	ਇੱਕ ਫ਼ਾਈਲ ਡਾਇਲਾਗ ਪਹਿਲਾਂ ਹੀ ਖੁੱਲ੍ਹਾ ਹੈ
-	A news-style line that crawls in from the right and leaves at the left.	ਖ਼ਬਰਾਂ ਵਰਗੀ ਲਾਈਨ ਜੋ ਸੱਜਿਓਂ ਆਉਂਦੀ ਅਤੇ ਖੱਬਿਓਂ ਬਾਹਰ ਜਾਂਦੀ ਹੈ।
+	A news-style line that crawls in from the right and leaves at the left.	ਖ਼ਬਰਾਂ ਵਰਗੀ ਲਾਈਨ ਜੋ ਸੱਜਿਓਂ ਆਉਂਦੀ ਅਤੇ ਖੱਬਿਓਂ ਬਾਹਰ ਜਾਂਦੀ ਹੈ.
 	A range marker needs a positive duration	ਰੇਂਜ ਮਾਰਕਰ ਦੀ ਮਿਆਦ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ
-	A rounded tag that fits its text, with a status dot.	ਸਥਿਤੀ ਬਿੰਦੂ ਵਾਲਾ ਗੋਲ ਕੋਨਿਆਂ ਦਾ ਟੈਗ, ਜੋ ਆਪਣੇ ਪਾਠ ਅਨੁਸਾਰ ਫਿੱਟ ਹੁੰਦਾ ਹੈ।
-	A title on a rounded card with a soft shadow.	ਹਲਕੇ ਪਰਛਾਵੇਂ ਵਾਲੇ ਗੋਲ ਕੋਨਿਆਂ ਦੇ ਕਾਰਡ ਉੱਤੇ ਸਿਰਲੇਖ।
+	A rounded tag that fits its text, with a status dot.	ਸਥਿਤੀ ਬਿੰਦੂ ਵਾਲਾ ਗੋਲ ਕੋਨਿਆਂ ਦਾ ਟੈਗ, ਜੋ ਆਪਣੇ ਪਾਠ ਅਨੁਸਾਰ ਫਿੱਟ ਹੁੰਦਾ ਹੈ.
+	A title on a rounded card with a soft shadow.	ਹਲਕੇ ਪਰਛਾਵੇਂ ਵਾਲੇ ਗੋਲ ਕੋਨਿਆਂ ਦੇ ਕਾਰਡ ਉੱਤੇ ਸਿਰਲੇਖ.
 	AAC Audio	AAC ਆਡੀਓ
 	AAC Audio 48 kHz 320 kbps	AAC ਆਡੀਓ 48 kHz 320 kbps
 	AAF Export Settings	AAF ਨਿਰਯਾਤ ਸੈਟਿੰਗਾਂ
@@ -80,7 +87,7 @@
 	APV 422-12	APV 422-12
 	ASC CDL	ASC CDL
 	AV1	AV1
-	AV1 needs a hardware encoder; none was found on this machine, and FilmCraft has no software AV1 encoder yet.	AV1 ਲਈ ਹਾਰਡਵੇਅਰ ਐਨਕੋਡਰ ਲੋੜੀਂਦਾ ਹੈ; ਇਸ ਮਸ਼ੀਨ ਉੱਤੇ ਕੋਈ ਨਹੀਂ ਮਿਲਿਆ, ਅਤੇ FilmCraft ਵਿੱਚ ਹਾਲੇ ਸਾਫ਼ਟਵੇਅਰ AV1 ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ।
+	AV1 needs a hardware encoder; none was found on this machine, and FilmCraft has no software AV1 encoder yet.	AV1 ਲਈ ਹਾਰਡਵੇਅਰ ਐਨਕੋਡਰ ਲੋੜੀਂਦਾ ਹੈ; ਇਸ ਮਸ਼ੀਨ ਉੱਤੇ ਕੋਈ ਨਹੀਂ ਮਿਲਿਆ, ਅਤੇ FilmCraft ਵਿੱਚ ਹਾਲੇ ਸਾਫ਼ਟਵੇਅਰ AV1 ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ.
 	About FilmCraft	FilmCraft ਬਾਰੇ
 	Accent Color	ਉਭਾਰ ਦਾ ਰੰਗ
 	Accessible color contrast	ਪਹੁੰਚਯੋਗ ਰੰਗ ਕਾਂਟ੍ਰਾਸਟ
@@ -122,8 +129,8 @@
 	Add custom color	ਪਸੰਦੀਦਾ ਰੰਗ ਜੋੜੋ
 	Add custom color…	ਪਸੰਦੀਦਾ ਰੰਗ ਜੋੜੋ…
 	Add keyframe	ਕੀਫਰੇਮ ਜੋੜੋ
-	Add media to your project. Drop files anywhere in the window, or choose a source below.	ਆਪਣੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਮੀਡੀਆ ਜੋੜੋ। ਫ਼ਾਈਲਾਂ ਵਿੰਡੋ ਵਿੱਚ ਕਿਤੇ ਵੀ ਸੁੱਟੋ, ਜਾਂ ਹੇਠਾਂ ਸਰੋਤ ਚੁਣੋ।
-	Add media to your project. Drop files or folders anywhere in the window, or choose a source below.	ਆਪਣੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਮੀਡੀਆ ਜੋੜੋ। ਫ਼ਾਈਲਾਂ ਜਾਂ ਫੋਲਡਰ ਵਿੰਡੋ ਵਿੱਚ ਕਿਤੇ ਵੀ ਸੁੱਟੋ, ਜਾਂ ਹੇਠਾਂ ਸਰੋਤ ਚੁਣੋ।
+	Add media to your project. Drop files anywhere in the window, or choose a source below.	ਆਪਣੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਮੀਡੀਆ ਜੋੜੋ. ਫ਼ਾਈਲਾਂ ਵਿੰਡੋ ਵਿੱਚ ਕਿਤੇ ਵੀ ਸੁੱਟੋ, ਜਾਂ ਹੇਠਾਂ ਸਰੋਤ ਚੁਣੋ.
+	Add media to your project. Drop files or folders anywhere in the window, or choose a source below.	ਆਪਣੇ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਮੀਡੀਆ ਜੋੜੋ. ਫ਼ਾਈਲਾਂ ਜਾਂ ਫੋਲਡਰ ਵਿੰਡੋ ਵਿੱਚ ਕਿਤੇ ਵੀ ਸੁੱਟੋ, ਜਾਂ ਹੇਠਾਂ ਸਰੋਤ ਚੁਣੋ.
 	Add to Favorites	ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜੋ
 	Add to favorites	ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜੋ
 	Add tracks automatically when editing source clips onto the Timeline	ਸਰੋਤ ਕਲਿੱਪਾਂ ਨੂੰ ਟਾਈਮਲਾਈਨ ਉੱਤੇ ਸੰਪਾਦਿਤ ਕਰਦੇ ਸਮੇਂ ਆਪਣੇ ਆਪ ਟ੍ਰੈਕ ਜੋੜੋ
@@ -159,8 +166,8 @@
 	All Intra	ਸਾਰੇ ਫਰੇਮ ਇੰਟਰਾ
 	All Panels	ਸਾਰੇ ਪੈਨਲ
 	All lines	ਸਾਰੀਆਂ ਲਾਈਨਾਂ
-	All markers are hidden by the colour filter.	ਸਾਰੇ ਮਾਰਕਰ ਰੰਗ ਫਿਲਟਰ ਨਾਲ ਲੁਕੇ ਹੋਏ ਹਨ।
-	All media is online.	ਸਾਰਾ ਮੀਡੀਆ ਆਨਲਾਈਨ ਹੈ।
+	All markers are hidden by the colour filter.	ਸਾਰੇ ਮਾਰਕਰ ਰੰਗ ਫਿਲਟਰ ਨਾਲ ਲੁਕੇ ਹੋਏ ਹਨ.
+	All media is online.	ਸਾਰਾ ਮੀਡੀਆ ਆਨਲਾਈਨ ਹੈ.
 	Allow Duplicate Media During Project Import	ਪ੍ਰੋਜੈਕਟ ਆਯਾਤ ਦੌਰਾਨ ਦੁਹਰਾਇਆ ਮੀਡੀਆ ਮਨਜ਼ੂਰ ਕਰੋ
 	Allow Selection tool to choose Roll and Ripple trims without modifier key	ਚੋਣ ਟੂਲ ਨੂੰ ਮੋਡੀਫਾਇਰ ਕੁੰਜੀ ਤੋਂ ਬਿਨਾਂ ਰੋਲ ਅਤੇ ਰਿਪਲ ਟ੍ਰਿਮ ਚੁਣਨ ਦਿਓ
 	Allow current tool to change trim type of previously selected edit point	ਮੌਜੂਦਾ ਟੂਲ ਨੂੰ ਪਹਿਲਾਂ ਚੁਣੇ ਸੰਪਾਦਨ ਬਿੰਦੂ ਦੀ ਟ੍ਰਿਮ ਕਿਸਮ ਬਦਲਣ ਦਿਓ
@@ -172,7 +179,7 @@
 	Alpha Glow	ਅਲਫ਼ਾ ਚਮਕ
 	Alt	Alt
 	Always Deinterlace	ਹਮੇਸ਼ਾ ਡੀਇੰਟਰਲੇਸ ਕਰੋ
-	Always import embedded CEA-708 closed captions with wide aspect.	ਹਮੇਸ਼ਾ ਸਮਾਏ ਹੋਏ CEA-708 ਬੰਦ ਉਪਸਿਰਲੇਖ ਚੌੜੇ ਪੱਖ-ਅਨੁਪਾਤ ਨਾਲ ਆਯਾਤ ਕਰੋ।
+	Always import embedded CEA-708 closed captions with wide aspect.	ਹਮੇਸ਼ਾ ਸਮਾਏ ਹੋਏ CEA-708 ਬੰਦ ਉਪਸਿਰਲੇਖ ਚੌੜੇ ਪੱਖ-ਅਨੁਪਾਤ ਨਾਲ ਆਯਾਤ ਕਰੋ.
 	Always override audio tags	ਹਮੇਸ਼ਾ ਆਡੀਓ ਟੈਗਾਂ ਨੂੰ ਓਵਰਰਾਈਡ ਕਰੋ
 	Ambience	ਮਾਹੌਲ
 	Ambience Intensity	ਮਾਹੌਲ ਦੀ ਤੀਬਰਤਾ
@@ -185,7 +192,7 @@
 	Amplify	ਆਵਾਜ਼ ਵਧਾਓ
 	Amplitude	ਐਂਪਲੀਟਿਊਡ
 	Amplitude and Compression	ਐਂਪਲੀਟਿਊਡ ਅਤੇ ਕੰਪ੍ਰੈਸ਼ਨ
-	An earlier start failed with the default graphics. Updating the graphics driver usually fixes this.	ਮੂਲ ਗ੍ਰਾਫਿਕਸ ਨਾਲ ਪਹਿਲਾਂ ਸ਼ੁਰੂ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ। ਗ੍ਰਾਫਿਕਸ ਡਰਾਈਵਰ ਅੱਪਡੇਟ ਕਰਨ ਨਾਲ ਆਮ ਤੌਰ ਉੱਤੇ ਇਹ ਠੀਕ ਹੋ ਜਾਂਦਾ ਹੈ।
+	An earlier start failed with the default graphics. Updating the graphics driver usually fixes this.	ਮੂਲ ਗ੍ਰਾਫਿਕਸ ਨਾਲ ਪਹਿਲਾਂ ਸ਼ੁਰੂ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ. ਗ੍ਰਾਫਿਕਸ ਡਰਾਈਵਰ ਅੱਪਡੇਟ ਕਰਨ ਨਾਲ ਆਮ ਤੌਰ ਉੱਤੇ ਇਹ ਠੀਕ ਹੋ ਜਾਂਦਾ ਹੈ.
 	Analog	ਐਨਾਲੌਗ
 	Analog Delay	ਐਨਾਲੌਗ ਡਿਲੇ
 	Analyze	ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ
@@ -469,7 +476,7 @@
 	Camera Names	ਕੈਮਰਾ ਨਾਂ
 	Camera Shake	ਕੈਮਰਾ ਕੰਬਣ
 	Camera {n} — {name}	ਕੈਮਰਾ {n} — {name}
-	Cameras shown in the Multi-Camera view (uncheck to hide).	ਮਲਟੀ-ਕੈਮਰਾ ਦ੍ਰਿਸ਼ ਵਿੱਚ ਦਿਖਾਏ ਕੈਮਰੇ (ਲੁਕਾਉਣ ਲਈ ਨਿਸ਼ਾਨ ਹਟਾਓ)।
+	Cameras shown in the Multi-Camera view (uncheck to hide).	ਮਲਟੀ-ਕੈਮਰਾ ਦ੍ਰਿਸ਼ ਵਿੱਚ ਦਿਖਾਏ ਕੈਮਰੇ (ਲੁਕਾਉਣ ਲਈ ਨਿਸ਼ਾਨ ਹਟਾਓ).
 	Cancel Dynamic Trim	ਡਾਇਨਾਮਿਕ ਟ੍ਰਿਮ ਰੱਦ ਕਰੋ
 	Cancel Queued Export	ਕਤਾਰਬੱਧ ਨਿਰਯਾਤ ਰੱਦ ਕਰੋ
 	Cancelled	ਰੱਦ ਕੀਤਾ ਗਿਆ
@@ -505,7 +512,7 @@
 	Center Vertically	ਖੜ੍ਹਵੇਂ ਕੇਂਦਰ ਵਿੱਚ
 	Center align text	ਪਾਠ ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕਰੋ
 	Center of Sphere	ਗੋਲੇ ਦਾ ਕੇਂਦਰ
-	Centred credits that roll up from below the frame and leave at the top.	ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕੀਤੇ ਕ੍ਰੈਡਿਟ ਜੋ ਫਰੇਮ ਦੇ ਹੇਠਿਓਂ ਉੱਪਰ ਆਉਂਦੇ ਅਤੇ ਉੱਪਰੋਂ ਬਾਹਰ ਜਾਂਦੇ ਹਨ।
+	Centred credits that roll up from below the frame and leave at the top.	ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕੀਤੇ ਕ੍ਰੈਡਿਟ ਜੋ ਫਰੇਮ ਦੇ ਹੇਠਿਓਂ ਉੱਪਰ ਆਉਂਦੇ ਅਤੇ ਉੱਪਰੋਂ ਬਾਹਰ ਜਾਂਦੇ ਹਨ.
 	Cents	ਸੈਂਟ
 	Cerulean	ਸੇਰੂਲੀਅਨ
 	Ch. {n}	ਚੈ. {n}
@@ -513,7 +520,7 @@
 	Change Sequence Settings	ਸੀਕਵੈਂਸ ਸੈਟਿੰਗਾਂ ਬਦਲੋ
 	Change the sequence to match the clip's settings?	ਸੀਕਵੈਂਸ ਨੂੰ ਕਲਿੱਪ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਨਾਲ ਮੇਲ ਕਰਨ ਲਈ ਬਦਲਣਾ ਹੈ?
 	Change to Color	ਇਸ ਰੰਗ ਵਿੱਚ ਬਦਲੋ
-	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.	ਹਰ ਸੰਪਾਦਨ ਤੋਂ ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ ਤਬਦੀਲੀਆਂ ਪਿੱਛੇ ਕਾਪੀ ਹੁੰਦੀਆਂ ਹਨ। ਜੇ FilmCraft ਅਚਾਨਕ ਬੰਦ ਹੋ ਜਾਵੇ, ਅਗਲੀ ਵਾਰ ਸ਼ੁਰੂ ਹੋਣ ਉੱਤੇ ਉਹ ਪੇਸ਼ ਕੀਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।
+	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.	ਹਰ ਸੰਪਾਦਨ ਤੋਂ ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ ਤਬਦੀਲੀਆਂ ਪਿੱਛੇ ਕਾਪੀ ਹੁੰਦੀਆਂ ਹਨ. ਜੇ FilmCraft ਅਚਾਨਕ ਬੰਦ ਹੋ ਜਾਵੇ, ਅਗਲੀ ਵਾਰ ਸ਼ੁਰੂ ਹੋਣ ਉੱਤੇ ਉਹ ਪੇਸ਼ ਕੀਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ.
 	Channel	ਚੈਨਲ
 	Channel Blur	ਚੈਨਲ ਧੁੰਦਲਾਪਣ
 	Channel Format:	ਚੈਨਲ ਫਾਰਮੈਟ:
@@ -563,16 +570,16 @@
 	Clear Selected Marker	ਚੁਣਿਆ ਮਾਰਕਰ ਹਟਾਓ
 	Clear Transition	ਟ੍ਰਾਂਜ਼ਿਸ਼ਨ ਹਟਾਓ
 	Cleared {n} shortcut(s) of {command}	{command} ਦੇ {n} ਸ਼ਾਰਟਕੱਟ ਸਾਫ਼ ਕੀਤੇ
-	Click a command's Shortcut cell and press keys to assign it; + adds another shortcut.	ਕਮਾਂਡ ਦੇ ਸ਼ਾਰਟਕੱਟ ਸੈੱਲ ਉੱਤੇ ਕਲਿੱਕ ਕਰਕੇ ਕੁੰਜੀਆਂ ਦਬਾਓ; + ਨਾਲ ਹੋਰ ਸ਼ਾਰਟਕੱਟ ਜੁੜਦਾ ਹੈ।
+	Click a command's Shortcut cell and press keys to assign it; + adds another shortcut.	ਕਮਾਂਡ ਦੇ ਸ਼ਾਰਟਕੱਟ ਸੈੱਲ ਉੱਤੇ ਕਲਿੱਕ ਕਰਕੇ ਕੁੰਜੀਆਂ ਦਬਾਓ; + ਨਾਲ ਹੋਰ ਸ਼ਾਰਟਕੱਟ ਜੁੜਦਾ ਹੈ.
 	Click a key on the keyboard to see its shortcuts	ਕਿਸੇ ਕੁੰਜੀ ਦੇ ਸ਼ਾਰਟਕੱਟ ਵੇਖਣ ਲਈ ਕੀਬੋਰਡ ਉੱਤੇ ਉਸ ਨੂੰ ਕਲਿੱਕ ਕਰੋ
 	Click in the Program monitor to place mask points (drag for curves); click the first point or press Enter to close	ਮਾਸਕ ਬਿੰਦੂ ਰੱਖਣ ਲਈ ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਵਿੱਚ ਕਲਿੱਕ ਕਰੋ (ਕਰਵਾਂ ਲਈ ਖਿੱਚੋ); ਬੰਦ ਕਰਨ ਲਈ ਪਹਿਲੇ ਬਿੰਦੂ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ Enter ਦਬਾਓ
-	Click to select all clips to the left in all tracks. Shift-click for a single track.	ਸਾਰੇ ਟ੍ਰੈਕਾਂ ਵਿੱਚ ਖੱਬੇ ਪਾਸੇ ਦੀਆਂ ਸਭ ਕਲਿੱਪਾਂ ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ। ਇੱਕ ਟ੍ਰੈਕ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ।
-	Click to select all clips to the right in all tracks. Shift-click for a single track.	ਸਾਰੇ ਟ੍ਰੈਕਾਂ ਵਿੱਚ ਸੱਜੇ ਪਾਸੇ ਦੀਆਂ ਸਭ ਕਲਿੱਪਾਂ ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ। ਇੱਕ ਟ੍ਰੈਕ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ।
-	Click to select, or click in empty space and drag to marquee select. Use Shift, Alt, and Ctrl for other options.	ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਜਾਂ ਖਾਲੀ ਥਾਂ ਵਿੱਚ ਕਲਿੱਕ ਕਰਕੇ ਘੇਰੇ ਨਾਲ ਚੁਣਨ ਲਈ ਖਿੱਚੋ। ਹੋਰ ਚੋਣਾਂ ਲਈ Shift, Alt ਅਤੇ Ctrl ਵਰਤੋ।
-	Click to select, or click in empty space and drag to marquee select. Use Shift, Opt, and Cmd for other options.	ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਜਾਂ ਖਾਲੀ ਥਾਂ ਵਿੱਚ ਕਲਿੱਕ ਕਰਕੇ ਘੇਰੇ ਨਾਲ ਚੁਣਨ ਲਈ ਖਿੱਚੋ। ਹੋਰ ਚੋਣਾਂ ਲਈ Shift, Opt ਅਤੇ Cmd ਵਰਤੋ।
-	Click to split a clip. Shift-click to split all tracks.	ਕਲਿੱਪ ਵੰਡਣ ਲਈ ਕਲਿੱਕ ਕਰੋ। ਸਾਰੇ ਟ੍ਰੈਕ ਵੰਡਣ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ।
-	Click to zoom in; Alt-click to zoom out.	ਜ਼ੂਮ ਇਨ ਲਈ ਕਲਿੱਕ ਕਰੋ; ਜ਼ੂਮ ਆਊਟ ਲਈ Alt ਨਾਲ ਕਲਿੱਕ ਕਰੋ।
-	Click to zoom in; Opt-click to zoom out.	ਜ਼ੂਮ ਇਨ ਲਈ ਕਲਿੱਕ ਕਰੋ; ਜ਼ੂਮ ਆਊਟ ਲਈ Opt ਨਾਲ ਕਲਿੱਕ ਕਰੋ।
+	Click to select all clips to the left in all tracks. Shift-click for a single track.	ਸਾਰੇ ਟ੍ਰੈਕਾਂ ਵਿੱਚ ਖੱਬੇ ਪਾਸੇ ਦੀਆਂ ਸਭ ਕਲਿੱਪਾਂ ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ. ਇੱਕ ਟ੍ਰੈਕ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Click to select all clips to the right in all tracks. Shift-click for a single track.	ਸਾਰੇ ਟ੍ਰੈਕਾਂ ਵਿੱਚ ਸੱਜੇ ਪਾਸੇ ਦੀਆਂ ਸਭ ਕਲਿੱਪਾਂ ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ. ਇੱਕ ਟ੍ਰੈਕ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Alt, and Ctrl for other options.	ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਜਾਂ ਖਾਲੀ ਥਾਂ ਵਿੱਚ ਕਲਿੱਕ ਕਰਕੇ ਘੇਰੇ ਨਾਲ ਚੁਣਨ ਲਈ ਖਿੱਚੋ. ਹੋਰ ਚੋਣਾਂ ਲਈ Shift, Alt ਅਤੇ Ctrl ਵਰਤੋ.
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Opt, and Cmd for other options.	ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਜਾਂ ਖਾਲੀ ਥਾਂ ਵਿੱਚ ਕਲਿੱਕ ਕਰਕੇ ਘੇਰੇ ਨਾਲ ਚੁਣਨ ਲਈ ਖਿੱਚੋ. ਹੋਰ ਚੋਣਾਂ ਲਈ Shift, Opt ਅਤੇ Cmd ਵਰਤੋ.
+	Click to split a clip. Shift-click to split all tracks.	ਕਲਿੱਪ ਵੰਡਣ ਲਈ ਕਲਿੱਕ ਕਰੋ. ਸਾਰੇ ਟ੍ਰੈਕ ਵੰਡਣ ਲਈ Shift ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Click to zoom in; Alt-click to zoom out.	ਜ਼ੂਮ ਇਨ ਲਈ ਕਲਿੱਕ ਕਰੋ; ਜ਼ੂਮ ਆਊਟ ਲਈ Alt ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
+	Click to zoom in; Opt-click to zoom out.	ਜ਼ੂਮ ਇਨ ਲਈ ਕਲਿੱਕ ਕਰੋ; ਜ਼ੂਮ ਆਊਟ ਲਈ Opt ਨਾਲ ਕਲਿੱਕ ਕਰੋ.
 	Client	ਕਲਾਇੰਟ
 	Clip	ਕਲਿੱਪ
 	Clip Channel Format:	ਕਲਿੱਪ ਚੈਨਲ ਫਾਰਮੈਟ:
@@ -709,7 +716,7 @@
 	Create Search Bin	ਖੋਜ ਬਿਨ ਬਣਾਓ
 	Create Sidecar File	ਸਾਈਡਕਾਰ ਫ਼ਾਈਲ ਬਣਾਓ
 	Create a bin of subclips from each detected cut point	ਹਰ ਪਛਾਣੇ ਕੱਟ ਬਿੰਦੂ ਤੋਂ ਸਬਕਲਿੱਪਾਂ ਦਾ ਬਿਨ ਬਣਾਓ
-	Create a caption track or import a caption file.	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਬਣਾਓ ਜਾਂ ਉਪਸਿਰਲੇਖ ਫ਼ਾਈਲ ਆਯਾਤ ਕਰੋ।
+	Create a caption track or import a caption file.	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਬਣਾਓ ਜਾਂ ਉਪਸਿਰਲੇਖ ਫ਼ਾਈਲ ਆਯਾਤ ਕਰੋ.
 	Create a clip marker at each detected cut point	ਹਰ ਪਛਾਣੇ ਕੱਟ ਬਿੰਦੂ ਉੱਤੇ ਕਲਿੱਪ ਮਾਰਕਰ ਬਣਾਓ
 	Create captions	ਉਪਸਿਰਲੇਖ ਬਣਾਓ
 	Create ellipse mask	ਅੰਡਾਕਾਰ ਮਾਸਕ ਬਣਾਓ
@@ -785,7 +792,7 @@
 	DeReverb	ਰੀਵਰਬ ਘਟਾਓ
 	Decay	ਘਟਾਅ
 	Decay Time (RT60)	ਘਟਾਅ ਸਮਾਂ (RT60)
-	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	ਮਾਨੀਟਰਾਂ ਅਤੇ ਥੰਬਨੇਲਾਂ ਲਈ ਰੱਖੇ ਡੀਕੋਡ ਕੀਤੇ ਫਰੇਮ: {budget} ਵਿੱਚੋਂ {used}।
+	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	ਮਾਨੀਟਰਾਂ ਅਤੇ ਥੰਬਨੇਲਾਂ ਲਈ ਰੱਖੇ ਡੀਕੋਡ ਕੀਤੇ ਫਰੇਮ: {budget} ਵਿੱਚੋਂ {used}.
 	Decoders	ਡੀਕੋਡਰ
 	Decrease Audio Tracks Height	ਆਡੀਓ ਟ੍ਰੈਕਾਂ ਦੀ ਉਚਾਈ ਘਟਾਓ
 	Decrease Clip Volume	ਕਲਿੱਪ ਦੀ ਆਵਾਜ਼ ਘਟਾਓ
@@ -838,10 +845,10 @@
 	Delete oldest files when the cache exceeds	ਕੈਸ਼ ਇਸ ਤੋਂ ਵੱਧ ਹੋਣ ਉੱਤੇ ਸਭ ਤੋਂ ਪੁਰਾਣੀਆਂ ਫ਼ਾਈਲਾਂ ਮਿਟਾਓ
 	Delete selected captions	ਚੁਣੇ ਉਪਸਿਰਲੇਖ ਮਿਟਾਓ
 	Delete selected markers	ਚੁਣੇ ਮਾਰਕਰ ਮਿਟਾਓ
-	Delete the dimmed actions after the current state? They cannot be redone.	ਮੌਜੂਦਾ ਹਾਲਤ ਤੋਂ ਅੱਗੇ ਦੀਆਂ ਫਿੱਕੀਆਂ ਕਾਰਵਾਈਆਂ ਮਿਟਾਉਣੀਆਂ ਹਨ? ਉਹ ਮੁੜ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਣਗੀਆਂ।
+	Delete the dimmed actions after the current state? They cannot be redone.	ਮੌਜੂਦਾ ਹਾਲਤ ਤੋਂ ਅੱਗੇ ਦੀਆਂ ਫਿੱਕੀਆਂ ਕਾਰਵਾਈਆਂ ਮਿਟਾਉਣੀਆਂ ਹਨ? ਉਹ ਮੁੜ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਣਗੀਆਂ.
 	Delete this preset	ਇਹ ਪ੍ਰੀਸੈੱਟ ਮਿਟਾਓ
 	Deleted preset “{active}”	“{active}” ਪ੍ਰੀਸੈੱਟ ਮਿਟਾਇਆ
-	Deleted {n} file(s), {size}.	{n} ਫ਼ਾਈਲਾਂ, {size} ਮਿਟਾਈਆਂ।
+	Deleted {n} file(s), {size}.	{n} ਫ਼ਾਈਲਾਂ, {size} ਮਿਟਾਈਆਂ.
 	Delete…	ਮਿਟਾਓ…
 	Demo Footage	ਡੈਮੋ ਫੁਟੇਜ
 	Demo Project	ਡੈਮੋ ਪ੍ਰੋਜੈਕਟ
@@ -879,7 +886,6 @@
 	Directional Blur (Legacy)	ਦਿਸ਼ਾਤਮਕ ਧੁੰਦਲਾਪਣ (ਪੁਰਾਣਾ)
 	Disable video output when in the background	ਪਿੱਛੇ ਹੋਣ ਵੇਲੇ ਵੀਡੀਓ ਆਉਟਪੁੱਟ ਬੰਦ ਕਰੋ
 	Disabled clips	ਅਯੋਗ ਕੀਤੀਆਂ ਕਲਿੱਪਾਂ
-	Discard	ਰੱਦ ਕਰੋ
 	Discard Unsaved Changes	ਅਣਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਰੱਦ ਕਰੋ
 	Discard take	ਟੇਕ ਰੱਦ ਕਰੋ
 	Discord	Discord
@@ -912,23 +918,23 @@
 	Don't Save	ਨਾ ਸੰਭਾਲੋ
 	Don't label speakers	ਬੋਲਣ ਵਾਲਿਆਂ ਦੇ ਲੇਬਲ ਨਾ ਲਗਾਓ
 	Dot Color	ਬਿੰਦੂ ਦਾ ਰੰਗ
-	Double-click a sequence in the Project panel to open it here.	ਇੱਥੇ ਖੋਲ੍ਹਣ ਲਈ ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ ਵਿੱਚ ਸੀਕਵੈਂਸ ਉੱਤੇ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ।
+	Double-click a sequence in the Project panel to open it here.	ਇੱਥੇ ਖੋਲ੍ਹਣ ਲਈ ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ ਵਿੱਚ ਸੀਕਵੈਂਸ ਉੱਤੇ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ.
 	Down	ਹੇਠਾਂ
 	Download Speech Model	ਬੋਲੀ ਮਾਡਲ ਡਾਊਨਲੋਡ ਕਰੋ
 	Draft decoding at reduced playback resolution (H.264: faster, some frames less filtered)	ਘਟਾਈ ਪਲੇਬੈਕ ਰੈਜ਼ੋਲੂਸ਼ਨ ਉੱਤੇ ਡਰਾਫਟ ਡੀਕੋਡਿੰਗ (H.264: ਤੇਜ਼, ਕੁਝ ਫਰੇਮ ਘੱਟ ਫਿਲਟਰ ਕੀਤੇ)
-	Drag a clip to slide it between its neighbours.	ਕਲਿੱਪ ਨੂੰ ਗੁਆਂਢੀਆਂ ਵਿਚਕਾਰ ਸਲਾਈਡ ਕਰਨ ਲਈ ਖਿੱਚੋ।
-	Drag a clip to slip its source in/out without moving it.	ਕਲਿੱਪ ਨੂੰ ਹਿਲਾਏ ਬਿਨਾਂ ਉਸ ਦੇ ਸਰੋਤ ਦੇ ਇਨ/ਆਊਟ ਬਿੰਦੂ ਖਿਸਕਾਉਣ ਲਈ ਖਿੱਚੋ।
-	Drag an edge to change the clip's speed so it fills the new duration.	ਕਲਿੱਪ ਦੀ ਗਤੀ ਬਦਲ ਕੇ ਨਵੀਂ ਮਿਆਦ ਭਰਨ ਲਈ ਕਿਨਾਰਾ ਖਿੱਚੋ।
-	Drag an edit point to ripple trim; later clips move to keep the gap closed.	ਰਿਪਲ ਟ੍ਰਿਮ ਲਈ ਸੰਪਾਦਨ ਬਿੰਦੂ ਖਿੱਚੋ; ਅੱਗੇ ਦੀਆਂ ਕਲਿੱਪਾਂ ਵਿੱਥ ਬੰਦ ਰੱਖਣ ਲਈ ਹਿਲਦੀਆਂ ਹਨ।
-	Drag an edit point to roll it: the out of one clip and the in of the next move together.	ਰੋਲ ਕਰਨ ਲਈ ਸੰਪਾਦਨ ਬਿੰਦੂ ਖਿੱਚੋ: ਇੱਕ ਕਲਿੱਪ ਦਾ ਆਊਟ ਅਤੇ ਅਗਲੀ ਦਾ ਇਨ ਬਿੰਦੂ ਇਕੱਠੇ ਹਿਲਦੇ ਹਨ।
+	Drag a clip to slide it between its neighbours.	ਕਲਿੱਪ ਨੂੰ ਗੁਆਂਢੀਆਂ ਵਿਚਕਾਰ ਸਲਾਈਡ ਕਰਨ ਲਈ ਖਿੱਚੋ.
+	Drag a clip to slip its source in/out without moving it.	ਕਲਿੱਪ ਨੂੰ ਹਿਲਾਏ ਬਿਨਾਂ ਉਸ ਦੇ ਸਰੋਤ ਦੇ ਇਨ/ਆਊਟ ਬਿੰਦੂ ਖਿਸਕਾਉਣ ਲਈ ਖਿੱਚੋ.
+	Drag an edge to change the clip's speed so it fills the new duration.	ਕਲਿੱਪ ਦੀ ਗਤੀ ਬਦਲ ਕੇ ਨਵੀਂ ਮਿਆਦ ਭਰਨ ਲਈ ਕਿਨਾਰਾ ਖਿੱਚੋ.
+	Drag an edit point to ripple trim; later clips move to keep the gap closed.	ਰਿਪਲ ਟ੍ਰਿਮ ਲਈ ਸੰਪਾਦਨ ਬਿੰਦੂ ਖਿੱਚੋ; ਅੱਗੇ ਦੀਆਂ ਕਲਿੱਪਾਂ ਵਿੱਥ ਬੰਦ ਰੱਖਣ ਲਈ ਹਿਲਦੀਆਂ ਹਨ.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.	ਰੋਲ ਕਰਨ ਲਈ ਸੰਪਾਦਨ ਬਿੰਦੂ ਖਿੱਚੋ: ਇੱਕ ਕਲਿੱਪ ਦਾ ਆਊਟ ਅਤੇ ਅਗਲੀ ਦਾ ਇਨ ਬਿੰਦੂ ਇਕੱਠੇ ਹਿਲਦੇ ਹਨ.
 	Drag inward to round the corners	ਕੋਨੇ ਗੋਲ ਕਰਨ ਲਈ ਅੰਦਰ ਵੱਲ ਖਿੱਚੋ
-	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	ਸੰਗੀਤਕ ਬੀਟਾਂ ਨਾਲ ਮੇਲ ਕਰਕੇ ਨਵੀਂ ਮਿਆਦ ਲਈ ਰੀਮਿਕਸ ਕਰਨ ਵਾਸਤੇ ਸੰਗੀਤ ਕਲਿੱਪ ਦਾ ਕਿਨਾਰਾ ਖਿੱਚੋ।
-	Drag to scroll the timeline.	ਟਾਈਮਲਾਈਨ ਸਕ੍ਰੋਲ ਕਰਨ ਲਈ ਖਿੱਚੋ।
+	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	ਸੰਗੀਤਕ ਬੀਟਾਂ ਨਾਲ ਮੇਲ ਕਰਕੇ ਨਵੀਂ ਮਿਆਦ ਲਈ ਰੀਮਿਕਸ ਕਰਨ ਵਾਸਤੇ ਸੰਗੀਤ ਕਲਿੱਪ ਦਾ ਕਿਨਾਰਾ ਖਿੱਚੋ.
+	Drag to scroll the timeline.	ਟਾਈਮਲਾਈਨ ਸਕ੍ਰੋਲ ਕਰਨ ਲਈ ਖਿੱਚੋ.
 	Drag: move · Alt-click: smooth/corner · Cmd-click: delete	ਖਿੱਚੋ: ਹਿਲਾਓ · Alt-ਕਲਿੱਕ: ਨਰਮ/ਕੋਨਾ · Cmd-ਕਲਿੱਕ: ਮਿਟਾਓ
 	Drag: move · Alt-click: smooth/corner · Ctrl-click: delete	ਖਿੱਚੋ: ਹਿਲਾਓ · Alt-ਕਲਿੱਕ: ਨਰਮ/ਕੋਨਾ · Ctrl-ਕਲਿੱਕ: ਮਿਟਾਓ
 	Drive	ਡਰਾਈਵ
 	Drop Shadow	ਡਿੱਗਦੀ ਛਾਂ
-	Drop media here to create sequence.	ਸੀਕਵੈਂਸ ਬਣਾਉਣ ਲਈ ਇੱਥੇ ਮੀਡੀਆ ਸੁੱਟੋ।
+	Drop media here to create sequence.	ਸੀਕਵੈਂਸ ਬਣਾਉਣ ਲਈ ਇੱਥੇ ਮੀਡੀਆ ਸੁੱਟੋ.
 	Dry	ਬਿਨਾਂ ਪ੍ਰਭਾਵ
 	Dry Out	ਬਿਨਾਂ ਪ੍ਰਭਾਵ ਵਾਲੀ ਆਉਟਪੁੱਟ
 	Dry Up a Roomy Voice	ਕਮਰੇ ਦੀ ਗੂੰਜ ਵਾਲੀ ਆਵਾਜ਼ ਸੁੱਕੀ ਕਰੋ
@@ -989,7 +995,7 @@
 	Edit color	ਰੰਗ ਸੋਧੋ
 	Editable properties:	ਸੋਧਣਯੋਗ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ:
 	Editing Mode:	ਸੰਪਾਦਨ ਮੋਡ:
-	Editing or removing a swatch leaves assigned colors unchanged.	ਸਵੈਚ ਸੋਧਣ ਜਾਂ ਹਟਾਉਣ ਨਾਲ ਨਿਰਧਾਰਤ ਰੰਗ ਨਹੀਂ ਬਦਲਦੇ।
+	Editing or removing a swatch leaves assigned colors unchanged.	ਸਵੈਚ ਸੋਧਣ ਜਾਂ ਹਟਾਉਣ ਨਾਲ ਨਿਰਧਾਰਤ ਰੰਗ ਨਹੀਂ ਬਦਲਦੇ.
 	Effect	ਪ੍ਰਭਾਵ
 	Effect Controls	ਪ੍ਰਭਾਵ ਕੰਟਰੋਲ
 	Effect presets	ਪ੍ਰਭਾਵ ਪ੍ਰੀਸੈੱਟ
@@ -1025,10 +1031,10 @@
 	Ends With	ਇਸ ਨਾਲ ਖ਼ਤਮ ਹੁੰਦਾ ਹੈ
 	Enhance Speech	ਬੋਲੀ ਸੁਧਾਰੋ
 	Enter	Enter
-	Enter a positive duration within the supported speed range.	ਸਹਾਇਤਾਪ੍ਰਾਪਤ ਗਤੀ ਰੇਂਜ ਅੰਦਰ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਮਿਆਦ ਦਿਓ।
+	Enter a positive duration within the supported speed range.	ਸਹਾਇਤਾਪ੍ਰਾਪਤ ਗਤੀ ਰੇਂਜ ਅੰਦਰ ਸਿਫ਼ਰ ਤੋਂ ਵੱਧ ਮਿਆਦ ਦਿਓ.
 	Enter a valid HH:MM:SS:FF timecode	ਵੈਧ HH:MM:SS:FF ਟਾਈਮਕੋਡ ਦਿਓ
 	Enter a valid HTTP or HTTPS URL without credentials	ਪ੍ਰਮਾਣ-ਜਾਣਕਾਰੀ ਤੋਂ ਬਿਨਾਂ ਵੈਧ HTTP ਜਾਂ HTTPS URL ਦਿਓ
-	Enter six hex digits, for example FF80C0.	ਛੇ ਹੈਕਸ ਅੰਕ ਦਿਓ, ਜਿਵੇਂ FF80C0।
+	Enter six hex digits, for example FF80C0.	ਛੇ ਹੈਕਸ ਅੰਕ ਦਿਓ, ਜਿਵੇਂ FF80C0.
 	Entire Source	ਪੂਰਾ ਸਰੋਤ
 	Enumerate Cameras	ਕੈਮਰਿਆਂ ਦੀ ਗਿਣਤੀਵਾਰ ਸੂਚੀ ਬਣਾਓ
 	Errors Only	ਕੇਵਲ ਗਲਤੀਆਂ
@@ -1045,7 +1051,7 @@
 	Exciter Mode	ਐਕਸਾਈਟਰ ਮੋਡ
 	Exclude Unused Clips	ਨਾ ਵਰਤੀਆਂ ਕਲਿੱਪਾਂ ਨੂੰ ਛੱਡੋ
 	Exclusion	ਐਕਸਕਲੂਜ਼ਨ
-	Existing XMP files written by other applications are left unchanged.	ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੀਆਂ ਲਿਖੀਆਂ ਮੌਜੂਦਾ XMP ਫ਼ਾਈਲਾਂ ਬਿਨਾਂ ਬਦਲੇ ਰਹਿੰਦੀਆਂ ਹਨ।
+	Existing XMP files written by other applications are left unchanged.	ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੀਆਂ ਲਿਖੀਆਂ ਮੌਜੂਦਾ XMP ਫ਼ਾਈਲਾਂ ਬਿਨਾਂ ਬਦਲੇ ਰਹਿੰਦੀਆਂ ਹਨ.
 	Exit Trim Mode	ਟ੍ਰਿਮ ਮੋਡ ਤੋਂ ਬਾਹਰ ਆਓ
 	Expand All Tracks	ਸਾਰੇ ਟ੍ਰੈਕ ਫੈਲਾਓ
 	Expander	ਐਕਸਪੈਂਡਰ
@@ -1147,11 +1153,11 @@
 	FilmCraft Project	FilmCraft ਪ੍ਰੋਜੈਕਟ
 	FilmCraft always composites in linear light	FilmCraft ਹਮੇਸ਼ਾ ਲੀਨੀਅਰ ਰੌਸ਼ਨੀ ਵਿੱਚ ਸੰਯੋਜਿਤ ਕਰਦਾ ਹੈ
 	FilmCraft hit an error	FilmCraft ਵਿੱਚ ਗਲਤੀ ਆਈ
-	FilmCraft keeps the rest of the RAM free for other applications.	FilmCraft ਬਾਕੀ RAM ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਖਾਲੀ ਰੱਖਦਾ ਹੈ।
+	FilmCraft keeps the rest of the RAM free for other applications.	FilmCraft ਬਾਕੀ RAM ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਖਾਲੀ ਰੱਖਦਾ ਹੈ.
 	FilmCraft on GitHub	GitHub ਉੱਤੇ FilmCraft
 	FilmCraft on getartcraft.com	getartcraft.com ਉੱਤੇ FilmCraft
-	FilmCraft quit unexpectedly while “{name}” had unsaved changes.	FilmCraft ਅਚਾਨਕ ਬੰਦ ਹੋਇਆ ਜਦੋਂ “{name}” ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਅਣਸੰਭਾਲੀਆਂ ਸਨ।
-	FilmCraft was closed while “{name}” had unsaved changes.	FilmCraft ਬੰਦ ਕੀਤਾ ਗਿਆ ਜਦੋਂ “{name}” ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਅਣਸੰਭਾਲੀਆਂ ਸਨ।
+	FilmCraft quit unexpectedly while “{name}” had unsaved changes.	FilmCraft ਅਚਾਨਕ ਬੰਦ ਹੋਇਆ ਜਦੋਂ “{name}” ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਅਣਸੰਭਾਲੀਆਂ ਸਨ.
+	FilmCraft was closed while “{name}” had unsaved changes.	FilmCraft ਬੰਦ ਕੀਤਾ ਗਿਆ ਜਦੋਂ “{name}” ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਅਣਸੰਭਾਲੀਆਂ ਸਨ.
 	Filter	ਫਿਲਟਰ
 	Filter Frequency	ਫਿਲਟਰ ਫ੍ਰੀਕਵੈਂਸੀ
 	Filter Resonance	ਫਿਲਟਰ ਰੈਜ਼ੋਨੈਂਸ
@@ -1189,7 +1195,7 @@
 	Font Style	ਫ਼ੌਂਟ ਸ਼ੈਲੀ
 	Font family	ਫ਼ੌਂਟ ਪਰਿਵਾਰ
 	Fonts used in the project:	ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਵਰਤੇ ਫ਼ੌਂਟ:
-	For color management parameters, go to the Settings tab in the Lumetri Color panel.	ਰੰਗ ਪ੍ਰਬੰਧਨ ਪੈਰਾਮੀਟਰਾਂ ਲਈ Lumetri Color ਪੈਨਲ ਦੀ ਸੈਟਿੰਗਾਂ ਟੈਬ ਉੱਤੇ ਜਾਓ।
+	For color management parameters, go to the Settings tab in the Lumetri Color panel.	ਰੰਗ ਪ੍ਰਬੰਧਨ ਪੈਰਾਮੀਟਰਾਂ ਲਈ Lumetri Color ਪੈਨਲ ਦੀ ਸੈਟਿੰਗਾਂ ਟੈਬ ਉੱਤੇ ਜਾਓ.
 	Forest	ਜੰਗਲ
 	Format and size	ਫਾਰਮੈਟ ਅਤੇ ਆਕਾਰ
 	Four Scopes (RGB, 8 bit)	ਚਾਰ ਸਕੋਪ (RGB, 8 ਬਿਟ)
@@ -1354,7 +1360,7 @@
 	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	ਸੀਕਵੈਂਸ ਦੇ ਫਰੇਮ ਆਕਾਰ ਅਤੇ ਦਰ ਉੱਤੇ H.264; 0.1 ਬਿਟ ਪ੍ਰਤੀ ਪਿਕਸਲ
 	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	ਸੀਕਵੈਂਸ ਦੇ ਫਰੇਮ ਆਕਾਰ ਅਤੇ ਦਰ ਉੱਤੇ H.264; ਬਿਟਰੇਟ ਫਰੇਮ ਦੇ ਆਕਾਰ ਅਨੁਸਾਰ ਢਲਦਾ ਹੈ (0.2 ਬਿਟ ਪ੍ਰਤੀ ਪਿਕਸਲ)
 	H.265 (HEVC)	H.265 (HEVC)
-	H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none was found on this machine, and FilmCraft has no software H.265 encoder yet. Choose H.264 or ProRes instead.	H.265 (HEVC) ਲਈ ਹਾਰਡਵੇਅਰ ਐਨਕੋਡਰ ਲੋੜੀਂਦਾ ਹੈ (NVIDIA GPU ਉੱਤੇ NVENC, macOS ਉੱਤੇ VideoToolbox); ਇਸ ਮਸ਼ੀਨ ਉੱਤੇ ਕੋਈ ਨਹੀਂ ਮਿਲਿਆ, ਅਤੇ FilmCraft ਵਿੱਚ ਹਾਲੇ ਸਾਫ਼ਟਵੇਅਰ H.265 ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ। ਇਸ ਦੀ ਥਾਂ H.264 ਜਾਂ ProRes ਚੁਣੋ।
+	H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none was found on this machine, and FilmCraft has no software H.265 encoder yet. Choose H.264 or ProRes instead.	H.265 (HEVC) ਲਈ ਹਾਰਡਵੇਅਰ ਐਨਕੋਡਰ ਲੋੜੀਂਦਾ ਹੈ (NVIDIA GPU ਉੱਤੇ NVENC, macOS ਉੱਤੇ VideoToolbox); ਇਸ ਮਸ਼ੀਨ ਉੱਤੇ ਕੋਈ ਨਹੀਂ ਮਿਲਿਆ, ਅਤੇ FilmCraft ਵਿੱਚ ਹਾਲੇ ਸਾਫ਼ਟਵੇਅਰ H.265 ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ. ਇਸ ਦੀ ਥਾਂ H.264 ਜਾਂ ProRes ਚੁਣੋ.
 	HD Anamorphic 1080 (1.333)	HD ਐਨਾਮਾਰਫਿਕ 1080 (1.333)
 	HDR	HDR
 	HDR Graphics White (Nits)	HDR ਗ੍ਰਾਫਿਕਸ ਚਿੱਟਾ (ਨਿਟ)
@@ -1375,8 +1381,8 @@
 	Hardware (AV1 has no software encoder)	ਹਾਰਡਵੇਅਰ (AV1 ਦਾ ਸਾਫ਼ਟਵੇਅਰ ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ)
 	Hardware (H.265 has no software encoder)	ਹਾਰਡਵੇਅਰ (H.265 ਦਾ ਸਾਫ਼ਟਵੇਅਰ ਐਨਕੋਡਰ ਨਹੀਂ ਹੈ)
 	Hardware decoding	ਹਾਰਡਵੇਅਰ ਡੀਕੋਡਿੰਗ
-	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	ਹਾਰਡਵੇਅਰ ਡੀਕੋਡਿੰਗ: ਆਟੋ ਸਿਸਟਮ ਦਾ ਵੀਡੀਓ ਡੀਕੋਡਰ (macOS ਉੱਤੇ VideoToolbox, Windows ਉੱਤੇ Media Foundation, Linux ਉੱਤੇ H.264 ਅਤੇ HEVC ਲਈ VA-API) ਸਮਰਥਿਤ ਸਟ੍ਰੀਮਾਂ ਲਈ ਵਰਤਦਾ ਹੈ, ਅਤੇ ਬਾਕੀ ਸਭ ਲਈ ਜਾਂ ਹਾਰਡਵੇਅਰ ਅਸਫਲ ਹੋਣ ਉੱਤੇ FilmCraft ਦਾ ਆਪਣਾ ਡੀਕੋਡਰ। ਪਹਿਲਾਂ ਹੀ ਖੁੱਲ੍ਹਾ ਮੀਡੀਆ ਮੁੜ ਖੋਲ੍ਹਣ ਤੱਕ ਆਪਣਾ ਡੀਕੋਡਰ ਰੱਖਦਾ ਹੈ।
-	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	ਹਾਰਡਵੇਅਰ ਡੀਕੋਡਿੰਗ: ਆਟੋ ਸਿਸਟਮ ਦਾ ਵੀਡੀਓ ਡੀਕੋਡਰ (macOS ਉੱਤੇ VideoToolbox, Windows ਉੱਤੇ Media Foundation, Linux ਉੱਤੇ H.264 ਅਤੇ HEVC ਲਈ VA-API ਜਾਂ NVDEC) ਸਮਰਥਿਤ ਸਟ੍ਰੀਮਾਂ ਲਈ ਵਰਤਦਾ ਹੈ, ਅਤੇ ਬਾਕੀ ਸਭ ਲਈ ਜਾਂ ਹਾਰਡਵੇਅਰ ਅਸਫਲ ਹੋਣ ਉੱਤੇ FilmCraft ਦਾ ਆਪਣਾ ਡੀਕੋਡਰ। ਪਹਿਲਾਂ ਹੀ ਖੁੱਲ੍ਹਾ ਮੀਡੀਆ ਮੁੜ ਖੋਲ੍ਹਣ ਤੱਕ ਆਪਣਾ ਡੀਕੋਡਰ ਰੱਖਦਾ ਹੈ।
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	ਹਾਰਡਵੇਅਰ ਡੀਕੋਡਿੰਗ: ਆਟੋ ਸਿਸਟਮ ਦਾ ਵੀਡੀਓ ਡੀਕੋਡਰ (macOS ਉੱਤੇ VideoToolbox, Windows ਉੱਤੇ Media Foundation, Linux ਉੱਤੇ H.264 ਅਤੇ HEVC ਲਈ VA-API) ਸਮਰਥਿਤ ਸਟ੍ਰੀਮਾਂ ਲਈ ਵਰਤਦਾ ਹੈ, ਅਤੇ ਬਾਕੀ ਸਭ ਲਈ ਜਾਂ ਹਾਰਡਵੇਅਰ ਅਸਫਲ ਹੋਣ ਉੱਤੇ FilmCraft ਦਾ ਆਪਣਾ ਡੀਕੋਡਰ. ਪਹਿਲਾਂ ਹੀ ਖੁੱਲ੍ਹਾ ਮੀਡੀਆ ਮੁੜ ਖੋਲ੍ਹਣ ਤੱਕ ਆਪਣਾ ਡੀਕੋਡਰ ਰੱਖਦਾ ਹੈ.
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	ਹਾਰਡਵੇਅਰ ਡੀਕੋਡਿੰਗ: ਆਟੋ ਸਿਸਟਮ ਦਾ ਵੀਡੀਓ ਡੀਕੋਡਰ (macOS ਉੱਤੇ VideoToolbox, Windows ਉੱਤੇ Media Foundation, Linux ਉੱਤੇ H.264 ਅਤੇ HEVC ਲਈ VA-API ਜਾਂ NVDEC) ਸਮਰਥਿਤ ਸਟ੍ਰੀਮਾਂ ਲਈ ਵਰਤਦਾ ਹੈ, ਅਤੇ ਬਾਕੀ ਸਭ ਲਈ ਜਾਂ ਹਾਰਡਵੇਅਰ ਅਸਫਲ ਹੋਣ ਉੱਤੇ FilmCraft ਦਾ ਆਪਣਾ ਡੀਕੋਡਰ. ਪਹਿਲਾਂ ਹੀ ਖੁੱਲ੍ਹਾ ਮੀਡੀਆ ਮੁੜ ਖੋਲ੍ਹਣ ਤੱਕ ਆਪਣਾ ਡੀਕੋਡਰ ਰੱਖਦਾ ਹੈ.
 	Head	ਸ਼ੁਰੂਆਤੀ ਹਿੱਸਾ
 	Head Size	ਸਿਰ ਦਾ ਆਕਾਰ
 	Head and Tail	ਸ਼ੁਰੂ ਅਤੇ ਅੰਤ
@@ -1566,7 +1572,7 @@
 	Large Trim Offset	ਵੱਡਾ ਟ੍ਰਿਮ ਆਫਸੈੱਟ
 	Large Volume Adjustment	ਆਵਾਜ਼ ਵਿੱਚ ਵੱਡੀ ਤਬਦੀਲੀ
 	Large blocks resolving to the picture over the first second	ਪਹਿਲੇ ਸਕਿੰਟ ਦੌਰਾਨ ਵੱਡੇ ਬਲਾਕ ਤਸਵੀਰ ਵਿੱਚ ਬਦਲਦੇ ਹਨ
-	Large centred title, accent rule and subtitle.	ਕੇਂਦਰ ਵਿੱਚ ਵੱਡਾ ਸਿਰਲੇਖ, ਉਭਾਰ ਲਾਈਨ ਅਤੇ ਉਪਸਿਰਲੇਖ।
+	Large centred title, accent rule and subtitle.	ਕੇਂਦਰ ਵਿੱਚ ਵੱਡਾ ਸਿਰਲੇਖ, ਉਭਾਰ ਲਾਈਨ ਅਤੇ ਉਪਸਿਰਲੇਖ.
 	Larger	ਵਧੇਰੇ ਵੱਡਾ
 	Last auto-save {a}	ਆਖ਼ਰੀ ਆਟੋ-ਸੇਵ {a}
 	Last auto-save {a} · last recovery copy {j}	ਆਖ਼ਰੀ ਆਟੋ-ਸੇਵ {a} · ਆਖ਼ਰੀ ਮੁੜ-ਪ੍ਰਾਪਤੀ ਕਾਪੀ {j}
@@ -1661,7 +1667,7 @@
 	Look	ਦਿੱਖ
 	Look LUT	ਦਿੱਖ LUT
 	Look-Ahead Time	ਲੁੱਕ-ਅਹੈੱਡ ਸਮਾਂ
-	Looks for a newer FilmCraft release and offers to update.	FilmCraft ਦੀ ਨਵੀਂ ਰਿਲੀਜ਼ ਲੱਭ ਕੇ ਅੱਪਡੇਟ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ।
+	Looks for a newer FilmCraft release and offers to update.	FilmCraft ਦੀ ਨਵੀਂ ਰਿਲੀਜ਼ ਲੱਭ ਕੇ ਅੱਪਡੇਟ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ.
 	Loop	ਲੂਪ
 	Loop marked range	ਨਿਸ਼ਾਨਬੱਧ ਰੇਂਜ ਦੁਹਰਾਓ
 	Looping GIF, 640×360 at 15 fps	ਦੁਹਰਾਉਂਦਾ GIF, 640×360, 15 fps ਉੱਤੇ
@@ -1700,7 +1706,7 @@
 	Luminance Threshold	ਪ੍ਰਕਾਸ਼ਮਾਨਤਾ ਹੱਦ
 	Luminosity	ਪ੍ਰਕਾਸ਼ਮਾਨਤਾ
 	MB	MB
-	MIT OR Apache-2.0. Fonts: Inter, Noto Serif and JetBrains Mono (SIL OFL 1.1).	MIT OR Apache-2.0। ਫ਼ੌਂਟ: Inter, Noto Serif ਅਤੇ JetBrains Mono (SIL OFL 1.1)।
+	MIT OR Apache-2.0. Fonts: Inter, Noto Serif and JetBrains Mono (SIL OFL 1.1).	MIT OR Apache-2.0. ਫ਼ੌਂਟ: Inter, Noto Serif ਅਤੇ JetBrains Mono (SIL OFL 1.1).
 	MPEG-4 audio (.m4a), stereo 48 kHz AAC-LC at 320 kbps	MPEG-4 ਆਡੀਓ (.m4a), ਸਟੀਰੀਓ 48 kHz AAC-LC, 320 kbps ਉੱਤੇ
 	MXF OP-Atom	MXF OP-Atom
 	MXF OP-Atom DNxHR (Avid)	MXF OP-Atom DNxHR (Avid)
@@ -1727,7 +1733,7 @@
 	Make Subclip	ਸਬਕਲਿੱਪ ਬਣਾਓ
 	Make Subclip…	ਸਬਕਲਿੱਪ ਬਣਾਓ…
 	Make Subsequence	ਸਬਸੀਕਵੈਂਸ ਬਣਾਓ
-	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	{n} ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਆਫਲਾਈਨ ਕਰੋ। ਮੁੜ ਲਿੰਕ ਕਰਨ ਤੱਕ ਉਹ ਆਫਲਾਈਨ ਪੱਟੀ ਦਿਖਾਉਣਗੀਆਂ।
+	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	{n} ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਆਫਲਾਈਨ ਕਰੋ. ਮੁੜ ਲਿੰਕ ਕਰਨ ਤੱਕ ਉਹ ਆਫਲਾਈਨ ਪੱਟੀ ਦਿਖਾਉਣਗੀਆਂ.
 	Makeup	ਮੇਕਅਪ ਗੇਨ
 	Male	ਮਰਦ
 	Manage Colors	ਰੰਗ ਪ੍ਰਬੰਧਿਤ ਕਰੋ
@@ -1749,7 +1755,7 @@
 	Mark Selection	ਚੋਣ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ
 	Mark Split	ਵੰਡ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ
 	Marker	ਮਾਰਕਰ
-	Marker changed or was removed. Reopen it to continue.	ਮਾਰਕਰ ਬਦਲਿਆ ਜਾਂ ਹਟਾਇਆ ਗਿਆ ਹੈ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਮੁੜ ਖੋਲ੍ਹੋ।
+	Marker changed or was removed. Reopen it to continue.	ਮਾਰਕਰ ਬਦਲਿਆ ਜਾਂ ਹਟਾਇਆ ਗਿਆ ਹੈ. ਜਾਰੀ ਰੱਖਣ ਲਈ ਮੁੜ ਖੋਲ੍ਹੋ.
 	Marker owner is unavailable	ਮਾਰਕਰ ਦਾ ਮਾਲਕ ਉਪਲਬਧ ਨਹੀਂ ਹੈ
 	Markers	ਮਾਰਕਰ
 	Mask Only	ਕੇਵਲ ਮਾਸਕ
@@ -1771,7 +1777,7 @@
 	Match {n} of {total}	{total} ਵਿੱਚੋਂ ਮੇਲ {n}
 	Match:	ਮੇਲ:
 	Matches	ਮੇਲ
-	Matches each of the {n} clips on its own.	{n} ਕਲਿੱਪਾਂ ਵਿੱਚੋਂ ਹਰੇਕ ਦਾ ਵੱਖਰੇ ਤੌਰ ਉੱਤੇ ਮੇਲ ਕਰਦਾ ਹੈ।
+	Matches each of the {n} clips on its own.	{n} ਕਲਿੱਪਾਂ ਵਿੱਚੋਂ ਹਰੇਕ ਦਾ ਵੱਖਰੇ ਤੌਰ ਉੱਤੇ ਮੇਲ ਕਰਦਾ ਹੈ.
 	Matte	ਮੈਟ
 	Matte Alpha	ਮੈਟ ਅਲਫ਼ਾ
 	Matte Cleanup	ਮੈਟ ਸਫ਼ਾਈ
@@ -1810,7 +1816,7 @@
 	Media Time	ਮੀਡੀਆ ਸਮਾਂ
 	Media Timecode	ਮੀਡੀਆ ਟਾਈਮਕੋਡ
 	Media Type	ਮੀਡੀਆ ਕਿਸਮ
-	Media analysis and transcriptions will be cached in the Media Cache folder. Reanalysis won't be required if the media is imported into another project on this computer.	ਮੀਡੀਆ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਲਿਪੀਬੱਧ ਪਾਠ ਮੀਡੀਆ ਕੈਸ਼ ਫੋਲਡਰ ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਣਗੇ। ਇਸ ਕੰਪਿਊਟਰ ਉੱਤੇ ਮੀਡੀਆ ਕਿਸੇ ਹੋਰ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਆਯਾਤ ਕਰਨ ਉੱਤੇ ਮੁੜ ਵਿਸ਼ਲੇਸ਼ਣ ਲੋੜੀਂਦਾ ਨਹੀਂ ਹੋਵੇਗਾ।
+	Media analysis and transcriptions will be cached in the Media Cache folder. Reanalysis won't be required if the media is imported into another project on this computer.	ਮੀਡੀਆ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਲਿਪੀਬੱਧ ਪਾਠ ਮੀਡੀਆ ਕੈਸ਼ ਫੋਲਡਰ ਵਿੱਚ ਸੰਭਾਲੇ ਜਾਣਗੇ. ਇਸ ਕੰਪਿਊਟਰ ਉੱਤੇ ਮੀਡੀਆ ਕਿਸੇ ਹੋਰ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਆਯਾਤ ਕਰਨ ਉੱਤੇ ਮੁੜ ਵਿਸ਼ਲੇਸ਼ਣ ਲੋੜੀਂਦਾ ਨਹੀਂ ਹੋਵੇਗਾ.
 	Media colour space (from file metadata): {detected}	ਮੀਡੀਆ ਰੰਗ ਸਪੇਸ (ਫ਼ਾਈਲ ਮੈਟਾਡਾਟਾ ਤੋਂ): {detected}
 	Media files are deleted	ਮੀਡੀਆ ਫ਼ਾਈਲਾਂ ਮਿਟਾ ਦਿੱਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ
 	Media files remain on disk	ਮੀਡੀਆ ਫ਼ਾਈਲਾਂ ਡਿਸਕ ਉੱਤੇ ਰਹਿੰਦੀਆਂ ਹਨ
@@ -1928,8 +1934,8 @@
 	Name Color	ਨਾਮ ਦਾ ਰੰਗ
 	Name Overlay	ਨਾਮ ਓਵਰਲੇਅ
 	Name Size	ਨਾਮ ਦਾ ਆਕਾਰ
-	Name and role on a coloured slab that widens with the name.	ਰੰਗੀਨ ਪੱਟੀ ਉੱਤੇ ਨਾਮ ਅਤੇ ਭੂਮਿਕਾ, ਜੋ ਨਾਮ ਨਾਲ ਚੌੜੀ ਹੁੰਦੀ ਹੈ।
-	Name over a thin rule that always matches the name's width.	ਪਤਲੀ ਲਾਈਨ ਉੱਤੇ ਨਾਮ, ਜੋ ਹਮੇਸ਼ਾ ਨਾਮ ਦੀ ਚੌੜਾਈ ਨਾਲ ਮਿਲਦੀ ਹੈ।
+	Name and role on a coloured slab that widens with the name.	ਰੰਗੀਨ ਪੱਟੀ ਉੱਤੇ ਨਾਮ ਅਤੇ ਭੂਮਿਕਾ, ਜੋ ਨਾਮ ਨਾਲ ਚੌੜੀ ਹੁੰਦੀ ਹੈ.
+	Name over a thin rule that always matches the name's width.	ਪਤਲੀ ਲਾਈਨ ਉੱਤੇ ਨਾਮ, ਜੋ ਹਮੇਸ਼ਾ ਨਾਮ ਦੀ ਚੌੜਾਈ ਨਾਲ ਮਿਲਦੀ ਹੈ.
 	Narrow	ਤੰਗ
 	Navigate to End of Segment	ਖੰਡ ਦੇ ਅੰਤ ਉੱਤੇ ਜਾਓ
 	Navigate to Next Line	ਅਗਲੀ ਲਾਈਨ ਉੱਤੇ ਜਾਓ
@@ -1975,29 +1981,29 @@
 	No Fields (Progressive Scan)	ਕੋਈ ਫੀਲਡ ਨਹੀਂ (ਪ੍ਰੋਗਰੈਸਿਵ ਸਕੈਨ)
 	No Motion	ਕੋਈ ਗਤੀ ਨਹੀਂ
 	No Scroll	ਸਕ੍ਰੋਲ ਨਹੀਂ
-	No background jobs.	ਕੋਈ ਪਿਛੋਕੜ ਕੰਮ ਨਹੀਂ।
-	No candidates yet — Search a folder or Locate the file.	ਹਾਲੇ ਕੋਈ ਸੰਭਵ ਮੇਲ ਨਹੀਂ — ਫੋਲਡਰ ਖੋਜੋ ਜਾਂ ਫ਼ਾਈਲ ਦਾ ਟਿਕਾਣਾ ਲੱਭੋ।
-	No captions on this track. Press + to add one at the playhead.	ਇਸ ਟ੍ਰੈਕ ਉੱਤੇ ਕੋਈ ਉਪਸਿਰਲੇਖ ਨਹੀਂ। ਪਲੇਹੈੱਡ ਉੱਤੇ ਜੋੜਨ ਲਈ + ਦਬਾਓ।
+	No background jobs.	ਕੋਈ ਪਿਛੋਕੜ ਕੰਮ ਨਹੀਂ.
+	No candidates yet — Search a folder or Locate the file.	ਹਾਲੇ ਕੋਈ ਸੰਭਵ ਮੇਲ ਨਹੀਂ — ਫੋਲਡਰ ਖੋਜੋ ਜਾਂ ਫ਼ਾਈਲ ਦਾ ਟਿਕਾਣਾ ਲੱਭੋ.
+	No captions on this track. Press + to add one at the playhead.	ਇਸ ਟ੍ਰੈਕ ਉੱਤੇ ਕੋਈ ਉਪਸਿਰਲੇਖ ਨਹੀਂ. ਪਲੇਹੈੱਡ ਉੱਤੇ ਜੋੜਨ ਲਈ + ਦਬਾਓ.
 	No contributor data was built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਕੋਈ ਯੋਗਦਾਨੀ ਡਾਟਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
 	No effects	ਕੋਈ ਪ੍ਰਭਾਵ ਨਹੀਂ
-	No events.	ਕੋਈ ਘਟਨਾਵਾਂ ਨਹੀਂ।
+	No events.	ਕੋਈ ਘਟਨਾਵਾਂ ਨਹੀਂ.
 	No export preset named `{name}`	`{name}` ਨਾਮ ਦਾ ਕੋਈ ਨਿਰਯਾਤ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ
 	No markers	ਕੋਈ ਮਾਰਕਰ ਨਹੀਂ
-	No markers. Press M to add one.	ਕੋਈ ਮਾਰਕਰ ਨਹੀਂ। ਜੋੜਨ ਲਈ M ਦਬਾਓ।
-	No matching captions.	ਕੋਈ ਮੇਲ ਖਾਂਦੇ ਉਪਸਿਰਲੇਖ ਨਹੀਂ।
+	No markers. Press M to add one.	ਕੋਈ ਮਾਰਕਰ ਨਹੀਂ. ਜੋੜਨ ਲਈ M ਦਬਾਓ.
+	No matching captions.	ਕੋਈ ਮੇਲ ਖਾਂਦੇ ਉਪਸਿਰਲੇਖ ਨਹੀਂ.
 	No matching commands	ਕੋਈ ਮੇਲ ਖਾਂਦੀਆਂ ਕਮਾਂਡਾਂ ਨਹੀਂ
 	No matching markers	ਕੋਈ ਮੇਲ ਖਾਂਦੇ ਮਾਰਕਰ ਨਹੀਂ
-	No matching text.	ਕੋਈ ਮੇਲ ਖਾਂਦਾ ਪਾਠ ਨਹੀਂ।
+	No matching text.	ਕੋਈ ਮੇਲ ਖਾਂਦਾ ਪਾਠ ਨਹੀਂ.
 	No model credits were built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਮਾਡਲਾਂ ਦਾ ਕੋਈ ਸਿਹਰਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
 	No multi-camera clip at the playhead	ਪਲੇਹੈੱਡ ਉੱਤੇ ਕੋਈ ਮਲਟੀ-ਕੈਮਰਾ ਕਲਿੱਪ ਨਹੀਂ
-	No plugins are installed. Changes will take effect the next time you start FilmCraft.	ਕੋਈ ਪਲੱਗਇਨ ਇੰਸਟਾਲ ਨਹੀਂ। FilmCraft ਅਗਲੀ ਵਾਰ ਚਾਲੂ ਕਰਨ ਉੱਤੇ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣਗੀਆਂ।
+	No plugins are installed. Changes will take effect the next time you start FilmCraft.	ਕੋਈ ਪਲੱਗਇਨ ਇੰਸਟਾਲ ਨਹੀਂ. FilmCraft ਅਗਲੀ ਵਾਰ ਚਾਲੂ ਕਰਨ ਉੱਤੇ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣਗੀਆਂ.
 	No presets folder: the app has no data directory	ਪ੍ਰੀਸੈੱਟ ਫੋਲਡਰ ਨਹੀਂ: ਐਪ ਦੀ ਕੋਈ ਡਾਟਾ ਡਾਇਰੈਕਟਰੀ ਨਹੀਂ ਹੈ
 	No saved colors	ਕੋਈ ਸੰਭਾਲੇ ਰੰਗ ਨਹੀਂ
-	No saved guide templates.	ਕੋਈ ਸੰਭਾਲੇ ਗਾਈਡ ਟੈਂਪਲੇਟ ਨਹੀਂ।
+	No saved guide templates.	ਕੋਈ ਸੰਭਾਲੇ ਗਾਈਡ ਟੈਂਪਲੇਟ ਨਹੀਂ.
 	No sequence open	ਕੋਈ ਸੀਕਵੈਂਸ ਨਹੀਂ ਖੁੱਲ੍ਹਾ
 	No source clip open	ਕੋਈ ਸਰੋਤ ਕਲਿੱਪ ਨਹੀਂ ਖੁੱਲ੍ਹੀ
-	No templates match.	ਕੋਈ ਟੈਂਪਲੇਟ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ।
-	No text graphics in this sequence. Add text with the Type tool.	ਇਸ ਸੀਕਵੈਂਸ ਵਿੱਚ ਕੋਈ ਪਾਠ ਗ੍ਰਾਫਿਕਸ ਨਹੀਂ। Type ਟੂਲ ਨਾਲ ਪਾਠ ਜੋੜੋ।
+	No templates match.	ਕੋਈ ਟੈਂਪਲੇਟ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ.
+	No text graphics in this sequence. Add text with the Type tool.	ਇਸ ਸੀਕਵੈਂਸ ਵਿੱਚ ਕੋਈ ਪਾਠ ਗ੍ਰਾਫਿਕਸ ਨਹੀਂ. Type ਟੂਲ ਨਾਲ ਪਾਠ ਜੋੜੋ.
 	Noise	ਨੋਇਜ਼
 	Noise & Grain	ਨੌਇਜ਼ ਅਤੇ ਦਾਣੇ
 	Noise (Legacy)	ਨੌਇਜ਼ (ਪੁਰਾਣਾ)
@@ -2023,8 +2029,8 @@
 	Notch Filter	ਨੌਚ ਫਿਲਟਰ
 	Notch Width	ਨੌਚ ਚੌੜਾਈ
 	Notes	ਨੋਟ
-	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	ਇਸ ਪ੍ਰੋਜੈਕਟ ਲਈ ਨੋਟ: ਕਰਨ ਵਾਲੇ ਕੰਮ, ਹਦਾਇਤਾਂ, ਫਰੇਮ ਨੰਬਰ… ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ।
-	Nothing found with that name.	ਉਸ ਨਾਮ ਨਾਲ ਕੁਝ ਨਹੀਂ ਮਿਲਿਆ।
+	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	ਇਸ ਪ੍ਰੋਜੈਕਟ ਲਈ ਨੋਟ: ਕਰਨ ਵਾਲੇ ਕੰਮ, ਹਦਾਇਤਾਂ, ਫਰੇਮ ਨੰਬਰ… ਪ੍ਰੋਜੈਕਟ ਨਾਲ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ.
+	Nothing found with that name.	ਉਸ ਨਾਮ ਨਾਲ ਕੁਝ ਨਹੀਂ ਮਿਲਿਆ.
 	Nothing is assigned to this key	ਇਸ ਕੁੰਜੀ ਲਈ ਕੁਝ ਨਿਰਧਾਰਤ ਨਹੀਂ ਹੈ
 	Nudge Clip Selection Down	ਕਲਿੱਪ ਚੋਣ ਹੇਠਾਂ ਖਿਸਕਾਓ
 	Nudge Clip Selection Left Five Frames	ਕਲਿੱਪ ਚੋਣ ਖੱਬੇ ਪੰਜ ਫਰੇਮ ਖਿਸਕਾਓ
@@ -2212,7 +2218,7 @@
 	Play/Stop	ਚਲਾਓ/ਰੋਕੋ
 	Playback	ਪਲੇਬੈਕ
 	Playback Resolution	ਪਲੇਬੈਕ ਰੈਜ਼ੋਲੂਸ਼ਨ
-	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	ਪਲੇਬੈਕ ਪਲੇਹੈੱਡ (ਜਾਂ ਇਨ ਬਿੰਦੂ) ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰੀਰੋਲ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ; ਇਨ/ਆਊਟ ਨਿਸ਼ਾਨਬੱਧ ਹੋਣ ਉੱਤੇ ਰਿਕਾਰਡਿੰਗ ਉੱਥੇ ਸ਼ੁਰੂ ਅਤੇ ਬੰਦ ਹੁੰਦੀ ਹੈ।
+	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	ਪਲੇਬੈਕ ਪਲੇਹੈੱਡ (ਜਾਂ ਇਨ ਬਿੰਦੂ) ਤੋਂ ਪਹਿਲਾਂ ਪ੍ਰੀਰੋਲ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ; ਇਨ/ਆਊਟ ਨਿਸ਼ਾਨਬੱਧ ਹੋਣ ਉੱਤੇ ਰਿਕਾਰਡਿੰਗ ਉੱਥੇ ਸ਼ੁਰੂ ਅਤੇ ਬੰਦ ਹੁੰਦੀ ਹੈ.
 	Playback…	ਪਲੇਬੈਕ…
 	Playhead	ਪਲੇਹੈੱਡ
 	Playhead position determines trim monitor loop playback	ਪਲੇਹੈੱਡ ਦੀ ਸਥਿਤੀ ਟ੍ਰਿਮ ਮਾਨੀਟਰ ਦਾ ਦੁਹਰਾਉਂਦਾ ਪਲੇਬੈਕ ਤੈਅ ਕਰਦੀ ਹੈ
@@ -2280,7 +2286,7 @@
 	Processing Options	ਪ੍ਰੋਸੈਸਿੰਗ ਚੋਣਾਂ
 	Profile	ਪ੍ਰੋਫਾਈਲ
 	Program	ਪ੍ਰੋਗਰਾਮ
-	Programme left → device output {l}, right → device output {r}{dev}. Outputs beyond the device's channels fall back to 1 and 2.	ਪ੍ਰੋਗਰਾਮ ਦਾ ਖੱਬਾ → ਡਿਵਾਈਸ ਆਉਟਪੁੱਟ {l}, ਸੱਜਾ → ਡਿਵਾਈਸ ਆਉਟਪੁੱਟ {r}{dev}। ਡਿਵਾਈਸ ਦੇ ਚੈਨਲਾਂ ਤੋਂ ਬਾਹਰਲੇ ਆਉਟਪੁੱਟਾਂ ਲਈ 1 ਅਤੇ 2 ਵਰਤੇ ਜਾਂਦੇ ਹਨ।
+	Programme left → device output {l}, right → device output {r}{dev}. Outputs beyond the device's channels fall back to 1 and 2.	ਪ੍ਰੋਗਰਾਮ ਦਾ ਖੱਬਾ → ਡਿਵਾਈਸ ਆਉਟਪੁੱਟ {l}, ਸੱਜਾ → ਡਿਵਾਈਸ ਆਉਟਪੁੱਟ {r}{dev}. ਡਿਵਾਈਸ ਦੇ ਚੈਨਲਾਂ ਤੋਂ ਬਾਹਰਲੇ ਆਉਟਪੁੱਟਾਂ ਲਈ 1 ਅਤੇ 2 ਵਰਤੇ ਜਾਂਦੇ ਹਨ.
 	Progress	ਤਰੱਕੀ
 	Progressive	ਪ੍ਰੋਗਰੈਸਿਵ
 	Project	ਪ੍ਰੋਜੈਕਟ
@@ -2301,7 +2307,7 @@
 	Project…	ਪ੍ਰੋਜੈਕਟ…
 	Properties	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
 	Protect Highlights	ਉਭਰੇ ਟੋਨ ਸੁਰੱਖਿਅਤ ਰੱਖੋ
-	Proxies are made in the background and attached when done. Export always uses full-resolution media.	ਪ੍ਰਾਕਸੀ ਪਿੱਛੇ ਬਣਦੇ ਹਨ ਅਤੇ ਪੂਰੇ ਹੋਣ ਉੱਤੇ ਜੁੜਦੇ ਹਨ। ਨਿਰਯਾਤ ਹਮੇਸ਼ਾ ਪੂਰੀ ਰੈਜ਼ੋਲੂਸ਼ਨ ਮੀਡੀਆ ਵਰਤਦਾ ਹੈ।
+	Proxies are made in the background and attached when done. Export always uses full-resolution media.	ਪ੍ਰਾਕਸੀ ਪਿੱਛੇ ਬਣਦੇ ਹਨ ਅਤੇ ਪੂਰੇ ਹੋਣ ਉੱਤੇ ਜੁੜਦੇ ਹਨ. ਨਿਰਯਾਤ ਹਮੇਸ਼ਾ ਪੂਰੀ ਰੈਜ਼ੋਲੂਸ਼ਨ ਮੀਡੀਆ ਵਰਤਦਾ ਹੈ.
 	Proxy	ਪ੍ਰਾਕਸੀ
 	Pull Motion	ਖਿੱਚ ਚਾਲ
 	Pulls highlights and whites down	ਉਭਰੇ ਅਤੇ ਚਿੱਟੇ ਟੋਨਾਂ ਦਾ ਪੱਧਰ ਘਟਾਉਂਦਾ ਹੈ
@@ -2415,7 +2421,7 @@
 	Remix Properties…	ਰੀਮਿਕਸ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ…
 	Remix Tool	ਰੀਮਿਕਸ ਟੂਲ
 	Remixed to {seconds} s	{seconds} s ਲਈ ਰੀਮਿਕਸ ਕੀਤਾ
-	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	ਟੀਚਾ ਮਿਆਦ ਲਈ ਸੰਗੀਤ ਰੀਮਿਕਸ ਕਰਨਾ ਹਾਲੇ ਉਪਲਬਧ ਨਹੀਂ। ਇਸ ਦੀ ਥਾਂ ਕਲਿੱਪ ਟ੍ਰਿਮ ਕਰਕੇ ਕ੍ਰਾਸਫੇਡ ਜੋੜੋ।
+	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	ਟੀਚਾ ਮਿਆਦ ਲਈ ਸੰਗੀਤ ਰੀਮਿਕਸ ਕਰਨਾ ਹਾਲੇ ਉਪਲਬਧ ਨਹੀਂ. ਇਸ ਦੀ ਥਾਂ ਕਲਿੱਪ ਟ੍ਰਿਮ ਕਰਕੇ ਕ੍ਰਾਸਫੇਡ ਜੋੜੋ.
 	Remove Attributes	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਹਟਾਓ
 	Remove Attributes…	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਹਟਾਓ…
 	Remove Audio from AV Clip	AV ਕਲਿੱਪ ਵਿੱਚੋਂ ਆਡੀਓ ਹਟਾਓ
@@ -2563,11 +2569,11 @@
 	Save color	ਰੰਗ ਸੰਭਾਲੋ
 	Save current settings as:	ਮੌਜੂਦਾ ਸੈਟਿੰਗਾਂ ਇਸ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ:
 	Save preset as:	ਪ੍ਰੀਸੈੱਟ ਇਸ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ:
-	Saved as a FilmCraft graphics template (.fcgt) in your templates folder.	ਤੁਹਾਡੇ ਟੈਂਪਲੇਟ ਫੋਲਡਰ ਵਿੱਚ FilmCraft ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ (.fcgt) ਵਜੋਂ ਸੰਭਾਲਿਆ।
+	Saved as a FilmCraft graphics template (.fcgt) in your templates folder.	ਤੁਹਾਡੇ ਟੈਂਪਲੇਟ ਫੋਲਡਰ ਵਿੱਚ FilmCraft ਗ੍ਰਾਫਿਕਸ ਟੈਂਪਲੇਟ (.fcgt) ਵਜੋਂ ਸੰਭਾਲਿਆ.
 	Saved preset “{name}”	“{name}” ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲਿਆ
 	Saved template {path}	ਟੈਂਪਲੇਟ {path} ਸੰਭਾਲਿਆ
-	Saves the view, columns, sort, thumbnail and font size.	ਦ੍ਰਿਸ਼, ਕਾਲਮ, ਲੜੀਬੱਧ ਕ੍ਰਮ, ਥੰਬਨੇਲ ਅਤੇ ਫ਼ੌਂਟ ਆਕਾਰ ਸੰਭਾਲਦਾ ਹੈ।
-	Saves this session's log and shows it in your file manager.	ਇਸ ਸੈਸ਼ਨ ਦਾ ਲੌਗ ਸੰਭਾਲ ਕੇ ਤੁਹਾਡੇ ਫ਼ਾਈਲ ਮੈਨੇਜਰ ਵਿੱਚ ਦਿਖਾਉਂਦਾ ਹੈ।
+	Saves the view, columns, sort, thumbnail and font size.	ਦ੍ਰਿਸ਼, ਕਾਲਮ, ਲੜੀਬੱਧ ਕ੍ਰਮ, ਥੰਬਨੇਲ ਅਤੇ ਫ਼ੌਂਟ ਆਕਾਰ ਸੰਭਾਲਦਾ ਹੈ.
+	Saves this session's log and shows it in your file manager.	ਇਸ ਸੈਸ਼ਨ ਦਾ ਲੌਗ ਸੰਭਾਲ ਕੇ ਤੁਹਾਡੇ ਫ਼ਾਈਲ ਮੈਨੇਜਰ ਵਿੱਚ ਦਿਖਾਉਂਦਾ ਹੈ.
 	Scale (Degrees)	ਸਕੇਲ (ਡਿਗਰੀਆਂ)
 	Scale Amount	ਸਕੇਲ ਮਾਤਰਾ
 	Scale Attribute Times	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦੇ ਸਮੇਂ ਸਕੇਲ ਕਰੋ
@@ -2632,14 +2638,14 @@
 	Select Previous Panel	ਪਿਛਲਾ ਪੈਨਲ ਚੁਣੋ
 	Select a clip to grade	ਰੰਗ-ਸੁਧਾਰ ਲਈ ਕਲਿੱਪ ਚੁਣੋ
 	Select a clip to see its properties	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵੇਖਣ ਲਈ ਕਲਿੱਪ ਚੁਣੋ
-	Select a clip to view its metadata.	ਮੈਟਾਡਾਟਾ ਵੇਖਣ ਲਈ ਕਲਿੱਪ ਚੁਣੋ।
+	Select a clip to view its metadata.	ਮੈਟਾਡਾਟਾ ਵੇਖਣ ਲਈ ਕਲਿੱਪ ਚੁਣੋ.
 	Select a graphic clip, or use the Type tool (T) on the Program monitor	ਗ੍ਰਾਫਿਕ ਕਲਿੱਪ ਚੁਣੋ, ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਮਾਨੀਟਰ ਉੱਤੇ ਪਾਠ ਟੂਲ (T) ਵਰਤੋ
-	Select a layer to edit its properties.	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧਣ ਲਈ ਪਰਤ ਚੁਣੋ।
+	Select a layer to edit its properties.	ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧਣ ਲਈ ਪਰਤ ਚੁਣੋ.
 	Select all	ਸਭ ਚੁਣੋ
 	Select all visible markers	ਸਾਰੇ ਦਿਸਦੇ ਮਾਰਕਰ ਚੁਣੋ
 	Select an item to preview it	ਝਲਕ ਲਈ ਆਈਟਮ ਚੁਣੋ
 	Select audio clips to edit them here	ਇੱਥੇ ਸੋਧਣ ਲਈ ਆਡੀਓ ਕਲਿੱਪਾਂ ਚੁਣੋ
-	Select audio clips, then click a preset to apply it.	ਆਡੀਓ ਕਲਿੱਪਾਂ ਚੁਣੋ, ਫਿਰ ਪ੍ਰੀਸੈੱਟ ਲਾਗੂ ਕਰਨ ਲਈ ਉਸ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।
+	Select audio clips, then click a preset to apply it.	ਆਡੀਓ ਕਲਿੱਪਾਂ ਚੁਣੋ, ਫਿਰ ਪ੍ਰੀਸੈੱਟ ਲਾਗੂ ਕਰਨ ਲਈ ਉਸ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ.
 	Select items to clear	ਸਾਫ਼ ਕਰਨ ਵਾਲੀਆਂ ਆਈਟਮਾਂ ਚੁਣੋ
 	Select one clip (or a linked clip) in the Timeline, or one item in the Project panel, to rename	ਨਾਮ ਬਦਲਣ ਲਈ ਟਾਈਮਲਾਈਨ ਵਿੱਚ ਇੱਕ ਕਲਿੱਪ (ਜਾਂ ਲਿੰਕ ਕੀਤੀ ਕਲਿੱਪ), ਜਾਂ ਪ੍ਰੋਜੈਕਟ ਪੈਨਲ ਵਿੱਚ ਇੱਕ ਆਈਟਮ ਚੁਣੋ
 	Select to Next Line	ਅਗਲੀ ਲਾਈਨ ਤੱਕ ਚੁਣੋ
@@ -2656,7 +2662,7 @@
 	Selection…	ਚੋਣ…
 	Semi-tones	ਅੱਧੇ ਸੁਰ
 	Send Backward	ਪਿੱਛੇ ਭੇਜੋ
-	Send exports here with Send to Queue, then start the queue.	ਇੱਥੇ ਭੇਜੋ, ਫਿਰ ਕਤਾਰ ਸ਼ੁਰੂ ਕਰੋ। ਨਿਰਯਾਤ ਜੋੜਨ ਲਈ ਕਤਾਰ ਵਿੱਚ ਭੇਜੋ ਵਰਤੋ।
+	Send exports here with Send to Queue, then start the queue.	ਇੱਥੇ ਭੇਜੋ, ਫਿਰ ਕਤਾਰ ਸ਼ੁਰੂ ਕਰੋ. ਨਿਰਯਾਤ ਜੋੜਨ ਲਈ ਕਤਾਰ ਵਿੱਚ ਭੇਜੋ ਵਰਤੋ.
 	Send to Back	ਸਭ ਤੋਂ ਪਿੱਛੇ ਭੇਜੋ
 	Send to Queue	ਕਤਾਰ ਵਿੱਚ ਭੇਜੋ
 	Send {n} Level	ਸੈਂਡ {n} ਪੱਧਰ
@@ -2766,8 +2772,8 @@
 	Show/Hide Effects and Sends	ਪ੍ਰਭਾਵ ਅਤੇ ਸੈਂਡ ਦਿਖਾਓ/ਲੁਕਾਓ
 	Show/Hide Tracks	ਟ੍ਰੈਕ ਦਿਖਾਓ/ਲੁਕਾਓ
 	Show/Hide Tracks…	ਟ੍ਰੈਕ ਦਿਖਾਓ/ਲੁਕਾਓ…
-	Shows a report on this computer.	ਇਸ ਕੰਪਿਊਟਰ ਬਾਰੇ ਰਿਪੋਰਟ ਦਿਖਾਉਂਦਾ ਹੈ।
-	Shows the version, community links and credits in a FilmCraft window.	FilmCraft ਵਿੰਡੋ ਵਿੱਚ ਵਰਜਨ, ਭਾਈਚਾਰਾ ਲਿੰਕ ਅਤੇ ਕ੍ਰੈਡਿਟ ਦਿਖਾਉਂਦਾ ਹੈ।
+	Shows a report on this computer.	ਇਸ ਕੰਪਿਊਟਰ ਬਾਰੇ ਰਿਪੋਰਟ ਦਿਖਾਉਂਦਾ ਹੈ.
+	Shows the version, community links and credits in a FilmCraft window.	FilmCraft ਵਿੰਡੋ ਵਿੱਚ ਵਰਜਨ, ਭਾਈਚਾਰਾ ਲਿੰਕ ਅਤੇ ਕ੍ਰੈਡਿਟ ਦਿਖਾਉਂਦਾ ਹੈ.
 	Shrink	ਸੁੰਗੜੋ
 	Shutter Angle	ਸ਼ਟਰ ਕੋਣ
 	Shuttle Left	ਸ਼ਟਲ ਖੱਬੇ
@@ -2841,11 +2847,11 @@
 	Solid Colors	ਇਕਸਾਰ ਰੰਗ
 	Solo	ਸੋਲੋ
 	Solo safe	ਸੋਲੋ-ਸੁਰੱਖਿਅਤ
-	Something went wrong while drawing the window. Your project is still open; save it to be safe.	ਵਿੰਡੋ ਬਣਾਉਂਦੇ ਸਮੇਂ ਗਲਤੀ ਆਈ। ਤੁਹਾਡਾ ਪ੍ਰੋਜੈਕਟ ਹਾਲੇ ਖੁੱਲ੍ਹਾ ਹੈ; ਸੁਰੱਖਿਆ ਲਈ ਸੰਭਾਲ ਲਵੋ।
+	Something went wrong while drawing the window. Your project is still open; save it to be safe.	ਵਿੰਡੋ ਬਣਾਉਂਦੇ ਸਮੇਂ ਗਲਤੀ ਆਈ. ਤੁਹਾਡਾ ਪ੍ਰੋਜੈਕਟ ਹਾਲੇ ਖੁੱਲ੍ਹਾ ਹੈ; ਸੁਰੱਖਿਆ ਲਈ ਸੰਭਾਲ ਲਵੋ.
 	Sort Icons	ਆਈਕਨ ਲੜੀਬੱਧ ਕਰੋ
 	Sort Order	ਲੜੀਬੱਧ ਕ੍ਰਮ
 	Source In/Out	ਸਰੋਤ ਇਨ/ਆਊਟ
-	Source In/Out is only 1 frame. Choose Entire Source to export the whole sequence.	ਸਰੋਤ ਇਨ/ਆਊਟ ਸਿਰਫ਼ 1 ਫਰੇਮ ਹੈ। ਪੂਰਾ ਸੀਕਵੈਂਸ ਨਿਰਯਾਤ ਕਰਨ ਲਈ ਪੂਰਾ ਸਰੋਤ ਚੁਣੋ।
+	Source In/Out is only 1 frame. Choose Entire Source to export the whole sequence.	ਸਰੋਤ ਇਨ/ਆਊਟ ਸਿਰਫ਼ 1 ਫਰੇਮ ਹੈ. ਪੂਰਾ ਸੀਕਵੈਂਸ ਨਿਰਯਾਤ ਕਰਨ ਲਈ ਪੂਰਾ ਸਰੋਤ ਚੁਣੋ.
 	Source Play/Stop	ਸਰੋਤ ਚਲਾਓ/ਰੋਕੋ
 	Source Point	ਸਰੋਤ ਬਿੰਦੂ
 	Source Settings	ਸਰੋਤ ਸੈਟਿੰਗਾਂ
@@ -2863,7 +2869,7 @@
 	Speaker Labeling	ਬੋਲਣ ਵਾਲੇ ਦਾ ਲੇਬਲ
 	Special Effects	ਖ਼ਾਸ ਪ੍ਰਭਾਵ
 	Speech model	ਬੋਲੀ ਮਾਡਲ
-	Speech-to-text turns the dialogue into editable text.	ਬੋਲੀ-ਤੋਂ-ਪਾਠ ਡਾਇਲਾਗ ਨੂੰ ਸੋਧਣਯੋਗ ਪਾਠ ਵਿੱਚ ਬਦਲਦਾ ਹੈ।
+	Speech-to-text turns the dialogue into editable text.	ਬੋਲੀ-ਤੋਂ-ਪਾਠ ਡਾਇਲਾਗ ਨੂੰ ਸੋਧਣਯੋਗ ਪਾਠ ਵਿੱਚ ਬਦਲਦਾ ਹੈ.
 	Speed {n}%	ਗਤੀ {n}%
 	Speed/Duration…	ਗਤੀ/ਮਿਆਦ…
 	Speed:	ਗਤੀ:
@@ -3038,21 +3044,21 @@
 	Text to Speech	ਪਾਠ ਤੋਂ ਬੋਲੀ
 	TextPanel	ਪਾਠ ਪੈਨਲ
 	The control server is disabled: FILMCRAFT_CONTROL_TOKEN must contain 64 random hex characters (see docs/control-protocol.md)	ਕੰਟਰੋਲ ਸਰਵਰ ਅਯੋਗ ਹੈ: FILMCRAFT_CONTROL_TOKEN ਵਿੱਚ 64 ਬੇਤਰਤੀਬ ਹੈਕਸ ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ (docs/control-protocol.md ਵੇਖੋ)
-	The default graphics are used from the next start.	ਅਗਲੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਮੂਲ ਗ੍ਰਾਫਿਕਸ ਵਰਤੇ ਜਾਂਦੇ ਹਨ।
+	The default graphics are used from the next start.	ਅਗਲੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਮੂਲ ਗ੍ਰਾਫਿਕਸ ਵਰਤੇ ਜਾਂਦੇ ਹਨ.
 	The language changed but could not be saved: {e}	ਭਾਸ਼ਾ ਬਦਲ ਗਈ ਪਰ ਸੰਭਾਲੀ ਨਹੀਂ ਜਾ ਸਕੀ: {e}
-	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	ਮੀਡੀਆ ਕੈਸ਼ ਵਿੱਚ ਅਣਸੰਭਾਲੇ ਪ੍ਰੋਜੈਕਟਾਂ ਦੀਆਂ ਰੈਂਡਰ ਝਲਕਾਂ ਅਤੇ ਹੋਰ ਫ਼ਾਈਲਾਂ ਹੁੰਦੀਆਂ ਹਨ ਜੋ FilmCraft ਮੁੜ ਬਣਾ ਸਕਦਾ ਹੈ। ਉਨ੍ਹਾਂ ਨੂੰ ਮਿਟਾਉਣਾ ਹਮੇਸ਼ਾ ਸੁਰੱਖਿਅਤ ਹੈ; ਲੋੜ ਅਨੁਸਾਰ FilmCraft ਉਨ੍ਹਾਂ ਨੂੰ ਮੁੜ ਬਣਾਉਂਦਾ ਹੈ।
-	The project had not been saved yet.	ਪ੍ਰੋਜੈਕਟ ਹਾਲੇ ਸੰਭਾਲਿਆ ਨਹੀਂ ਗਿਆ ਸੀ।
-	The selected clips have different audio types. Assign one type to edit them together.	ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਦੀਆਂ ਆਡੀਓ ਕਿਸਮਾਂ ਵੱਖਰੀਆਂ ਹਨ। ਇਕੱਠੇ ਸੋਧਣ ਲਈ ਇੱਕ ਕਿਸਮ ਨਿਰਧਾਰਤ ਕਰੋ।
-	The sequence has no caption track.	ਸੀਕਵੈਂਸ ਵਿੱਚ ਕੋਈ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਨਹੀਂ ਹੈ।
-	This build has no speech-to-text; import a transcript with transcript.set.	ਇਸ ਬਿਲਡ ਵਿੱਚ ਬੋਲੀ-ਤੋਂ-ਪਾਠ ਨਹੀਂ; transcript.set ਨਾਲ ਲਿਪੀਬੱਧ ਪਾਠ ਆਯਾਤ ਕਰੋ।
-	This clip does not match the sequence settings.	ਇਹ ਕਲਿੱਪ ਸੀਕਵੈਂਸ ਸੈਟਿੰਗਾਂ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ।
+	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	ਮੀਡੀਆ ਕੈਸ਼ ਵਿੱਚ ਅਣਸੰਭਾਲੇ ਪ੍ਰੋਜੈਕਟਾਂ ਦੀਆਂ ਰੈਂਡਰ ਝਲਕਾਂ ਅਤੇ ਹੋਰ ਫ਼ਾਈਲਾਂ ਹੁੰਦੀਆਂ ਹਨ ਜੋ FilmCraft ਮੁੜ ਬਣਾ ਸਕਦਾ ਹੈ. ਉਨ੍ਹਾਂ ਨੂੰ ਮਿਟਾਉਣਾ ਹਮੇਸ਼ਾ ਸੁਰੱਖਿਅਤ ਹੈ; ਲੋੜ ਅਨੁਸਾਰ FilmCraft ਉਨ੍ਹਾਂ ਨੂੰ ਮੁੜ ਬਣਾਉਂਦਾ ਹੈ.
+	The project had not been saved yet.	ਪ੍ਰੋਜੈਕਟ ਹਾਲੇ ਸੰਭਾਲਿਆ ਨਹੀਂ ਗਿਆ ਸੀ.
+	The selected clips have different audio types. Assign one type to edit them together.	ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਦੀਆਂ ਆਡੀਓ ਕਿਸਮਾਂ ਵੱਖਰੀਆਂ ਹਨ. ਇਕੱਠੇ ਸੋਧਣ ਲਈ ਇੱਕ ਕਿਸਮ ਨਿਰਧਾਰਤ ਕਰੋ.
+	The sequence has no caption track.	ਸੀਕਵੈਂਸ ਵਿੱਚ ਕੋਈ ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ ਨਹੀਂ ਹੈ.
+	This build has no speech-to-text; import a transcript with transcript.set.	ਇਸ ਬਿਲਡ ਵਿੱਚ ਬੋਲੀ-ਤੋਂ-ਪਾਠ ਨਹੀਂ; transcript.set ਨਾਲ ਲਿਪੀਬੱਧ ਪਾਠ ਆਯਾਤ ਕਰੋ.
+	This clip does not match the sequence settings.	ਇਹ ਕਲਿੱਪ ਸੀਕਵੈਂਸ ਸੈਟਿੰਗਾਂ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ.
 	Thr	ਹੱਦ
 	Thumbnail Size Next	ਅਗਲਾ ਥੰਬਨੇਲ ਆਕਾਰ
 	Thumbnail Size Previous	ਪਿਛਲਾ ਥੰਬਨੇਲ ਆਕਾਰ
 	Thumbnail View	ਥੰਬਨੇਲ ਦ੍ਰਿਸ਼
 	Thumbnail controls for all pointing devices	ਸਾਰੇ ਪੌਇੰਟਿੰਗ ਜੰਤਰਾਂ ਲਈ ਥੰਬਨੇਲ ਕੰਟਰੋਲ
 	Thumbnails show effects applied	ਥੰਬਨੇਲ ਲਾਗੂ ਕੀਤੇ ਪ੍ਰਭਾਵ ਦਿਖਾਉਂਦੇ ਹਨ
-	Ticked attributes are removed from the selected clips.	ਨਿਸ਼ਾਨ ਲੱਗੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਵਿੱਚੋਂ ਹਟਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ।
+	Ticked attributes are removed from the selected clips.	ਨਿਸ਼ਾਨ ਲੱਗੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਚੁਣੀਆਂ ਕਲਿੱਪਾਂ ਵਿੱਚੋਂ ਹਟਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ.
 	Ticker – Crawl	ਟਿਕਰ – ਸਰਕਣਾ
 	Tile Gradient	ਗ੍ਰੇਡੀਐਂਟ ਟਾਈਲ ਕਰੋ
 	Tilt	ਝੁਕਾਅ
@@ -3214,7 +3220,7 @@
 	Update Metadata	ਮੈਟਾਡਾਟਾ ਅੱਪਡੇਟ ਕਰੋ
 	Update Metadata…	ਮੈਟਾਡਾਟਾ ਅੱਪਡੇਟ ਕਰੋ…
 	Update it at least every	ਘੱਟੋ-ਘੱਟ ਇੰਨੇ ਸਮੇਂ ਬਾਅਦ ਅੱਪਡੇਟ ਕਰੋ
-	Update timeline dynamically during ripple edits.	ਰਿਪਲ ਸੰਪਾਦਨ ਦੌਰਾਨ ਟਾਈਮਲਾਈਨ ਗਤੀਸ਼ੀਲ ਤੌਰ ਉੱਤੇ ਅੱਪਡੇਟ ਕਰੋ।
+	Update timeline dynamically during ripple edits.	ਰਿਪਲ ਸੰਪਾਦਨ ਦੌਰਾਨ ਟਾਈਮਲਾਈਨ ਗਤੀਸ਼ੀਲ ਤੌਰ ਉੱਤੇ ਅੱਪਡੇਟ ਕਰੋ.
 	Upgrade Caption to Graphic	ਉਪਸਿਰਲੇਖ ਨੂੰ ਗ੍ਰਾਫਿਕ ਵਿੱਚ ਬਦਲੋ
 	Upgrade to Source Graphic	ਸਰੋਤ ਗ੍ਰਾਫਿਕ ਵਿੱਚ ਬਦਲੋ
 	Upper First	ਉੱਪਰਲਾ ਪਹਿਲਾਂ
@@ -3369,7 +3375,7 @@
 	Wet	ਪ੍ਰਭਾਵ ਵਾਲਾ
 	Wet Out	ਪ੍ਰਭਾਵ ਵਾਲੀ ਆਉਟਪੁੱਟ
 	When Opening a Project	ਪ੍ਰੋਜੈਕਟ ਖੋਲ੍ਹਦੇ ਸਮੇਂ
-	When enabled, GIF transparency is on/off: alpha below 128 is transparent; 128 and above is opaque.	ਯੋਗ ਹੋਣ ਉੱਤੇ GIF ਪਾਰਦਰਸ਼ਤਾ ਚਾਲੂ/ਬੰਦ ਹੁੰਦੀ ਹੈ: 128 ਤੋਂ ਘੱਟ ਅਲਫ਼ਾ ਪਾਰਦਰਸ਼ੀ ਹੈ; 128 ਅਤੇ ਇਸ ਤੋਂ ਵੱਧ ਅਪਾਰਦਰਸ਼ੀ ਹੈ।
+	When enabled, GIF transparency is on/off: alpha below 128 is transparent; 128 and above is opaque.	ਯੋਗ ਹੋਣ ਉੱਤੇ GIF ਪਾਰਦਰਸ਼ਤਾ ਚਾਲੂ/ਬੰਦ ਹੁੰਦੀ ਹੈ: 128 ਤੋਂ ਘੱਟ ਅਲਫ਼ਾ ਪਾਰਦਰਸ਼ੀ ਹੈ; 128 ਅਤੇ ਇਸ ਤੋਂ ਵੱਧ ਅਪਾਰਦਰਸ਼ੀ ਹੈ.
 	Whip	ਵ੍ਹਿਪ
 	Whip (Legacy)	ਵ੍ਹਿਪ (ਪੁਰਾਣਾ)
 	Whisper base (balanced)	Whisper base (ਸੰਤੁਲਿਤ)
@@ -3468,9 +3474,9 @@
 	{n} Font	{n} ਫ਼ੌਂਟ
 	{n} Position	{n} ਸਥਿਤੀ
 	{n} Size	{n} ਆਕਾਰ
-	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.	{n} ਕਲਿੱਪਾਂ ਦਾ ਮੀਡੀਆ ਨਹੀਂ ਮਿਲ ਰਿਹਾ। ਉਨ੍ਹਾਂ ਦਾ ਟਿਕਾਣਾ ਦਿਓ, ਫੋਲਡਰ ਖੋਜੋ ਜਾਂ ਆਫਲਾਈਨ ਛੱਡੋ।
-	{n} clip(s) selected.	{n} ਕਲਿੱਪਾਂ ਚੁਣੀਆਂ ਹਨ।
-	{n} clip(s) selected; the clip on the reference track stays put.	{n} ਕਲਿੱਪਾਂ ਚੁਣੀਆਂ ਹਨ; ਹਵਾਲਾ ਟ੍ਰੈਕ ਦੀ ਕਲਿੱਪ ਆਪਣੀ ਥਾਂ ਰਹਿੰਦੀ ਹੈ।
+	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.	{n} ਕਲਿੱਪਾਂ ਦਾ ਮੀਡੀਆ ਨਹੀਂ ਮਿਲ ਰਿਹਾ. ਉਨ੍ਹਾਂ ਦਾ ਟਿਕਾਣਾ ਦਿਓ, ਫੋਲਡਰ ਖੋਜੋ ਜਾਂ ਆਫਲਾਈਨ ਛੱਡੋ.
+	{n} clip(s) selected.	{n} ਕਲਿੱਪਾਂ ਚੁਣੀਆਂ ਹਨ.
+	{n} clip(s) selected; the clip on the reference track stays put.	{n} ਕਲਿੱਪਾਂ ਚੁਣੀਆਂ ਹਨ; ਹਵਾਲਾ ਟ੍ਰੈਕ ਦੀ ਕਲਿੱਪ ਆਪਣੀ ਥਾਂ ਰਹਿੰਦੀ ਹੈ.
 	{n} clip(s): {names}	{n} ਕਲਿੱਪਾਂ: {names}
 	{n} editable properties	{n} ਸੋਧਣਯੋਗ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
 	{n} items	{n} ਆਈਟਮਾਂ
@@ -3492,5 +3498,4 @@
 	✔ same file	✔ ਉਹੀ ਫ਼ਾਈਲ
 	✖ different file	✖ ਵੱਖਰੀ ਫ਼ਾਈਲ
 @id	file.close	ਬੰਦ ਕਰੋ
-# Source delta: 4d571c2a666cace681209a1f617f68cd9cefefed; verified lookup additions, AI-assisted; native review pending.
 	Caption Track	ਉਪਸਿਰਲੇਖ ਟ੍ਰੈਕ

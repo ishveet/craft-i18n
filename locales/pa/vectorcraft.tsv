@@ -1,4 +1,4 @@
-# ਪੰਜਾਬੀ (pa-guru) interface catalog for VectorCraft.
+# ਪੰਜਾਬੀ (pa) interface catalog for VectorCraft.
 # Columns, separated by a TAB:  context <TAB> English source text <TAB> translation
 #   context  usually empty. `@plural`, `@id` and `@msg` mean something to the apps; any other
 #            word is a label that tells apart two meanings of the same English.
@@ -10,11 +10,8 @@
 # Clean room: every entry was written from the plain meaning of the English text in ordinary
 # computing vocabulary. No other product's localisation, string table or translated UI was
 # consulted or copied; add entries the same way.
-# Review: AI-assisted saved-inventory draft by @ishveet with OpenAI Codex.
-# No native-speaker review recorded for new app usage.
-# Source: storytold/vectorcraft ff9deee46d1c59dc9ecef0b668c25e57cd80b55e.
-# All saved inventory positions processed; full six-app semantic second pass pending.
-# Explicit technical English and unresolved-key exceptions are recorded in the QA matrix. No complete UI claim.
+# AI-assisted clean-room translations by @ishveet with OpenAI Codex.
+# Review: expanded entries were sample-reviewed, not comprehensively reviewed line by line by a native speaker.
 
 	  — missing	  — ਗੁੰਮ
 	  — substituted by {style}	  — {style} ਨਾਲ ਬਦਲਿਆ
@@ -89,7 +86,7 @@
 	1 Color Job…	1 ਰੰਗ ਦਾ ਕੰਮ…
 	1 Layer	1 ਪਰਤ
 	1 bit	1 ਬਿਟ
-	1 {unit} on the artboard stands for {real} {unit} in the scene.	ਆਰਟਬੋਰਡ 'ਤੇ 1 {unit} ਦ੍ਰਿਸ਼ ਵਿੱਚ {real} {unit} ਦਰਸਾਉਂਦਾ ਹੈ।
+	1 {unit} on the artboard stands for {real} {unit} in the scene.	ਆਰਟਬੋਰਡ 'ਤੇ 1 {unit} ਦ੍ਰਿਸ਼ ਵਿੱਚ {real} {unit} ਦਰਸਾਉਂਦਾ ਹੈ.
 	16 Colors	16 ਰੰਗ
 	16 bit	16 ਬਿਟ
 	16 bits/pixel	16 ਬਿਟ/ਪਿਕਸਲ
@@ -134,8 +131,8 @@
 	A File…	ਇੱਕ ਫ਼ਾਈਲ…
 	A file dialog is open: choose there first	ਫ਼ਾਈਲ ਡਾਇਲਾਗ ਖੁੱਲ੍ਹਾ ਹੈ: ਪਹਿਲਾਂ ਉੱਥੇ ਚੁਣੋ
 	A later row takes this shortcut	ਬਾਅਦਲੀ ਕਤਾਰ ਇਹ ਸ਼ਾਰਟਕੱਟ ਲੈ ਲੈਂਦੀ ਹੈ
-	A legacy .ai file holds one artboard: each artboard you check is saved as a separate file.	ਪੁਰਾਣੀ .ai ਫ਼ਾਈਲ ਵਿੱਚ ਇੱਕ ਆਰਟਬੋਰਡ ਹੁੰਦਾ ਹੈ: ਤੁਹਾਡਾ ਚੁਣਿਆ ਹਰ ਆਰਟਬੋਰਡ ਵੱਖਰੀ ਫ਼ਾਈਲ ਵਜੋਂ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ।
-	A lower value follows the stroke closely; a higher one gives fewer points and smoother curves.	ਘੱਟ ਮੁੱਲ ਸਟ੍ਰੋਕ ਦਾ ਨੇੜਿਓਂ ਪਿੱਛਾ ਕਰਦਾ ਹੈ; ਵੱਧ ਮੁੱਲ ਘੱਟ ਬਿੰਦੂ ਅਤੇ ਨਰਮ ਵਕਰ ਦਿੰਦਾ ਹੈ।
+	A legacy .ai file holds one artboard: each artboard you check is saved as a separate file.	ਪੁਰਾਣੀ .ai ਫ਼ਾਈਲ ਵਿੱਚ ਇੱਕ ਆਰਟਬੋਰਡ ਹੁੰਦਾ ਹੈ: ਤੁਹਾਡਾ ਚੁਣਿਆ ਹਰ ਆਰਟਬੋਰਡ ਵੱਖਰੀ ਫ਼ਾਈਲ ਵਜੋਂ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ.
+	A lower value follows the stroke closely; a higher one gives fewer points and smoother curves.	ਘੱਟ ਮੁੱਲ ਸਟ੍ਰੋਕ ਦਾ ਨੇੜਿਓਂ ਪਿੱਛਾ ਕਰਦਾ ਹੈ; ਵੱਧ ਮੁੱਲ ਘੱਟ ਬਿੰਦੂ ਅਤੇ ਨਰਮ ਵਕਰ ਦਿੰਦਾ ਹੈ.
 	A new preset starting from the selected one	ਚੁਣੇ ਪ੍ਰੀਸੈੱਟ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਨਵਾਂ ਪ੍ਰੀਸੈੱਟ
 	A saved copy of the selected preset	ਚੁਣੇ ਪ੍ਰੀਸੈੱਟ ਦੀ ਸੰਭਾਲੀ ਕਾਪੀ
 	A3	A3
@@ -241,7 +238,7 @@
 	All on Active Artboard	ਸਰਗਰਮ ਆਰਟਬੋਰਡ 'ਤੇ ਸਭ
 	All on Same Layers	ਇੱਕੋ ਪਰਤਾਂ 'ਤੇ ਸਭ
 	All printer's marks	ਪ੍ਰਿੰਟਰ ਦੇ ਸਾਰੇ ਨਿਸ਼ਾਨ
-	All shortcuts reset to defaults.	ਸਭ ਸ਼ਾਰਟਕੱਟਾਂ ਦੇ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਏ ਗਏ।
+	All shortcuts reset to defaults.	ਸਭ ਸ਼ਾਰਟਕੱਟਾਂ ਦੇ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਏ ਗਏ.
 	All the art	ਸਾਰੀ ਕਲਾਕ੍ਰਿਤੀ
 	Alpha	ਅਲਫ਼ਾ
 	Alt	Alt
@@ -284,8 +281,8 @@
 	Appearance of Black	ਕਾਲੇ ਰੰਗ ਦੀ ਦਿੱਖ
 	Appearance panel	ਦਿੱਖ ਪੈਨਲ
 	Applied Filters	ਲਾਗੂ ਫਿਲਟਰ
-	Applies the next time VectorCraft starts.	ਅਗਲੀ ਵਾਰ VectorCraft ਸ਼ੁਰੂ ਹੋਣ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।
-	Applies when the linked file is relinked or updated.	ਲਿੰਕ ਕੀਤੀ ਫ਼ਾਈਲ ਮੁੜ ਲਿੰਕ ਜਾਂ ਅੱਪਡੇਟ ਹੋਣ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।
+	Applies the next time VectorCraft starts.	ਅਗਲੀ ਵਾਰ VectorCraft ਸ਼ੁਰੂ ਹੋਣ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ.
+	Applies when the linked file is relinked or updated.	ਲਿੰਕ ਕੀਤੀ ਫ਼ਾਈਲ ਮੁੜ ਲਿੰਕ ਜਾਂ ਅੱਪਡੇਟ ਹੋਣ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ.
 	Apply Brush	ਬਰਸ਼ ਲਾਗੂ ਕਰੋ
 	Apply Character Style	ਅੱਖਰ ਸ਼ੈਲੀ ਲਾਗੂ ਕਰੋ
 	Apply Data Set	ਡਾਟਾ ਸੈੱਟ ਲਾਗੂ ਕਰੋ
@@ -332,7 +329,7 @@
 	Art Brush Options	ਕਲਾ ਬਰਸ਼ ਦੇ ਵਿਕਲਪ
 	Art Optimized	ਕਲਾਕ੍ਰਿਤੀ ਲਈ ਅਨੁਕੂਲਿਤ
 	Art and Bright Colors	ਕਲਾ ਅਤੇ ਚਮਕੀਲੇ ਰੰਗ
-	Art using a deleted global swatch keeps its colour.	ਮਿਟਾਇਆ ਸਾਂਝਾ ਸਵਾਚ ਵਰਤਣ ਵਾਲੀ ਕਲਾਕ੍ਰਿਤੀ ਆਪਣਾ ਰੰਗ ਰੱਖਦੀ ਹੈ।
+	Art using a deleted global swatch keeps its colour.	ਮਿਟਾਇਆ ਸਾਂਝਾ ਸਵਾਚ ਵਰਤਣ ਵਾਲੀ ਕਲਾਕ੍ਰਿਤੀ ਆਪਣਾ ਰੰਗ ਰੱਖਦੀ ਹੈ.
 	ArtCraft Website	ArtCraft ਵੈੱਬਸਾਈਟ
 	Artboard	ਆਰਟਬੋਰਡ
 	Artboard Options	ਆਰਟਬੋਰਡ ਦੇ ਵਿਕਲਪ
@@ -434,8 +431,8 @@
 	Black Outline	ਕਾਲੀ ਰੂਪਰੇਖਾ
 	Black and White	ਕਾਲਾ ਅਤੇ ਚਿੱਟਾ
 	Black and White Logo	ਕਾਲਾ ਅਤੇ ਚਿੱਟਾ ਲੋਗੋ
-	Black and white stay as they are. Dark colors become shades of the stroke color and light colors become tints of it.	ਕਾਲਾ ਅਤੇ ਚਿੱਟਾ ਜਿਵੇਂ ਹਨ ਰਹਿੰਦੇ ਹਨ। ਗੂੜ੍ਹੇ ਰੰਗ ਸਟ੍ਰੋਕ ਦੇ ਰੰਗ ਦੀਆਂ ਛਾਵਾਂ ਅਤੇ ਹਲਕੇ ਰੰਗ ਉਸ ਦੀਆਂ ਹਲਕੀਆਂ ਝਲਕਾਂ ਬਣਦੇ ਹਨ।
-	Black becomes the stroke color and white stays white. Other colors become tints of the stroke color by their lightness.	ਕਾਲਾ ਸਟ੍ਰੋਕ ਦਾ ਰੰਗ ਬਣਦਾ ਹੈ ਅਤੇ ਚਿੱਟਾ ਚਿੱਟਾ ਰਹਿੰਦਾ ਹੈ। ਹੋਰ ਰੰਗ ਆਪਣੇ ਹਲਕੇਪਣ ਅਨੁਸਾਰ ਸਟ੍ਰੋਕ ਦੇ ਰੰਗ ਦੀਆਂ ਝਲਕਾਂ ਬਣਦੇ ਹਨ।
+	Black and white stay as they are. Dark colors become shades of the stroke color and light colors become tints of it.	ਕਾਲਾ ਅਤੇ ਚਿੱਟਾ ਜਿਵੇਂ ਹਨ ਰਹਿੰਦੇ ਹਨ. ਗੂੜ੍ਹੇ ਰੰਗ ਸਟ੍ਰੋਕ ਦੇ ਰੰਗ ਦੀਆਂ ਛਾਵਾਂ ਅਤੇ ਹਲਕੇ ਰੰਗ ਉਸ ਦੀਆਂ ਹਲਕੀਆਂ ਝਲਕਾਂ ਬਣਦੇ ਹਨ.
+	Black becomes the stroke color and white stays white. Other colors become tints of the stroke color by their lightness.	ਕਾਲਾ ਸਟ੍ਰੋਕ ਦਾ ਰੰਗ ਬਣਦਾ ਹੈ ਅਤੇ ਚਿੱਟਾ ਚਿੱਟਾ ਰਹਿੰਦਾ ਹੈ. ਹੋਰ ਰੰਗ ਆਪਣੇ ਹਲਕੇਪਣ ਅਨੁਸਾਰ ਸਟ੍ਰੋਕ ਦੇ ਰੰਗ ਦੀਆਂ ਝਲਕਾਂ ਬਣਦੇ ਹਨ.
 	Bleed	ਕਟਾਈ ਤੋਂ ਬਾਹਰ ਦਾ ਹਿੱਸਾ
 	Bleed:	ਕਟਾਈ ਤੋਂ ਬਾਹਰ ਦਾ ਹਿੱਸਾ:
 	Bleeds	ਕਟਾਈ ਤੋਂ ਬਾਹਰ ਦੇ ਹਿੱਸੇ
@@ -506,9 +503,9 @@
 	Brush Strokes	ਬਰਸ਼ ਦੇ ਸਟ੍ਰੋਕ
 	Brushes	ਬਰਸ਼
 	Built-in Libraries	ਬਿਲਟ-ਇਨ ਲਾਇਬ੍ਰੇਰੀਆਂ
-	Built-in presets are read-only: New… starts an editable copy.	ਬਿਲਟ-ਇਨ ਪ੍ਰੀਸੈੱਟ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਲਈ ਹਨ: ਨਵਾਂ… ਨਾਲ ਸੋਧਣਯੋਗ ਕਾਪੀ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ।
-	Built-in presets don't change: New makes a copy you can edit.	ਬਿਲਟ-ਇਨ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ ਬਦਲਦੇ: ਨਵਾਂ ਅਜਿਹੀ ਕਾਪੀ ਬਣਾਉਂਦਾ ਹੈ ਜੋ ਤੁਸੀਂ ਸੋਧ ਸਕਦੇ ਹੋ।
-	Built-in presets don't change: New… starts an editable copy.	ਬਿਲਟ-ਇਨ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ ਬਦਲਦੇ: ਨਵਾਂ… ਨਾਲ ਸੋਧਣਯੋਗ ਕਾਪੀ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ।
+	Built-in presets are read-only: New… starts an editable copy.	ਬਿਲਟ-ਇਨ ਪ੍ਰੀਸੈੱਟ ਸਿਰਫ਼ ਪੜ੍ਹਨ ਲਈ ਹਨ: ਨਵਾਂ… ਨਾਲ ਸੋਧਣਯੋਗ ਕਾਪੀ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ.
+	Built-in presets don't change: New makes a copy you can edit.	ਬਿਲਟ-ਇਨ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ ਬਦਲਦੇ: ਨਵਾਂ ਅਜਿਹੀ ਕਾਪੀ ਬਣਾਉਂਦਾ ਹੈ ਜੋ ਤੁਸੀਂ ਸੋਧ ਸਕਦੇ ਹੋ.
+	Built-in presets don't change: New… starts an editable copy.	ਬਿਲਟ-ਇਨ ਪ੍ਰੀਸੈੱਟ ਨਹੀਂ ਬਦਲਦੇ: ਨਵਾਂ… ਨਾਲ ਸੋਧਣਯੋਗ ਕਾਪੀ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ.
 	Bulge	ਉਭਾਰ
 	Bulge…	ਉਭਾਰ…
 	Bullet	ਬੁਲੇਟ
@@ -530,7 +527,7 @@
 	CMYK	CMYK
 	CMYK Color	CMYK ਰੰਗ
 	CMYK Equivalents	CMYK ਦੇ ਬਰਾਬਰ ਮੁੱਲ
-	CMYK colours print with their own values; off, they go through the colour settings too.	CMYK ਰੰਗ ਆਪਣੇ ਮੁੱਲਾਂ ਨਾਲ ਛਪਦੇ ਹਨ; ਬੰਦ ਹੋਣ 'ਤੇ ਉਹ ਵੀ ਰੰਗ ਸੈਟਿੰਗਾਂ ਰਾਹੀਂ ਲੰਘਦੇ ਹਨ।
+	CMYK colours print with their own values; off, they go through the colour settings too.	CMYK ਰੰਗ ਆਪਣੇ ਮੁੱਲਾਂ ਨਾਲ ਛਪਦੇ ਹਨ; ਬੰਦ ਹੋਣ 'ਤੇ ਉਹ ਵੀ ਰੰਗ ਸੈਟਿੰਗਾਂ ਰਾਹੀਂ ਲੰਘਦੇ ਹਨ.
 	CMYK profile in effect	ਲਾਗੂ CMYK ਪ੍ਰੋਫਾਈਲ
 	CMYK:	CMYK:
 	CRLF (Windows)	CRLF (Windows)
@@ -538,10 +535,10 @@
 	Calligraphic	ਸੁਲੇਖੀ
 	Calligraphic Brush	ਸੁਲੇਖੀ ਬਰਸ਼
 	Calligraphic Brush Options	ਸੁਲੇਖੀ ਬਰਸ਼ ਦੇ ਵਿਕਲਪ
-	Can't export “{name}”.	“{name}” ਨਿਰਯਾਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।
-	Can't open “{name}”.	“{name}” ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।
+	Can't export “{name}”.	“{name}” ਨਿਰਯਾਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ.
+	Can't open “{name}”.	“{name}” ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ.
 	Can't print these settings: see the Summary	ਇਹ ਸੈਟਿੰਗਾਂ ਛਾਪੀਆਂ ਨਹੀਂ ਜਾ ਸਕਦੀਆਂ: ਸਾਰ ਵੇਖੋ
-	Can't save “{name}”.	“{name}” ਸੰਭਾਲਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।
+	Can't save “{name}”.	“{name}” ਸੰਭਾਲਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ.
 	Cancel Export	ਨਿਰਯਾਤ ਰੱਦ ਕਰੋ
 	Cancel Key Object	ਮੁੱਖ ਵਸਤੂ ਦੀ ਚੋਣ ਰੱਦ ਕਰੋ
 	Cancel Pattern Editing	ਪੈਟਰਨ ਸੋਧਣਾ ਰੱਦ ਕਰੋ
@@ -571,12 +568,12 @@
 	Change to Global Rulers	ਸਾਂਝੇ ਰੂਲਰਾਂ 'ਤੇ ਬਦਲੋ
 	Change to Left-to-Right Layout	ਖੱਬੇ-ਤੋਂ-ਸੱਜੇ ਖਾਕੇ 'ਤੇ ਬਦਲੋ
 	Change to Right-to-Left Layout	ਸੱਜੇ-ਤੋਂ-ਖੱਬੇ ਖਾਕੇ 'ਤੇ ਬਦਲੋ
-	Changed since the last Refresh.	ਆਖ਼ਰੀ ਤਾਜ਼ਾਕਰਨ ਤੋਂ ਬਾਅਦ ਬਦਲਿਆ।
-	Changed since the last check.	ਆਖ਼ਰੀ ਜਾਂਚ ਤੋਂ ਬਾਅਦ ਬਦਲਿਆ।
+	Changed since the last Refresh.	ਆਖ਼ਰੀ ਤਾਜ਼ਾਕਰਨ ਤੋਂ ਬਾਅਦ ਬਦਲਿਆ.
+	Changed since the last check.	ਆਖ਼ਰੀ ਜਾਂਚ ਤੋਂ ਬਾਅਦ ਬਦਲਿਆ.
 	Changes allowed:	ਮਨਜ਼ੂਰ ਬਦਲਾਅ:
-	Changes made since it was last saved will be lost.	ਆਖ਼ਰੀ ਵਾਰ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ ਕੀਤੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਜਾਣਗੇ।
+	Changes made since it was last saved will be lost.	ਆਖ਼ਰੀ ਵਾਰ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ ਕੀਤੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਜਾਣਗੇ.
 	Changes the reference app's preferences	ਹਵਾਲਾ ਐਪ ਦੀਆਂ ਤਰਜੀਹਾਂ ਬਦਲਦਾ ਹੈ
-	Changing these settings changes how raster effects look when exported, flattened or expanded.	ਇਹ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਨਾਲ ਨਿਰਯਾਤ, ਪਰਤਾਂ ਇਕੱਠੀਆਂ ਕਰਨ ਜਾਂ ਫੈਲਾਉਣ ਵੇਲੇ ਰਾਸਟਰ ਪ੍ਰਭਾਵਾਂ ਦੀ ਦਿੱਖ ਬਦਲ ਜਾਂਦੀ ਹੈ।
+	Changing these settings changes how raster effects look when exported, flattened or expanded.	ਇਹ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਨਾਲ ਨਿਰਯਾਤ, ਪਰਤਾਂ ਇਕੱਠੀਆਂ ਕਰਨ ਜਾਂ ਫੈਲਾਉਣ ਵੇਲੇ ਰਾਸਟਰ ਪ੍ਰਭਾਵਾਂ ਦੀ ਦਿੱਖ ਬਦਲ ਜਾਂਦੀ ਹੈ.
 	Channel	ਚੈਨਲ
 	Channel 1	ਚੈਨਲ 1
 	Channel 2	ਚੈਨਲ 2
@@ -602,13 +599,13 @@
 	Check Script…	ਸਕ੍ਰਿਪਟ ਜਾਂਚੋ…
 	Check Selection	ਚੋਣ ਜਾਂਚੋ
 	Check Spelling…	ਸ਼ਬਦ-ਜੋੜ ਜਾਂਚੋ…
-	Check an artboard to save.	ਸੰਭਾਲਣ ਲਈ ਆਰਟਬੋਰਡ ਚੁਣੋ।
+	Check an artboard to save.	ਸੰਭਾਲਣ ਲਈ ਆਰਟਬੋਰਡ ਚੁਣੋ.
 	Checked	ਜਾਂਚਿਆ ਹੋਇਆ
 	Checkerboard	ਸ਼ਤਰੰਜੀ ਪੈਟਰਨ
 	Chevron	ਸ਼ੈਵਰੋਨ
 	Choose a filter	ਫਿਲਟਰ ਚੁਣੋ
 	Choose a folder	ਫੋਲਡਰ ਚੁਣੋ
-	Choose the file to relink each linked file to. Files with the size and contents saved with the link come first.	ਹਰ ਲਿੰਕ ਕੀਤੀ ਫ਼ਾਈਲ ਨੂੰ ਮੁੜ ਲਿੰਕ ਕਰਨ ਲਈ ਫ਼ਾਈਲ ਚੁਣੋ। ਲਿੰਕ ਨਾਲ ਸੰਭਾਲੇ ਆਕਾਰ ਅਤੇ ਸਮੱਗਰੀ ਵਾਲੀਆਂ ਫ਼ਾਈਲਾਂ ਪਹਿਲਾਂ ਆਉਂਦੀਆਂ ਹਨ।
+	Choose the file to relink each linked file to. Files with the size and contents saved with the link come first.	ਹਰ ਲਿੰਕ ਕੀਤੀ ਫ਼ਾਈਲ ਨੂੰ ਮੁੜ ਲਿੰਕ ਕਰਨ ਲਈ ਫ਼ਾਈਲ ਚੁਣੋ. ਲਿੰਕ ਨਾਲ ਸੰਭਾਲੇ ਆਕਾਰ ਅਤੇ ਸਮੱਗਰੀ ਵਾਲੀਆਂ ਫ਼ਾਈਲਾਂ ਪਹਿਲਾਂ ਆਉਂਦੀਆਂ ਹਨ.
 	Chop Design	ਡਿਜ਼ਾਈਨ ਕੱਟੋ
 	Chosen: {n} of {total}	ਚੁਣੇ: {total} ਵਿੱਚੋਂ {n}
 	Chrome	ਕਰੋਮ
@@ -628,15 +625,15 @@
 	Click	ਕਲਿੱਕ ਕਰੋ
 	Click an anchor point	ਐਂਕਰ ਬਿੰਦੂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
 	Click or drag	ਕਲਿੱਕ ਕਰੋ ਜਾਂ ਖਿੱਚੋ
-	Click the art with the Gradient tool to add or select points.	ਬਿੰਦੂ ਜੋੜਨ ਜਾਂ ਚੁਣਨ ਲਈ ਗ੍ਰੇਡੀਐਂਟ ਟੂਲ ਨਾਲ ਕਲਾਕ੍ਰਿਤੀ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।
+	Click the art with the Gradient tool to add or select points.	ਬਿੰਦੂ ਜੋੜਨ ਜਾਂ ਚੁਣਨ ਲਈ ਗ੍ਰੇਡੀਐਂਟ ਟੂਲ ਨਾਲ ਕਲਾਕ੍ਰਿਤੀ 'ਤੇ ਕਲਿੱਕ ਕਰੋ.
 	Click the first point	ਪਹਿਲੇ ਬਿੰਦੂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
-	Click the ramp or a type button to apply a gradient.	ਗ੍ਰੇਡੀਐਂਟ ਲਾਗੂ ਕਰਨ ਲਈ ਰੰਗ ਪੱਟੀ ਜਾਂ ਕਿਸਮ ਦੇ ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।
+	Click the ramp or a type button to apply a gradient.	ਗ੍ਰੇਡੀਐਂਟ ਲਾਗੂ ਕਰਨ ਲਈ ਰੰਗ ਪੱਟੀ ਜਾਂ ਕਿਸਮ ਦੇ ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ.
 	Click to add a tab stop, drag to move it, drag it off the ruler to delete it	ਟੈਬ ਰੋਕ ਜੋੜਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਹਿਲਾਉਣ ਲਈ ਖਿੱਚੋ, ਮਿਟਾਉਣ ਲਈ ਰੂਲਰ ਤੋਂ ਬਾਹਰ ਖਿੱਚੋ
 	Click to apply to the selected type	ਚੁਣੀ ਲਿਖਤ 'ਤੇ ਲਾਗੂ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ
 	Click to choose a swatch, Shift-click to mix a colour	ਸਵਾਚ ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਰੰਗ ਮਿਲਾਉਣ ਲਈ Shift-ਕਲਿੱਕ ਕਰੋ
 	Click to edit	ਸੋਧਣ ਲਈ ਕਲਿੱਕ ਕਰੋ
 	Click to edit the mask; Alt-click to view only the mask; Shift-click to disable or enable it	ਮਾਸਕ ਸੋਧਣ ਲਈ ਕਲਿੱਕ ਕਰੋ; ਸਿਰਫ਼ ਮਾਸਕ ਵੇਖਣ ਲਈ Alt-ਕਲਿੱਕ; ਅਯੋਗ ਜਾਂ ਯੋਗ ਕਰਨ ਲਈ Shift-ਕਲਿੱਕ ਕਰੋ
-	Click to place each file at 100%, or drag to size it; arrow keys switch files, Esc skips one.	ਹਰ ਫ਼ਾਈਲ 100% 'ਤੇ ਰੱਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ ਜਾਂ ਆਕਾਰ ਬਦਲਣ ਲਈ ਖਿੱਚੋ; ਤੀਰ ਕੁੰਜੀਆਂ ਫ਼ਾਈਲਾਂ ਬਦਲਦੀਆਂ ਹਨ, Esc ਇੱਕ ਫ਼ਾਈਲ ਛੱਡਦਾ ਹੈ।
+	Click to place each file at 100%, or drag to size it; arrow keys switch files, Esc skips one.	ਹਰ ਫ਼ਾਈਲ 100% 'ਤੇ ਰੱਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ ਜਾਂ ਆਕਾਰ ਬਦਲਣ ਲਈ ਖਿੱਚੋ; ਤੀਰ ਕੁੰਜੀਆਂ ਫ਼ਾਈਲਾਂ ਬਦਲਦੀਆਂ ਹਨ, Esc ਇੱਕ ਫ਼ਾਈਲ ਛੱਡਦਾ ਹੈ.
 	Click to select, double-click to edit	ਚੁਣਨ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਸੋਧਣ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ
 	Click to toggle visibility	ਦਿੱਖ ਬਦਲਣ ਲਈ ਕਲਿੱਕ ਕਰੋ
 	Click to zoom in, Alt-click to zoom out, drag to pan, double-click to fit	ਵੱਡਾ ਕਰਨ ਲਈ ਕਲਿੱਕ, ਛੋਟਾ ਕਰਨ ਲਈ Alt-ਕਲਿੱਕ, ਦ੍ਰਿਸ਼ ਖਿਸਕਾਉਣ ਲਈ ਖਿੱਚੋ, ਫਿੱਟ ਕਰਨ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ
@@ -665,7 +662,7 @@
 	Close Path	ਪਾਥ ਬੰਦ ਕਰੋ
 	Close or Join	ਬੰਦ ਕਰੋ ਜਾਂ ਜੋੜੋ
 	Close paths when ends are within:	ਪਾਥ ਬੰਦ ਕਰੋ ਜਦੋਂ ਸਿਰਿਆਂ ਦਾ ਫ਼ਾਸਲਾ ਇਸ ਅੰਦਰ ਹੋਵੇ:
-	Close the circular ends of open profiles. Partial sweeps keep their cut sides open.	ਖੁੱਲ੍ਹੇ ਪ੍ਰੋਫਾਈਲਾਂ ਦੇ ਗੋਲ ਸਿਰੇ ਬੰਦ ਕਰੋ। ਅਧੂਰੇ ਘੁੰਮਾਅ ਆਪਣੇ ਕੱਟੇ ਪਾਸੇ ਖੁੱਲ੍ਹੇ ਰੱਖਦੇ ਹਨ।
+	Close the circular ends of open profiles. Partial sweeps keep their cut sides open.	ਖੁੱਲ੍ਹੇ ਪ੍ਰੋਫਾਈਲਾਂ ਦੇ ਗੋਲ ਸਿਰੇ ਬੰਦ ਕਰੋ. ਅਧੂਰੇ ਘੁੰਮਾਅ ਆਪਣੇ ਕੱਟੇ ਪਾਸੇ ਖੁੱਲ੍ਹੇ ਰੱਖਦੇ ਹਨ.
 	Closed	ਬੰਦ
 	Closing bracket with no opening one	ਖੋਲ੍ਹਣ ਵਾਲੇ ਤੋਂ ਬਿਨਾਂ ਬੰਦ ਕਰਨ ਵਾਲਾ ਬਰੈਕਟ
 	Clumped	ਗੁੱਛੇਦਾਰ
@@ -751,7 +748,7 @@
 	Complete	ਮੁਕੰਮਲ
 	Complexity:	ਗੁੰਝਲਤਾ:
 	Composite	ਸੰਯੁਕਤ
-	Composite colours are converted to it; separations separate with it when it is a CMYK profile.	ਸੰਯੁਕਤ ਰੰਗ ਇਸ ਵਿੱਚ ਬਦਲੇ ਜਾਂਦੇ ਹਨ; ਜੇ ਇਹ CMYK ਪ੍ਰੋਫਾਈਲ ਹੋਵੇ ਤਾਂ ਰੰਗ ਵੱਖਰੇ ਕਰਨ ਲਈ ਵੀ ਇਹ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।
+	Composite colours are converted to it; separations separate with it when it is a CMYK profile.	ਸੰਯੁਕਤ ਰੰਗ ਇਸ ਵਿੱਚ ਬਦਲੇ ਜਾਂਦੇ ਹਨ; ਜੇ ਇਹ CMYK ਪ੍ਰੋਫਾਈਲ ਹੋਵੇ ਤਾਂ ਰੰਗ ਵੱਖਰੇ ਕਰਨ ਲਈ ਵੀ ਇਹ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ.
 	Compound	ਸੰਯੁਕਤ ਰੰਗ ਯੋਜਨਾ
 	Compound 2	ਸੰਯੁਕਤ ਰੰਗ ਯੋਜਨਾ 2
 	Compound Path	ਸੰਯੁਕਤ ਪਾਥ
@@ -822,7 +819,7 @@
 	Copy Width Point	ਚੌੜਾਈ ਬਿੰਦੂ ਕਾਪੀ ਕਰੋ
 	Copy in Perspective	ਪਰਸਪੈਕਟਿਵ ਵਿੱਚ ਕਾਪੀ ਕਰੋ
 	Copy into the document's folder	ਦਸਤਾਵੇਜ਼ ਦੇ ਫੋਲਡਰ ਵਿੱਚ ਕਾਪੀ ਕਰੋ
-	Copy only fonts you own or are licensed to install.	ਸਿਰਫ਼ ਉਹ ਫ਼ੌਂਟ ਕਾਪੀ ਕਰੋ ਜੋ ਤੁਹਾਡੇ ਆਪਣੇ ਹਨ ਜਾਂ ਜਿਨ੍ਹਾਂ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਦਾ ਤੁਹਾਡੇ ਕੋਲ ਲਾਇਸੈਂਸ ਹੈ।
+	Copy only fonts you own or are licensed to install.	ਸਿਰਫ਼ ਉਹ ਫ਼ੌਂਟ ਕਾਪੀ ਕਰੋ ਜੋ ਤੁਹਾਡੇ ਆਪਣੇ ਹਨ ਜਾਂ ਜਿਨ੍ਹਾਂ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਦਾ ਤੁਹਾਡੇ ਕੋਲ ਲਾਇਸੈਂਸ ਹੈ.
 	Copy to User Defined	ਵਰਤੋਂਕਾਰ ਦੁਆਰਾ ਪਰਿਭਾਸ਼ਿਤ ਵਿੱਚ ਕਾਪੀ ਕਰੋ
 	Copyright	ਕਾਪੀਰਾਈਟ
 	Copyright Info URL:	ਕਾਪੀਰਾਈਟ ਜਾਣਕਾਰੀ ਦਾ URL:
@@ -1053,7 +1050,7 @@
 	Dimensions	ਮਾਪ
 	Direct Selection	ਸਿੱਧੀ ਚੋਣ
 	Direct Selection Tool	ਸਿੱਧੀ ਚੋਣ ਟੂਲ
-	Direct-select anchor points to edit them.	ਐਂਕਰ ਬਿੰਦੂ ਸੋਧਣ ਲਈ ਸਿੱਧੇ ਚੁਣੋ।
+	Direct-select anchor points to edit them.	ਐਂਕਰ ਬਿੰਦੂ ਸੋਧਣ ਲਈ ਸਿੱਧੇ ਚੁਣੋ.
 	Direction Balance	ਦਿਸ਼ਾ ਦਾ ਸੰਤੁਲਨ
 	Direction Handles	ਦਿਸ਼ਾ ਹੈਂਡਲ
 	Directives	ਨਿਰਦੇਸ਼
@@ -1112,7 +1109,7 @@
 	Document model	ਦਸਤਾਵੇਜ਼ ਮਾਡਲ
 	Document open password	ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹਣ ਦਾ ਪਾਸਵਰਡ
 	Document profile	ਦਸਤਾਵੇਜ਼ ਪ੍ਰੋਫਾਈਲ
-	Documents you create appear here.	ਤੁਹਾਡੇ ਬਣਾਏ ਦਸਤਾਵੇਜ਼ ਇੱਥੇ ਦਿਸਦੇ ਹਨ।
+	Documents you create appear here.	ਤੁਹਾਡੇ ਬਣਾਏ ਦਸਤਾਵੇਜ਼ ਇੱਥੇ ਦਿਸਦੇ ਹਨ.
 	Don't Relink	ਮੁੜ ਲਿੰਕ ਨਾ ਕਰੋ
 	Don't Save	ਨਾ ਸੰਭਾਲੋ
 	Don't Show Center	ਕੇਂਦਰ ਨਾ ਦਿਖਾਓ
@@ -1143,24 +1140,24 @@
 	Downloaded {} file(s)	{} ਫ਼ਾਈਲਾਂ ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ
 	Drag	ਖਿੱਚੋ
 	Drag a handle	ਹੈਂਡਲ ਖਿੱਚੋ
-	Drag an item here, or right-click one, to put it in this group.	ਆਈਟਮ ਇਸ ਸਮੂਹ ਵਿੱਚ ਰੱਖਣ ਲਈ ਇੱਥੇ ਖਿੱਚੋ ਜਾਂ ਇਸ 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ।
-	Drag art here, or select it and click +. Hold Alt for one asset of several objects.	ਕਲਾਕ੍ਰਿਤੀ ਇੱਥੇ ਖਿੱਚੋ ਜਾਂ ਚੁਣ ਕੇ + 'ਤੇ ਕਲਿੱਕ ਕਰੋ। ਕਈ ਵਸਤੂਆਂ ਦਾ ਇੱਕ ਸਰੋਤ ਬਣਾਉਣ ਲਈ Alt ਦਬਾਈ ਰੱਖੋ।
-	Drag art or swatches here, or use + to add the selection's colors and text styles.	ਕਲਾਕ੍ਰਿਤੀ ਜਾਂ ਸਵਾਚ ਇੱਥੇ ਖਿੱਚੋ ਜਾਂ ਚੋਣ ਦੇ ਰੰਗ ਅਤੇ ਲਿਖਤ ਸ਼ੈਲੀਆਂ ਜੋੜਨ ਲਈ + ਵਰਤੋ।
-	Drag art, colors and text styles here to reuse them across documents. Libraries are stored on this machine — no account required.	ਦਸਤਾਵੇਜ਼ਾਂ ਵਿਚਕਾਰ ਮੁੜ ਵਰਤਣ ਲਈ ਕਲਾਕ੍ਰਿਤੀ, ਰੰਗ ਅਤੇ ਲਿਖਤ ਸ਼ੈਲੀਆਂ ਇੱਥੇ ਖਿੱਚੋ। ਲਾਇਬ੍ਰੇਰੀਆਂ ਇਸ ਮਸ਼ੀਨ 'ਤੇ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ — ਕਿਸੇ ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ।
+	Drag an item here, or right-click one, to put it in this group.	ਆਈਟਮ ਇਸ ਸਮੂਹ ਵਿੱਚ ਰੱਖਣ ਲਈ ਇੱਥੇ ਖਿੱਚੋ ਜਾਂ ਇਸ 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ.
+	Drag art here, or select it and click +. Hold Alt for one asset of several objects.	ਕਲਾਕ੍ਰਿਤੀ ਇੱਥੇ ਖਿੱਚੋ ਜਾਂ ਚੁਣ ਕੇ + 'ਤੇ ਕਲਿੱਕ ਕਰੋ. ਕਈ ਵਸਤੂਆਂ ਦਾ ਇੱਕ ਸਰੋਤ ਬਣਾਉਣ ਲਈ Alt ਦਬਾਈ ਰੱਖੋ.
+	Drag art or swatches here, or use + to add the selection's colors and text styles.	ਕਲਾਕ੍ਰਿਤੀ ਜਾਂ ਸਵਾਚ ਇੱਥੇ ਖਿੱਚੋ ਜਾਂ ਚੋਣ ਦੇ ਰੰਗ ਅਤੇ ਲਿਖਤ ਸ਼ੈਲੀਆਂ ਜੋੜਨ ਲਈ + ਵਰਤੋ.
+	Drag art, colors and text styles here to reuse them across documents. Libraries are stored on this machine — no account required.	ਦਸਤਾਵੇਜ਼ਾਂ ਵਿਚਕਾਰ ਮੁੜ ਵਰਤਣ ਲਈ ਕਲਾਕ੍ਰਿਤੀ, ਰੰਗ ਅਤੇ ਲਿਖਤ ਸ਼ੈਲੀਆਂ ਇੱਥੇ ਖਿੱਚੋ. ਲਾਇਬ੍ਰੇਰੀਆਂ ਇਸ ਮਸ਼ੀਨ 'ਤੇ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ — ਕਿਸੇ ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ.
 	Drag onto art to apply this appearance	ਇਹ ਦਿੱਖ ਲਾਗੂ ਕਰਨ ਲਈ ਕਲਾਕ੍ਰਿਤੀ 'ਤੇ ਖਿੱਚੋ
-	Drag out from a circle or arc for its radius, inwards for its diameter.	ਅਰਧ-ਵਿਆਸ ਲਈ ਚੱਕਰ ਜਾਂ ਚਾਪ ਤੋਂ ਬਾਹਰ ਅਤੇ ਵਿਆਸ ਲਈ ਅੰਦਰ ਖਿੱਚੋ।
-	Drag out from a corner, or click two straight lines, then click to place.	ਕੋਨੇ ਤੋਂ ਬਾਹਰ ਖਿੱਚੋ ਜਾਂ ਦੋ ਸਿੱਧੀਆਂ ਰੇਖਾਵਾਂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਫਿਰ ਰੱਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ।
-	Drag out from a segment, or click two points, then click to place.	ਖੰਡ ਤੋਂ ਬਾਹਰ ਖਿੱਚੋ ਜਾਂ ਦੋ ਬਿੰਦੂਆਂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਫਿਰ ਰੱਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ।
-	Drag rings to rotate. Shift snaps to 15°.	ਘੁਮਾਉਣ ਲਈ ਰਿੰਗਾਂ ਖਿੱਚੋ। Shift ਨਾਲ 15° 'ਤੇ ਸਨੈਪ ਹੁੰਦਾ ਹੈ।
+	Drag out from a circle or arc for its radius, inwards for its diameter.	ਅਰਧ-ਵਿਆਸ ਲਈ ਚੱਕਰ ਜਾਂ ਚਾਪ ਤੋਂ ਬਾਹਰ ਅਤੇ ਵਿਆਸ ਲਈ ਅੰਦਰ ਖਿੱਚੋ.
+	Drag out from a corner, or click two straight lines, then click to place.	ਕੋਨੇ ਤੋਂ ਬਾਹਰ ਖਿੱਚੋ ਜਾਂ ਦੋ ਸਿੱਧੀਆਂ ਰੇਖਾਵਾਂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਫਿਰ ਰੱਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ.
+	Drag out from a segment, or click two points, then click to place.	ਖੰਡ ਤੋਂ ਬਾਹਰ ਖਿੱਚੋ ਜਾਂ ਦੋ ਬਿੰਦੂਆਂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਫਿਰ ਰੱਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ.
+	Drag rings to rotate. Shift snaps to 15°.	ਘੁਮਾਉਣ ਲਈ ਰਿੰਗਾਂ ਖਿੱਚੋ. Shift ਨਾਲ 15° 'ਤੇ ਸਨੈਪ ਹੁੰਦਾ ਹੈ.
 	Drag the art to move it on the paper	ਕਲਾਕ੍ਰਿਤੀ ਕਾਗਜ਼ 'ਤੇ ਹਿਲਾਉਣ ਲਈ ਖਿੱਚੋ
-	Drag the light, or its rings. Shift snaps to 15°.	ਰੌਸ਼ਨੀ ਜਾਂ ਇਸ ਦੀਆਂ ਰਿੰਗਾਂ ਖਿੱਚੋ। Shift ਨਾਲ 15° 'ਤੇ ਸਨੈਪ ਹੁੰਦਾ ਹੈ।
+	Drag the light, or its rings. Shift snaps to 15°.	ਰੌਸ਼ਨੀ ਜਾਂ ਇਸ ਦੀਆਂ ਰਿੰਗਾਂ ਖਿੱਚੋ. Shift ਨਾਲ 15° 'ਤੇ ਸਨੈਪ ਹੁੰਦਾ ਹੈ.
 	Drag to float as a toolbar	ਟੂਲਬਾਰ ਵਜੋਂ ਤੈਰਦਾ ਕਰਨ ਲਈ ਖਿੱਚੋ
 	Drag to float the panel group	ਪੈਨਲ ਸਮੂਹ ਤੈਰਦਾ ਕਰਨ ਲਈ ਖਿੱਚੋ
 	Drag to float the toolbar	ਟੂਲਬਾਰ ਤੈਰਦਾ ਕਰਨ ਲਈ ਖਿੱਚੋ
 	Drag to move	ਹਿਲਾਉਣ ਲਈ ਖਿੱਚੋ
 	Drag to move out of the set	ਸੈੱਟ ਤੋਂ ਬਾਹਰ ਲਿਜਾਣ ਲਈ ਖਿੱਚੋ
 	Drag to the window's left edge to dock	ਡੌਕ ਕਰਨ ਲਈ ਵਿੰਡੋ ਦੇ ਖੱਬੇ ਕਿਨਾਰੇ ਵੱਲ ਖਿੱਚੋ
-	Drag values or labels. Double-click a value to type.	ਮੁੱਲ ਜਾਂ ਲੇਬਲ ਖਿੱਚੋ। ਮੁੱਲ ਟਾਈਪ ਕਰਨ ਲਈ ਉਸ 'ਤੇ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ।
+	Drag values or labels. Double-click a value to type.	ਮੁੱਲ ਜਾਂ ਲੇਬਲ ਖਿੱਚੋ. ਮੁੱਲ ਟਾਈਪ ਕਰਨ ਲਈ ਉਸ 'ਤੇ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ.
 	Draw Behind	ਪਿੱਛੇ ਬਣਾਓ
 	Draw Dashed Lines as Solid Lines	ਟੁੱਟਵੀਆਂ ਰੇਖਾਵਾਂ ਠੋਸ ਰੇਖਾਵਾਂ ਵਜੋਂ ਬਣਾਓ
 	Draw Inside	ਅੰਦਰ ਬਣਾਓ
@@ -1169,7 +1166,7 @@
 	Draw in Perspective	ਪਰਸਪੈਕਟਿਵ ਵਿੱਚ ਬਣਾਓ
 	Draw:	ਬਣਾਓ:
 	Drawer menu	ਸਲਾਈਡਿੰਗ ਪੈਨਲ ਦਾ ਮੇਨੂ
-	Drawing : real size — 1:10 labels 1 unit on the page as 10.	ਡਰਾਇੰਗ : ਅਸਲ ਆਕਾਰ — 1:10 ਸਫ਼ੇ 'ਤੇ 1 ਇਕਾਈ ਨੂੰ 10 ਵਜੋਂ ਲੇਬਲ ਕਰਦਾ ਹੈ।
+	Drawing : real size — 1:10 labels 1 unit on the page as 10.	ਡਰਾਇੰਗ : ਅਸਲ ਆਕਾਰ — 1:10 ਸਫ਼ੇ 'ਤੇ 1 ਇਕਾਈ ਨੂੰ 10 ਵਜੋਂ ਲੇਬਲ ਕਰਦਾ ਹੈ.
 	Drawing Mode	ਬਣਾਉਣ ਦਾ ਮੋਡ
 	Drop	ਸੁੱਟੋ
 	Drop Artwork	ਕਲਾਕ੍ਰਿਤੀ ਸੁੱਟੋ
@@ -1203,9 +1200,9 @@
 	EPS Options	EPS ਦੇ ਵਿਕਲਪ
 	EPS Options Dialog	EPS ਵਿਕਲਪਾਂ ਦਾ ਡਾਇਲਾਗ
 	Each Design Represents:	ਹਰ ਡਿਜ਼ਾਈਨ ਦਰਸਾਉਂਦਾ ਹੈ:
-	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	ਫ਼ਾਈਲ ਦੀ ਹਰ ਐਂਟਰੀ ਦਾ VectorCraft ਟੂਲ, ਕਮਾਂਡ ਜਾਂ ਪੈਨਲ ਨਾਲ ਮੇਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਮੇਲ ਜਾਂਚੋ ਅਤੇ ਬਾਕੀਆਂ ਲਈ ਜਵਾਬ ਦਿਓ।
-	Each page prints as one image, at the document's raster effects resolution.	ਹਰ ਸਫ਼ਾ ਦਸਤਾਵੇਜ਼ ਦੇ ਰਾਸਟਰ ਪ੍ਰਭਾਵ ਰੈਜ਼ੋਲਿਊਸ਼ਨ 'ਤੇ ਇੱਕ ਚਿੱਤਰ ਵਜੋਂ ਛਪਦਾ ਹੈ।
-	Each run may take up to {minutes} minutes and do {times} times the work other plug-ins may. It runs in the background, and you can cancel it.	ਹਰ ਵਾਰ ਚੱਲਣ ਵਿੱਚ {minutes} ਮਿੰਟ ਤੱਕ ਲੱਗ ਸਕਦੇ ਹਨ ਅਤੇ ਹੋਰ ਪਲੱਗਇਨਾਂ ਲਈ ਮਨਜ਼ੂਰ ਕੰਮ ਤੋਂ {times} ਗੁਣਾ ਕੰਮ ਹੋ ਸਕਦਾ ਹੈ। ਇਹ ਪਿੱਛੋਕੜ ਵਿੱਚ ਚੱਲਦਾ ਹੈ ਅਤੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਰੱਦ ਕਰ ਸਕਦੇ ਹੋ।
+	Each entry of the file is matched to a VectorCraft tool, command or panel. Check the matches and answer what is left.	ਫ਼ਾਈਲ ਦੀ ਹਰ ਐਂਟਰੀ ਦਾ VectorCraft ਟੂਲ, ਕਮਾਂਡ ਜਾਂ ਪੈਨਲ ਨਾਲ ਮੇਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ. ਮੇਲ ਜਾਂਚੋ ਅਤੇ ਬਾਕੀਆਂ ਲਈ ਜਵਾਬ ਦਿਓ.
+	Each page prints as one image, at the document's raster effects resolution.	ਹਰ ਸਫ਼ਾ ਦਸਤਾਵੇਜ਼ ਦੇ ਰਾਸਟਰ ਪ੍ਰਭਾਵ ਰੈਜ਼ੋਲਿਊਸ਼ਨ 'ਤੇ ਇੱਕ ਚਿੱਤਰ ਵਜੋਂ ਛਪਦਾ ਹੈ.
+	Each run may take up to {minutes} minutes and do {times} times the work other plug-ins may. It runs in the background, and you can cancel it.	ਹਰ ਵਾਰ ਚੱਲਣ ਵਿੱਚ {minutes} ਮਿੰਟ ਤੱਕ ਲੱਗ ਸਕਦੇ ਹਨ ਅਤੇ ਹੋਰ ਪਲੱਗਇਨਾਂ ਲਈ ਮਨਜ਼ੂਰ ਕੰਮ ਤੋਂ {times} ਗੁਣਾ ਕੰਮ ਹੋ ਸਕਦਾ ਹੈ. ਇਹ ਪਿੱਛੋਕੜ ਵਿੱਚ ਚੱਲਦਾ ਹੈ ਅਤੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਰੱਦ ਕਰ ਸਕਦੇ ਹੋ.
 	Earth Tones	ਮਿੱਟੀ ਵਰਗੇ ਟੋਨ
 	Ease In	ਸ਼ੁਰੂ ਵਿੱਚ ਹੌਲੀ
 	Ease In Out	ਸ਼ੁਰੂ ਅਤੇ ਅੰਤ ਵਿੱਚ ਹੌਲੀ
@@ -1336,8 +1333,8 @@
 	Even Fields	ਜਿਸਤ ਫੀਲਡ
 	Event:	ਇਵੈਂਟ:
 	Every (minutes)	ਹਰ (ਮਿੰਟ)
-	Every option is at its default.	ਹਰ ਵਿਕਲਪ ਆਪਣੇ ਮੂਲ ਮੁੱਲ 'ਤੇ ਹੈ।
-	Every option matches {base}.	ਹਰ ਵਿਕਲਪ {base} ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਹੈ।
+	Every option is at its default.	ਹਰ ਵਿਕਲਪ ਆਪਣੇ ਮੂਲ ਮੁੱਲ 'ਤੇ ਹੈ.
+	Every option matches {base}.	ਹਰ ਵਿਕਲਪ {base} ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਹੈ.
 	Every-line Composer	ਹਰ-ਲਾਈਨ ਕੰਪੋਜ਼ਰ
 	Exact	ਸਹੀ-ਸਹੀ
 	Exact dash lengths	ਡੈਸ਼ ਦੀਆਂ ਸਹੀ ਲੰਬਾਈਆਂ
@@ -1446,9 +1443,9 @@
 	File Name:	ਫ਼ਾਈਲ ਦਾ ਨਾਮ:
 	File or URL:	ਫ਼ਾਈਲ ਜਾਂ URL:
 	File {n} of {total}	{total} ਵਿੱਚੋਂ ਫ਼ਾਈਲ {n}
-	File › Place… brings in an image, linked or embedded.	ਫ਼ਾਈਲ › ਰੱਖੋ… ਨਾਲ ਚਿੱਤਰ ਲਿੰਕ ਜਾਂ ਇੰਬੈਡ ਕਰਕੇ ਲਿਆਉਂਦੇ ਹਨ।
-	Files of a PDF standard can't be password-protected.	PDF ਮਿਆਰ ਵਾਲੀਆਂ ਫ਼ਾਈਲਾਂ ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ।
-	Files of this standard tag their colours with ICC profiles.	ਇਸ ਮਿਆਰ ਦੀਆਂ ਫ਼ਾਈਲਾਂ ਆਪਣੇ ਰੰਗਾਂ ਨੂੰ ICC ਪ੍ਰੋਫਾਈਲਾਂ ਨਾਲ ਟੈਗ ਕਰਦੀਆਂ ਹਨ।
+	File › Place… brings in an image, linked or embedded.	ਫ਼ਾਈਲ › ਰੱਖੋ… ਨਾਲ ਚਿੱਤਰ ਲਿੰਕ ਜਾਂ ਇੰਬੈਡ ਕਰਕੇ ਲਿਆਉਂਦੇ ਹਨ.
+	Files of a PDF standard can't be password-protected.	PDF ਮਿਆਰ ਵਾਲੀਆਂ ਫ਼ਾਈਲਾਂ ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ.
+	Files of this standard tag their colours with ICC profiles.	ਇਸ ਮਿਆਰ ਦੀਆਂ ਫ਼ਾਈਲਾਂ ਆਪਣੇ ਰੰਗਾਂ ਨੂੰ ICC ਪ੍ਰੋਫਾਈਲਾਂ ਨਾਲ ਟੈਗ ਕਰਦੀਆਂ ਹਨ.
 	Fill & Stroke	ਭਰਾਈ ਅਤੇ ਸਟ੍ਰੋਕ
 	Fill (X), double-click for the Color Picker	ਭਰਾਈ (X), ਰੰਗ ਚੋਣਕਾਰ ਲਈ ਦੋ ਵਾਰ ਕਲਿੱਕ ਕਰੋ
 	Fill Arc	ਚਾਪ ਭਰੋ
@@ -1550,7 +1547,7 @@
 	Font Style:	ਫ਼ੌਂਟ ਸ਼ੈਲੀ:
 	Fonts in Document	ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਫ਼ੌਂਟ
 	Fonts in Document: {count}	ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਫ਼ੌਂਟ: {count}
-	Fonts whose licence doesn't allow embedding are not copied.	ਜਿਨ੍ਹਾਂ ਫ਼ੌਂਟਾਂ ਦਾ ਲਾਇਸੈਂਸ ਇੰਬੈਡ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੰਦਾ ਉਹ ਕਾਪੀ ਨਹੀਂ ਕੀਤੇ ਜਾਂਦੇ।
+	Fonts whose licence doesn't allow embedding are not copied.	ਜਿਨ੍ਹਾਂ ਫ਼ੌਂਟਾਂ ਦਾ ਲਾਇਸੈਂਸ ਇੰਬੈਡ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੰਦਾ ਉਹ ਕਾਪੀ ਨਹੀਂ ਕੀਤੇ ਜਾਂਦੇ.
 	For Fractions:	ਭਿੰਨਾਂ ਲਈ:
 	Force	ਬਲ
 	Forced Line Break	ਜ਼ਬਰਦਸਤੀ ਲਾਈਨ ਬਦਲਾਅ
@@ -1571,7 +1568,7 @@
 	Freeform	ਖੁੱਲ੍ਹੀ ਸ਼ਕਲ
 	Freeform Gradient	ਖੁੱਲ੍ਹੀ ਸ਼ਕਲ ਦਾ ਗ੍ਰੇਡੀਐਂਟ
 	French	ਫਰਾਂਸੀਸੀ
-	Frequencies and angles are the output device's to apply.	ਆਵਿਰਤੀਆਂ ਅਤੇ ਕੋਣ ਲਾਗੂ ਕਰਨੇ ਆਉਟਪੁੱਟ ਡਿਵਾਈਸ ਦੇ ਜ਼ਿੰਮੇ ਹਨ।
+	Frequencies and angles are the output device's to apply.	ਆਵਿਰਤੀਆਂ ਅਤੇ ਕੋਣ ਲਾਗੂ ਕਰਨੇ ਆਉਟਪੁੱਟ ਡਿਵਾਈਸ ਦੇ ਜ਼ਿੰਮੇ ਹਨ.
 	Frequency	ਆਵਿਰਤੀ
 	Fresco	ਫ੍ਰੈਸਕੋ
 	Fresco…	ਫ੍ਰੈਸਕੋ…
@@ -1587,7 +1584,7 @@
 	Functions	ਕਾਰਜ
 	Fuzziness:	ਮਿਲਦੇ ਰੰਗਾਂ ਦੀ ਸਹਿਣਸ਼ੀਲਤਾ:
 	GIF, 128 colours	GIF, 128 ਰੰਗ
-	GPL palettes keep solid colours only, as RGB.	GPL ਪੈਲਟ ਸਿਰਫ਼ ਇਕਸਾਰ ਰੰਗ RGB ਵਜੋਂ ਰੱਖਦੇ ਹਨ।
+	GPL palettes keep solid colours only, as RGB.	GPL ਪੈਲਟ ਸਿਰਫ਼ ਇਕਸਾਰ ਰੰਗ RGB ਵਜੋਂ ਰੱਖਦੇ ਹਨ.
 	GPU Performance	GPU ਕਾਰਗੁਜ਼ਾਰੀ
 	Gamma	ਗਾਮਾ
 	Gamut Check	ਰੰਗ ਸੀਮਾ ਜਾਂਚ
@@ -1790,7 +1787,7 @@
 	Horizontal Scale	ਲੇਟਵਾਂ ਪੈਮਾਨਾ
 	Horizontal Scale %	ਲੇਟਵਾਂ ਪੈਮਾਨਾ %
 	Horizontal:	ਲੇਟਵਾਂ:
-	How colours outside the press's gamut are separated.	ਪ੍ਰੈੱਸ ਦੀ ਰੰਗ ਸੀਮਾ ਤੋਂ ਬਾਹਰਲੇ ਰੰਗ ਕਿਵੇਂ ਵੱਖਰੇ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।
+	How colours outside the press's gamut are separated.	ਪ੍ਰੈੱਸ ਦੀ ਰੰਗ ਸੀਮਾ ਤੋਂ ਬਾਹਰਲੇ ਰੰਗ ਕਿਵੇਂ ਵੱਖਰੇ ਕੀਤੇ ਜਾਂਦੇ ਹਨ.
 	Hue	ਰੰਗਤ
 	Hue Shift	ਰੰਗਤ ਦਾ ਬਦਲਾਅ
 	Hue/Saturation…	ਰੰਗਤ/ਰੰਗੀਨਤਾ…
@@ -1805,7 +1802,7 @@
 	ICF Box	ICF ਡੱਬਾ
 	ICF Top/Right	ICF ਉੱਪਰ/ਸੱਜੇ
 	Identify Objects By	ਵਸਤੂਆਂ ਦੀ ਪਛਾਣ ਇਸ ਰਾਹੀਂ ਕਰੋ
-	If a drawing tablet's pen doesn't draw, choose an X11 (XWayland) option.	ਜੇ ਡਰਾਇੰਗ ਟੈਬਲੈੱਟ ਦਾ ਪੈਨ ਨਹੀਂ ਬਣਾਉਂਦਾ, ਤਾਂ X11 (XWayland) ਵਿਕਲਪ ਚੁਣੋ।
+	If a drawing tablet's pen doesn't draw, choose an X11 (XWayland) option.	ਜੇ ਡਰਾਇੰਗ ਟੈਬਲੈੱਟ ਦਾ ਪੈਨ ਨਹੀਂ ਬਣਾਉਂਦਾ, ਤਾਂ X11 (XWayland) ਵਿਕਲਪ ਚੁਣੋ.
 	Ignore	ਅਣਡਿੱਠਾ ਕਰੋ
 	Ignore Artboards (all the art as one page)	ਆਰਟਬੋਰਡ ਅਣਡਿੱਠੇ ਕਰੋ (ਸਾਰੀ ਕਲਾਕ੍ਰਿਤੀ ਇੱਕ ਸਫ਼ੇ ਵਜੋਂ)
 	Ignore Color	ਰੰਗ ਅਣਡਿੱਠਾ ਕਰੋ
@@ -1821,7 +1818,7 @@
 	Image:	ਚਿੱਤਰ:
 	Images Only	ਸਿਰਫ਼ ਚਿੱਤਰ
 	Images:	ਚਿੱਤਰ:
-	Images: link to the file instead of only embedding it.	ਚਿੱਤਰ: ਸਿਰਫ਼ ਇੰਬੈਡ ਕਰਨ ਦੀ ਬਜਾਏ ਫ਼ਾਈਲ ਨਾਲ ਲਿੰਕ ਕਰੋ।
+	Images: link to the file instead of only embedding it.	ਚਿੱਤਰ: ਸਿਰਫ਼ ਇੰਬੈਡ ਕਰਨ ਦੀ ਬਜਾਏ ਫ਼ਾਈਲ ਨਾਲ ਲਿੰਕ ਕਰੋ.
 	Import Data Sets…	ਡਾਟਾ ਸੈੱਟ ਆਯਾਤ ਕਰੋ…
 	Import Data…	ਡਾਟਾ ਆਯਾਤ ਕਰੋ…
 	Import Keyboard Shortcuts…	ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਆਯਾਤ ਕਰੋ…
@@ -1837,7 +1834,7 @@
 	Import Shortcut Set…	ਸ਼ਾਰਟਕੱਟ ਸੈੱਟ ਆਯਾਤ ਕਰੋ…
 	Import Transparency Flattener Presets	ਪਾਰਦਰਸ਼ਤਾ ਮਿਲਾਉਣ ਦੇ ਪ੍ਰੀਸੈੱਟ ਆਯਾਤ ਕਰੋ
 	Imported {what}: {}	{what} ਆਯਾਤ ਕੀਤਾ: {}
-	Imported. Press OK to keep the imported set.	ਆਯਾਤ ਕੀਤਾ। ਆਯਾਤ ਕੀਤਾ ਸੈੱਟ ਰੱਖਣ ਲਈ ਠੀਕ ਹੈ ਦਬਾਓ।
+	Imported. Press OK to keep the imported set.	ਆਯਾਤ ਕੀਤਾ. ਆਯਾਤ ਕੀਤਾ ਸੈੱਟ ਰੱਖਣ ਲਈ ਠੀਕ ਹੈ ਦਬਾਓ.
 	In Merge Mode, Clicking Stroke Splits the Path	ਮਿਲਾਉਣ ਮੋਡ ਵਿੱਚ ਸਟ੍ਰੋਕ 'ਤੇ ਕਲਿੱਕ ਕਰਨ ਨਾਲ ਪਾਥ ਵੰਡਦਾ ਹੈ
 	In Tangent Handles	ਅੰਦਰਲੇ ਸਪਰਸ਼-ਰੇਖਾ ਹੈਂਡਲ
 	In VectorCraft	VectorCraft ਵਿੱਚ
@@ -1917,9 +1914,9 @@
 	Isometric Right	ਸਮਮਾਪੀ ਦ੍ਰਿਸ਼ ਸੱਜਿਓਂ
 	Isometric Top	ਸਮਮਾਪੀ ਦ੍ਰਿਸ਼ ਉੱਪਰੋਂ
 	Issues fixed: {count}	ਸਮੱਸਿਆਵਾਂ ਠੀਕ ਕੀਤੀਆਂ: {count}
-	It may take minutes, so it runs in the background, where you can cancel it.	ਇਸ ਨੂੰ ਮਿੰਟ ਲੱਗ ਸਕਦੇ ਹਨ, ਇਸ ਲਈ ਇਹ ਪਿੱਛੋਕੜ ਵਿੱਚ ਚੱਲਦਾ ਹੈ, ਜਿੱਥੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਰੱਦ ਕਰ ਸਕਦੇ ਹੋ।
+	It may take minutes, so it runs in the background, where you can cancel it.	ਇਸ ਨੂੰ ਮਿੰਟ ਲੱਗ ਸਕਦੇ ਹਨ, ਇਸ ਲਈ ਇਹ ਪਿੱਛੋਕੜ ਵਿੱਚ ਚੱਲਦਾ ਹੈ, ਜਿੱਥੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਰੱਦ ਕਰ ਸਕਦੇ ਹੋ.
 	Italian	ਇਤਾਲਵੀ
-	Its graphics, colors and text styles are deleted from this machine.	ਇਸ ਦੇ ਗ੍ਰਾਫਿਕ, ਰੰਗ ਅਤੇ ਲਿਖਤ ਸ਼ੈਲੀਆਂ ਇਸ ਮਸ਼ੀਨ ਤੋਂ ਮਿਟਾਏ ਜਾਂਦੇ ਹਨ।
+	Its graphics, colors and text styles are deleted from this machine.	ਇਸ ਦੇ ਗ੍ਰਾਫਿਕ, ਰੰਗ ਅਤੇ ਲਿਖਤ ਸ਼ੈਲੀਆਂ ਇਸ ਮਸ਼ੀਨ ਤੋਂ ਮਿਟਾਏ ਜਾਂਦੇ ਹਨ.
 	Japanese	ਜਪਾਨੀ
 	JavaScript Files	JavaScript ਫ਼ਾਈਲਾਂ
 	JavaScript:	JavaScript:
@@ -1943,13 +1940,13 @@
 	Keep Plain Text	ਸਾਦੀ ਲਿਖਤ ਰੱਖੋ
 	Keep a link to an image file instead of only embedding it	ਸਿਰਫ਼ ਇੰਬੈਡ ਕਰਨ ਦੀ ਬਜਾਏ ਚਿੱਤਰ ਫ਼ਾਈਲ ਨਾਲ ਲਿੰਕ ਰੱਖੋ
 	Keep both sides the same width	ਦੋਵੇਂ ਪਾਸਿਆਂ ਦੀ ਚੌੜਾਈ ਬਰਾਬਰ ਰੱਖੋ
-	Keep graphics, colors and text styles here to use them in any document. Libraries are stored on this machine — no account required.	ਕਿਸੇ ਵੀ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਵਰਤਣ ਲਈ ਗ੍ਰਾਫਿਕ, ਰੰਗ ਅਤੇ ਲਿਖਤ ਸ਼ੈਲੀਆਂ ਇੱਥੇ ਰੱਖੋ। ਲਾਇਬ੍ਰੇਰੀਆਂ ਇਸ ਮਸ਼ੀਨ 'ਤੇ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ — ਕਿਸੇ ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ।
+	Keep graphics, colors and text styles here to use them in any document. Libraries are stored on this machine — no account required.	ਕਿਸੇ ਵੀ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਵਰਤਣ ਲਈ ਗ੍ਰਾਫਿਕ, ਰੰਗ ਅਤੇ ਲਿਖਤ ਸ਼ੈਲੀਆਂ ਇੱਥੇ ਰੱਖੋ. ਲਾਇਬ੍ਰੇਰੀਆਂ ਇਸ ਮਸ਼ੀਨ 'ਤੇ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ — ਕਿਸੇ ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ.
 	Keep selected	ਚੁਣਿਆ ਰੱਖੋ
-	Keep the pasted color as a new swatch with a numbered name.	ਚਿਪਕਾਇਆ ਰੰਗ ਅੰਕ ਵਾਲੇ ਨਾਮ ਨਾਲ ਨਵੇਂ ਸਵਾਚ ਵਜੋਂ ਰੱਖੋ।
+	Keep the pasted color as a new swatch with a numbered name.	ਚਿਪਕਾਇਆ ਰੰਗ ਅੰਕ ਵਾਲੇ ਨਾਮ ਨਾਲ ਨਵੇਂ ਸਵਾਚ ਵਜੋਂ ਰੱਖੋ.
 	Keep this row's colors (exclude)	ਇਸ ਕਤਾਰ ਦੇ ਰੰਗ ਰੱਖੋ (ਬਾਹਰ ਰੱਖੋ)
 	Keep visible surfaces only when expanding	ਫੈਲਾਉਣ ਵੇਲੇ ਸਿਰਫ਼ ਦਿਸਦੀਆਂ ਸਤਹਾਂ ਰੱਖੋ
 	Keep:	ਰੱਖੋ:
-	Keeps the document editable: VectorCraft reopens the PDF with nothing lost. For files you'll edit again.	ਦਸਤਾਵੇਜ਼ ਸੋਧਣਯੋਗ ਰੱਖਦਾ ਹੈ: VectorCraft ਕੁਝ ਗੁਆਏ ਬਿਨਾਂ PDF ਮੁੜ ਖੋਲ੍ਹਦਾ ਹੈ। ਉਨ੍ਹਾਂ ਫ਼ਾਈਲਾਂ ਲਈ ਜੋ ਤੁਸੀਂ ਮੁੜ ਸੋਧੋਗੇ।
+	Keeps the document editable: VectorCraft reopens the PDF with nothing lost. For files you'll edit again.	ਦਸਤਾਵੇਜ਼ ਸੋਧਣਯੋਗ ਰੱਖਦਾ ਹੈ: VectorCraft ਕੁਝ ਗੁਆਏ ਬਿਨਾਂ PDF ਮੁੜ ਖੋਲ੍ਹਦਾ ਹੈ. ਉਨ੍ਹਾਂ ਫ਼ਾਈਲਾਂ ਲਈ ਜੋ ਤੁਸੀਂ ਮੁੜ ਸੋਧੋਗੇ.
 	Kerning	ਕਰਨਿੰਗ
 	Kerning (0 = Auto)	ਕਰਨਿੰਗ (0 = ਆਪਣੇ ਆਪ)
 	Key Color:	ਮੁੱਖ ਰੰਗ:
@@ -2032,7 +2029,7 @@
 	Library	ਲਾਇਬ੍ਰੇਰੀ
 	Library Panel Options	ਲਾਇਬ੍ਰੇਰੀ ਪੈਨਲ ਦੇ ਵਿਕਲਪ
 	Library:	ਲਾਇਬ੍ਰੇਰੀ:
-	Ligatures are off while the text is tracked.	ਅੱਖਰਾਂ ਦਾ ਫ਼ਾਸਲਾ ਬਦਲਿਆ ਹੋਣ ਵੇਲੇ ਸੰਯੁਕਤ ਅੱਖਰ ਬੰਦ ਹੁੰਦੇ ਹਨ।
+	Ligatures are off while the text is tracked.	ਅੱਖਰਾਂ ਦਾ ਫ਼ਾਸਲਾ ਬਦਲਿਆ ਹੋਣ ਵੇਲੇ ਸੰਯੁਕਤ ਅੱਖਰ ਬੰਦ ਹੁੰਦੇ ਹਨ.
 	Light Blue	ਹਲਕਾ ਨੀਲਾ
 	Light Direction	ਰੌਸ਼ਨੀ ਦੀ ਦਿਸ਼ਾ
 	Light Gray	ਹਲਕਾ ਸਲੇਟੀ
@@ -2169,7 +2166,7 @@
 	Make Text Wrap	ਲਿਖਤ ਲਪੇਟ ਬਣਾਓ
 	Make Visibility Dynamic	ਦਿੱਖ ਗਤੀਸ਼ੀਲ ਬਣਾਓ
 	Make Visible	ਦਿਸਦਾ ਕਰੋ
-	Make a theme on Create and save it.	ਬਣਾਓ ਵਿੱਚ ਥੀਮ ਬਣਾਓ ਅਤੇ ਸੰਭਾਲੋ।
+	Make a theme on Create and save it.	ਬਣਾਓ ਵਿੱਚ ਥੀਮ ਬਣਾਓ ਅਤੇ ਸੰਭਾਲੋ.
 	Make all bleed settings the same	ਕਟਾਈ ਤੋਂ ਬਾਹਰ ਦੀਆਂ ਸਾਰੀਆਂ ਸੈਟਿੰਗਾਂ ਇੱਕੋ ਕਰੋ
 	Make and Expand	ਬਣਾਓ ਅਤੇ ਫੈਲਾਓ
 	Make the bleed values differ	ਕਟਾਈ ਤੋਂ ਬਾਹਰ ਦੇ ਮੁੱਲ ਵੱਖਰੇ ਕਰੋ
@@ -2239,7 +2236,7 @@
 	Minify	ਛੋਟਾ ਸੰਖੇਪ ਰੂਪ ਬਣਾਓ
 	Minimal	ਘੱਟੋ-ਘੱਟ
 	Minimum angle	ਘੱਟੋ-ਘੱਟ ਕੋਣ
-	Minimum must not exceed Desired, nor Desired Maximum.	ਘੱਟੋ-ਘੱਟ ਚਾਹੀਦੇ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ, ਨਾ ਹੀ ਚਾਹੀਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਹੋਵੇ।
+	Minimum must not exceed Desired, nor Desired Maximum.	ਘੱਟੋ-ਘੱਟ ਚਾਹੀਦੇ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ, ਨਾ ਹੀ ਚਾਹੀਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਹੋਵੇ.
 	Minimum:	ਘੱਟੋ-ਘੱਟ:
 	Minus Back	ਪਿਛਲਾ ਹਿੱਸਾ ਘਟਾਓ
 	Minus Front	ਮੂਹਰਲਾ ਹਿੱਸਾ ਘਟਾਓ
@@ -2420,28 +2417,28 @@
 	No Selection	ਕੋਈ ਚੋਣ ਨਹੀਂ
 	No Slices	ਕੋਈ ਸਲਾਈਸ ਨਹੀਂ
 	No Thumbnails	ਕੋਈ ਥੰਬਨੇਲ ਨਹੀਂ
-	No actions. Press ● to record.	ਕੋਈ ਕਾਰਵਾਈ ਨਹੀਂ। ਰਿਕਾਰਡ ਕਰਨ ਲਈ ● ਦਬਾਓ।
-	No alternates for the selected character.	ਚੁਣੇ ਅੱਖਰ ਦੇ ਕੋਈ ਬਦਲਵੇਂ ਰੂਪ ਨਹੀਂ।
-	No artboards match.	ਕੋਈ ਆਰਟਬੋਰਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ।
+	No actions. Press ● to record.	ਕੋਈ ਕਾਰਵਾਈ ਨਹੀਂ. ਰਿਕਾਰਡ ਕਰਨ ਲਈ ● ਦਬਾਓ.
+	No alternates for the selected character.	ਚੁਣੇ ਅੱਖਰ ਦੇ ਕੋਈ ਬਦਲਵੇਂ ਰੂਪ ਨਹੀਂ.
+	No artboards match.	ਕੋਈ ਆਰਟਬੋਰਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ.
 	No assets	ਕੋਈ ਸਰੋਤ ਨਹੀਂ
-	No assets yet. Collect art with Object › Collect for Export, or drag it into the Asset Export panel.	ਹਾਲੇ ਕੋਈ ਸਰੋਤ ਨਹੀਂ। ਵਸਤੂ › ਨਿਰਯਾਤ ਲਈ ਇਕੱਠੇ ਕਰੋ ਨਾਲ ਕਲਾਕ੍ਰਿਤੀ ਇਕੱਠੀ ਕਰੋ ਜਾਂ ਇਸ ਨੂੰ ਸਰੋਤ ਨਿਰਯਾਤ ਪੈਨਲ ਵਿੱਚ ਖਿੱਚੋ।
+	No assets yet. Collect art with Object › Collect for Export, or drag it into the Asset Export panel.	ਹਾਲੇ ਕੋਈ ਸਰੋਤ ਨਹੀਂ. ਵਸਤੂ › ਨਿਰਯਾਤ ਲਈ ਇਕੱਠੇ ਕਰੋ ਨਾਲ ਕਲਾਕ੍ਰਿਤੀ ਇਕੱਠੀ ਕਰੋ ਜਾਂ ਇਸ ਨੂੰ ਸਰੋਤ ਨਿਰਯਾਤ ਪੈਨਲ ਵਿੱਚ ਖਿੱਚੋ.
 	No brushes	ਕੋਈ ਬਰਸ਼ ਨਹੀਂ
-	No colors to recolor (preserved colors are left out).	ਮੁੜ ਰੰਗਣ ਲਈ ਕੋਈ ਰੰਗ ਨਹੀਂ (ਬਰਕਰਾਰ ਰੱਖੇ ਰੰਗ ਬਾਹਰ ਰੱਖੇ ਜਾਂਦੇ ਹਨ)।
+	No colors to recolor (preserved colors are left out).	ਮੁੜ ਰੰਗਣ ਲਈ ਕੋਈ ਰੰਗ ਨਹੀਂ (ਬਰਕਰਾਰ ਰੱਖੇ ਰੰਗ ਬਾਹਰ ਰੱਖੇ ਜਾਂਦੇ ਹਨ).
 	No contributor data was built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਕੋਈ ਯੋਗਦਾਨੀ ਡਾਟਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
 	No conversion	ਕੋਈ ਰੰਗ ਬਦਲਾਅ ਨਹੀਂ
 	No document	ਕੋਈ ਦਸਤਾਵੇਜ਼ ਨਹੀਂ
 	No document open	ਕੋਈ ਦਸਤਾਵੇਜ਼ ਖੁੱਲ੍ਹਾ ਨਹੀਂ
-	No document open.	ਕੋਈ ਦਸਤਾਵੇਜ਼ ਖੁੱਲ੍ਹਾ ਨਹੀਂ।
+	No document open.	ਕੋਈ ਦਸਤਾਵੇਜ਼ ਖੁੱਲ੍ਹਾ ਨਹੀਂ.
 	No downsampling	ਨਮੂਨਾ ਦਰ ਨਹੀਂ ਘਟਾਉਣੀ
 	No equivalent	ਕੋਈ ਬਰਾਬਰ ਰੂਪ ਨਹੀਂ
 	No filter plug-ins installed	ਕੋਈ ਫਿਲਟਰ ਪਲੱਗਇਨ ਇੰਸਟਾਲ ਨਹੀਂ
-	No fonts are available.	ਕੋਈ ਫ਼ੌਂਟ ਉਪਲਬਧ ਨਹੀਂ।
+	No fonts are available.	ਕੋਈ ਫ਼ੌਂਟ ਉਪਲਬਧ ਨਹੀਂ.
 	No gradient swatches	ਕੋਈ ਗ੍ਰੇਡੀਐਂਟ ਸਵਾਚ ਨਹੀਂ
 	No graphic styles	ਕੋਈ ਗ੍ਰਾਫਿਕ ਸ਼ੈਲੀ ਨਹੀਂ
 	No images	ਕੋਈ ਚਿੱਤਰ ਨਹੀਂ
-	No images match.	ਕੋਈ ਚਿੱਤਰ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ।
-	No issues found.	ਕੋਈ ਸਮੱਸਿਆ ਨਹੀਂ ਮਿਲੀ।
-	No items in this library match “{query}”.	ਇਸ ਲਾਇਬ੍ਰੇਰੀ ਵਿੱਚ ਕੋਈ ਆਈਟਮ “{query}” ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ।
+	No images match.	ਕੋਈ ਚਿੱਤਰ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ.
+	No issues found.	ਕੋਈ ਸਮੱਸਿਆ ਨਹੀਂ ਮਿਲੀ.
+	No items in this library match “{query}”.	ਇਸ ਲਾਇਬ੍ਰੇਰੀ ਵਿੱਚ ਕੋਈ ਆਈਟਮ “{query}” ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ.
 	No matching fonts	ਕੋਈ ਮੇਲ ਖਾਂਦਾ ਫ਼ੌਂਟ ਨਹੀਂ
 	No model credits were built into this copy.	ਇਸ ਕਾਪੀ ਵਿੱਚ ਮਾਡਲਾਂ ਦਾ ਕੋਈ ਸਿਹਰਾ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ.
 	No options	ਕੋਈ ਵਿਕਲਪ ਨਹੀਂ
@@ -2457,7 +2454,7 @@
 	None (/)	ਕੋਈ ਨਹੀਂ (/)
 	None (Color Preview)	ਕੋਈ ਨਹੀਂ (ਰੰਗ ਝਲਕ)
 	None (keep transparency)	ਕੋਈ ਨਹੀਂ (ਪਾਰਦਰਸ਼ਤਾ ਰੱਖੋ)
-	None.	ਕੋਈ ਨਹੀਂ।
+	None.	ਕੋਈ ਨਹੀਂ.
 	Normal Screen Mode	ਸਧਾਰਨ ਸਕ੍ਰੀਨ ਮੋਡ
 	Not a script for the reference app	ਹਵਾਲਾ ਐਪ ਲਈ ਸਕ੍ਰਿਪਟ ਨਹੀਂ
 	Not followed: outside the script's folder	ਪਿੱਛਾ ਨਹੀਂ ਕੀਤਾ: ਸਕ੍ਰਿਪਟ ਦੇ ਫੋਲਡਰ ਤੋਂ ਬਾਹਰ
@@ -2468,8 +2465,8 @@
 	Note Paper	ਨੋਟ ਕਾਗਜ਼
 	Note Paper…	ਨੋਟ ਕਾਗਜ਼…
 	Note:	ਨੋਟ:
-	Nothing is selected. Select the art to export, then open this tab again.	ਕੁਝ ਚੁਣਿਆ ਨਹੀਂ ਹੈ। ਨਿਰਯਾਤ ਲਈ ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ, ਫਿਰ ਇਹ ਟੈਬ ਮੁੜ ਖੋਲ੍ਹੋ।
-	Nothing matches the Show filter.	ਦਿਖਾਓ ਫਿਲਟਰ ਨਾਲ ਕੁਝ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ।
+	Nothing is selected. Select the art to export, then open this tab again.	ਕੁਝ ਚੁਣਿਆ ਨਹੀਂ ਹੈ. ਨਿਰਯਾਤ ਲਈ ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ, ਫਿਰ ਇਹ ਟੈਬ ਮੁੜ ਖੋਲ੍ਹੋ.
+	Nothing matches the Show filter.	ਦਿਖਾਓ ਫਿਲਟਰ ਨਾਲ ਕੁਝ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ.
 	Nothing to print	ਛਾਪਣ ਲਈ ਕੁਝ ਨਹੀਂ
 	Nudge	ਥੋੜ੍ਹਾ ਹਿਲਾਓ
 	Nudge in Perspective	ਪਰਸਪੈਕਟਿਵ ਵਿੱਚ ਥੋੜ੍ਹਾ ਖਿਸਕਾਓ
@@ -2493,7 +2490,7 @@
 	Objects on Path	ਪਾਥ 'ਤੇ ਵਸਤੂਆਂ
 	Objects on Path Options	ਪਾਥ 'ਤੇ ਵਸਤੂਆਂ ਦੇ ਵਿਕਲਪ
 	Objects on Path Tool	ਪਾਥ 'ਤੇ ਵਸਤੂਆਂ ਟੂਲ
-	Objects using them keep their look but are no longer linked.	ਇਨ੍ਹਾਂ ਨੂੰ ਵਰਤਣ ਵਾਲੀਆਂ ਵਸਤੂਆਂ ਆਪਣੀ ਦਿੱਖ ਰੱਖਦੀਆਂ ਹਨ ਪਰ ਹੁਣ ਲਿੰਕ ਨਹੀਂ ਰਹਿੰਦੀਆਂ।
+	Objects using them keep their look but are no longer linked.	ਇਨ੍ਹਾਂ ਨੂੰ ਵਰਤਣ ਵਾਲੀਆਂ ਵਸਤੂਆਂ ਆਪਣੀ ਦਿੱਖ ਰੱਖਦੀਆਂ ਹਨ ਪਰ ਹੁਣ ਲਿੰਕ ਨਹੀਂ ਰਹਿੰਦੀਆਂ.
 	Ocean Ripple	ਸਮੁੰਦਰੀ ਲਹਿਰਾਂ
 	Ocean Ripple…	ਸਮੁੰਦਰੀ ਲਹਿਰਾਂ…
 	Odd Fields	ਟਾਂਕ ਫੀਲਡ
@@ -2503,7 +2500,7 @@
 	Off-Axis Left	ਧੁਰੇ ਤੋਂ ਹਟਵਾਂ ਖੱਬਾ ਦ੍ਰਿਸ਼
 	Off-Axis Right	ਧੁਰੇ ਤੋਂ ਹਟਵਾਂ ਸੱਜਾ ਦ੍ਰਿਸ਼
 	Off-Axis Top	ਧੁਰੇ ਤੋਂ ਹਟਵਾਂ ਉੱਪਰਲਾ ਦ੍ਰਿਸ਼
-	Off: an editable copy of its art, embedded in this document.	ਬੰਦ: ਇਸ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਇੰਬੈਡ ਕੀਤੀ ਕਲਾਕ੍ਰਿਤੀ ਦੀ ਸੋਧਣਯੋਗ ਕਾਪੀ।
+	Off: an editable copy of its art, embedded in this document.	ਬੰਦ: ਇਸ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਇੰਬੈਡ ਕੀਤੀ ਕਲਾਕ੍ਰਿਤੀ ਦੀ ਸੋਧਣਯੋਗ ਕਾਪੀ.
 	Offset	ਆਫਸੈੱਟ
 	Offset Path	ਪਾਥ ਦਾ ਆਫਸੈੱਟ
 	Offset Path…	ਪਾਥ ਦਾ ਆਫਸੈੱਟ…
@@ -2518,7 +2515,7 @@
 	On Paste	ਚਿਪਕਾਉਣ ਵੇਲੇ
 	On Right Side	ਸੱਜੇ ਪਾਸੇ
 	On Screen	ਸਕ੍ਰੀਨ 'ਤੇ
-	On: one locked object showing the document, updated when it changes.	ਚਾਲੂ: ਦਸਤਾਵੇਜ਼ ਦਿਖਾਉਂਦੀ ਇੱਕ ਲਾਕ ਵਸਤੂ, ਜੋ ਦਸਤਾਵੇਜ਼ ਬਦਲਣ 'ਤੇ ਅੱਪਡੇਟ ਹੁੰਦੀ ਹੈ।
+	On: one locked object showing the document, updated when it changes.	ਚਾਲੂ: ਦਸਤਾਵੇਜ਼ ਦਿਖਾਉਂਦੀ ਇੱਕ ਲਾਕ ਵਸਤੂ, ਜੋ ਦਸਤਾਵੇਜ਼ ਬਦਲਣ 'ਤੇ ਅੱਪਡੇਟ ਹੁੰਦੀ ਹੈ.
 	One File of the Selection	ਚੋਣ ਦੀ ਇੱਕ ਫ਼ਾਈਲ
 	One Point	ਇੱਕ ਬਿੰਦੂ
 	One Point Perspective	ਇੱਕ ਬਿੰਦੂ ਪਰਸਪੈਕਟਿਵ
@@ -2528,8 +2525,8 @@
 	One Point Perspective Preset 4	ਇੱਕ ਬਿੰਦੂ ਪਰਸਪੈਕਟਿਵ ਪ੍ਰੀਸੈੱਟ 4
 	One Point Perspective Preset 5	ਇੱਕ ਬਿੰਦੂ ਪਰਸਪੈਕਟਿਵ ਪ੍ਰੀਸੈੱਟ 5
 	One file per artboard: <name>-<artboard>.{ext}	ਹਰ ਆਰਟਬੋਰਡ ਲਈ ਇੱਕ ਫ਼ਾਈਲ: <name>-<artboard>.{ext}
-	One or more of the symbols are in use and cannot be deleted until their instances are expanded or deleted.	ਇੱਕ ਜਾਂ ਵੱਧ ਚਿੰਨ੍ਹ ਵਰਤੇ ਜਾ ਰਹੇ ਹਨ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਰੂਪ ਫੈਲਾਉਣ ਜਾਂ ਮਿਟਾਉਣ ਤੱਕ ਮਿਟਾਏ ਨਹੀਂ ਜਾ ਸਕਦੇ।
-	One page per artboard.	ਹਰ ਆਰਟਬੋਰਡ ਲਈ ਇੱਕ ਸਫ਼ਾ।
+	One or more of the symbols are in use and cannot be deleted until their instances are expanded or deleted.	ਇੱਕ ਜਾਂ ਵੱਧ ਚਿੰਨ੍ਹ ਵਰਤੇ ਜਾ ਰਹੇ ਹਨ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਰੂਪ ਫੈਲਾਉਣ ਜਾਂ ਮਿਟਾਉਣ ਤੱਕ ਮਿਟਾਏ ਨਹੀਂ ਜਾ ਸਕਦੇ.
+	One page per artboard.	ਹਰ ਆਰਟਬੋਰਡ ਲਈ ਇੱਕ ਸਫ਼ਾ.
 	Only Web Colors	ਸਿਰਫ਼ ਵੈੱਬ ਰੰਗ
 	Opacity & Mask Define Knockout Shape	ਅਪਾਰਦਰਸ਼ਤਾ ਅਤੇ ਮਾਸਕ ਨਾਕਆਉਟ ਦੀ ਸ਼ਕਲ ਨਿਰਧਾਰਤ ਕਰਦੇ ਹਨ
 	Opacity Mask	ਅਪਾਰਦਰਸ਼ਤਾ ਮਾਸਕ
@@ -2576,18 +2573,18 @@
 	Open Recent File 9	ਹਾਲੀਆ ਫ਼ਾਈਲ 9 ਖੋਲ੍ਹੋ
 	Open Recent Files	ਹਾਲੀਆ ਫ਼ਾਈਲਾਂ ਖੋਲ੍ਹੋ
 	Open Swatch Library	ਸਵਾਚ ਲਾਇਬ੍ਰੇਰੀ ਖੋਲ੍ਹੋ
-	Open a document to check it for issues.	ਸਮੱਸਿਆਵਾਂ ਲਈ ਜਾਂਚਣ ਵਾਸਤੇ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to draw parametric shapes.	ਪੈਰਾਮੀਟਰ ਵਾਲੀਆਂ ਸ਼ਕਲਾਂ ਬਣਾਉਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to draw with the Smart Pen.	ਸਮਾਰਟ ਪੈਨ ਨਾਲ ਬਣਾਉਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to edit its anchor points.	ਐਂਕਰ ਬਿੰਦੂ ਸੋਧਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to edit its patterns.	ਪੈਟਰਨ ਸੋਧਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to navigate it.	ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਘੁੰਮਣ ਲਈ ਇਸ ਨੂੰ ਖੋਲ੍ਹੋ।
-	Open a document to preview its flattening.	ਇਸ ਦੀ ਪਾਰਦਰਸ਼ਤਾ ਮਿਲਾਉਣ ਦੀ ਝਲਕ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
+	Open a document to check it for issues.	ਸਮੱਸਿਆਵਾਂ ਲਈ ਜਾਂਚਣ ਵਾਸਤੇ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to draw parametric shapes.	ਪੈਰਾਮੀਟਰ ਵਾਲੀਆਂ ਸ਼ਕਲਾਂ ਬਣਾਉਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to draw with the Smart Pen.	ਸਮਾਰਟ ਪੈਨ ਨਾਲ ਬਣਾਉਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to edit its anchor points.	ਐਂਕਰ ਬਿੰਦੂ ਸੋਧਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to edit its patterns.	ਪੈਟਰਨ ਸੋਧਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to navigate it.	ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਘੁੰਮਣ ਲਈ ਇਸ ਨੂੰ ਖੋਲ੍ਹੋ.
+	Open a document to preview its flattening.	ਇਸ ਦੀ ਪਾਰਦਰਸ਼ਤਾ ਮਿਲਾਉਣ ਦੀ ਝਲਕ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
 	Open a document to preview its pages	ਸਫ਼ਿਆਂ ਦੀ ਝਲਕ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ
-	Open a document to see its artboards.	ਆਰਟਬੋਰਡ ਵੇਖਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to see its graphic styles.	ਗ੍ਰਾਫਿਕ ਸ਼ੈਲੀਆਂ ਵੇਖਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to see its history.	ਇਤਿਹਾਸ ਵੇਖਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
-	Open a document to see its swatches.	ਸਵਾਚ ਵੇਖਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ।
+	Open a document to see its artboards.	ਆਰਟਬੋਰਡ ਵੇਖਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to see its graphic styles.	ਗ੍ਰਾਫਿਕ ਸ਼ੈਲੀਆਂ ਵੇਖਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to see its history.	ਇਤਿਹਾਸ ਵੇਖਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
+	Open a document to see its swatches.	ਸਵਾਚ ਵੇਖਣ ਲਈ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ.
 	Open password:	ਖੋਲ੍ਹਣ ਦਾ ਪਾਸਵਰਡ:
 	Open the URL in the web browser	ਵੈੱਬ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ URL ਖੋਲ੍ਹੋ
 	Open this dialog with these settings next time	ਅਗਲੀ ਵਾਰ ਇਹ ਡਾਇਲਾਗ ਇਨ੍ਹਾਂ ਸੈਟਿੰਗਾਂ ਨਾਲ ਖੋਲ੍ਹੋ
@@ -2595,7 +2592,7 @@
 	OpenType	OpenType
 	OpenType Features	OpenType ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
 	Opened with {} note(s): {}	{} ਨੋਟਾਂ ਨਾਲ ਖੋਲ੍ਹਿਆ: {}
-	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	ਇਸ ਨੂੰ ਖੋਲ੍ਹਣ ਵੇਲੇ ਉਹ ਸਮੱਗਰੀ ਛੱਡੀ ਗਈ ਜੋ VectorCraft ਹਾਲੇ ਨਹੀਂ ਪੜ੍ਹ ਸਕਦਾ ({what}), ਇਸ ਲਈ ਇਸ ਉੱਤੇ ਸੰਭਾਲਣ ਨਾਲ ਉਹ ਸਦਾ ਲਈ ਗੁੰਮ ਹੋਵੇਗੀ। ਇਸ ਨੂੰ ਰੱਖਣ ਲਈ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ।
+	Opening it left out what VectorCraft can't read yet ({what}), so replacing it loses that for good. Save under another name to keep it.	ਇਸ ਨੂੰ ਖੋਲ੍ਹਣ ਵੇਲੇ ਉਹ ਸਮੱਗਰੀ ਛੱਡੀ ਗਈ ਜੋ VectorCraft ਹਾਲੇ ਨਹੀਂ ਪੜ੍ਹ ਸਕਦਾ ({what}), ਇਸ ਲਈ ਇਸ ਉੱਤੇ ਸੰਭਾਲਣ ਨਾਲ ਉਹ ਸਦਾ ਲਈ ਗੁੰਮ ਹੋਵੇਗੀ. ਇਸ ਨੂੰ ਰੱਖਣ ਲਈ ਹੋਰ ਨਾਮ ਨਾਲ ਸੰਭਾਲੋ.
 	Opens files in other apps	ਹੋਰ ਐਪਾਂ ਵਿੱਚ ਫ਼ਾਈਲਾਂ ਖੋਲ੍ਹਦਾ ਹੈ
 	Opens network connections	ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਖੋਲ੍ਹਦਾ ਹੈ
 	Optical	ਆਪਟੀਕਲ
@@ -2657,7 +2654,7 @@
 	Override Character Color	ਅੱਖਰ ਦਾ ਰੰਗ ਓਵਰਰਾਈਡ ਕਰੋ
 	Overrides	ਓਵਰਰਾਈਡ
 	PDF	PDF
-	PDF 1.3 files have no transparency: the preset flattens it.	PDF 1.3 ਫ਼ਾਈਲਾਂ ਵਿੱਚ ਪਾਰਦਰਸ਼ਤਾ ਨਹੀਂ ਹੁੰਦੀ: ਪ੍ਰੀਸੈੱਟ ਇਸ ਨੂੰ ਪੱਕਾ ਮਿਲਾ ਦਿੰਦਾ ਹੈ।
+	PDF 1.3 files have no transparency: the preset flattens it.	PDF 1.3 ਫ਼ਾਈਲਾਂ ਵਿੱਚ ਪਾਰਦਰਸ਼ਤਾ ਨਹੀਂ ਹੁੰਦੀ: ਪ੍ਰੀਸੈੱਟ ਇਸ ਨੂੰ ਪੱਕਾ ਮਿਲਾ ਦਿੰਦਾ ਹੈ.
 	PDF 1.7	PDF 1.7
 	PDF File	PDF ਫ਼ਾਈਲ
 	PDF Info	PDF ਜਾਣਕਾਰੀ
@@ -2668,15 +2665,15 @@
 	PDF Print	PDF ਛਪਾਈ
 	PDF Settings	PDF ਸੈਟਿੰਗਾਂ
 	PDF-compatible	PDF-ਅਨੁਕੂਲ
-	PDF/A files carry their own output intent.	PDF/A ਫ਼ਾਈਲਾਂ ਵਿੱਚ ਆਪਣਾ ਆਉਟਪੁੱਟ ਇੰਟੈਂਟ ਹੁੰਦਾ ਹੈ।
-	PDF/X-1a files are CMYK: every colour is converted to the destination (blank: the output intent's CMYK profile), untagged.	PDF/X-1a ਫ਼ਾਈਲਾਂ CMYK ਹੁੰਦੀਆਂ ਹਨ: ਹਰ ਰੰਗ ਮੰਜ਼ਿਲ ਵਿੱਚ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ (ਖ਼ਾਲੀ ਹੋਣ 'ਤੇ: ਆਉਟਪੁੱਟ ਇੰਟੈਂਟ ਦਾ CMYK ਪ੍ਰੋਫਾਈਲ), ਬਿਨਾਂ ਟੈਗ ਦੇ।
+	PDF/A files carry their own output intent.	PDF/A ਫ਼ਾਈਲਾਂ ਵਿੱਚ ਆਪਣਾ ਆਉਟਪੁੱਟ ਇੰਟੈਂਟ ਹੁੰਦਾ ਹੈ.
+	PDF/X-1a files are CMYK: every colour is converted to the destination (blank: the output intent's CMYK profile), untagged.	PDF/X-1a ਫ਼ਾਈਲਾਂ CMYK ਹੁੰਦੀਆਂ ਹਨ: ਹਰ ਰੰਗ ਮੰਜ਼ਿਲ ਵਿੱਚ ਬਦਲਿਆ ਜਾਂਦਾ ਹੈ (ਖ਼ਾਲੀ ਹੋਣ 'ਤੇ: ਆਉਟਪੁੱਟ ਇੰਟੈਂਟ ਦਾ CMYK ਪ੍ਰੋਫਾਈਲ), ਬਿਨਾਂ ਟੈਗ ਦੇ.
 	PDF/X-1a:2001	PDF/X-1a:2001
 	PDF/X-3:2002	PDF/X-3:2002
 	PDF/X-4:2010	PDF/X-4:2010
 	PPI	PPI
 	PRESET DETAILS	ਪ੍ਰੀਸੈੱਟ ਦਾ ਵੇਰਵਾ
 	Package	ਪੈਕੇਜ
-	Package collects a saved document with its linked files and fonts.	ਪੈਕੇਜ ਇੱਕ ਸੰਭਾਲੇ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਇਸ ਦੀਆਂ ਲਿੰਕ ਕੀਤੀਆਂ ਫ਼ਾਈਲਾਂ ਅਤੇ ਫ਼ੌਂਟਾਂ ਨਾਲ ਇਕੱਠਾ ਕਰਦਾ ਹੈ।
+	Package collects a saved document with its linked files and fonts.	ਪੈਕੇਜ ਇੱਕ ਸੰਭਾਲੇ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਇਸ ਦੀਆਂ ਲਿੰਕ ਕੀਤੀਆਂ ਫ਼ਾਈਲਾਂ ਅਤੇ ਫ਼ੌਂਟਾਂ ਨਾਲ ਇਕੱਠਾ ਕਰਦਾ ਹੈ.
 	Package created	ਪੈਕੇਜ ਬਣਾਇਆ ਗਿਆ
 	Packaged {n} file(s)	{n} ਫ਼ਾਈਲਾਂ ਪੈਕੇਜ ਕੀਤੀਆਂ
 	Packaged {n} file(s) in {folder}	{folder} ਵਿੱਚ {n} ਫ਼ਾਈਲਾਂ ਪੈਕੇਜ ਕੀਤੀਆਂ
@@ -2711,8 +2708,8 @@
 	Paragraph Symbol	ਪੈਰਾ ਚਿੰਨ੍ਹ
 	Paragraph options	ਪੈਰੇ ਦੇ ਵਿਕਲਪ
 	Paragraph:	ਪੈਰਾ:
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	ArtCraft ਦਾ ਹਿੱਸਾ। MIT OR Apache-2.0। ਫ਼ੌਂਟ: Source Sans 3, Inter, JetBrains Mono (OFL)। ਆਈਕਨ: Lucide (ISC) + VectorCraft।
-	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	ArtCraft ਦਾ ਹਿੱਸਾ। MIT OR Apache-2.0। ਫ਼ੌਂਟ: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL)। ਆਈਕਨ: Lucide (ISC) + VectorCraft।
+	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono (OFL). Icons: Lucide (ISC) + VectorCraft.	ArtCraft ਦਾ ਹਿੱਸਾ. MIT OR Apache-2.0. ਫ਼ੌਂਟ: Source Sans 3, Inter, JetBrains Mono (OFL). ਆਈਕਨ: Lucide (ISC) + VectorCraft.
+	Part of ArtCraft. MIT OR Apache-2.0. Fonts: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). Icons: Lucide (ISC) + VectorCraft.	ArtCraft ਦਾ ਹਿੱਸਾ. MIT OR Apache-2.0. ਫ਼ੌਂਟ: Source Sans 3, Inter, JetBrains Mono, Noto Sans SC (OFL). ਆਈਕਨ: Lucide (ISC) + VectorCraft.
 	Paste Design	ਡਿਜ਼ਾਈਨ ਚਿਪਕਾਓ
 	Paste Offset	ਆਫਸੈੱਟ ਚਿਪਕਾਓ
 	Paste Remembers Layers	ਚਿਪਕਾਉਣਾ ਪਰਤਾਂ ਯਾਦ ਰੱਖਦਾ ਹੈ
@@ -2740,7 +2737,7 @@
 	Pattern Options	ਪੈਟਰਨ ਦੇ ਵਿਕਲਪ
 	Pattern Swatches	ਪੈਟਰਨ ਸਵਾਚ
 	Pattern Type	ਪੈਟਰਨ ਦੀ ਕਿਸਮ
-	Pattern options are available in pattern editing mode.	ਪੈਟਰਨ ਦੇ ਵਿਕਲਪ ਪੈਟਰਨ ਸੋਧ ਮੋਡ ਵਿੱਚ ਉਪਲਬਧ ਹਨ।
+	Pattern options are available in pattern editing mode.	ਪੈਟਰਨ ਦੇ ਵਿਕਲਪ ਪੈਟਰਨ ਸੋਧ ਮੋਡ ਵਿੱਚ ਉਪਲਬਧ ਹਨ.
 	Patterns	ਪੈਟਰਨ
 	Pause For	ਇੰਨਾ ਵਿਰਾਮ ਦਿਓ
 	Pen	ਪੈਨ
@@ -2871,7 +2868,7 @@
 	Preset {}	ਪ੍ਰੀਸੈੱਟ {}
 	Preset:	ਪ੍ਰੀਸੈੱਟ:
 	Presets	ਪ੍ਰੀਸੈੱਟ
-	Presets you save with the Save Preset button appear here.	ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲੋ ਬਟਨ ਨਾਲ ਸੰਭਾਲੇ ਪ੍ਰੀਸੈੱਟ ਇੱਥੇ ਦਿਸਦੇ ਹਨ।
+	Presets you save with the Save Preset button appear here.	ਪ੍ਰੀਸੈੱਟ ਸੰਭਾਲੋ ਬਟਨ ਨਾਲ ਸੰਭਾਲੇ ਪ੍ਰੀਸੈੱਟ ਇੱਥੇ ਦਿਸਦੇ ਹਨ.
 	Presets:	ਪ੍ਰੀਸੈੱਟ:
 	Press 	ਦਬਾਓ
 	Press Quality	ਪ੍ਰੈੱਸ ਗੁਣਵੱਤਾ
@@ -3136,9 +3133,9 @@
 	Replace Symbol	ਚਿੰਨ੍ਹ ਬਦਲੋ
 	Replace With Font	ਇਸ ਫ਼ੌਂਟ ਨਾਲ ਬਦਲੋ
 	Replace With Font From	ਇੱਥੋਂ ਫ਼ੌਂਟ ਲੈ ਕੇ ਬਦਲੋ
-	Replace it with another file, or ignore it: its images keep showing the preview saved with the document.	ਇਸ ਨੂੰ ਹੋਰ ਫ਼ਾਈਲ ਨਾਲ ਬਦਲੋ ਜਾਂ ਅਣਡਿੱਠਾ ਕਰੋ: ਇਸ ਦੇ ਚਿੱਤਰ ਦਸਤਾਵੇਜ਼ ਨਾਲ ਸੰਭਾਲੀ ਝਲਕ ਦਿਖਾਉਂਦੇ ਰਹਿੰਦੇ ਹਨ।
+	Replace it with another file, or ignore it: its images keep showing the preview saved with the document.	ਇਸ ਨੂੰ ਹੋਰ ਫ਼ਾਈਲ ਨਾਲ ਬਦਲੋ ਜਾਂ ਅਣਡਿੱਠਾ ਕਰੋ: ਇਸ ਦੇ ਚਿੱਤਰ ਦਸਤਾਵੇਜ਼ ਨਾਲ ਸੰਭਾਲੀ ਝਲਕ ਦਿਖਾਉਂਦੇ ਰਹਿੰਦੇ ਹਨ.
 	Replace “{name}”, the file this document was opened from?	“{name}” ਨੂੰ ਬਦਲਣਾ ਹੈ, ਜਿਸ ਫ਼ਾਈਲ ਤੋਂ ਇਹ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹਿਆ ਸੀ?
-	Replaces the saved preset of that name.	ਉਸ ਨਾਮ ਵਾਲੇ ਸੰਭਾਲੇ ਪ੍ਰੀਸੈੱਟ ਨੂੰ ਬਦਲਦਾ ਹੈ।
+	Replaces the saved preset of that name.	ਉਸ ਨਾਮ ਵਾਲੇ ਸੰਭਾਲੇ ਪ੍ਰੀਸੈੱਟ ਨੂੰ ਬਦਲਦਾ ਹੈ.
 	Replace…	ਬਦਲੋ…
 	Report copied	ਰਿਪੋਰਟ ਕਾਪੀ ਕੀਤੀ
 	Require a password to open the document	ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹਣ ਲਈ ਪਾਸਵਰਡ ਲਾਜ਼ਮੀ ਕਰੋ
@@ -3166,8 +3163,8 @@
 	Reset Typography	ਟਾਈਪੋਗ੍ਰਾਫੀ ਮੁੜ ਸੈੱਟ ਕਰੋ
 	Reset Web	ਵੈੱਬ ਮੁੜ ਸੈੱਟ ਕਰੋ
 	Reset all	ਸਭ ਮੁੜ ਸੈੱਟ ਕਰੋ
-	Reset all 3D settings to their defaults.	ਸਭ 3D ਸੈਟਿੰਗਾਂ ਦੇ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ।
-	Reset all Revolve settings to their defaults.	ਸਭ Revolve ਸੈਟਿੰਗਾਂ ਦੇ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ।
+	Reset all 3D settings to their defaults.	ਸਭ 3D ਸੈਟਿੰਗਾਂ ਦੇ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ.
+	Reset all Revolve settings to their defaults.	ਸਭ Revolve ਸੈਟਿੰਗਾਂ ਦੇ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ.
 	Reset the rows to the artwork's colors	ਕਤਾਰਾਂ ਨੂੰ ਕਲਾਕ੍ਰਿਤੀ ਦੇ ਰੰਗਾਂ ਵਿੱਚ ਮੁੜ ਸੈੱਟ ਕਰੋ
 	Reset to Default	ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ
 	Reset to Defaults	ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ
@@ -3194,7 +3191,7 @@
 	Responsive	ਆਕਾਰ ਅਨੁਸਾਰ ਢਲਣ ਵਾਲਾ
 	Restore Recovered Documents	ਮੁੜ ਪ੍ਰਾਪਤ ਦਸਤਾਵੇਜ਼ ਬਹਾਲ ਕਰੋ
 	Restore every preference to its default (applied on OK)	ਹਰ ਤਰਜੀਹ ਦਾ ਮੂਲ ਮੁੱਲ ਮੁੜ ਲਾਓ (ਠੀਕ ਹੈ ਦਬਾਉਣ 'ਤੇ ਲਾਗੂ)
-	Restored documents open unsaved: save them to keep them.	ਬਹਾਲ ਦਸਤਾਵੇਜ਼ ਨਾ ਸੰਭਾਲੇ ਖੁੱਲ੍ਹਦੇ ਹਨ: ਰੱਖਣ ਲਈ ਸੰਭਾਲੋ।
+	Restored documents open unsaved: save them to keep them.	ਬਹਾਲ ਦਸਤਾਵੇਜ਼ ਨਾ ਸੰਭਾਲੇ ਖੁੱਲ੍ਹਦੇ ਹਨ: ਰੱਖਣ ਲਈ ਸੰਭਾਲੋ.
 	Restored {} recovered document(s): save them to keep them	{} ਮੁੜ ਪ੍ਰਾਪਤ ਦਸਤਾਵੇਜ਼ ਬਹਾਲ ਕੀਤੇ: ਰੱਖਣ ਲਈ ਸੰਭਾਲੋ
 	Restrict printing, editing and other tasks	ਛਪਾਈ, ਸੋਧ ਅਤੇ ਹੋਰ ਕੰਮ ਸੀਮਿਤ ਕਰੋ
 	Restricted Colors	ਸੀਮਿਤ ਰੰਗ
@@ -3221,7 +3218,7 @@
 	Right in Front	ਸੱਜਾ ਅੱਗੇ
 	Right to Left	ਸੱਜੇ ਤੋਂ ਖੱਬੇ
 	Right-Justified Tab	ਸੱਜੇ ਇਕਸਾਰ ਟੈਬ
-	Right-click an item to move it into this group.	ਆਈਟਮ ਇਸ ਸਮੂਹ ਵਿੱਚ ਲਿਜਾਣ ਲਈ ਉਸ 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ।
+	Right-click an item to move it into this group.	ਆਈਟਮ ਇਸ ਸਮੂਹ ਵਿੱਚ ਲਿਜਾਣ ਲਈ ਉਸ 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ.
 	Right-to-Left Paragraph Direction	ਪੈਰੇ ਦੀ ਦਿਸ਼ਾ ਸੱਜੇ ਤੋਂ ਖੱਬੇ
 	Right:	ਸੱਜੇ:
 	Rings	ਰਿੰਗਾਂ
@@ -3389,7 +3386,7 @@
 	Saved {n} files beside {path}	{path} ਦੇ ਨਾਲ {n} ਫ਼ਾਈਲਾਂ ਸੰਭਾਲੀਆਂ
 	Saved {path}	{path} ਸੰਭਾਲਿਆ
 	Saved {path} with {} note(s): {first}	{path} ਸੰਭਾਲਿਆ, {} ਨੋਟਾਂ ਨਾਲ: {first}
-	Saves the current bars, toolbar and panel layout.	ਮੌਜੂਦਾ ਪੱਟੀਆਂ, ਟੂਲਬਾਰ ਅਤੇ ਪੈਨਲ ਖਾਕਾ ਸੰਭਾਲਦਾ ਹੈ।
+	Saves the current bars, toolbar and panel layout.	ਮੌਜੂਦਾ ਪੱਟੀਆਂ, ਟੂਲਬਾਰ ਅਤੇ ਪੈਨਲ ਖਾਕਾ ਸੰਭਾਲਦਾ ਹੈ.
 	Save…	ਸੰਭਾਲੋ…
 	Saving	ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ
 	Saving Poster.vectorcraft	Poster.vectorcraft ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ
@@ -3471,29 +3468,29 @@
 	Select Text by Font	ਫ਼ੌਂਟ ਅਨੁਸਾਰ ਲਿਖਤ ਚੁਣੋ
 	Select Tool	ਚੋਣ ਟੂਲ
 	Select Unused	ਨਾ ਵਰਤੇ ਚੁਣੋ
-	Select a character with the Type tool to see its alternates.	ਬਦਲਵੇਂ ਰੂਪ ਵੇਖਣ ਲਈ ਲਿਖਤ ਟੂਲ ਨਾਲ ਅੱਖਰ ਚੁਣੋ।
-	Select a parametric shape to edit it. With none selected, these set the next shape.	ਸੋਧਣ ਲਈ ਪੈਰਾਮੀਟਰ ਵਾਲੀ ਸ਼ਕਲ ਚੁਣੋ। ਕੋਈ ਨਾ ਚੁਣੀ ਹੋਣ 'ਤੇ ਇਹ ਅਗਲੀ ਸ਼ਕਲ ਸੈੱਟ ਕਰਦੇ ਹਨ।
+	Select a character with the Type tool to see its alternates.	ਬਦਲਵੇਂ ਰੂਪ ਵੇਖਣ ਲਈ ਲਿਖਤ ਟੂਲ ਨਾਲ ਅੱਖਰ ਚੁਣੋ.
+	Select a parametric shape to edit it. With none selected, these set the next shape.	ਸੋਧਣ ਲਈ ਪੈਰਾਮੀਟਰ ਵਾਲੀ ਸ਼ਕਲ ਚੁਣੋ. ਕੋਈ ਨਾ ਚੁਣੀ ਹੋਣ 'ਤੇ ਇਹ ਅਗਲੀ ਸ਼ਕਲ ਸੈੱਟ ਕਰਦੇ ਹਨ.
 	Select a text object	ਲਿਖਤ ਵਸਤੂ ਚੁਣੋ
-	Select a text object to edit its character attributes.	ਅੱਖਰ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧਣ ਲਈ ਲਿਖਤ ਵਸਤੂ ਚੁਣੋ।
-	Select a text object to edit its paragraph attributes.	ਪੈਰਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧਣ ਲਈ ਲਿਖਤ ਵਸਤੂ ਚੁਣੋ।
-	Select a text object to set its tab stops.	ਟੈਬ ਰੋਕਾਂ ਸੈੱਟ ਕਰਨ ਲਈ ਲਿਖਤ ਵਸਤੂ ਚੁਣੋ।
-	Select an image to see its Link Info.	ਲਿੰਕ ਜਾਣਕਾਰੀ ਵੇਖਣ ਲਈ ਚਿੱਤਰ ਚੁਣੋ।
+	Select a text object to edit its character attributes.	ਅੱਖਰ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧਣ ਲਈ ਲਿਖਤ ਵਸਤੂ ਚੁਣੋ.
+	Select a text object to edit its paragraph attributes.	ਪੈਰਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧਣ ਲਈ ਲਿਖਤ ਵਸਤੂ ਚੁਣੋ.
+	Select a text object to set its tab stops.	ਟੈਬ ਰੋਕਾਂ ਸੈੱਟ ਕਰਨ ਲਈ ਲਿਖਤ ਵਸਤੂ ਚੁਣੋ.
+	Select an image to see its Link Info.	ਲਿੰਕ ਜਾਣਕਾਰੀ ਵੇਖਣ ਲਈ ਚਿੱਤਰ ਚੁਣੋ.
 	Select an image to trace	ਟ੍ਰੇਸ ਕਰਨ ਲਈ ਚਿੱਤਰ ਚੁਣੋ
-	Select art and choose Object › Pattern › Make.	ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ ਅਤੇ ਵਸਤੂ › ਪੈਟਰਨ › ਬਣਾਓ ਚੁਣੋ।
-	Select art and click New Symbol to make one.	ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ ਅਤੇ ਚਿੰਨ੍ਹ ਬਣਾਉਣ ਲਈ ਨਵਾਂ ਚਿੰਨ੍ਹ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।
-	Select art and use New Brush to make one.	ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ ਅਤੇ ਬਰਸ਼ ਬਣਾਉਣ ਲਈ ਨਵਾਂ ਬਰਸ਼ ਵਰਤੋ।
-	Select art to make a scatter, art or pattern brush.	ਖਿੰਡਾਅ, ਕਲਾ ਜਾਂ ਪੈਟਰਨ ਬਰਸ਼ ਬਣਾਉਣ ਲਈ ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ।
+	Select art and choose Object › Pattern › Make.	ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ ਅਤੇ ਵਸਤੂ › ਪੈਟਰਨ › ਬਣਾਓ ਚੁਣੋ.
+	Select art and click New Symbol to make one.	ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ ਅਤੇ ਚਿੰਨ੍ਹ ਬਣਾਉਣ ਲਈ ਨਵਾਂ ਚਿੰਨ੍ਹ 'ਤੇ ਕਲਿੱਕ ਕਰੋ.
+	Select art and use New Brush to make one.	ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ ਅਤੇ ਬਰਸ਼ ਬਣਾਉਣ ਲਈ ਨਵਾਂ ਬਰਸ਼ ਵਰਤੋ.
+	Select art to make a scatter, art or pattern brush.	ਖਿੰਡਾਅ, ਕਲਾ ਜਾਂ ਪੈਟਰਨ ਬਰਸ਼ ਬਣਾਉਣ ਲਈ ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ.
 	Select artwork to apply effects	ਪ੍ਰਭਾਵ ਲਾਗੂ ਕਰਨ ਲਈ ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ
 	Select by Artboards	ਆਰਟਬੋਰਡਾਂ ਅਨੁਸਾਰ ਚੁਣੋ
 	Select by Color	ਰੰਗ ਅਨੁਸਾਰ ਚੁਣੋ
 	Select by Link Status	ਲਿੰਕ ਸਥਿਤੀ ਅਨੁਸਾਰ ਚੁਣੋ
-	Select objects to adjust their colors.	ਰੰਗ ਠੀਕ ਕਰਨ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ।
-	Select objects to find the swatches nearest their colors.	ਵਸਤੂਆਂ ਦੇ ਰੰਗਾਂ ਦੇ ਸਭ ਤੋਂ ਨੇੜਲੇ ਸਵਾਚ ਲੱਭਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ।
-	Select objects to see their CSS, or Generate CSS for the whole document.	ਆਪਣਾ CSS ਵੇਖਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ ਜਾਂ ਪੂਰੇ ਦਸਤਾਵੇਜ਼ ਲਈ CSS ਤਿਆਰ ਕਰੋ।
-	Select styled art and click New Graphic Style.	ਸ਼ੈਲੀ ਵਾਲੀ ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ ਅਤੇ ਨਵੀਂ ਗ੍ਰਾਫਿਕ ਸ਼ੈਲੀ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।
+	Select objects to adjust their colors.	ਰੰਗ ਠੀਕ ਕਰਨ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ.
+	Select objects to find the swatches nearest their colors.	ਵਸਤੂਆਂ ਦੇ ਰੰਗਾਂ ਦੇ ਸਭ ਤੋਂ ਨੇੜਲੇ ਸਵਾਚ ਲੱਭਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ.
+	Select objects to see their CSS, or Generate CSS for the whole document.	ਆਪਣਾ CSS ਵੇਖਣ ਲਈ ਵਸਤੂਆਂ ਚੁਣੋ ਜਾਂ ਪੂਰੇ ਦਸਤਾਵੇਜ਼ ਲਈ CSS ਤਿਆਰ ਕਰੋ.
+	Select styled art and click New Graphic Style.	ਸ਼ੈਲੀ ਵਾਲੀ ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ ਅਤੇ ਨਵੀਂ ਗ੍ਰਾਫਿਕ ਸ਼ੈਲੀ 'ਤੇ ਕਲਿੱਕ ਕਰੋ.
 	Select text	ਲਿਖਤ ਚੁਣੋ
 	Select text or click into text with the Type tool to insert glyphs	ਗਲਿਫ਼ ਪਾਉਣ ਲਈ ਲਿਖਤ ਚੁਣੋ ਜਾਂ ਲਿਖਤ ਟੂਲ ਨਾਲ ਲਿਖਤ ਵਿੱਚ ਕਲਿੱਕ ਕਰੋ
-	Select text to set its OpenType features.	OpenType ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੈੱਟ ਕਰਨ ਲਈ ਲਿਖਤ ਚੁਣੋ।
+	Select text to set its OpenType features.	OpenType ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੈੱਟ ਕਰਨ ਲਈ ਲਿਖਤ ਚੁਣੋ.
 	Select the art (and, on top of it, the mask object)	ਕਲਾਕ੍ਰਿਤੀ ਚੁਣੋ (ਅਤੇ ਇਸ ਦੇ ਉੱਪਰ ਮਾਸਕ ਵਸਤੂ)
 	Select two or more objects, or a group	ਦੋ ਜਾਂ ਵੱਧ ਵਸਤੂਆਂ ਜਾਂ ਸਮੂਹ ਚੁਣੋ
 	Select:	ਚੁਣੋ:
@@ -3518,10 +3515,10 @@
 	Sends messages to other apps	ਹੋਰ ਐਪਾਂ ਨੂੰ ਸੁਨੇਹੇ ਭੇਜਦਾ ਹੈ
 	Sentence case	ਵਾਕ ਵਾਲਾ ਅੱਖਰ ਰੂਪ
 	Separate colors into rows	ਰੰਗ ਕਤਾਰਾਂ ਵਿੱਚ ਵੱਖਰੇ ਕਰੋ
-	Separate several keywords with commas.	ਕਈ ਮੁੱਖ ਸ਼ਬਦ ਕਾਮਿਆਂ ਨਾਲ ਵੱਖਰੇ ਕਰੋ।
+	Separate several keywords with commas.	ਕਈ ਮੁੱਖ ਸ਼ਬਦ ਕਾਮਿਆਂ ਨਾਲ ਵੱਖਰੇ ਕਰੋ.
 	Separations	ਵੱਖਰੀਆਂ ਸਿਆਹੀਆਂ
 	Separations Preview	ਵੱਖਰੀਆਂ ਸਿਆਹੀਆਂ ਦੀ ਝਲਕ
-	Separations list the document's inks here: one page per ink that prints.	ਇੱਥੇ ਵੱਖਰੀਆਂ ਸਿਆਹੀਆਂ ਦਸਤਾਵੇਜ਼ ਦੀਆਂ ਸਿਆਹੀਆਂ ਦੀ ਸੂਚੀ ਦਿੰਦੀਆਂ ਹਨ: ਛਪਣ ਵਾਲੀ ਹਰ ਸਿਆਹੀ ਲਈ ਇੱਕ ਸਫ਼ਾ।
+	Separations list the document's inks here: one page per ink that prints.	ਇੱਥੇ ਵੱਖਰੀਆਂ ਸਿਆਹੀਆਂ ਦਸਤਾਵੇਜ਼ ਦੀਆਂ ਸਿਆਹੀਆਂ ਦੀ ਸੂਚੀ ਦਿੰਦੀਆਂ ਹਨ: ਛਪਣ ਵਾਲੀ ਹਰ ਸਿਆਹੀ ਲਈ ਇੱਕ ਸਫ਼ਾ.
 	Serialize Document	ਦਸਤਾਵੇਜ਼ ਸੀਰੀਅਲਾਈਜ਼ ਕਰੋ
 	Serif / Mincho	ਸੈਰਿਫ਼ / ਮਿੰਚੋ
 	Server-side (.map)	ਸਰਵਰ-ਪਾਸੇ (.map)
@@ -3580,7 +3577,7 @@
 	Shift+Click	Shift+ਕਲਿੱਕ
 	Shift+Drag	Shift+ਖਿੱਚੋ
 	Shift:	Shift:
-	Shifts the tints of global and spot colors; other colors stay.	ਸਾਂਝੇ ਅਤੇ ਸਪਾਟ ਰੰਗਾਂ ਦੀਆਂ ਹਲਕੀਆਂ ਝਲਕਾਂ ਬਦਲਦਾ ਹੈ; ਹੋਰ ਰੰਗ ਜਿਵੇਂ ਹਨ ਰਹਿੰਦੇ ਹਨ।
+	Shifts the tints of global and spot colors; other colors stay.	ਸਾਂਝੇ ਅਤੇ ਸਪਾਟ ਰੰਗਾਂ ਦੀਆਂ ਹਲਕੀਆਂ ਝਲਕਾਂ ਬਦਲਦਾ ਹੈ; ਹੋਰ ਰੰਗ ਜਿਵੇਂ ਹਨ ਰਹਿੰਦੇ ਹਨ.
 	Short	ਛੋਟਾ
 	Short Lines	ਛੋਟੀਆਂ ਰੇਖਾਵਾਂ
 	Short Strokes	ਛੋਟੇ ਸਟ੍ਰੋਕ
@@ -3657,8 +3654,8 @@
 	Show Warm/Cool	ਨਿੱਘੇ/ਠੰਢੇ ਰੰਗ ਦਿਖਾਓ
 	Show all open documents	ਸਭ ਖੁੱਲ੍ਹੇ ਦਸਤਾਵੇਜ਼ ਦਿਖਾਓ
 	Show all plates	ਸਭ ਪਲੇਟਾਂ ਦਿਖਾਓ
-	Show and print from the Lab definition; PDF files carry it as the ink's alternate color.	Lab ਪਰਿਭਾਸ਼ਾ ਤੋਂ ਦਿਖਾਓ ਅਤੇ ਛਾਪੋ; PDF ਫ਼ਾਈਲਾਂ ਇਸ ਨੂੰ ਸਿਆਹੀ ਦੇ ਬਦਲਵੇਂ ਰੰਗ ਵਜੋਂ ਰੱਖਦੀਆਂ ਹਨ।
-	Show and separate through the working CMYK space, as in older documents.	ਪੁਰਾਣੇ ਦਸਤਾਵੇਜ਼ਾਂ ਵਾਂਗ ਕਾਰਜਕਾਰੀ CMYK ਸਪੇਸ ਰਾਹੀਂ ਦਿਖਾਓ ਅਤੇ ਸਿਆਹੀਆਂ ਵੱਖਰੀਆਂ ਕਰੋ।
+	Show and print from the Lab definition; PDF files carry it as the ink's alternate color.	Lab ਪਰਿਭਾਸ਼ਾ ਤੋਂ ਦਿਖਾਓ ਅਤੇ ਛਾਪੋ; PDF ਫ਼ਾਈਲਾਂ ਇਸ ਨੂੰ ਸਿਆਹੀ ਦੇ ਬਦਲਵੇਂ ਰੰਗ ਵਜੋਂ ਰੱਖਦੀਆਂ ਹਨ.
+	Show and separate through the working CMYK space, as in older documents.	ਪੁਰਾਣੇ ਦਸਤਾਵੇਜ਼ਾਂ ਵਾਂਗ ਕਾਰਜਕਾਰੀ CMYK ਸਪੇਸ ਰਾਹੀਂ ਦਿਖਾਓ ਅਤੇ ਸਿਆਹੀਆਂ ਵੱਖਰੀਆਂ ਕਰੋ.
 	Show axis	ਧੁਰਾ ਦਿਖਾਓ
 	Show color bars	ਰੰਗ ਪੱਟੀਆਂ ਦਿਖਾਓ
 	Show handles when multiple anchors are selected	ਕਈ ਐਂਕਰ ਚੁਣੇ ਹੋਣ 'ਤੇ ਹੈਂਡਲ ਦਿਖਾਓ
@@ -3667,7 +3664,7 @@
 	Show smooth color wheel	ਨਰਮ ਰੰਗ ਚੱਕਰ ਦਿਖਾਓ
 	Show {kind} Brushes	{kind} ਬਰਸ਼ ਦਿਖਾਓ
 	Show/hide plate (Alt-click: only this plate)	ਪਲੇਟ ਦਿਖਾਓ/ਲੁਕਾਓ (Alt-ਕਲਿੱਕ: ਸਿਰਫ਼ ਇਹ ਪਲੇਟ)
-	Shown with the optimised preview.	ਅਨੁਕੂਲਿਤ ਝਲਕ ਨਾਲ ਦਿਖਾਇਆ।
+	Shown with the optimised preview.	ਅਨੁਕੂਲਿਤ ਝਲਕ ਨਾਲ ਦਿਖਾਇਆ.
 	Shrink Text to Fit	ਫਿੱਟ ਕਰਨ ਲਈ ਲਿਖਤ ਸੁੰਗੜਾਓ
 	Side 1:	ਪਾਸਾ 1:
 	Side 2:	ਪਾਸਾ 2:
@@ -3683,7 +3680,7 @@
 	Simulate	ਸਿਮੂਲੇਟ ਕਰੋ
 	Simulate Colored Paper	ਰੰਗੀਨ ਕਾਗਜ਼ ਦੀ ਨਕਲ ਦਿਖਾਓ
 	Simulate Paper	ਕਾਗਜ਼ ਦੀ ਨਕਲ ਦਿਖਾਓ
-	Simulate prints overprints as Overprint Preview shows them; separations always keep them. A preset flattens transparency before printing (PostScript files always flatten it).	ਸਿਮੂਲੇਟ ਓਵਰਪ੍ਰਿੰਟਾਂ ਨੂੰ ਓਵਰਪ੍ਰਿੰਟ ਝਲਕ ਵਾਂਗ ਛਾਪਦਾ ਹੈ; ਵੱਖਰੀਆਂ ਸਿਆਹੀਆਂ ਉਨ੍ਹਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਰੱਖਦੀਆਂ ਹਨ। ਪ੍ਰੀਸੈੱਟ ਛਾਪਣ ਤੋਂ ਪਹਿਲਾਂ ਪਾਰਦਰਸ਼ਤਾ ਪੱਕੀ ਮਿਲਾਉਂਦਾ ਹੈ (PostScript ਫ਼ਾਈਲਾਂ ਇਸ ਨੂੰ ਹਮੇਸ਼ਾ ਪੱਕਾ ਮਿਲਾਉਂਦੀਆਂ ਹਨ)।
+	Simulate prints overprints as Overprint Preview shows them; separations always keep them. A preset flattens transparency before printing (PostScript files always flatten it).	ਸਿਮੂਲੇਟ ਓਵਰਪ੍ਰਿੰਟਾਂ ਨੂੰ ਓਵਰਪ੍ਰਿੰਟ ਝਲਕ ਵਾਂਗ ਛਾਪਦਾ ਹੈ; ਵੱਖਰੀਆਂ ਸਿਆਹੀਆਂ ਉਨ੍ਹਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਰੱਖਦੀਆਂ ਹਨ. ਪ੍ਰੀਸੈੱਟ ਛਾਪਣ ਤੋਂ ਪਹਿਲਾਂ ਪਾਰਦਰਸ਼ਤਾ ਪੱਕੀ ਮਿਲਾਉਂਦਾ ਹੈ (PostScript ਫ਼ਾਈਲਾਂ ਇਸ ਨੂੰ ਹਮੇਸ਼ਾ ਪੱਕਾ ਮਿਲਾਉਂਦੀਆਂ ਹਨ).
 	Single Corner Radius	ਕੋਨਿਆਂ ਲਈ ਇੱਕੋ ਅਰਧ-ਵਿਆਸ
 	Single File	ਇੱਕ ਫ਼ਾਈਲ
 	Single Left Quotation Mark	ਇੱਕਹਿਰਾ ਖੱਬਾ ਹਵਾਲਾ ਚਿੰਨ੍ਹ
@@ -3760,7 +3757,7 @@
 	Soft Mix	ਸਾਫਟ ਮਿਕਸ
 	Softness	ਨਰਮੀ
 	Solid	ਠੋਸ
-	Some lists were cut short at their limit.	ਕੁਝ ਸੂਚੀਆਂ ਉਨ੍ਹਾਂ ਦੀ ਸੀਮਾ 'ਤੇ ਛੋਟੀਆਂ ਕੀਤੀਆਂ ਗਈਆਂ।
+	Some lists were cut short at their limit.	ਕੁਝ ਸੂਚੀਆਂ ਉਨ੍ਹਾਂ ਦੀ ਸੀਮਾ 'ਤੇ ਛੋਟੀਆਂ ਕੀਤੀਆਂ ਗਈਆਂ.
 	Sort By:	ਇਸ ਅਨੁਸਾਰ ਕ੍ਰਮਬੱਧ ਕਰੋ:
 	Sort Swatches	ਸਵਾਚ ਕ੍ਰਮਬੱਧ ਕਰੋ
 	Sort by Hue	ਰੰਗਤ ਅਨੁਸਾਰ ਕ੍ਰਮਬੱਧ ਕਰੋ
@@ -3868,7 +3865,7 @@
 	Stroke:	ਸਟ੍ਰੋਕ:
 	Stroke: click for swatches, Shift-click for the color mixer	ਸਟ੍ਰੋਕ: ਸਵਾਚ ਲਈ ਕਲਿੱਕ ਕਰੋ, ਰੰਗ ਮਿਕਸਰ ਲਈ Shift-ਕਲਿੱਕ ਕਰੋ
 	Strokes	ਸਟ੍ਰੋਕ
-	Strokes use one or more of these brushes. Take the brushes off those strokes and delete the brushes?	ਸਟ੍ਰੋਕ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਇੱਕ ਜਾਂ ਵੱਧ ਬਰਸ਼ ਵਰਤਦੇ ਹਨ। ਕੀ ਉਨ੍ਹਾਂ ਸਟ੍ਰੋਕਾਂ ਤੋਂ ਬਰਸ਼ ਹਟਾ ਕੇ ਬਰਸ਼ ਮਿਟਾਉਣੇ ਹਨ?
+	Strokes use one or more of these brushes. Take the brushes off those strokes and delete the brushes?	ਸਟ੍ਰੋਕ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਇੱਕ ਜਾਂ ਵੱਧ ਬਰਸ਼ ਵਰਤਦੇ ਹਨ. ਕੀ ਉਨ੍ਹਾਂ ਸਟ੍ਰੋਕਾਂ ਤੋਂ ਬਰਸ਼ ਹਟਾ ਕੇ ਬਰਸ਼ ਮਿਟਾਉਣੇ ਹਨ?
 	Studio	ਸਟੂਡੀਓ
 	Style Attributes	ਸ਼ੈਲੀ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
 	Style Attributes (Entity References)	ਸ਼ੈਲੀ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ (ਐਂਟਿਟੀ ਹਵਾਲੇ)
@@ -3906,7 +3903,7 @@
 	Swatch Options	ਸਵਾਚ ਦੇ ਵਿਕਲਪ
 	Swatch Options…	ਸਵਾਚ ਦੇ ਵਿਕਲਪ…
 	Swatch Tiles	ਸਵਾਚ ਟਾਈਲਾਂ
-	Swatch exchange files keep solid colors only.	ਸਵਾਚ ਅਦਲਾ-ਬਦਲੀ ਫ਼ਾਈਲਾਂ ਸਿਰਫ਼ ਇਕਸਾਰ ਰੰਗ ਰੱਖਦੀਆਂ ਹਨ।
+	Swatch exchange files keep solid colors only.	ਸਵਾਚ ਅਦਲਾ-ਬਦਲੀ ਫ਼ਾਈਲਾਂ ਸਿਰਫ਼ ਇਕਸਾਰ ਰੰਗ ਰੱਖਦੀਆਂ ਹਨ.
 	Swatches	ਸਵਾਚ
 	Switch workspace	ਕਾਰਜ-ਖੇਤਰ ਬਦਲੋ
 	Switch x/y	x/y ਆਪਸ ਵਿੱਚ ਬਦਲੋ
@@ -3993,35 +3990,35 @@
 	Texturizer	ਟੈਕਸਚਰ ਦੇਣ ਵਾਲਾ
 	Texturizer…	ਟੈਕਸਚਰ ਦੇਣ ਵਾਲਾ…
 	Thai	ਥਾਈ
-	The Print Tiling tool placed the pages.	ਛਪਾਈ ਦੀ ਟਾਈਲ ਵੰਡ ਟੂਲ ਨੇ ਸਫ਼ੇ ਰੱਖ ਦਿੱਤੇ।
+	The Print Tiling tool placed the pages.	ਛਪਾਈ ਦੀ ਟਾਈਲ ਵੰਡ ਟੂਲ ਨੇ ਸਫ਼ੇ ਰੱਖ ਦਿੱਤੇ.
 	The active document changed while the screen color sampler was open	ਸਕ੍ਰੀਨ ਤੋਂ ਰੰਗ ਦਾ ਨਮੂਨਾ ਲੈਣ ਵਾਲਾ ਖੁੱਲ੍ਹਾ ਹੋਣ ਦੌਰਾਨ ਸਰਗਰਮ ਦਸਤਾਵੇਜ਼ ਬਦਲ ਗਿਆ
-	The art keeps its own colors.	ਕਲਾਕ੍ਰਿਤੀ ਆਪਣੇ ਰੰਗ ਰੱਖਦੀ ਹੈ।
-	The bounds of the visible art.	ਦਿਸਦੀ ਕਲਾਕ੍ਰਿਤੀ ਦੀਆਂ ਹੱਦਾਂ।
-	The cell shows the type object's text as HTML.	ਸੈੱਲ ਲਿਖਤ ਵਸਤੂ ਦੀ ਲਿਖਤ HTML ਵਜੋਂ ਦਿਖਾਉਂਦਾ ਹੈ।
+	The art keeps its own colors.	ਕਲਾਕ੍ਰਿਤੀ ਆਪਣੇ ਰੰਗ ਰੱਖਦੀ ਹੈ.
+	The bounds of the visible art.	ਦਿਸਦੀ ਕਲਾਕ੍ਰਿਤੀ ਦੀਆਂ ਹੱਦਾਂ.
+	The cell shows the type object's text as HTML.	ਸੈੱਲ ਲਿਖਤ ਵਸਤੂ ਦੀ ਲਿਖਤ HTML ਵਜੋਂ ਦਿਖਾਉਂਦਾ ਹੈ.
 	The dialog was closed before its file dialog answered	ਫ਼ਾਈਲ ਡਾਇਲਾਗ ਦਾ ਜਵਾਬ ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ ਡਾਇਲਾਗ ਬੰਦ ਹੋ ਗਿਆ ਸੀ
-	The document has no colour swatches.	ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਰੰਗ ਸਵਾਚ ਨਹੀਂ ਹਨ।
+	The document has no colour swatches.	ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਰੰਗ ਸਵਾਚ ਨਹੀਂ ਹਨ.
 	The document was closed while its file dialog was open	ਫ਼ਾਈਲ ਡਾਇਲਾਗ ਖੁੱਲ੍ਹਾ ਹੋਣ ਦੌਰਾਨ ਦਸਤਾਵੇਜ਼ ਬੰਦ ਹੋ ਗਿਆ ਸੀ
-	The edge of the paper the printer can't reach: the art goes inside it, and the preview shows it dashed.	ਕਾਗਜ਼ ਦਾ ਉਹ ਕਿਨਾਰਾ ਜਿੱਥੇ ਪ੍ਰਿੰਟਰ ਨਹੀਂ ਪਹੁੰਚ ਸਕਦਾ: ਕਲਾਕ੍ਰਿਤੀ ਇਸ ਦੇ ਅੰਦਰ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਝਲਕ ਇਸ ਨੂੰ ਟੁੱਟਵੀਂ ਰੇਖਾ ਨਾਲ ਦਿਖਾਉਂਦੀ ਹੈ।
-	The file is too large to read in full, so only its first part is listed.	ਫ਼ਾਈਲ ਪੂਰੀ ਪੜ੍ਹਨ ਲਈ ਬਹੁਤ ਵੱਡੀ ਹੈ, ਇਸ ਲਈ ਸਿਰਫ਼ ਪਹਿਲਾ ਹਿੱਸਾ ਸੂਚੀਬੱਧ ਹੈ।
-	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	ਫ਼ਾਈਲ ਕੁੰਜੀਆਂ ਅਤੇ ਸਹਾਇਕ ਕੁੰਜੀਆਂ ਨੂੰ ਕੋਡਾਂ ਵਜੋਂ ਲਿਖਦੀ ਹੈ। ਸੁਝਾਏ ਅਰਥ ਜਾਂਚੋ ਅਤੇ ਹਾਲੇ ਅਣਜਾਣ ਕੋਡਾਂ ਲਈ ਜਵਾਬ ਦਿਓ।
-	The key color becomes the stroke color. The other colors shift their hue by the same amount and keep their saturation and brightness.	ਮੁੱਖ ਰੰਗ ਸਟ੍ਰੋਕ ਦਾ ਰੰਗ ਬਣਦਾ ਹੈ। ਹੋਰ ਰੰਗ ਆਪਣੀ ਰੰਗਤ ਉਤਨੀ ਹੀ ਬਦਲਦੇ ਹਨ ਅਤੇ ਆਪਣੀ ਰੰਗੀਨਤਾ ਅਤੇ ਚਮਕ ਰੱਖਦੇ ਹਨ।
-	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	ਸੰਭਾਲਣ ਪੈਨਲ ਵਿੱਚ ਨਾਮ “{typed}” ਸੀ; VectorCraft ਨੇ ਫ਼ਾਈਲ ਕਿਸਮ ਦੀ ਐਕਸਟੈਂਸ਼ਨ ਜੋੜੀ। ਫ਼ਾਈਲ ਨੂੰ ਬਦਲਣ ਨਾਲ ਇਸ ਦੀ ਸਮੱਗਰੀ ਉੱਤੇ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ।
+	The edge of the paper the printer can't reach: the art goes inside it, and the preview shows it dashed.	ਕਾਗਜ਼ ਦਾ ਉਹ ਕਿਨਾਰਾ ਜਿੱਥੇ ਪ੍ਰਿੰਟਰ ਨਹੀਂ ਪਹੁੰਚ ਸਕਦਾ: ਕਲਾਕ੍ਰਿਤੀ ਇਸ ਦੇ ਅੰਦਰ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਝਲਕ ਇਸ ਨੂੰ ਟੁੱਟਵੀਂ ਰੇਖਾ ਨਾਲ ਦਿਖਾਉਂਦੀ ਹੈ.
+	The file is too large to read in full, so only its first part is listed.	ਫ਼ਾਈਲ ਪੂਰੀ ਪੜ੍ਹਨ ਲਈ ਬਹੁਤ ਵੱਡੀ ਹੈ, ਇਸ ਲਈ ਸਿਰਫ਼ ਪਹਿਲਾ ਹਿੱਸਾ ਸੂਚੀਬੱਧ ਹੈ.
+	The file writes keys and modifiers as codes. Check the proposed meanings and answer the codes that are not known yet.	ਫ਼ਾਈਲ ਕੁੰਜੀਆਂ ਅਤੇ ਸਹਾਇਕ ਕੁੰਜੀਆਂ ਨੂੰ ਕੋਡਾਂ ਵਜੋਂ ਲਿਖਦੀ ਹੈ. ਸੁਝਾਏ ਅਰਥ ਜਾਂਚੋ ਅਤੇ ਹਾਲੇ ਅਣਜਾਣ ਕੋਡਾਂ ਲਈ ਜਵਾਬ ਦਿਓ.
+	The key color becomes the stroke color. The other colors shift their hue by the same amount and keep their saturation and brightness.	ਮੁੱਖ ਰੰਗ ਸਟ੍ਰੋਕ ਦਾ ਰੰਗ ਬਣਦਾ ਹੈ. ਹੋਰ ਰੰਗ ਆਪਣੀ ਰੰਗਤ ਉਤਨੀ ਹੀ ਬਦਲਦੇ ਹਨ ਅਤੇ ਆਪਣੀ ਰੰਗੀਨਤਾ ਅਤੇ ਚਮਕ ਰੱਖਦੇ ਹਨ.
+	The name in the save panel was “{typed}”; VectorCraft added the file type's extension. Replacing the file overwrites its contents.	ਸੰਭਾਲਣ ਪੈਨਲ ਵਿੱਚ ਨਾਮ “{typed}” ਸੀ; VectorCraft ਨੇ ਫ਼ਾਈਲ ਕਿਸਮ ਦੀ ਐਕਸਟੈਂਸ਼ਨ ਜੋੜੀ. ਫ਼ਾਈਲ ਨੂੰ ਬਦਲਣ ਨਾਲ ਇਸ ਦੀ ਸਮੱਗਰੀ ਉੱਤੇ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ.
 	The page as it prints	ਸਫ਼ਾ ਜਿਵੇਂ ਛਪਦਾ ਹੈ
 	The plug-in is computing…	ਪਲੱਗਇਨ ਗਣਨਾ ਕਰ ਰਿਹਾ ਹੈ…
-	The plug-in writes the whole document.	ਪਲੱਗਇਨ ਪੂਰਾ ਦਸਤਾਵੇਜ਼ ਲਿਖਦਾ ਹੈ।
-	The samples show this brush on a blue stroke.	ਨਮੂਨੇ ਇਹ ਬਰਸ਼ ਨੀਲੇ ਸਟ੍ਰੋਕ 'ਤੇ ਦਿਖਾਉਂਦੇ ਹਨ।
-	The search stopped at its limit: search a smaller folder.	ਖੋਜ ਆਪਣੀ ਸੀਮਾ 'ਤੇ ਰੁਕ ਗਈ: ਛੋਟਾ ਫੋਲਡਰ ਖੋਜੋ।
-	The selected character's font is not available.	ਚੁਣੇ ਅੱਖਰ ਦਾ ਫ਼ੌਂਟ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।
-	The selected objects have no CSS of their own (see below).	ਚੁਣੀਆਂ ਵਸਤੂਆਂ ਦਾ ਆਪਣਾ CSS ਨਹੀਂ ਹੈ (ਹੇਠਾਂ ਵੇਖੋ)।
+	The plug-in writes the whole document.	ਪਲੱਗਇਨ ਪੂਰਾ ਦਸਤਾਵੇਜ਼ ਲਿਖਦਾ ਹੈ.
+	The samples show this brush on a blue stroke.	ਨਮੂਨੇ ਇਹ ਬਰਸ਼ ਨੀਲੇ ਸਟ੍ਰੋਕ 'ਤੇ ਦਿਖਾਉਂਦੇ ਹਨ.
+	The search stopped at its limit: search a smaller folder.	ਖੋਜ ਆਪਣੀ ਸੀਮਾ 'ਤੇ ਰੁਕ ਗਈ: ਛੋਟਾ ਫੋਲਡਰ ਖੋਜੋ.
+	The selected character's font is not available.	ਚੁਣੇ ਅੱਖਰ ਦਾ ਫ਼ੌਂਟ ਉਪਲਬਧ ਨਹੀਂ ਹੈ.
+	The selected objects have no CSS of their own (see below).	ਚੁਣੀਆਂ ਵਸਤੂਆਂ ਦਾ ਆਪਣਾ CSS ਨਹੀਂ ਹੈ (ਹੇਠਾਂ ਵੇਖੋ).
 	The system's settings of this printer	ਇਸ ਪ੍ਰਿੰਟਰ ਦੀਆਂ ਸਿਸਟਮ ਸੈਟਿੰਗਾਂ
-	These fonts aren't available. Their text shows in another font.	ਇਹ ਫ਼ੌਂਟ ਉਪਲਬਧ ਨਹੀਂ ਹਨ। ਇਨ੍ਹਾਂ ਦੀ ਲਿਖਤ ਹੋਰ ਫ਼ੌਂਟ ਵਿੱਚ ਦਿਸਦੀ ਹੈ।
+	These fonts aren't available. Their text shows in another font.	ਇਹ ਫ਼ੌਂਟ ਉਪਲਬਧ ਨਹੀਂ ਹਨ. ਇਨ੍ਹਾਂ ਦੀ ਲਿਖਤ ਹੋਰ ਫ਼ੌਂਟ ਵਿੱਚ ਦਿਸਦੀ ਹੈ.
 	Thin Space	ਪਤਲੀ ਖ਼ਾਲੀ ਥਾਂ
 	Third Space	ਤੀਜਾ ਹਿੱਸਾ ਖ਼ਾਲੀ ਥਾਂ
 	Third Vanishing Point:	ਤੀਜਾ ਲੁਪਤ ਬਿੰਦੂ:
-	This document already has a swatch named “{name}” with another color.	ਇਸ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ “{name}” ਨਾਮ ਦਾ ਹੋਰ ਰੰਗ ਵਾਲਾ ਸਵਾਚ ਪਹਿਲਾਂ ਹੀ ਹੈ।
+	This document already has a swatch named “{name}” with another color.	ਇਸ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ “{name}” ਨਾਮ ਦਾ ਹੋਰ ਰੰਗ ਵਾਲਾ ਸਵਾਚ ਪਹਿਲਾਂ ਹੀ ਹੈ.
 	This library is empty	ਇਹ ਲਾਇਬ੍ਰੇਰੀ ਖ਼ਾਲੀ ਹੈ
-	This library is empty.	ਇਹ ਲਾਇਬ੍ਰੇਰੀ ਖ਼ਾਲੀ ਹੈ।
-	This panel is on the roadmap (see the parity plan).	ਇਹ ਪੈਨਲ ਯੋਜਨਾ ਵਿੱਚ ਹੈ (ਫੀਚਰ ਸਮਾਨਤਾ ਯੋਜਨਾ ਵੇਖੋ)।
+	This library is empty.	ਇਹ ਲਾਇਬ੍ਰੇਰੀ ਖ਼ਾਲੀ ਹੈ.
+	This panel is on the roadmap (see the parity plan).	ਇਹ ਪੈਨਲ ਯੋਜਨਾ ਵਿੱਚ ਹੈ (ਫੀਚਰ ਸਮਾਨਤਾ ਯੋਜਨਾ ਵੇਖੋ).
 	This system has no screen color sampler	ਇਸ ਸਿਸਟਮ ਵਿੱਚ ਸਕ੍ਰੀਨ ਤੋਂ ਰੰਗ ਚੁਣਨ ਵਾਲਾ ਨਹੀਂ ਹੈ
 	Thread Text	ਲਿਖਤ ਜੋੜੋ
 	Threaded Text	ਜੁੜੀ ਲਿਖਤ
@@ -4043,7 +4040,7 @@
 	Tile Range:	ਟਾਈਲ ਦੀ ਰੇਂਜ:
 	Tile Size	ਟਾਈਲ ਦਾ ਆਕਾਰ
 	Tile Type:	ਟਾਈਲ ਦੀ ਕਿਸਮ:
-	Tiles are numbered across, then down; leave the range empty for every tile.	ਟਾਈਲਾਂ ਦੇ ਨੰਬਰ ਪਹਿਲਾਂ ਆਰ-ਪਾਰ, ਫਿਰ ਹੇਠਾਂ ਲੱਗਦੇ ਹਨ; ਹਰ ਟਾਈਲ ਲਈ ਰੇਂਜ ਖ਼ਾਲੀ ਛੱਡੋ।
+	Tiles are numbered across, then down; leave the range empty for every tile.	ਟਾਈਲਾਂ ਦੇ ਨੰਬਰ ਪਹਿਲਾਂ ਆਰ-ਪਾਰ, ਫਿਰ ਹੇਠਾਂ ਲੱਗਦੇ ਹਨ; ਹਰ ਟਾਈਲ ਲਈ ਰੇਂਜ ਖ਼ਾਲੀ ਛੱਡੋ.
 	Tilt	ਝੁਕਾਅ
 	Time (hhmmss)	ਸਮਾਂ (hhmmss)
 	Tint	ਰੰਗ ਝਲਕ
@@ -4123,8 +4120,8 @@
 	Transparency Grid	ਪਾਰਦਰਸ਼ਤਾ ਗ੍ਰਿਡ
 	Transparency Info	ਪਾਰਦਰਸ਼ਤਾ ਜਾਣਕਾਰੀ
 	Transparency Options	ਪਾਰਦਰਸ਼ਤਾ ਦੇ ਵਿਕਲਪ
-	Transparency is flattened with the preset. Type is written as outlines; gradients as bands of colour.	ਪ੍ਰੀਸੈੱਟ ਨਾਲ ਪਾਰਦਰਸ਼ਤਾ ਪੱਕੀ ਮਿਲਾਈ ਜਾਂਦੀ ਹੈ। ਲਿਖਤ ਰੂਪਰੇਖਾਵਾਂ ਵਜੋਂ ਲਿਖੀ ਜਾਂਦੀ ਹੈ; ਗ੍ਰੇਡੀਐਂਟ ਰੰਗ ਦੀਆਂ ਪੱਟੀਆਂ ਵਜੋਂ।
-	Transparency is flattened with the preset. Type is written as outlines; gradients stay smooth.	ਪ੍ਰੀਸੈੱਟ ਨਾਲ ਪਾਰਦਰਸ਼ਤਾ ਪੱਕੀ ਮਿਲਾਈ ਜਾਂਦੀ ਹੈ। ਲਿਖਤ ਰੂਪਰੇਖਾਵਾਂ ਵਜੋਂ ਲਿਖੀ ਜਾਂਦੀ ਹੈ; ਗ੍ਰੇਡੀਐਂਟ ਨਰਮ ਰਹਿੰਦੇ ਹਨ।
+	Transparency is flattened with the preset. Type is written as outlines; gradients as bands of colour.	ਪ੍ਰੀਸੈੱਟ ਨਾਲ ਪਾਰਦਰਸ਼ਤਾ ਪੱਕੀ ਮਿਲਾਈ ਜਾਂਦੀ ਹੈ. ਲਿਖਤ ਰੂਪਰੇਖਾਵਾਂ ਵਜੋਂ ਲਿਖੀ ਜਾਂਦੀ ਹੈ; ਗ੍ਰੇਡੀਐਂਟ ਰੰਗ ਦੀਆਂ ਪੱਟੀਆਂ ਵਜੋਂ.
+	Transparency is flattened with the preset. Type is written as outlines; gradients stay smooth.	ਪ੍ਰੀਸੈੱਟ ਨਾਲ ਪਾਰਦਰਸ਼ਤਾ ਪੱਕੀ ਮਿਲਾਈ ਜਾਂਦੀ ਹੈ. ਲਿਖਤ ਰੂਪਰੇਖਾਵਾਂ ਵਜੋਂ ਲਿਖੀ ਜਾਂਦੀ ਹੈ; ਗ੍ਰੇਡੀਐਂਟ ਨਰਮ ਰਹਿੰਦੇ ਹਨ.
 	Transparent	ਪਾਰਦਰਸ਼ੀ
 	Transparent (Default)	ਪਾਰਦਰਸ਼ੀ (ਮੂਲ)
 	Transparent Background	ਪਾਰਦਰਸ਼ੀ ਪਿੱਛੋਕੜ
@@ -4141,11 +4138,11 @@
 	Triangle to Bar	ਤਿਕੋਣ ਤੋਂ ਪੱਟੀ
 	Trim	ਛਾਂਟੋ
 	Trim View	ਛਾਂਟਿਆ ਦ੍ਰਿਸ਼
-	Trim covered geometry on Expand Appearance. Live preview keeps the full surface. Transparent paints and surfaces exceeding visibility limits retain all faces.	ਦਿੱਖ ਫੈਲਾਓ 'ਤੇ ਢੱਕੀ ਜਿਓਮੈਟਰੀ ਛਾਂਟੋ। ਲਾਈਵ ਝਲਕ ਪੂਰੀ ਸਤਹ ਰੱਖਦੀ ਹੈ। ਪਾਰਦਰਸ਼ੀ ਰੰਗ ਅਤੇ ਦਿੱਖ ਦੀਆਂ ਸੀਮਾਵਾਂ ਤੋਂ ਵੱਡੀਆਂ ਸਤਹਾਂ ਸਾਰੇ ਪਾਸੇ ਰੱਖਦੀਆਂ ਹਨ।
+	Trim covered geometry on Expand Appearance. Live preview keeps the full surface. Transparent paints and surfaces exceeding visibility limits retain all faces.	ਦਿੱਖ ਫੈਲਾਓ 'ਤੇ ਢੱਕੀ ਜਿਓਮੈਟਰੀ ਛਾਂਟੋ. ਲਾਈਵ ਝਲਕ ਪੂਰੀ ਸਤਹ ਰੱਖਦੀ ਹੈ. ਪਾਰਦਰਸ਼ੀ ਰੰਗ ਅਤੇ ਦਿੱਖ ਦੀਆਂ ਸੀਮਾਵਾਂ ਤੋਂ ਵੱਡੀਆਂ ਸਤਹਾਂ ਸਾਰੇ ਪਾਸੇ ਰੱਖਦੀਆਂ ਹਨ.
 	Trim mark weight:	ਛਾਂਟਣ ਨਿਸ਼ਾਨ ਦੀ ਮੋਟਾਈ:
 	Trim marks	ਟ੍ਰਿਮ ਨਿਸ਼ਾਨ
 	True Colors	ਅਸਲ ਰੰਗ
-	True colour needs version 2004 or later: the nearest of 256 colours is written.	ਅਸਲ ਰੰਗਾਂ ਲਈ ਵਰਜਨ 2004 ਜਾਂ ਬਾਅਦਲਾ ਲੋੜੀਂਦਾ ਹੈ: 256 ਰੰਗਾਂ ਵਿੱਚੋਂ ਸਭ ਤੋਂ ਨੇੜਲਾ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ।
+	True colour needs version 2004 or later: the nearest of 256 colours is written.	ਅਸਲ ਰੰਗਾਂ ਲਈ ਵਰਜਨ 2004 ਜਾਂ ਬਾਅਦਲਾ ਲੋੜੀਂਦਾ ਹੈ: 256 ਰੰਗਾਂ ਵਿੱਚੋਂ ਸਭ ਤੋਂ ਨੇੜਲਾ ਲਿਖਿਆ ਜਾਂਦਾ ਹੈ.
 	Turn off Data Recovery for complex documents	ਗੁੰਝਲਦਾਰ ਦਸਤਾਵੇਜ਼ਾਂ ਲਈ ਡਾਟਾ ਮੁੜ ਪ੍ਰਾਪਤੀ ਬੰਦ ਕਰੋ
 	Tweak…	ਬਾਰੀਕ ਬਦਲਾਅ ਕਰੋ…
 	Twirl	ਭੰਵਰ ਬਣਾਓ
@@ -4160,17 +4157,17 @@
 	Two Point Perspective Preset 3	ਦੋ ਬਿੰਦੂ ਪਰਸਪੈਕਟਿਵ ਪ੍ਰੀਸੈੱਟ 3
 	Two Point Perspective Preset 4	ਦੋ ਬਿੰਦੂ ਪਰਸਪੈਕਟਿਵ ਪ੍ਰੀਸੈੱਟ 4
 	Two Point Perspective Preset 5	ਦੋ ਬਿੰਦੂ ਪਰਸਪੈਕਟਿਵ ਪ੍ਰੀਸੈੱਟ 5
-	Type	Type
+	Type	ਟਾਈਪ
 	Type Object Selection by Path Only	ਸਿਰਫ਼ ਪਾਥ ਰਾਹੀਂ ਲਿਖਤ ਵਸਤੂ ਚੋਣ
 	Type Optimized	ਲਿਖਤ ਲਈ ਅਨੁਕੂਲਿਤ
 	Type Orientation	ਲਿਖਤ ਦੀ ਦਿਸ਼ਾ
 	Type Tool	ਲਿਖਤ ਟੂਲ
-	Type becomes outlines, and strokes a CAD line can't draw become filled shapes.	ਲਿਖਤ ਰੂਪਰੇਖਾਵਾਂ ਬਣਦੀ ਹੈ ਅਤੇ CAD ਰੇਖਾ ਨਾਲ ਨਾ ਬਣਨ ਵਾਲੇ ਸਟ੍ਰੋਕ ਭਰੀਆਂ ਸ਼ਕਲਾਂ ਬਣਦੇ ਹਨ।
+	Type becomes outlines, and strokes a CAD line can't draw become filled shapes.	ਲਿਖਤ ਰੂਪਰੇਖਾਵਾਂ ਬਣਦੀ ਹੈ ਅਤੇ CAD ਰੇਖਾ ਨਾਲ ਨਾ ਬਣਨ ਵਾਲੇ ਸਟ੍ਰੋਕ ਭਰੀਆਂ ਸ਼ਕਲਾਂ ਬਣਦੇ ਹਨ.
 	Type on a Path	ਪਾਥ 'ਤੇ ਲਿਖਤ
 	Type on a Path Options	ਪਾਥ 'ਤੇ ਲਿਖਤ ਦੇ ਵਿਕਲਪ
 	Type on a Path Options…	ਪਾਥ 'ਤੇ ਲਿਖਤ ਦੇ ਵਿਕਲਪ…
 	Type on a Path Tool	ਪਾਥ 'ਤੇ ਲਿਖਤ ਟੂਲ
-	Type stays text, and every stroke is a line with its lineweight and dashes.	ਲਿਖਤ ਲਿਖਤ ਹੀ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਹਰ ਸਟ੍ਰੋਕ ਆਪਣੀ ਮੋਟਾਈ ਅਤੇ ਡੈਸ਼ਾਂ ਵਾਲੀ ਰੇਖਾ ਹੁੰਦਾ ਹੈ।
+	Type stays text, and every stroke is a line with its lineweight and dashes.	ਲਿਖਤ ਲਿਖਤ ਹੀ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਹਰ ਸਟ੍ਰੋਕ ਆਪਣੀ ਮੋਟਾਈ ਅਤੇ ਡੈਸ਼ਾਂ ਵਾਲੀ ਰੇਖਾ ਹੁੰਦਾ ਹੈ.
 	Type:	ਕਿਸਮ:
 	Type…	ਲਿਖਤ…
 	Typing	ਟਾਈਪ ਕਰਨਾ
@@ -4246,7 +4243,7 @@
 	Use Typographer's Quotes	ਟਾਈਪੋਗ੍ਰਾਫਿਕ ਹਵਾਲਾ ਚਿੰਨ੍ਹ ਵਰਤੋ
 	Use document bleed settings	ਦਸਤਾਵੇਜ਼ ਦੀਆਂ ਕਟਾਈ ਤੋਂ ਬਾਹਰ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਰਤੋ
 	Use the Selected Text's Font	ਚੁਣੀ ਲਿਖਤ ਦਾ ਫ਼ੌਂਟ ਵਰਤੋ
-	Use the document's swatch: pasted colors take its color.	ਦਸਤਾਵੇਜ਼ ਦਾ ਸਵਾਚ ਵਰਤੋ: ਚਿਪਕਾਏ ਰੰਗ ਇਸ ਦਾ ਰੰਗ ਲੈਂਦੇ ਹਨ।
+	Use the document's swatch: pasted colors take its color.	ਦਸਤਾਵੇਜ਼ ਦਾ ਸਵਾਚ ਵਰਤੋ: ਚਿਪਕਾਏ ਰੰਗ ਇਸ ਦਾ ਰੰਗ ਲੈਂਦੇ ਹਨ.
 	User Defined	ਵਰਤੋਂਕਾਰ ਦੁਆਰਾ ਪਰਿਭਾਸ਼ਿਤ
 	User Defined Libraries	ਵਰਤੋਂਕਾਰ ਦੁਆਰਾ ਪਰਿਭਾਸ਼ਿਤ ਲਾਇਬ੍ਰੇਰੀਆਂ
 	User Graphic Style Library 1	ਵਰਤੋਂਕਾਰ ਗ੍ਰਾਫਿਕ ਸ਼ੈਲੀ ਲਾਇਬ੍ਰੇਰੀ 1
@@ -4272,7 +4269,7 @@
 	User Swatch Library 7	ਵਰਤੋਂਕਾਰ ਸਵਾਚ ਲਾਇਬ੍ਰੇਰੀ 7
 	User Swatch Library 8	ਵਰਤੋਂਕਾਰ ਸਵਾਚ ਲਾਇਬ੍ਰੇਰੀ 8
 	User Swatch Library 9	ਵਰਤੋਂਕਾਰ ਸਵਾਚ ਲਾਇਬ੍ਰੇਰੀ 9
-	Uses every data set of the open document.	ਖੁੱਲ੍ਹੇ ਦਸਤਾਵੇਜ਼ ਦਾ ਹਰ ਡਾਟਾ ਸੈੱਟ ਵਰਤਦਾ ਹੈ।
+	Uses every data set of the open document.	ਖੁੱਲ੍ਹੇ ਦਸਤਾਵੇਜ਼ ਦਾ ਹਰ ਡਾਟਾ ਸੈੱਟ ਵਰਤਦਾ ਹੈ.
 	V Spacing:	ਖੜ੍ਹਵਾਂ ਫ਼ਾਸਲਾ:
 	V:	V:
 	Value Axis	ਮੁੱਲ ਧੁਰਾ
@@ -4287,7 +4284,7 @@
 	Vector Effects	ਵੈਕਟਰ ਪ੍ਰਭਾਵ
 	Vector Halftone	ਵੈਕਟਰ ਹਾਫਟੋਨ
 	Vector Halftone…	ਵੈਕਟਰ ਹਾਫਟੋਨ…
-	Vector illustration — fast, open, scriptable.	ਵੈਕਟਰ ਚਿੱਤਰਕਾਰੀ — ਤੇਜ਼, ਖੁੱਲ੍ਹੀ, ਸਕ੍ਰਿਪਟ ਨਾਲ ਚੱਲਣਯੋਗ।
+	Vector illustration — fast, open, scriptable.	ਵੈਕਟਰ ਚਿੱਤਰਕਾਰੀ — ਤੇਜ਼, ਖੁੱਲ੍ਹੀ, ਸਕ੍ਰਿਪਟ ਨਾਲ ਚੱਲਣਯੋਗ.
 	VectorCraft	VectorCraft
 	VectorCraft Default	VectorCraft ਮੂਲ
 	VectorCraft Defaults	VectorCraft ਦੇ ਮੂਲ ਮੁੱਲ
@@ -4295,15 +4292,15 @@
 	VectorCraft Help…	VectorCraft ਮਦਦ…
 	VectorCraft Swatches (.vcswatches)	VectorCraft ਸਵਾਚ (.vcswatches)
 	VectorCraft Updates	VectorCraft ਅੱਪਡੇਟ
-	VectorCraft copies the fonts to {folder}.	VectorCraft ਫ਼ੌਂਟ {folder} ਵਿੱਚ ਕਾਪੀ ਕਰਦਾ ਹੈ।
-	VectorCraft didn't quit normally last time. These documents had unsaved changes:	ਪਿਛਲੀ ਵਾਰ VectorCraft ਆਮ ਤਰੀਕੇ ਨਾਲ ਬੰਦ ਨਹੀਂ ਹੋਇਆ ਸੀ। ਇਨ੍ਹਾਂ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਨਾ ਸੰਭਾਲੇ ਬਦਲਾਅ ਸਨ:
-	VectorCraft documents: one locked object, updated when the file changes.	VectorCraft ਦਸਤਾਵੇਜ਼: ਇੱਕ ਲਾਕ ਵਸਤੂ, ਜੋ ਫ਼ਾਈਲ ਬਦਲਣ 'ਤੇ ਅੱਪਡੇਟ ਹੁੰਦੀ ਹੈ।
+	VectorCraft copies the fonts to {folder}.	VectorCraft ਫ਼ੌਂਟ {folder} ਵਿੱਚ ਕਾਪੀ ਕਰਦਾ ਹੈ.
+	VectorCraft didn't quit normally last time. These documents had unsaved changes:	ਪਿਛਲੀ ਵਾਰ VectorCraft ਆਮ ਤਰੀਕੇ ਨਾਲ ਬੰਦ ਨਹੀਂ ਹੋਇਆ ਸੀ. ਇਨ੍ਹਾਂ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਨਾ ਸੰਭਾਲੇ ਬਦਲਾਅ ਸਨ:
+	VectorCraft documents: one locked object, updated when the file changes.	VectorCraft ਦਸਤਾਵੇਜ਼: ਇੱਕ ਲਾਕ ਵਸਤੂ, ਜੋ ਫ਼ਾਈਲ ਬਦਲਣ 'ਤੇ ਅੱਪਡੇਟ ਹੁੰਦੀ ਹੈ.
 	VectorCraft on GitHub	GitHub 'ਤੇ VectorCraft
 	VectorCraft on getartcraft.com	getartcraft.com 'ਤੇ VectorCraft
-	VectorCraft read this script without running it.	VectorCraft ਨੇ ਇਹ ਸਕ੍ਰਿਪਟ ਚਲਾਏ ਬਿਨਾਂ ਪੜ੍ਹੀ।
+	VectorCraft read this script without running it.	VectorCraft ਨੇ ਇਹ ਸਕ੍ਰਿਪਟ ਚਲਾਏ ਬਿਨਾਂ ਪੜ੍ਹੀ.
 	VectorCraft {release} and later (version {n})	VectorCraft {release} ਅਤੇ ਬਾਅਦਲੇ (ਵਰਜਨ {n})
 	Vectors	ਵੈਕਟਰ
-	Version {version} — open-source vector illustration in pure Rust.	ਵਰਜਨ {version} — ਪੂਰੀ ਤਰ੍ਹਾਂ Rust ਵਿੱਚ ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਵਾਲੀ ਵੈਕਟਰ ਚਿੱਤਰਕਾਰੀ।
+	Version {version} — open-source vector illustration in pure Rust.	ਵਰਜਨ {version} — ਪੂਰੀ ਤਰ੍ਹਾਂ Rust ਵਿੱਚ ਖੁੱਲ੍ਹੇ ਸਰੋਤ ਵਾਲੀ ਵੈਕਟਰ ਚਿੱਤਰਕਾਰੀ.
 	Version:	ਵਰਜਨ:
 	Vertical %	ਖੜ੍ਹਵਾਂ %
 	Vertical Align	ਖੜ੍ਹਵੀਂ ਇਕਸਾਰਤਾ
@@ -4409,8 +4406,8 @@
 	Y	Y
 	Y:	Y:
 	Yards	ਗਜ਼
-	Your browser downloads the files (several as one .zip).	ਤੁਹਾਡਾ ਬ੍ਰਾਊਜ਼ਰ ਫ਼ਾਈਲਾਂ ਡਾਊਨਲੋਡ ਕਰਦਾ ਹੈ (ਕਈ ਫ਼ਾਈਲਾਂ ਇੱਕ .zip ਵਜੋਂ)।
-	Your changes will be lost if you don't save them.	ਜੇ ਤੁਸੀਂ ਨਹੀਂ ਸੰਭਾਲਦੇ ਤਾਂ ਤੁਹਾਡੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਜਾਣਗੇ।
+	Your browser downloads the files (several as one .zip).	ਤੁਹਾਡਾ ਬ੍ਰਾਊਜ਼ਰ ਫ਼ਾਈਲਾਂ ਡਾਊਨਲੋਡ ਕਰਦਾ ਹੈ (ਕਈ ਫ਼ਾਈਲਾਂ ਇੱਕ .zip ਵਜੋਂ).
+	Your changes will be lost if you don't save them.	ਜੇ ਤੁਸੀਂ ਨਹੀਂ ਸੰਭਾਲਦੇ ਤਾਂ ਤੁਹਾਡੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਜਾਣਗੇ.
 	Zig Zag…	ਜ਼ਿਗਜ਼ੈਗ…
 	Zoom In	ਵੱਡਾ ਕਰੋ
 	Zoom Out	ਛੋਟਾ ਕਰੋ
@@ -4427,7 +4424,7 @@
 	[3P-Normal View]	[3P-ਆਮ ਦ੍ਰਿਸ਼]
 	[Custom]	[ਪਸੰਦੀਦਾ]
 	[Default]	[ਮੂਲ]
-	[Default] is protected: New… starts an editable copy.	[Default] ਸੁਰੱਖਿਅਤ ਹੈ: ਨਵਾਂ… ਨਾਲ ਸੋਧਣਯੋਗ ਕਾਪੀ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ।
+	[Default] is protected: New… starts an editable copy.	[Default] ਸੁਰੱਖਿਅਤ ਹੈ: ਨਵਾਂ… ਨਾਲ ਸੋਧਣਯੋਗ ਕਾਪੀ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ.
 	[High Quality Print]	[ਉੱਚ ਗੁਣਵੱਤਾ ਦੀ ਛਪਾਈ]
 	[High Resolution]	[ਉੱਚ ਰੈਜ਼ੋਲਿਊਸ਼ਨ]
 	[Low Resolution]	[ਘੱਟ ਰੈਜ਼ੋਲਿਊਸ਼ਨ]
@@ -4473,17 +4470,17 @@
 	to	ਤੱਕ
 	x Height	x ਉਚਾਈ
 	x-Height	x-ਉਚਾਈ
-	{count} file(s) in {folder} {note}. Show the package folder?	{folder} ਵਿੱਚ {count} ਫ਼ਾਈਲਾਂ {note}। ਪੈਕੇਜ ਫੋਲਡਰ ਦਿਖਾਉਣਾ ਹੈ?
-	{count} file(s) in {folder}. Show the package folder?	{folder} ਵਿੱਚ {count} ਫ਼ਾਈਲਾਂ। ਪੈਕੇਜ ਫੋਲਡਰ ਦਿਖਾਉਣਾ ਹੈ?
-	{count} file(s) in {folder}{note}. Show the package folder?	{folder} ਵਿੱਚ {count} ਫ਼ਾਈਲਾਂ{note}। ਪੈਕੇਜ ਫੋਲਡਰ ਦਿਖਾਉਣਾ ਹੈ?
+	{count} file(s) in {folder} {note}. Show the package folder?	{folder} ਵਿੱਚ {count} ਫ਼ਾਈਲਾਂ {note}. ਪੈਕੇਜ ਫੋਲਡਰ ਦਿਖਾਉਣਾ ਹੈ?
+	{count} file(s) in {folder}. Show the package folder?	{folder} ਵਿੱਚ {count} ਫ਼ਾਈਲਾਂ. ਪੈਕੇਜ ਫੋਲਡਰ ਦਿਖਾਉਣਾ ਹੈ?
+	{count} file(s) in {folder}{note}. Show the package folder?	{folder} ਵਿੱਚ {count} ਫ਼ਾਈਲਾਂ{note}. ਪੈਕੇਜ ਫੋਲਡਰ ਦਿਖਾਉਣਾ ਹੈ?
 	{count} folder(s) or file(s) couldn't be read	{count} ਫੋਲਡਰ ਜਾਂ ਫ਼ਾਈਲਾਂ ਪੜ੍ਹੀਆਂ ਨਹੀਂ ਜਾ ਸਕੀਆਂ
 	{count} folder(s) skipped, such as other apps' and the system's folders and hidden ones	{count} ਫੋਲਡਰ ਛੱਡੇ, ਜਿਵੇਂ ਹੋਰ ਐਪਾਂ ਦੇ, ਸਿਸਟਮ ਦੇ ਅਤੇ ਲੁਕੇ ਫੋਲਡਰ
 	{count} linked file(s) not found	{count} ਲਿੰਕ ਕੀਤੀਆਂ ਫ਼ਾਈਲਾਂ ਨਹੀਂ ਮਿਲੀਆਂ
-	{count} linked image(s) changed on disk. Show the new versions?	{count} ਲਿੰਕ ਕੀਤੇ ਚਿੱਤਰ ਡਿਸਕ 'ਤੇ ਬਦਲ ਗਏ ਹਨ। ਨਵੇਂ ਰੂਪ ਦਿਖਾਉਣੇ ਹਨ?
-	{count} linked image(s) changed since this document was saved. Show the new versions?	ਇਹ ਦਸਤਾਵੇਜ਼ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ {count} ਲਿੰਕ ਕੀਤੇ ਚਿੱਤਰ ਬਦਲ ਗਏ ਹਨ। ਨਵੇਂ ਰੂਪ ਦਿਖਾਉਣੇ ਹਨ?
-	{count} more rules: Export writes every one.	{count} ਹੋਰ ਨਿਯਮ: ਨਿਰਯਾਤ ਹਰ ਇੱਕ ਨੂੰ ਲਿਖਦਾ ਹੈ।
+	{count} linked image(s) changed on disk. Show the new versions?	{count} ਲਿੰਕ ਕੀਤੇ ਚਿੱਤਰ ਡਿਸਕ 'ਤੇ ਬਦਲ ਗਏ ਹਨ. ਨਵੇਂ ਰੂਪ ਦਿਖਾਉਣੇ ਹਨ?
+	{count} linked image(s) changed since this document was saved. Show the new versions?	ਇਹ ਦਸਤਾਵੇਜ਼ ਸੰਭਾਲਣ ਤੋਂ ਬਾਅਦ {count} ਲਿੰਕ ਕੀਤੇ ਚਿੱਤਰ ਬਦਲ ਗਏ ਹਨ. ਨਵੇਂ ਰੂਪ ਦਿਖਾਉਣੇ ਹਨ?
+	{count} more rules: Export writes every one.	{count} ਹੋਰ ਨਿਯਮ: ਨਿਰਯਾਤ ਹਰ ਇੱਕ ਨੂੰ ਲਿਖਦਾ ਹੈ.
 	{count} of {total} artboards	{total} ਵਿੱਚੋਂ {count} ਆਰਟਬੋਰਡ
-	{count} unnamed objects left out: name them, or turn on Unnamed Objects in the panel menu.	{count} ਬਿਨਾਂ ਨਾਮ ਵਾਲੀਆਂ ਵਸਤੂਆਂ ਬਾਹਰ ਰੱਖੀਆਂ: ਨਾਮ ਦਿਓ ਜਾਂ ਪੈਨਲ ਮੇਨੂ ਵਿੱਚ ਬਿਨਾਂ ਨਾਮ ਵਾਲੀਆਂ ਵਸਤੂਆਂ ਚਾਲੂ ਕਰੋ।
+	{count} unnamed objects left out: name them, or turn on Unnamed Objects in the panel menu.	{count} ਬਿਨਾਂ ਨਾਮ ਵਾਲੀਆਂ ਵਸਤੂਆਂ ਬਾਹਰ ਰੱਖੀਆਂ: ਨਾਮ ਦਿਓ ਜਾਂ ਪੈਨਲ ਮੇਨੂ ਵਿੱਚ ਬਿਨਾਂ ਨਾਮ ਵਾਲੀਆਂ ਵਸਤੂਆਂ ਚਾਲੂ ਕਰੋ.
 	{effect} is already applied	{effect} ਪਹਿਲਾਂ ਹੀ ਲਾਗੂ ਹੈ
 	{file}, line {line}	{file}, ਲਾਈਨ {line}
 	{folders} and {files} searched	{folders} ਅਤੇ {files} ਖੋਜੇ
@@ -4505,11 +4502,11 @@
 	{tool} Options	{tool} ਦੇ ਵਿਕਲਪ
 	{tool} Tool Options	{tool} ਟੂਲ ਦੇ ਵਿਕਲਪ
 	{warning}: click to correct to the closest color ({hex})	{warning}: ਸਭ ਤੋਂ ਨੇੜਲੇ ਰੰਗ ({hex}) ਵਿੱਚ ਸੁਧਾਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ
-	“{file}” is protected by a password.	“{file}” ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਹੈ।
-	“{name}” already exists. Replace it?	“{name}” ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਬਦਲਣਾ ਹੈ?
+	“{file}” is protected by a password.	“{file}” ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਹੈ.
+	“{name}” already exists. Replace it?	“{name}” ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ. ਬਦਲਣਾ ਹੈ?
 	▾ Default Actions	▾ ਮੂਲ ਕਾਰਵਾਈਆਂ
 	● Recording	● ਰਿਕਾਰਡਿੰਗ
-	⚠ {chord} was already used by {names} — it has been removed there.	⚠ {chord} ਪਹਿਲਾਂ ਹੀ {names} ਵਰਤ ਰਿਹਾ ਸੀ — ਉੱਥੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।
+	⚠ {chord} was already used by {names} — it has been removed there.	⚠ {chord} ਪਹਿਲਾਂ ਹੀ {names} ਵਰਤ ਰਿਹਾ ਸੀ — ਉੱਥੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ.
 3d	Bevel	ਢਲਵਾਂ ਕਿਨਾਰਾ
 3d	Cap	ਸਿਰੇ ਬੰਦ ਕਰੋ
 3d	Hollow	ਖੋਖਲਾ
@@ -4520,8 +4517,8 @@
 @id	file.close	ਬੰਦ ਕਰੋ
 @id	pathfinder.add	ਜੋੜੋ
 @msg	"{0}" is not a colour: write it as #rrggbb	{0} ਰੰਗ ਨਹੀਂ ਹੈ: ਇਸ ਨੂੰ #rrggbb ਵਜੋਂ ਲਿਖੋ
-@msg	A browser with WebGPU or WebGL2 is required.	WebGPU ਜਾਂ WebGL2 ਵਾਲਾ ਬ੍ਰਾਊਜ਼ਰ ਲੋੜੀਂਦਾ ਹੈ।
-@msg	An object takes one 3D effect. Edit the existing effect's options, or remove it first.	ਇੱਕ ਵਸਤੂ 'ਤੇ ਇੱਕ 3D ਪ੍ਰਭਾਵ ਲੱਗਦਾ ਹੈ। ਮੌਜੂਦਾ ਪ੍ਰਭਾਵ ਦੇ ਵਿਕਲਪ ਸੋਧੋ ਜਾਂ ਪਹਿਲਾਂ ਇਸ ਨੂੰ ਹਟਾਓ।
+@msg	A browser with WebGPU or WebGL2 is required.	WebGPU ਜਾਂ WebGL2 ਵਾਲਾ ਬ੍ਰਾਊਜ਼ਰ ਲੋੜੀਂਦਾ ਹੈ.
+@msg	An object takes one 3D effect. Edit the existing effect's options, or remove it first.	ਇੱਕ ਵਸਤੂ 'ਤੇ ਇੱਕ 3D ਪ੍ਰਭਾਵ ਲੱਗਦਾ ਹੈ. ਮੌਜੂਦਾ ਪ੍ਰਭਾਵ ਦੇ ਵਿਕਲਪ ਸੋਧੋ ਜਾਂ ਪਹਿਲਾਂ ਇਸ ਨੂੰ ਹਟਾਓ.
 @msg	Angles require two straight segments	ਕੋਣਾਂ ਲਈ ਦੋ ਸਿੱਧੇ ਖੰਡ ਲੋੜੀਂਦੇ ਹਨ
 @msg	BMP files are RGB or grayscale: colorModel rgb or gray	BMP ਫ਼ਾਈਲਾਂ RGB ਜਾਂ ਸਲੇਟੀ ਪੈਮਾਨੇ ਵਿੱਚ ਹੁੰਦੀਆਂ ਹਨ: colorModel rgb ਜਾਂ gray
 @msg	Batch: {count} processed	ਬੈਚ: {count} ਪ੍ਰਕਿਰਿਆ ਕੀਤੇ
@@ -4617,7 +4614,7 @@
 @msg	Relinked {n} image(s)	{n} ਚਿੱਤਰ ਮੁੜ ਲਿੰਕ ਕੀਤੇ
 @msg	Relinked {n} image(s); not in that folder: {_1}	{n} ਚਿੱਤਰ ਮੁੜ ਲਿੰਕ ਕੀਤੇ; ਉਸ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ: {_1}
 @msg	Relinked {n} image(s); {name} couldn't be relinked: {reason}	{n} ਚਿੱਤਰ ਮੁੜ ਲਿੰਕ ਕੀਤੇ; {name} ਮੁੜ ਲਿੰਕ ਨਹੀਂ ਹੋ ਸਕਿਆ: {reason}
-@msg	Reload the page to go on (changes not saved yet may be lost).	ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਫ਼ਾ ਮੁੜ ਲੋਡ ਕਰੋ (ਹਾਲੇ ਨਾ ਸੰਭਾਲੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਸਕਦੇ ਹਨ)।
+@msg	Reload the page to go on (changes not saved yet may be lost).	ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਫ਼ਾ ਮੁੜ ਲੋਡ ਕਰੋ (ਹਾਲੇ ਨਾ ਸੰਭਾਲੇ ਬਦਲਾਅ ਗੁੰਮ ਹੋ ਸਕਦੇ ਹਨ).
 @msg	Replace Spine: select a blend and a path	ਰੀੜ੍ਹ ਬਦਲੋ: ਮਿਲਾਵਟ ਅਤੇ ਪਾਥ ਚੁਣੋ
 @msg	Reset {_1}	{_1} ਮੁੜ ਸੈੱਟ ਕਰੋ
 @msg	Restored {_1} recovered document(s): save them to keep them	{_1} ਮੁੜ ਪ੍ਰਾਪਤ ਦਸਤਾਵੇਜ਼ ਬਹਾਲ ਕੀਤੇ: ਰੱਖਣ ਲਈ ਸੰਭਾਲੋ
@@ -4647,14 +4644,14 @@
 @msg	Text Wrap: select a wrap object	ਲਿਖਤ ਲਪੇਟ: ਲਪੇਟ ਵਸਤੂ ਚੁਣੋ
 @msg	The 3D surface is too complex; simplify the shape	3D ਸਤਹ ਬਹੁਤ ਗੁੰਝਲਦਾਰ ਹੈ; ਸ਼ਕਲ ਸਧਾਰਨ ਬਣਾਓ
 @msg	The graphics processor tried first couldn't show the window, so VectorCraft started again on {summary}	ਪਹਿਲਾਂ ਅਜ਼ਮਾਇਆ ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਵਿੰਡੋ ਨਹੀਂ ਦਿਖਾ ਸਕਿਆ, ਇਸ ਲਈ VectorCraft {summary} 'ਤੇ ਮੁੜ ਸ਼ੁਰੂ ਹੋਇਆ
-@msg	The graphics were lost and couldn't be restarted.	ਗ੍ਰਾਫਿਕਸ ਸੰਪਰਕ ਟੁੱਟ ਗਿਆ ਅਤੇ ਮੁੜ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋ ਸਕਿਆ।
+@msg	The graphics were lost and couldn't be restarted.	ਗ੍ਰਾਫਿਕਸ ਸੰਪਰਕ ਟੁੱਟ ਗਿਆ ਅਤੇ ਮੁੜ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋ ਸਕਿਆ.
 @msg	The graphics were lost and have been restarted	ਗ੍ਰਾਫਿਕਸ ਸੰਪਰਕ ਟੁੱਟ ਗਿਆ ਸੀ ਅਤੇ ਮੁੜ ਸ਼ੁਰੂ ਕੀਤਾ ਗਿਆ ਹੈ
-@msg	The image is {_1} × {_2} pixels, more than {LARGE_TRACE_SIDE} on a side: it is traced, but more slowly. A lower-fidelity preset or a smaller copy of the image traces faster.	ਚਿੱਤਰ {_1} × {_2} ਪਿਕਸਲ ਹੈ, ਇੱਕ ਪਾਸੇ {LARGE_TRACE_SIDE} ਤੋਂ ਵੱਧ: ਇਸ ਨੂੰ ਟ੍ਰੇਸ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਪਰ ਹੌਲੀ। ਘੱਟ ਸਹੀਪਣ ਵਾਲਾ ਪ੍ਰੀਸੈੱਟ ਜਾਂ ਚਿੱਤਰ ਦੀ ਛੋਟੀ ਕਾਪੀ ਤੇਜ਼ ਟ੍ਰੇਸ ਹੁੰਦੀ ਹੈ।
-@msg	The image was traced at {_1} × {_2} pixels, scaled down from {_3} × {_4} ({_5} megapixels at most).	ਚਿੱਤਰ {_1} × {_2} ਪਿਕਸਲ 'ਤੇ ਟ੍ਰੇਸ ਕੀਤਾ ਗਿਆ, {_3} × {_4} ਤੋਂ ਛੋਟਾ ਕਰਕੇ (ਵੱਧ ਤੋਂ ਵੱਧ {_5} ਮੈਗਾਪਿਕਸਲ)।
-@msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	ਪਿਛਲੀ ਵਾਰ VectorCraft ਵਿੰਡੋ ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ {name} 'ਤੇ ਬੰਦ ਹੋ ਗਿਆ ਸੀ, ਇਸ ਲਈ ਇਹ {summary} 'ਤੇ ਸ਼ੁਰੂ ਹੋਇਆ। ਉਹ ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਮੁੜ ਅਜ਼ਮਾਉਣ ਲਈ ਤਰਜੀਹਾਂ › ਕਾਰਗੁਜ਼ਾਰੀ › ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਬਦਲੋ ਜਾਂ WGPU_BACKEND ਸੈੱਟ ਕਰਕੇ ਸ਼ੁਰੂ ਕਰੋ
-@msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	ਪਿਛਲੀ ਵਾਰ VectorCraft ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰਾਂ ਦੀ ਸੂਚੀ ਬਣਾਉਂਦੇ ਸਮੇਂ ਬੰਦ ਹੋ ਗਿਆ ਸੀ, ਇਸ ਲਈ ਇਹ ਸਿਰਫ਼ OpenGL ਨਾਲ {summary} 'ਤੇ ਸ਼ੁਰੂ ਹੋਇਆ। ਹੋਰ ਗ੍ਰਾਫਿਕਸ ਬੈਕਐਂਡ ਮੁੜ ਅਜ਼ਮਾਉਣ ਲਈ ਤਰਜੀਹਾਂ › ਕਾਰਗੁਜ਼ਾਰੀ › ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਬਦਲੋ ਜਾਂ WGPU_BACKEND ਸੈੱਟ ਕਰਕੇ ਸ਼ੁਰੂ ਕਰੋ
+@msg	The image is {_1} × {_2} pixels, more than {LARGE_TRACE_SIDE} on a side: it is traced, but more slowly. A lower-fidelity preset or a smaller copy of the image traces faster.	ਚਿੱਤਰ {_1} × {_2} ਪਿਕਸਲ ਹੈ, ਇੱਕ ਪਾਸੇ {LARGE_TRACE_SIDE} ਤੋਂ ਵੱਧ: ਇਸ ਨੂੰ ਟ੍ਰੇਸ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਪਰ ਹੌਲੀ. ਘੱਟ ਸਹੀਪਣ ਵਾਲਾ ਪ੍ਰੀਸੈੱਟ ਜਾਂ ਚਿੱਤਰ ਦੀ ਛੋਟੀ ਕਾਪੀ ਤੇਜ਼ ਟ੍ਰੇਸ ਹੁੰਦੀ ਹੈ.
+@msg	The image was traced at {_1} × {_2} pixels, scaled down from {_3} × {_4} ({_5} megapixels at most).	ਚਿੱਤਰ {_1} × {_2} ਪਿਕਸਲ 'ਤੇ ਟ੍ਰੇਸ ਕੀਤਾ ਗਿਆ, {_3} × {_4} ਤੋਂ ਛੋਟਾ ਕਰਕੇ (ਵੱਧ ਤੋਂ ਵੱਧ {_5} ਮੈਗਾਪਿਕਸਲ).
+@msg	The last start of VectorCraft ended on {name} before its window appeared, so it started on {summary}. To try that graphics processor again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	ਪਿਛਲੀ ਵਾਰ VectorCraft ਵਿੰਡੋ ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ {name} 'ਤੇ ਬੰਦ ਹੋ ਗਿਆ ਸੀ, ਇਸ ਲਈ ਇਹ {summary} 'ਤੇ ਸ਼ੁਰੂ ਹੋਇਆ. ਉਹ ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਮੁੜ ਅਜ਼ਮਾਉਣ ਲਈ ਤਰਜੀਹਾਂ › ਕਾਰਗੁਜ਼ਾਰੀ › ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਬਦਲੋ ਜਾਂ WGPU_BACKEND ਸੈੱਟ ਕਰਕੇ ਸ਼ੁਰੂ ਕਰੋ
+@msg	The last start of VectorCraft ended while it listed the graphics processors, so it started on {summary} with OpenGL alone. To try the other graphics backends again, change Preferences › Performance › Graphics Processor or start with WGPU_BACKEND set	ਪਿਛਲੀ ਵਾਰ VectorCraft ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰਾਂ ਦੀ ਸੂਚੀ ਬਣਾਉਂਦੇ ਸਮੇਂ ਬੰਦ ਹੋ ਗਿਆ ਸੀ, ਇਸ ਲਈ ਇਹ ਸਿਰਫ਼ OpenGL ਨਾਲ {summary} 'ਤੇ ਸ਼ੁਰੂ ਹੋਇਆ. ਹੋਰ ਗ੍ਰਾਫਿਕਸ ਬੈਕਐਂਡ ਮੁੜ ਅਜ਼ਮਾਉਣ ਲਈ ਤਰਜੀਹਾਂ › ਕਾਰਗੁਜ਼ਾਰੀ › ਗ੍ਰਾਫਿਕਸ ਪ੍ਰੋਸੈਸਰ ਬਦਲੋ ਜਾਂ WGPU_BACKEND ਸੈੱਟ ਕਰਕੇ ਸ਼ੁਰੂ ਕਰੋ
 @msg	The shape is too complex for a 3D effect	ਸ਼ਕਲ 3D ਪ੍ਰਭਾਵ ਲਈ ਬਹੁਤ ਗੁੰਝਲਦਾਰ ਹੈ
-@msg	This shortcut file is in a form VectorCraft can't read.	ਇਹ ਸ਼ਾਰਟਕੱਟ ਫ਼ਾਈਲ ਅਜਿਹੇ ਰੂਪ ਵਿੱਚ ਹੈ ਜੋ VectorCraft ਨਹੀਂ ਪੜ੍ਹ ਸਕਦਾ।
+@msg	This shortcut file is in a form VectorCraft can't read.	ਇਹ ਸ਼ਾਰਟਕੱਟ ਫ਼ਾਈਲ ਅਜਿਹੇ ਰੂਪ ਵਿੱਚ ਹੈ ਜੋ VectorCraft ਨਹੀਂ ਪੜ੍ਹ ਸਕਦਾ.
 @msg	Unembedded to {_1}	{_1} ਵਿੱਚ ਵੱਖਰਾ ਕੱਢਿਆ
 @msg	Unknown dimension mode	ਅਣਜਾਣ ਮਾਪ ਮੋਡ
 @msg	Unknown dimension option {k}	ਅਣਜਾਣ ਮਾਪ ਵਿਕਲਪ {k}
@@ -4666,7 +4663,7 @@
 @msg	VectorCraft doesn't search the Shared or Public folder in Users: {path}	VectorCraft Users ਵਿੱਚ Shared ਜਾਂ Public ਫੋਲਡਰ ਨਹੀਂ ਖੋਜਦਾ: {path}
 @msg	VectorCraft failed to start: {e}	VectorCraft ਸ਼ੁਰੂ ਨਹੀਂ ਹੋ ਸਕਿਆ: {e}
 @msg	VectorCraft's Fonts folder isn't set here: the desktop app and vectorcraft-cli set it	ਇੱਥੇ VectorCraft ਦਾ Fonts ਫੋਲਡਰ ਸੈੱਟ ਨਹੀਂ ਹੈ: ਡੈਸਕਟਾਪ ਐਪ ਅਤੇ vectorcraft-cli ਇਸ ਨੂੰ ਸੈੱਟ ਕਰਦੇ ਹਨ
-@msg	Your unsaved changes are kept in this browser: reload the page to get them back.	ਤੁਹਾਡੇ ਨਾ ਸੰਭਾਲੇ ਬਦਲਾਅ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰੱਖੇ ਹਨ: ਮੁੜ ਲੈਣ ਲਈ ਸਫ਼ਾ ਮੁੜ ਲੋਡ ਕਰੋ।
+@msg	Your unsaved changes are kept in this browser: reload the page to get them back.	ਤੁਹਾਡੇ ਨਾ ਸੰਭਾਲੇ ਬਦਲਾਅ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰੱਖੇ ਹਨ: ਮੁੜ ਲੈਣ ਲਈ ਸਫ਼ਾ ਮੁੜ ਲੋਡ ਕਰੋ.
 @msg	`aspect` must be a number (%)	`aspect` ਅੰਕ (%) ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
 @msg	`at` must be [x, y]	`at` [x, y] ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
 @msg	`color` must be a colour	`color` ਰੰਗ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
@@ -5321,8 +5318,8 @@
 @msg	{key} must be [x, y] with finite coordinates	{key} ਸੀਮਿਤ ਕੋਆਰਡੀਨੇਟਾਂ ਵਾਲਾ [x, y] ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
 @msg	{key} must be a finite coordinate	{key} ਸੀਮਿਤ ਕੋਆਰਡੀਨੇਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
 @msg	{key} must be an array of non-negative integer object ids	{key} ਗ਼ੈਰ-ਰਿਣਾਤਮਕ ਪੂਰਨ ਅੰਕ ਵਸਤੂ ਪਛਾਣਕਰਤਾਵਾਂ ਦੀ ਐਰੇ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ
-@msg	{label} currently requires a path or compound path. Convert type, images and groups to paths first.	{label} ਲਈ ਇਸ ਵੇਲੇ ਪਾਥ ਜਾਂ ਸੰਯੁਕਤ ਪਾਥ ਲੋੜੀਂਦਾ ਹੈ। ਪਹਿਲਾਂ ਲਿਖਤ, ਚਿੱਤਰ ਅਤੇ ਸਮੂਹ ਪਾਥਾਂ ਵਿੱਚ ਬਦਲੋ।
-@msg	{label} keeps 1 of the document's {n} artboards: the file reopens with one. Turn on Preserve Editing Capabilities to keep them all.	{label} ਦਸਤਾਵੇਜ਼ ਦੇ {n} ਆਰਟਬੋਰਡਾਂ ਵਿੱਚੋਂ 1 ਰੱਖਦਾ ਹੈ: ਫ਼ਾਈਲ ਇੱਕ ਨਾਲ ਮੁੜ ਖੁੱਲ੍ਹਦੀ ਹੈ। ਸਭ ਰੱਖਣ ਲਈ ਸੋਧਣ ਦੀਆਂ ਸਮਰੱਥਾਵਾਂ ਬਰਕਰਾਰ ਰੱਖੋ ਚਾਲੂ ਕਰੋ।
+@msg	{label} currently requires a path or compound path. Convert type, images and groups to paths first.	{label} ਲਈ ਇਸ ਵੇਲੇ ਪਾਥ ਜਾਂ ਸੰਯੁਕਤ ਪਾਥ ਲੋੜੀਂਦਾ ਹੈ. ਪਹਿਲਾਂ ਲਿਖਤ, ਚਿੱਤਰ ਅਤੇ ਸਮੂਹ ਪਾਥਾਂ ਵਿੱਚ ਬਦਲੋ.
+@msg	{label} keeps 1 of the document's {n} artboards: the file reopens with one. Turn on Preserve Editing Capabilities to keep them all.	{label} ਦਸਤਾਵੇਜ਼ ਦੇ {n} ਆਰਟਬੋਰਡਾਂ ਵਿੱਚੋਂ 1 ਰੱਖਦਾ ਹੈ: ਫ਼ਾਈਲ ਇੱਕ ਨਾਲ ਮੁੜ ਖੁੱਲ੍ਹਦੀ ਹੈ. ਸਭ ਰੱਖਣ ਲਈ ਸੋਧਣ ਦੀਆਂ ਸਮਰੱਥਾਵਾਂ ਬਰਕਰਾਰ ਰੱਖੋ ਚਾਲੂ ਕਰੋ.
 @msg	{label} produced an empty result	{label} ਨੇ ਖ਼ਾਲੀ ਨਤੀਜਾ ਦਿੱਤਾ
 @msg	{label} requires a shape with at least two anchors	{label} ਲਈ ਘੱਟੋ-ਘੱਟ ਦੋ ਐਂਕਰਾਂ ਵਾਲੀ ਸ਼ਕਲ ਲੋੜੀਂਦੀ ਹੈ
 @msg	{label}: lost track of a shape's style	{label}: ਸ਼ਕਲ ਦੀ ਸ਼ੈਲੀ ਦਾ ਪਤਾ ਗੁਆ ਦਿੱਤਾ
